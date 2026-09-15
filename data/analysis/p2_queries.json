@@ -1,0 +1,6135 @@
+{
+  "seed": 20260905,
+  "n_extra": 200,
+  "n_suite_empty": 16,
+  "draw_tries": 2135,
+  "items": [
+    {
+      "id": "p_00",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "id": "p_01",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": "p_03",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "p_04",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "id": "p_06",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "p_10",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "t_00",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "id": "t_01",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "id": "t_02",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 40.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "id": "t_03",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "id": "t_04",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "id": "t_07",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 80.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "id": "t_08",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "t_10",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 35.0
+        }
+      ]
+    },
+    {
+      "id": "t_11",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.35
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "id": "r_light_stiff",
+      "source": "suite",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "id": "x_000",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 281.75942712715033
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 35.956991767440655
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2265.30588893667
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20031186522852812
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 42.232632761896475
+        }
+      ]
+    },
+    {
+      "id": "x_001",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1632091806085339
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8837927599489488
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 55.712502973566544
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2376.04207371052
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 704.3831685502818
+        }
+      ]
+    },
+    {
+      "id": "x_002",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.13361231382147
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 55.77042774441359
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2810862062161973
+        }
+      ]
+    },
+    {
+      "id": "x_003",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.31511387492102827
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 407.8821720096512
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7197967922003097
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 61.45251171704705
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 31.931674286373124
+        }
+      ]
+    },
+    {
+      "id": "x_004",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8087940555536411
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3058.1590261686224
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 38.58635688445716
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 29.917750959761296
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 17.431630636049185
+        }
+      ]
+    },
+    {
+      "id": "x_005",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5652151105337915
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.5529778724976406
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 804.8784228146054
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 25.860095230402614
+        }
+      ]
+    },
+    {
+      "id": "x_006",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21851273532477075
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 129.53190546453658
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4282764703546706
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.89586629040285
+        }
+      ]
+    },
+    {
+      "id": "x_007",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 16.158333838058816
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2627.0771922837885
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.782245301046686
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1644527991890712
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4472295244946993
+        }
+      ]
+    },
+    {
+      "id": "x_008",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6751047009038642
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.34504320394723
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1017.9398644803177
+        }
+      ]
+    },
+    {
+      "id": "x_009",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 11.206681086240629
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.80048779485964
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1406.26046261806
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 65.87270513284032
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2692281898648097
+        }
+      ]
+    },
+    {
+      "id": "x_010",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 34.40821060365393
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5046134031574835
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.64180089769296
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 855.178616715597
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19741514755054226
+        }
+      ]
+    },
+    {
+      "id": "x_011",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 26.32498173786511
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 53.57948707897975
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9873546504211412
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17675326746398443
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3032.2061016330513
+        }
+      ]
+    },
+    {
+      "id": "x_012",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 54.14648862591227
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2958008361846305
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7961385015112049
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 58.70341035168626
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1340.885720011741
+        }
+      ]
+    },
+    {
+      "id": "x_013",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3926.767304039505
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 69.20622540146123
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1797477337518893
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7796179562746344
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 58.061157593636366
+        }
+      ]
+    },
+    {
+      "id": "x_014",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2190.7830885567064
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18548654485948363
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.82007773820672
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 42.40870214061543
+        }
+      ]
+    },
+    {
+      "id": "x_015",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8229377903237372
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.37655544497247
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3124135921313646
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 28.707099889633746
+        }
+      ]
+    },
+    {
+      "id": "x_016",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17123129195407572
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 53.89885750595805
+        }
+      ]
+    },
+    {
+      "id": "x_017",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.12193910803525
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3063048950593724
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6572452032906174
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 61.361617831280824
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3298.45378110448
+        }
+      ]
+    },
+    {
+      "id": "x_018",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.25705935950766
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1226.6241351051333
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.341513094445207
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.83234972964785
+        }
+      ]
+    },
+    {
+      "id": "x_019",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 356.11013072378523
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.30581464918106
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 862.6522123591401
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7603183385285335
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.81536495579525
+        }
+      ]
+    },
+    {
+      "id": "x_020",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.42838651961086716
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 56.27710366021112
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 68.13916604045664
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4164.780161013528
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3188470875141709
+        }
+      ]
+    },
+    {
+      "id": "x_021",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22692703788146718
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 987.5881273883417
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 39.19881800770805
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 658.5075564144014
+        }
+      ]
+    },
+    {
+      "id": "x_022",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.42987956035283825
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2556135613634231
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.81422084714628
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 38.78574151591981
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 665.2850377083587
+        }
+      ]
+    },
+    {
+      "id": "x_023",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 22.49540181348672
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2313.4363677436177
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.38277142441862033
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.491253159527645
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20666506675739263
+        }
+      ]
+    },
+    {
+      "id": "x_024",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 564.4911097315243
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 56.63520090368496
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 37.842369697470076
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2623225740793421
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5009609522144901
+        }
+      ]
+    },
+    {
+      "id": "x_025",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.30753173892554464
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 48.218918138945234
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3701.680568675441
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 27.86974403024453
+        }
+      ]
+    },
+    {
+      "id": "x_026",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 20.496629726242467
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 617.4232824989806
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21856273653042949
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.85824197270163
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 966.2249667168028
+        }
+      ]
+    },
+    {
+      "id": "x_027",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 69.42828203295313
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 36.17019916217987
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 48.42001535176734
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.44351253985746153
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2535331355168495
+        }
+      ]
+    },
+    {
+      "id": "x_028",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2284.2327470025825
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22153080505771144
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.74492417320976
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.34787370777039
+        }
+      ]
+    },
+    {
+      "id": "x_029",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 18.529681869682385
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 146.6543538071196
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 44.02665557818913
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 867.8371699694692
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.27945663024635237
+        }
+      ]
+    },
+    {
+      "id": "x_030",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 794.7373189608722
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 34.39893921369325
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 940.1657521225607
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7408361208226302
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15989115744638113
+        }
+      ]
+    },
+    {
+      "id": "x_031",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 39.07968765280155
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2122786309056668
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 50.14262179063417
+        }
+      ]
+    },
+    {
+      "id": "x_032",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9805354775033505
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 999.6334789121914
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26683796036955343
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 39.44670056824303
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.394727162407506
+        }
+      ]
+    },
+    {
+      "id": "x_033",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 34.602148637250146
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.31197463693185606
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 54.03310702435152
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.530280471061985
+        }
+      ]
+    },
+    {
+      "id": "x_034",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.247075900942576
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2842211440215125
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3526.3295732092274
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 29.535054814790193
+        }
+      ]
+    },
+    {
+      "id": "x_035",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 462.65476771230715
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 55.428958702126394
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 760.3624438029211
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.860422001090356
+        }
+      ]
+    },
+    {
+      "id": "x_036",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 912.4030788385469
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7284269081324999
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.28714967078042
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 65.21347647642622
+        }
+      ]
+    },
+    {
+      "id": "x_037",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 32.139587850130056
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 780.2597033876839
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 692.1761372881875
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 55.60447263853035
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3778048522104881
+        }
+      ]
+    },
+    {
+      "id": "x_038",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7138949620197341
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.32226665702085844
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 29.23623176940053
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3043.434233440239
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.358727855474505
+        }
+      ]
+    },
+    {
+      "id": "x_039",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8132989469722636
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17339068124477464
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 515.1003329190179
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.90250519422439
+        }
+      ]
+    },
+    {
+      "id": "x_040",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 49.44359100466187
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.45431877143189
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5689059984312466
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3085129726423683
+        }
+      ]
+    },
+    {
+      "id": "x_041",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.373018863842149
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2757.876839063905
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 20.463868079047913
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 47.12788074566024
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2092284444602027
+        }
+      ]
+    },
+    {
+      "id": "x_042",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.23476023421446
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 23.90991836610064
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 641.1609260219956
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2508.7664298832324
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23122879033758642
+        }
+      ]
+    },
+    {
+      "id": "x_043",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 61.53249883238388
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.33225462253617
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3556436102041527
+        }
+      ]
+    },
+    {
+      "id": "x_044",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4352.290583769675
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 12.844550986943837
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.76169193837437
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.47087323961278466
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 23.587375077736745
+        }
+      ]
+    },
+    {
+      "id": "x_045",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2809780923990762
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.80821543436434
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 62.76155948447872
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5985159088819524
+        }
+      ]
+    },
+    {
+      "id": "x_046",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.71012310690178
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8740762087792053
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1904143058375383
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 189.30820310884963
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1817.3507096289813
+        }
+      ]
+    },
+    {
+      "id": "x_047",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 46.795585039089396
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21467377950357805
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 39.633012432780035
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 595.1754125306379
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2085.73483220011
+        }
+      ]
+    },
+    {
+      "id": "x_048",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6961175703962321
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.030780515849564
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16348814987551122
+        }
+      ]
+    },
+    {
+      "id": "x_049",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.33181570942801
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 52.35791262855659
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.34593626036458913
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8492070744397513
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2694.263645598438
+        }
+      ]
+    },
+    {
+      "id": "x_050",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 38.26564608649395
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18031069436473227
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 479.70721567202605
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1061.0719056242517
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5511991786641737
+        }
+      ]
+    },
+    {
+      "id": "x_051",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.66350409240277
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 21.465173483102546
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 44.0841998781207
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4610778449065805
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 892.7858960649147
+        }
+      ]
+    },
+    {
+      "id": "x_052",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 77.41485493689996
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8635772809932695
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.37568975295386264
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.05551356066621
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1589.8462415602512
+        }
+      ]
+    },
+    {
+      "id": "x_053",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21145480923768165
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.62385051507415
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 32.53454192131436
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9002555031221234
+        }
+      ]
+    },
+    {
+      "id": "x_054",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 23.968633406187998
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 62.28217167710988
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22525023370379266
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 758.7373111924986
+        }
+      ]
+    },
+    {
+      "id": "x_055",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7970636318934464
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26338530579245384
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.85059086533263
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 32.19542707981975
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 125.91561951551581
+        }
+      ]
+    },
+    {
+      "id": "x_056",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.01031495866503
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 62.105890400500925
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1260.1423539788611
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 860.6317465696418
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.28062096710394313
+        }
+      ]
+    },
+    {
+      "id": "x_057",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 63.811267995224426
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 37.329582519498935
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 45.228679488603255
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1613.8051720754474
+        }
+      ]
+    },
+    {
+      "id": "x_058",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.63219916765599
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2419768869029001
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.47567160635406625
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 43.88594261112952
+        }
+      ]
+    },
+    {
+      "id": "x_059",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3642147034474724
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 57.63573875048105
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 61.91597197173495
+        }
+      ]
+    },
+    {
+      "id": "x_060",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.35118811984386905
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2165.914473450597
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.15471319566445
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 64.21462057330658
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6379061846225976
+        }
+      ]
+    },
+    {
+      "id": "x_061",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 53.046882307974215
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 47.99309844173962
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 64.35261731162191
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1156.011909729495
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2802684227500779
+        }
+      ]
+    },
+    {
+      "id": "x_062",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.45313695837694
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16636919815546572
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4295.0149086524525
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 393.4529236843533
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 44.487826894384725
+        }
+      ]
+    },
+    {
+      "id": "x_063",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.58708599769471
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1486.7157524866907
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21590945637944478
+        }
+      ]
+    },
+    {
+      "id": "x_064",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 826.007980868579
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3062902853668435
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.09895852228995
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 62.50329368900702
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4768347761238658
+        }
+      ]
+    },
+    {
+      "id": "x_065",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.38530702273958145
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.36425989827539
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 865.221964722632
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 815.3317099029559
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3763295623377174
+        }
+      ]
+    },
+    {
+      "id": "x_066",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21617808835361374
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5367213799438569
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.92474247403676
+        }
+      ]
+    },
+    {
+      "id": "x_067",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.0434131950079
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 582.1859764590191
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1301.8561547274078
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9373720268889302
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 69.25282027257487
+        }
+      ]
+    },
+    {
+      "id": "x_068",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3026362160320934
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 56.0232229108058
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1379.6427706818845
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 45.24285802315382
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 38.740262152586894
+        }
+      ]
+    },
+    {
+      "id": "x_069",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7991803281889533
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.471337446859908
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 712.1956473314094
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.42414648658558
+        }
+      ]
+    },
+    {
+      "id": "x_070",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26559708531954007
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 735.4165775085761
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 63.630084357681696
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9530732181173621
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 36.648388329347405
+        }
+      ]
+    },
+    {
+      "id": "x_071",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 219.6002100018138
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.806091370917215
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2599718802655534
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7806099925814071
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 53.50587837038739
+        }
+      ]
+    },
+    {
+      "id": "x_072",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 37.9178922602691
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 43.28723969308056
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3125633073261792
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 23.384049074300968
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 789.9914917846378
+        }
+      ]
+    },
+    {
+      "id": "x_073",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.39822953997476
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20572886176961852
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4041907916960584
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 491.9041296570724
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.492960323030516
+        }
+      ]
+    },
+    {
+      "id": "x_074",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17551580249638876
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.53559339408554
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 521.2718594524497
+        }
+      ]
+    },
+    {
+      "id": "x_075",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.88192124376086
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.78709692370589
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5835629087846407
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 115.94698928067368
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1198.057380903941
+        }
+      ]
+    },
+    {
+      "id": "x_076",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16706637713897568
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 715.9714503209971
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6465507449966702
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 54.77403772592155
+        }
+      ]
+    },
+    {
+      "id": "x_077",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2697.0772532830624
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2565635654423383
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.74272995029675
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 62.50376994224102
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 369.8250900399382
+        }
+      ]
+    },
+    {
+      "id": "x_078",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 46.86637530790681
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2373039910876371
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4492372236726317
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 71.03811331029507
+        }
+      ]
+    },
+    {
+      "id": "x_079",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 739.395102091759
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 56.79361198197569
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 252.79831161993081
+        }
+      ]
+    },
+    {
+      "id": "x_080",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 41.014434746403765
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 737.3285217894402
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 32.3872097865146
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19151130035529607
+        }
+      ]
+    },
+    {
+      "id": "x_081",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 865.292815389989
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7655768521325956
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 486.85186664524576
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4050476668434977
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.80236233142993
+        }
+      ]
+    },
+    {
+      "id": "x_082",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 36.94520866058612
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.658496027086144
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2146650670201713
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8928076786380835
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3925.547653319558
+        }
+      ]
+    },
+    {
+      "id": "x_083",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23291962317905524
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 21.56818891080454
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7441538831969101
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.8962462521211
+        }
+      ]
+    },
+    {
+      "id": "x_084",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.52886485593412
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 49.72308631724539
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19103958118657455
+        }
+      ]
+    },
+    {
+      "id": "x_085",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 481.19392504944557
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8583470282212697
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.24105935700394
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 42.76996515641685
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 75.05448151116256
+        }
+      ]
+    },
+    {
+      "id": "x_086",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 34.97692391792433
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9023072259761952
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.374777724489405
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20045231729909052
+        }
+      ]
+    },
+    {
+      "id": "x_087",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8573306283383746
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 7.225928402606095
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 948.8227249264382
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.11017439891133
+        }
+      ]
+    },
+    {
+      "id": "x_088",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 10.44558004052834
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.232325041453684
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 889.0042132978988
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5061911669833745
+        }
+      ]
+    },
+    {
+      "id": "x_089",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2622777593261062
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.98583076288999
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 718.3419245540505
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 71.1637903516359
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7229571553042276
+        }
+      ]
+    },
+    {
+      "id": "x_090",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.60223938954758
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4445176758937484
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16336379028409675
+        }
+      ]
+    },
+    {
+      "id": "x_091",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.57867438143163
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2154.240231837981
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6867243580431952
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19737690879413824
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 48.97961714120483
+        }
+      ]
+    },
+    {
+      "id": "x_092",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 69.28557417441604
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 32.20694136359564
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 715.2677351256104
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15840982539889406
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 760.6208646186915
+        }
+      ]
+    },
+    {
+      "id": "x_093",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 47.57221224063235
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 959.6717138406116
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.99067325286183
+        }
+      ]
+    },
+    {
+      "id": "x_094",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 43.50688116775419
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 56.81781083811595
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2950894534376672
+        }
+      ]
+    },
+    {
+      "id": "x_095",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 752.875610304781
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26589067337943295
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.45965967165806
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 71.66389765606078
+        }
+      ]
+    },
+    {
+      "id": "x_096",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 449.01864511622614
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.10125043964473
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 998.0078996051031
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19840180485278075
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.92462877718062
+        }
+      ]
+    },
+    {
+      "id": "x_097",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 49.79569154885475
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17473333795660823
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9817048809593412
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 878.6623170717982
+        }
+      ]
+    },
+    {
+      "id": "x_098",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 581.9718346373027
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3201.5199376028677
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.95828177537798
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25906445460098887
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.63684125990285
+        }
+      ]
+    },
+    {
+      "id": "x_099",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5848951577626964
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 742.8733359172567
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 61.50550829202814
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20083034100295458
+        }
+      ]
+    },
+    {
+      "id": "x_100",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 822.0596362632067
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 43.69346768184725
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 42.16861886401625
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17884735062899362
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2577.6458830128986
+        }
+      ]
+    },
+    {
+      "id": "x_101",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 37.792167523092985
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.515375993771804
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17729560928492488
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3415.2967460573977
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.2764281918907
+        }
+      ]
+    },
+    {
+      "id": "x_102",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 71.02178026613241
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18778505378043064
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.90542849863083
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9540818523422043
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1679.7898061867543
+        }
+      ]
+    },
+    {
+      "id": "x_103",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 64.0205690301176
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 102.77205884889597
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21187799227804482
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 844.7882025456795
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5368118488712865
+        }
+      ]
+    },
+    {
+      "id": "x_104",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1192.2355218726434
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 74.17851520190099
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7721888431279991
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19078651906431274
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.39060568871757
+        }
+      ]
+    },
+    {
+      "id": "x_105",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 65.55335951150835
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.35869305548369224
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.69309442677722
+        }
+      ]
+    },
+    {
+      "id": "x_106",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.10651302988458
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.42703769254674023
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.30385848640484736
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 53.780577219333765
+        }
+      ]
+    },
+    {
+      "id": "x_107",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 359.2705471858009
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.18002678121681
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20838128108541173
+        }
+      ]
+    },
+    {
+      "id": "x_108",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 48.94034618438634
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1714.6107655501557
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.10097621108787
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 157.60670302081937
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3262165270549286
+        }
+      ]
+    },
+    {
+      "id": "x_109",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17125852016733847
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6420955086237354
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 49.334413454032415
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 541.5026800022878
+        }
+      ]
+    },
+    {
+      "id": "x_110",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.83790349316461
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 708.9975876535814
+        }
+      ]
+    },
+    {
+      "id": "x_111",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9834028165859747
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23871931450583594
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 485.9933743556406
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2914.8610648340677
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.4826902908208
+        }
+      ]
+    },
+    {
+      "id": "x_112",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18305235057137123
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5080839755479584
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1793.682869708562
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 36.43442545717087
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 43.55877341672934
+        }
+      ]
+    },
+    {
+      "id": "x_113",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 48.17963412979441
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2829472087268893
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 42.62775491472266
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 693.7622108285224
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 541.2463845333594
+        }
+      ]
+    },
+    {
+      "id": "x_114",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.460159016138704
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 27.65841286412589
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20376244552156872
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2008.8985096597557
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 59.06907895039569
+        }
+      ]
+    },
+    {
+      "id": "x_115",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.761746007418566
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 54.28256854334852
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2570321301881231
+        }
+      ]
+    },
+    {
+      "id": "x_116",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.298180267920812
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.75164178432241
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.5739447409787
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5108817896555161
+        }
+      ]
+    },
+    {
+      "id": "x_117",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20565449745567316
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6910814562552938
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 21.93011596821772
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1640.007677739828
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.33477008414165
+        }
+      ]
+    },
+    {
+      "id": "x_118",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3674.780717089971
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.91033068611421
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.05006631278349
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2956222482917158
+        }
+      ]
+    },
+    {
+      "id": "x_119",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3642.9826810878217
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 54.11631302112227
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2688000453846718
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 19.072871326453274
+        }
+      ]
+    },
+    {
+      "id": "x_120",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 50.49626898979555
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 75.03930276646246
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.31129303681047615
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.693492943931774
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3697.919876801949
+        }
+      ]
+    },
+    {
+      "id": "x_121",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.30542735147915934
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 69.89147638518465
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 40.575430419482984
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9605261668127665
+        }
+      ]
+    },
+    {
+      "id": "x_122",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 56.99056054987779
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1629877409309989
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 17.968119967230066
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 412.1839472270871
+        }
+      ]
+    },
+    {
+      "id": "x_123",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6165515079455943
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 39.39600230152567
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 47.55173774513826
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.38256883897774585
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 744.0120784070705
+        }
+      ]
+    },
+    {
+      "id": "x_124",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 872.0964251765577
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1541.5545475721235
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 26.292954416309986
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.36783472885005597
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 62.84225041672881
+        }
+      ]
+    },
+    {
+      "id": "x_125",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 36.95153965737106
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23050292547014897
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 48.63842112086692
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 362.9596242753514
+        }
+      ]
+    },
+    {
+      "id": "x_126",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.03955158372745
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16116512510480638
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2555.5375663730256
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6939709651238456
+        }
+      ]
+    },
+    {
+      "id": "x_127",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 29.66768976994581
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1036.690211674834
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 52.355418835910335
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4160530430540405
+        }
+      ]
+    },
+    {
+      "id": "x_128",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 196.67058639732886
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 49.80718022936979
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4979328810433111
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.26598077788279
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.29144877543601544
+        }
+      ]
+    },
+    {
+      "id": "x_129",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2798.252326262868
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 71.77832137094383
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1970896596484484
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 13.725938107266408
+        }
+      ]
+    },
+    {
+      "id": "x_130",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7190566736552705
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.76431760059914
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 68.52531573841239
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1970.0782986813254
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.356678372714271
+        }
+      ]
+    },
+    {
+      "id": "x_131",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 59.584192499948976
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 707.0229722700349
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1645.0945596205302
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25063493913027546
+        }
+      ]
+    },
+    {
+      "id": "x_132",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.37362215087657996
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1452.7242445416503
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.09420339280118
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 697.1748654875446
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4326551719682832
+        }
+      ]
+    },
+    {
+      "id": "x_133",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1850.640150622793
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 55.00044762035793
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.81058905493248
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.295485317279539
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 575.7386070518426
+        }
+      ]
+    },
+    {
+      "id": "x_134",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2286.8501322287816
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 126.76865803552234
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.58240273638246
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7347534817687251
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21346009078596073
+        }
+      ]
+    },
+    {
+      "id": "x_135",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20159836233690148
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 62.334402903106295
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8829201951704095
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 983.1003020458044
+        }
+      ]
+    },
+    {
+      "id": "x_136",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 54.25075246940721
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.28595653404210963
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 33.35346870564389
+        }
+      ]
+    },
+    {
+      "id": "x_137",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.293246876442358
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4147.633867402888
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 27.59908799545698
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.64500608924581
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5331015286423046
+        }
+      ]
+    },
+    {
+      "id": "x_138",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7949133201691416
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17639531810420211
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 684.1816800051059
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.65327077540228
+        }
+      ]
+    },
+    {
+      "id": "x_139",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7876135937221435
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 71.61954607518868
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 45.28565124191782
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.423898631053841
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 747.8860735129865
+        }
+      ]
+    },
+    {
+      "id": "x_140",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3951.3907108387903
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 572.3458018695437
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23557507142744702
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 59.70333051463554
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.94572576062652
+        }
+      ]
+    },
+    {
+      "id": "x_141",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 54.27365918680544
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 759.8815289202979
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 44.99061529920253
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 685.048504440117
+        }
+      ]
+    },
+    {
+      "id": "x_142",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6776886437954617
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 71.71545822856795
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.24389669105865192
+        }
+      ]
+    },
+    {
+      "id": "x_143",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 916.8732363768668
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 64.91076233547659
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22558844259937527
+        }
+      ]
+    },
+    {
+      "id": "x_144",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 35.65366404630702
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.42267223864217013
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.71040298604191
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 912.37419785751
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.44516654122664656
+        }
+      ]
+    },
+    {
+      "id": "x_145",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.36054546197082615
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1048.3510241230233
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 50.71757646944535
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.37374307500669296
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 154.9918176208946
+        }
+      ]
+    },
+    {
+      "id": "x_146",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 62.181253604469816
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1866.1833252264248
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 39.25210434138402
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1750899149304762
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 117.7733742081646
+        }
+      ]
+    },
+    {
+      "id": "x_147",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 11.856694104368227
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 61.08040085395674
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.38609555057909367
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1038.7178901051102
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1956794531841753
+        }
+      ]
+    },
+    {
+      "id": "x_148",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 56.41216419671967
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1910271720290573
+        }
+      ]
+    },
+    {
+      "id": "x_149",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 39.71210694183617
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8601753192001633
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 813.5870890201497
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.31589251285121756
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 48.95260414076122
+        }
+      ]
+    },
+    {
+      "id": "x_150",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.23144162064578405
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 436.56906649024376
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 9.824602817719985
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 966.8974639957264
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 59.338888171547424
+        }
+      ]
+    },
+    {
+      "id": "x_151",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2594.335053468652
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2111111530850741
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7971920221339355
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 69.51790155386168
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 306.9166985770047
+        }
+      ]
+    },
+    {
+      "id": "x_152",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.41021542241903586
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21997117005353004
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3919.277977826594
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 30.281142711616575
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 54.22469255070415
+        }
+      ]
+    },
+    {
+      "id": "x_153",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 31.474936950430937
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3924.246772661836
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.468681324422266
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 18.324227109858327
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16267219342932593
+        }
+      ]
+    },
+    {
+      "id": "x_154",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 62.57345269349517
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3447655850445769
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.26938130719186
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 734.345261118683
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8623414156561036
+        }
+      ]
+    },
+    {
+      "id": "x_155",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.46032914102638
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 13.300685860715408
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2306255321922213
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 535.0849819821115
+        }
+      ]
+    },
+    {
+      "id": "x_156",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 25.283230224908298
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 509.0954049654499
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6195753168967608
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2543595319643911
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.89909717607521
+        }
+      ]
+    },
+    {
+      "id": "x_157",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.75846509945836
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 14.509406109688971
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9177553805122609
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.9532205371505
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4263504673536289
+        }
+      ]
+    },
+    {
+      "id": "x_158",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.3718776506597256
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.41935401322564
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 24.018030229358658
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.24230767246904292
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1876.7535277473487
+        }
+      ]
+    },
+    {
+      "id": "x_159",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 436.26513033008405
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.314327615771404
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 65.44816307980639
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 957.2448762069167
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 24.362869149587542
+        }
+      ]
+    },
+    {
+      "id": "x_160",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 253.92711594287522
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.04831607693158
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 7.7606966888261795
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 958.4718417241756
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.88623500050585
+        }
+      ]
+    },
+    {
+      "id": "x_161",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 59.4042540501592
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26485883381940034
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.61224554495983
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.4391249378595591
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4128.919775402581
+        }
+      ]
+    },
+    {
+      "id": "x_162",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1595.949752293781
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 63.43640405718314
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 67.30028114943532
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.34467124739817273
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5612229445411706
+        }
+      ]
+    },
+    {
+      "id": "x_163",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3812711155136528
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 72.73624915793779
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.18542851459917
+        }
+      ]
+    },
+    {
+      "id": "x_164",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7929482966930199
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 58.83077355955318
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 235.58929773140315
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 846.0574096504877
+        }
+      ]
+    },
+    {
+      "id": "x_165",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.669170620845733
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18780405767131286
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 751.1002126792685
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 73.93858154205678
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 42.47444339551449
+        }
+      ]
+    },
+    {
+      "id": "x_166",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 29.843791754258447
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 421.3109834452956
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20759815805505644
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.93267986837287
+        }
+      ]
+    },
+    {
+      "id": "x_167",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3878445084985125
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 2572.5535076308943
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.888186041934103
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 36.50299083278931
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.51869377533079
+        }
+      ]
+    },
+    {
+      "id": "x_168",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 208.0370315383178
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.29915703915997227
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 55.85831510605894
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 28.448125578457603
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 930.4224088450401
+        }
+      ]
+    },
+    {
+      "id": "x_169",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.69990961184531
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 49.70221285035627
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 501.62023475321973
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.29533709565297417
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4062.0003093039686
+        }
+      ]
+    },
+    {
+      "id": "x_170",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 840.512287690822
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 390.62280137785893
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 8.255795535830316
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 69.9818589289922
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22037740433252587
+        }
+      ]
+    },
+    {
+      "id": "x_171",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4261044343993916
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3963.0362323509216
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 44.3646133047087
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 72.08056793485041
+        }
+      ]
+    },
+    {
+      "id": "x_172",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 71.13819116781319
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.17937548781274415
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 849.2437234384537
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.49146188948348535
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 26.75022861028194
+        }
+      ]
+    },
+    {
+      "id": "x_173",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1897887669002487
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1116.583868644267
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 221.02224521997866
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 68.88797403370634
+        }
+      ]
+    },
+    {
+      "id": "x_174",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6152622509907432
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 54.56971161373963
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1670624221088577
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 10.639674469221443
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 355.8993924803132
+        }
+      ]
+    },
+    {
+      "id": "x_175",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22067894219819012
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 751.2562167968597
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 59.9386436121125
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 784.2219310929987
+        }
+      ]
+    },
+    {
+      "id": "x_176",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.19818174531159155
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8017512510868228
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.76096003756925
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3454.546276561532
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 52.1024881229549
+        }
+      ]
+    },
+    {
+      "id": "x_177",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 743.5685741326752
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 20.824073100940836
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.06523818618018
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 554.7573375322181
+        }
+      ]
+    },
+    {
+      "id": "x_178",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.89389661481794
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 491.36250656570417
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 767.3347780099904
+        }
+      ]
+    },
+    {
+      "id": "x_179",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5344483669093708
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1061.8362309438849
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2755822474815206
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 44.19298891302619
+        }
+      ]
+    },
+    {
+      "id": "x_180",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 71.36765723590416
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9600549043335854
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3434.5150610027276
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 32.02455095736646
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 53.570519372429004
+        }
+      ]
+    },
+    {
+      "id": "x_181",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.87109737117827
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 236.90135810036247
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.48766937204638994
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 929.6572917964249
+        }
+      ]
+    },
+    {
+      "id": "x_182",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 228.52711060833286
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1620694509034354
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 46.48329933136452
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 22.144979621987734
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.7213069614382088
+        }
+      ]
+    },
+    {
+      "id": "x_183",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 55.966526975462884
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 36.43194150847427
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3445374320035348
+        }
+      ]
+    },
+    {
+      "id": "x_184",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25527721955157257
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.39925101597113466
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 51.79990512310353
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 48.91673117372853
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 862.6692842214037
+        }
+      ]
+    },
+    {
+      "id": "x_185",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 64.60066813926792
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 43.93866363702058
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3187.908851826799
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3871009066480755
+        }
+      ]
+    },
+    {
+      "id": "x_186",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 961.9626353869983
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.26492702208732927
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 67.21670236201834
+        }
+      ]
+    },
+    {
+      "id": "x_187",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.4169979438100136
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.778242998112349
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 47.61913117874609
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 798.4555825224013
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 70.26561872726215
+        }
+      ]
+    },
+    {
+      "id": "x_188",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 48.576191049589085
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3560567503102141
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 66.64360402293069
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1874.0863249430956
+        }
+      ]
+    },
+    {
+      "id": "x_189",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 49.16917453165813
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1936865100814345
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5580079881872261
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1318.5828946764964
+        }
+      ]
+    },
+    {
+      "id": "x_190",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.21118074580075386
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 61.93438099634719
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.960674081645029
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 25.73199859085664
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8616804006973919
+        }
+      ]
+    },
+    {
+      "id": "x_191",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 825.9595222079965
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 844.6132766462149
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.34578910267548274
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.178688652576625
+        }
+      ]
+    },
+    {
+      "id": "x_192",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 1123.1316388538673
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.16750407891541683
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 291.42520363673424
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 59.99203474871669
+        }
+      ]
+    },
+    {
+      "id": "x_193",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 44.084438896578845
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3297473402023987
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 4096.394587041287
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 65.45857475033897
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 69.00295228064829
+        }
+      ]
+    },
+    {
+      "id": "x_194",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 353.23856293948114
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 35.10903423200404
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.20135034133540877
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3753.0852867132353
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.78183205872885
+        }
+      ]
+    },
+    {
+      "id": "x_195",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.30991569244399186
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 57.84588470780958
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 438.3358960456547
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.05545911554724
+        }
+      ]
+    },
+    {
+      "id": "x_196",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.8333997713416872
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 3780.0377507747608
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1780239599477315
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.3026056802247
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 51.78709913616289
+        }
+      ]
+    },
+    {
+      "id": "x_197",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2266516326010845
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 473.95722226660604
+        },
+        {
+          "property": "mass_density",
+          "op": "<=",
+          "value": 850.0826499921272
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.6546508951334286
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.53009528062597
+        }
+      ]
+    },
+    {
+      "id": "x_198",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.5754133707139312
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 38.219020691500816
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 19.95795957747664
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.1673500472888101
+        }
+      ]
+    },
+    {
+      "id": "x_199",
+      "source": "random",
+      "objectives": [],
+      "constraints": [
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 44.81586001031582
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.74383250870889
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.9737589948406823
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 765.222613800163
+        },
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25252890677415907
+        }
+      ]
+    }
+  ]
+}

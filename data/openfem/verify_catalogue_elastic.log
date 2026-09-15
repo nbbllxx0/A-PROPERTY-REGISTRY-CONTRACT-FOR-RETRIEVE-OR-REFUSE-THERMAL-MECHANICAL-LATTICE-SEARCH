@@ -1,0 +1,32 @@
+periodic catalogue E11 — 30 Aug 2026
+solver: scikit-fem 12.0.2 (not our assembler)
+problem: same occupancy as catalogue, periodic fluctuation, energy C*, E11=1/S11
+
+SELF-CHECK
+  solid cube n=8  C* vs isotropic D
+    our voxel hex           7.22e-15
+    scikit-fem hex          4.95e-16
+    scikit-fem tet          1.22e-14
+    E11 = 1.00000000 for hex, tet, ours
+  Backus steel/Al n=12 phi=0.50 axis=0
+    our voxel hex vs exact  1.85e-15
+    scikit-fem hex vs exact  1.22e-15
+    scikit-fem tet vs exact  1.65e-14
+
+CATALOGUE (32^3)
+  case 1 gyroid network  rho=0.3001
+    catalogue E11 0.07004   our re-solve 0.07006
+    scikit-fem hex E11 0.07006  vs cat +2.93e-04   C11 vs cat +4.21e-04
+    scikit-fem tet E11 0.07313  vs cat +4.42e-02   C11 vs cat +2.52e-02
+  case 3 Schwarz P sheet  rho=0.3000
+    catalogue E11 0.08786   our re-solve 0.08786
+    scikit-fem hex E11 0.08786  vs cat -1.96e-06   C11 vs cat -1.67e-08
+    scikit-fem tet E11 0.09264  vs cat +5.44e-02   C11 vs cat +2.44e-02
+  case 4 IWP network  rho=0.3999
+    catalogue E11 0.21106   our re-solve 0.21106
+    scikit-fem hex E11 0.21106  vs cat -7.33e-07   C11 vs cat +4.05e-10
+    scikit-fem tet E11 0.21463  vs cat +1.69e-02   C11 vs cat +1.67e-02
+
+Hex recovers the catalogue number (gyroid 0.03% is isovalue bisection).
+Tet is a different element on the same voxels, a few percent.
+Still our driver. Not Henry's independent run.

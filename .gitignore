@@ -1,0 +1,17 @@
+# Credentials - never commit
+api.txt
+*.key
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local scratch
+tmp/
+*.log.local
+.DS_Store

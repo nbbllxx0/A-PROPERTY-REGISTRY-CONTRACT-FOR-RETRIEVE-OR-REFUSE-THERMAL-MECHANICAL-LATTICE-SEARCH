@@ -1,0 +1,52 @@
+{
+  "provenance": "Copied 2026-09-05 from finalized/logs (runs dated 30 Aug 2026). Not re-solved.",
+  "tetgen_cubes": {
+    "log": "verify_scikitfem.log",
+    "schwarz_p_rho_0.30": {
+      "k_app": 0.20968,
+      "kapp_x": 0.20673,
+      "k_rel_pct": 1.43,
+      "E_tet": 0.06582,
+      "E_voxel_cube": 0.06162,
+      "E_rel_pct": 6.82,
+      "E11_periodic": 0.08786,
+      "tet_vs_periodic_pct": -25.08
+    },
+    "iwp_rho_0.40": {
+      "k_app": 0.23288,
+      "kapp_x": 0.23134,
+      "k_rel_pct": 0.67,
+      "E_tet": 0.20584,
+      "E_voxel_cube": 0.20163,
+      "E_rel_pct": 2.09,
+      "E11_periodic": 0.21106,
+      "tet_vs_periodic_pct": -2.47
+    }
+  },
+  "periodic_elastic_hex": {
+    "logs": ["verify_catalogue_elastic.log", "21-anisotropic-secondlib.log"],
+    "self_check": {
+      "solid_cube_E11": 1.0,
+      "backus_skfem_hex_vs_exact": 1.22e-15
+    },
+    "cells": [
+      {"name": "gyroid network, rho=0.30", "voxel_E11": 0.07004, "hex_E11": 0.07006, "rel": 2.93e-4, "paper": "0.03%"},
+      {"name": "Schwarz P sheet, rho=0.30", "voxel_E11": 0.08786, "hex_E11": 0.08786, "rel": -1.96e-6, "paper": "2e-6"},
+      {"name": "IWP network, rho=0.40", "voxel_E11": 0.21106, "hex_E11": 0.21106, "rel": -7.33e-7, "paper": "7e-7"},
+      {"name": "gyroid network, f=(1,1,2)", "voxel_E11": 0.08897, "hex_E11": 0.08897, "rel": 1.29e-6, "paper": "1.3e-6"},
+      {"name": "diamond network, f=(1,1,3)", "voxel_E11": 0.16464, "hex_E11": 0.16464, "rel": -8.26e-7, "paper": "8.3e-7"},
+      {"name": "diamond network, f=(1,2,3)", "voxel_E11": 0.24204, "hex_E11": 0.24204, "rel": -1.36e-6, "paper": "1.4e-6"}
+    ]
+  },
+  "periodic_conduction": {
+    "log": "22-thermal-secondlib.log",
+    "worst_component": 1.41e-13,
+    "paper_worst": "1.4e-13",
+    "cells": [
+      {"name": "gyroid network, f=(1,1,1)", "k33_k11": 1.0, "worst": 1.51e-14, "paper": "1.5e-14"},
+      {"name": "Schwarz P sheet, f=(1,1,1)", "k33_k11": 1.0002, "worst": 1.21e-14, "paper": "1.2e-14"},
+      {"name": "IWP network, f=(1,1,1)", "k33_k11": 1.0, "worst": 1.58e-14, "paper": "1.6e-14"},
+      {"name": "diamond network, f=(1,1,3)", "k33_k11": 0.178, "worst": 1.41e-13, "paper": "1.4e-13"}
+    ]
+  }
+}

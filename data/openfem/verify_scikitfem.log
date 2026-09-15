@@ -1,0 +1,20 @@
+open FEM mesh check — 30 Aug 2026
+solver: TetGen 0.8.4 tets + scikit-fem 12.0.2 P1
+h = 0.7 mm on the 10 mm STL
+
+THERMAL — insulated cube vs kapp_x (equals k* on these two cells)
+  case 3  k_app 0.20968   kapp_x 0.20673   +1.43%   tets 496304
+  case 4  k_app 0.23288   kapp_x 0.23134   +0.67%   tets 461491
+
+ELASTIC — uniaxial, free sides, E=1, nu=0.3
+  like-for-like: tet vs our voxel cube, same BCs
+  also shown: periodic E11 (cube may sit below)
+
+  case 3  tet 0.06582   voxel cube 0.06162   +6.82%
+          periodic E11 0.08786   tet vs periodic -25.08%
+          energy and reaction agree
+  case 4  tet 0.20584   voxel cube 0.20163   +2.09%
+          periodic E11 0.21106   tet vs periodic -2.47%
+          energy and reaction agree
+
+Still our driver. Not Henry's independent run.

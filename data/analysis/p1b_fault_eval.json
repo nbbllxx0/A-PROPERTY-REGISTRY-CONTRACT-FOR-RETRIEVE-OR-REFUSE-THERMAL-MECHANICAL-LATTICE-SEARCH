@@ -1,0 +1,87 @@
+{
+  "n": 9,
+  "n_detector": 6,
+  "n_detector_pass": 6,
+  "n_smoke": 3,
+  "failed": [],
+  "tests": [
+    {
+      "id": "smoke_generated_names_keys",
+      "kind": "smoke",
+      "detail": "generated prompt names every registry key",
+      "pass": true
+    },
+    {
+      "id": "smoke_manual_equivalent_keys",
+      "kind": "smoke",
+      "detail": "manual 26 vs registry 26",
+      "pass": true
+    },
+    {
+      "id": "detect_omitted_key",
+      "kind": "detector",
+      "detail": "query using E_mean is flagged when the evaluator omitted E_mean",
+      "detected": true,
+      "gold_n_feasible": 0,
+      "silent_n_feasible": 5206,
+      "false_accept_if_silent_drop": true,
+      "feasible_set_changed": true,
+      "pass": true
+    },
+    {
+      "id": "omission_changes_feasible_set",
+      "kind": "detector",
+      "detail": "dropping the omitted constraint changes n_feasible vs gold",
+      "gold_n_feasible": 0,
+      "silent_n_feasible": 5206,
+      "pass": true
+    },
+    {
+      "id": "omission_false_accept_if_silent",
+      "kind": "detector",
+      "detail": "silent drop would return a row for a gold-empty query",
+      "gold_answered": false,
+      "silent_answered": true,
+      "pass": true
+    },
+    {
+      "id": "no_false_refusal_on_unused_omission",
+      "kind": "detector",
+      "detail": "rho-only query is unchanged when the unused key E_mean is omitted",
+      "detections": [],
+      "gold_n_feasible": 18411,
+      "eval_n_feasible": 18411,
+      "false_refuse": false,
+      "pass": true
+    },
+    {
+      "id": "detect_unit_scale_mismatch",
+      "kind": "detector",
+      "detail": "W/(m K) vs mW/(m K) on k_11 is a unit mismatch, not a spelling variant",
+      "detections": [
+        {
+          "type": "unit_mismatch",
+          "key": "k_11",
+          "query_unit": "W/(m K)",
+          "evaluator_unit": "mW/(m K)"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "unit_scale_changes_feasible_set",
+      "kind": "detector",
+      "detail": "interpreting 80 W/(m K) as 80 mW/(m K) changes n_feasible",
+      "gold_n_feasible": 198,
+      "scaled_n_feasible": 11647,
+      "pass": true
+    },
+    {
+      "id": "historical_E_mean_still_registered",
+      "kind": "smoke",
+      "detail": "E_mean remains registered; the drop is documented in schema.py",
+      "pass": true
+    }
+  ],
+  "note": "Detector rows measure detection, false acceptance under silent drop, false refusal, and feasible-set change. Smoke rows are prompt/registry construction checks."
+}

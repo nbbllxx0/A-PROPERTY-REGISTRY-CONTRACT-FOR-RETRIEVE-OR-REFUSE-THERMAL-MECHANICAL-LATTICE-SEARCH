@@ -1,0 +1,24 @@
+periodic catalogue k*  --  scikit-fem, same occupancy as the catalogue
+  fluctuation periodic, k* from the energy form
+
+case 1  gyroid network  f=111  n=32  rho=0.3001
+  ours        k11 0.165043  k22 0.165043  k33 0.165043   k33/k11 1.0000
+  scikit-fem  k11 0.165043  k22 0.165043  k33 0.165043   k33/k11 1.0000
+  vs ours     +9.75e-15      +1.14e-14      +1.51e-14
+
+case 3  schwarz_p sheet  f=111  n=32  rho=0.3000
+  ours        k11 0.206732  k22 0.206732  k33 0.206770   k33/k11 1.0002
+  scikit-fem  k11 0.206732  k22 0.206732  k33 0.206770   k33/k11 1.0002
+  vs ours     +1.21e-14      +9.67e-15      +5.50e-15
+
+case 4  iwp network  f=111  n=32  rho=0.3999
+  ours        k11 0.231335  k22 0.231335  k33 0.231335   k33/k11 1.0000
+  scikit-fem  k11 0.231335  k22 0.231335  k33 0.231335   k33/k11 1.0000
+  vs ours     +1.58e-14      +1.19e-14      +6.24e-15
+
+case 7  diamond network  f=113  n=48  rho=0.3500
+  ours        k11 0.280429  k22 0.280430  k33 0.049912   k33/k11 0.1780
+  scikit-fem  k11 0.280429  k22 0.280430  k33 0.049912   k33/k11 0.1780
+  vs ours     -2.63e-14      -2.61e-14      -1.41e-13
+
+worst relative difference, scikit-fem vs ours: 1.41e-13

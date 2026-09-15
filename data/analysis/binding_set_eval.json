@@ -1,0 +1,1721 @@
+{
+  "benchmark": "benchmark_boundary.json",
+  "slices": {
+    "all": {
+      "n": 80,
+      "n_refuse": 56,
+      "exact": 1.0,
+      "set_f1": 1.0
+    },
+    "boundary_single": {
+      "n": 56,
+      "n_refuse": 32,
+      "exact": 1.0,
+      "set_f1": 1.0
+    },
+    "boundary_joint": {
+      "n": 24,
+      "n_refuse": 24,
+      "exact": 1.0,
+      "set_f1": 1.0
+    }
+  },
+  "rows": [
+    {
+      "id": "e0000",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=137.633"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=137.633"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0001",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=137.633"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=137.633"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0002",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=141.681"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=141.681"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0003",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=141.681"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=141.681"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0004",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=148.428"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=148.428"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0005",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=148.428"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=148.428"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0006",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=161.922"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=161.922"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0007",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean"
+      ],
+      "pred_bind": [
+        "E_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=161.922"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=161.922"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0008",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0009",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0010",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0011",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0012",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0013",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0014",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=173.582"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=173.582"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0015",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=173.582"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=173.582"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0016",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=178.687"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=178.687"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0017",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=178.687"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=178.687"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0018",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=187.196"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=187.196"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0019",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=187.196"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=187.196"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0020",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=204.214"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=204.214"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0021",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean"
+      ],
+      "pred_bind": [
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=204.214"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=204.214"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0022",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0023",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0024",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0025",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0026",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0027",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0028",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1530"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1530"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0029",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1530"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1530"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0030",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1575"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1575"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0031",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1575"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1575"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0032",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1650"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1650"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0033",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1650"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1650"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0034",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1800"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1800"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0035",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "tmax"
+      ],
+      "pred_bind": [
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1800"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1800"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0036",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0037",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0038",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0039",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0040",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0041",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0042",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.98"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.98"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0043",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.98"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.98"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0044",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.95"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.95"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0045",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.95"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.95"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0046",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.9"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.9"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0047",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.9"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.9"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0048",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.8"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.8"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0049",
+      "cat": "boundary_single",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg"
+      ],
+      "pred_bind": [
+        "cost_per_kg"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=0.8"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=0.8"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0050",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0051",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0052",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0053",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0054",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0055",
+      "cat": "boundary_single",
+      "truth_refuse": false,
+      "gold_bind": [],
+      "pred_bind": [],
+      "mus": [],
+      "min_mcs": [],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0056",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=81.8566",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=81.8566"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0057",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "k_mean>=81.8566",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=81.8566"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0058",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=600",
+          "cost_per_kg<=2.5"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=600"
+        ],
+        [
+          "cost_per_kg<=2.5"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0059",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=600",
+          "cost_per_kg<=2.5"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=600"
+        ],
+        [
+          "cost_per_kg<=2.5"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0060",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "E_mean",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=61.3549",
+          "k_mean>=79.0092"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=61.3549"
+        ],
+        [
+          "k_mean>=79.0092"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0061",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "E_mean",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "E_mean",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "E_mean>=61.3549",
+          "k_mean>=79.0092"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_mean>=61.3549"
+        ],
+        [
+          "k_mean>=79.0092"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0062",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=900",
+          "cost_per_kg<=9"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=900"
+        ],
+        [
+          "cost_per_kg<=9"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0063",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=900",
+          "cost_per_kg<=9"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=900"
+        ],
+        [
+          "cost_per_kg<=9"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0064",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=4",
+          "tmax>=1200"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=4"
+        ],
+        [
+          "tmax>=1200"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0065",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=4",
+          "tmax>=1200"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=4"
+        ],
+        [
+          "tmax>=1200"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0066",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=7",
+          "k_mean>=69.1175"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=7"
+        ],
+        [
+          "k_mean>=69.1175"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0067",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=7",
+          "k_mean>=69.1175"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=7"
+        ],
+        [
+          "k_mean>=69.1175"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0068",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "pred_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "k_mean>=80.0102",
+          "tmax>=1200"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=80.0102"
+        ],
+        [
+          "tmax>=1200"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0069",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "pred_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "k_mean>=80.0102",
+          "tmax>=1200"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=80.0102"
+        ],
+        [
+          "tmax>=1200"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0070",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=7",
+          "tmax>=900"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=7"
+        ],
+        [
+          "tmax>=900"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0071",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=7",
+          "tmax>=900"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=7"
+        ],
+        [
+          "tmax>=900"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0072",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "pred_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "k_mean>=47.6624",
+          "tmax>=1500"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=47.6624"
+        ],
+        [
+          "tmax>=1500"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0073",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "pred_bind": [
+        "k_mean",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "k_mean>=47.6624",
+          "tmax>=1500"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "k_mean>=47.6624"
+        ],
+        [
+          "tmax>=1500"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0074",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=3",
+          "k_mean>=90.1169"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=3"
+        ],
+        [
+          "k_mean>=90.1169"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0075",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "k_mean"
+      ],
+      "mus": [
+        [
+          "cost_per_kg<=3",
+          "k_mean>=90.1169"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "cost_per_kg<=3"
+        ],
+        [
+          "k_mean>=90.1169"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0076",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1200",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1200"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0077",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=1200",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=1200"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0078",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=600",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=600"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    },
+    {
+      "id": "e0079",
+      "cat": "boundary_joint",
+      "truth_refuse": true,
+      "gold_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "pred_bind": [
+        "cost_per_kg",
+        "tmax"
+      ],
+      "mus": [
+        [
+          "tmax>=600",
+          "cost_per_kg<=4"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "tmax>=600"
+        ],
+        [
+          "cost_per_kg<=4"
+        ]
+      ],
+      "exact": true,
+      "set_f1": 1.0
+    }
+  ]
+}

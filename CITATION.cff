@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the paper below."
+title: "A property-registry contract for retrieve-or-refuse thermal-mechanical lattice search"
+abstract: >-
+  An engineer's sentence is compiled against a declared property registry into a
+  typed query over a catalogue of solved metal-cell combinations. A non-empty
+  feasible set returns a catalogue row that a second solver can rebuild; an empty
+  one returns minimal unsatisfiable subsets and the slack of a repair rather than
+  the nearest row.
+type: dataset
+authors:
+  - family-names: Yang
+    given-names: Shaoliang
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+  - family-names: Chu
+    given-names: Henry
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+  - family-names: Yashengjiang
+    given-names: Zu
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+  - family-names: Wang
+    given-names: Jun
+    affiliation: "Department of Mechanical Engineering, Santa Clara University"
+    email: jwang22@scu.edu
+repository-code: "https://github.com/nbbllxx0/A-PROPERTY-REGISTRY-CONTRACT-FOR-RETRIEVE-OR-REFUSE-THERMAL-MECHANICAL-LATTICE-SEARCH"
+url: "https://arxiv.org/abs/2609.14741"
+license: MIT
+keywords:
+  - engineering knowledge representation
+  - retrieve-or-refuse
+  - infeasibility diagnosis
+  - lattice design
+  - homogenisation
+  - natural-language interface
+preferred-citation:
+  type: article
+  title: "A property-registry contract for retrieve-or-refuse thermal-mechanical lattice search"
+  authors:
+    - family-names: Yang
+      given-names: Shaoliang
+    - family-names: Chu
+      given-names: Henry
+    - family-names: Yashengjiang
+      given-names: Zu
+    - family-names: Wang
+      given-names: Jun
+  year: 2026
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2609.14741"
+      description: "arXiv identifier, primary class cs.CE"
+  url: "https://arxiv.org/abs/2609.14741"

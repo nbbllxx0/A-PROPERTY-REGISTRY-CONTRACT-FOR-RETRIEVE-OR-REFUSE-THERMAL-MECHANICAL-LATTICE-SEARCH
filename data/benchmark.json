@@ -1,0 +1,2892 @@
+[
+ {
+  "id": "b0000",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Maximise thermal conductivity.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0001",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Looking for a design that carries heat well in every direction.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0002",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Minimise price per kilogram.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0003",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0004",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Maximise in-plane thermal conductivity.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0005",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that spreads heat sideways.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0006",
+  "cat": "simple",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0007",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0008",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 1.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0009",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that holds firm along its length.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0010",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 1.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0011",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "It has to be a part that holds firm along its length.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0012",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Maximise service temperature.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0013",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0014",
+  "cat": "simple",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0015",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "What I want is something that carries heat well in every direction.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0016",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Maximise stiffness.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0017",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Looking for a design that is genuinely stiff.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0018",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Minimise relative density.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0019",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that uses as little metal as it can.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0020",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Minimise part density.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0021",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that comes out light for its size.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0022",
+  "cat": "simple",
+  "style": "literal",
+  "text": "The goal is to maximise through-thickness conductivity.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0023",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Looking for a design that lets heat pass from top to bottom.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0024",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Optimise the following: minimise part density.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0025",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Give me something that comes out light for its size.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0026",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Optimise the following: minimise relative density.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0027",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "It has to be a part that uses as little metal as it can.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0028",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0029",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "It has to be a part that resists being squashed top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0030",
+  "cat": "simple",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 1.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0031",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "What I want is something that holds firm along its length.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0032",
+  "cat": "simple",
+  "style": "literal",
+  "text": "The goal is to minimise thermal expansion coefficient.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0033",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "It has to be a part that barely moves when it heats up.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0034",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0035",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0036",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Objective: minimise thermal expansion coefficient.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0037",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "What I want is something that barely moves when it heats up.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0038",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0039",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "Give me something that resists being squashed top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0040",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Optimise the following: minimise thermal expansion coefficient.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0041",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that barely moves when it heats up.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0042",
+  "cat": "simple",
+  "style": "literal",
+  "text": "Objective: maximise service temperature.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0043",
+  "cat": "simple",
+  "style": "paraphrased",
+  "text": "I need a part that survives high temperatures.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0044",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Optimise the following: minimise part density, maximise stiffness along axis 3, maximise in-plane thermal conductivity.",
+  "props": [
+   "E_33",
+   "k_11",
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0045",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that comes out light for its size, resists being squashed top to bottom and spreads heat sideways.",
+  "props": [
+   "E_33",
+   "k_11",
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0046",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise stiffness, minimise relative density.",
+  "props": [
+   "E_mean",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0047",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff and uses as little metal as it can.",
+  "props": [
+   "E_mean",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0048",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, minimise part density, maximise service temperature.",
+  "props": [
+   "E_mean",
+   "mass_density",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0049",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, comes out light for its size and survives high temperatures.",
+  "props": [
+   "E_mean",
+   "mass_density",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0050",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness, minimise relative density.",
+  "props": [
+   "E_mean",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0051",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that is genuinely stiff and uses as little metal as it can.",
+  "props": [
+   "E_mean",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0052",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise stiffness, minimise price per kilogram, maximise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0053",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff, stays cheap per kilo and holds firm along its length.",
+  "props": [
+   "E_11",
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0054",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness, minimise thermal expansion coefficient, maximise in-plane thermal conductivity.",
+  "props": [
+   "E_mean",
+   "cte",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0055",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that is genuinely stiff, barely moves when it heats up and spreads heat sideways.",
+  "props": [
+   "E_mean",
+   "cte",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0056",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 1, minimise thermal expansion coefficient.",
+  "props": [
+   "E_11",
+   "cte"
+  ]
+ },
+ {
+  "id": "b0057",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Give me something that holds firm along its length and barely moves when it heats up.",
+  "props": [
+   "E_11",
+   "cte"
+  ]
+ },
+ {
+  "id": "b0058",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, maximise stiffness along axis 1, minimise relative density.",
+  "props": [
+   "E_11",
+   "cost_per_kg",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0059",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that stays cheap per kilo, holds firm along its length and uses as little metal as it can.",
+  "props": [
+   "E_11",
+   "cost_per_kg",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0060",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise service temperature, minimise thermal expansion coefficient.",
+  "props": [
+   "cte",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0061",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures and barely moves when it heats up.",
+  "props": [
+   "cte",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0062",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 3, minimise price per kilogram.",
+  "props": [
+   "E_33",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0063",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom and stays cheap per kilo.",
+  "props": [
+   "E_33",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0064",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3, minimise price per kilogram, maximise stiffness.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0065",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom, stays cheap per kilo and is genuinely stiff.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0066",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: minimise relative density, maximise stiffness, maximise service temperature.",
+  "props": [
+   "E_mean",
+   "rho",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0067",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "It has to be a part that uses as little metal as it can, is genuinely stiff and survives high temperatures.",
+  "props": [
+   "E_mean",
+   "rho",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0068",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise service temperature, minimise price per kilogram, maximise thermal conductivity.",
+  "props": [
+   "cost_per_kg",
+   "k_mean",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0069",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that survives high temperatures, stays cheap per kilo and carries heat well in every direction.",
+  "props": [
+   "cost_per_kg",
+   "k_mean",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0070",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, maximise stiffness.",
+  "props": [
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0071",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "It has to be a part that stays cheap per kilo and is genuinely stiff.",
+  "props": [
+   "E_mean",
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0072",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 1, minimise part density, maximise service temperature.",
+  "props": [
+   "E_11",
+   "mass_density",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0073",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that holds firm along its length, comes out light for its size and survives high temperatures.",
+  "props": [
+   "E_11",
+   "mass_density",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0074",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Optimise the following: minimise part density, maximise thermal conductivity, minimise relative density.",
+  "props": [
+   "k_mean",
+   "mass_density",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0075",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "I need a part that comes out light for its size, carries heat well in every direction and uses as little metal as it can.",
+  "props": [
+   "k_mean",
+   "mass_density",
+   "rho"
+  ]
+ },
+ {
+  "id": "b0076",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, maximise stiffness, maximise through-thickness conductivity.",
+  "props": [
+   "E_mean",
+   "k_33",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0077",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Looking for a design that carries heat well in every direction, is genuinely stiff and lets heat pass from top to bottom.",
+  "props": [
+   "E_mean",
+   "k_33",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0078",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, maximise stiffness, maximise thermal conductivity.",
+  "props": [
+   "E_mean",
+   "cost_per_kg",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0079",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, is genuinely stiff and carries heat well in every direction.",
+  "props": [
+   "E_mean",
+   "cost_per_kg",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0080",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3, maximise stiffness, maximise thermal conductivity.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0081",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "I need a part that resists being squashed top to bottom, is genuinely stiff and carries heat well in every direction.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0082",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 1, maximise stiffness.",
+  "props": [
+   "E_11",
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0083",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "I need a part that holds firm along its length and is genuinely stiff.",
+  "props": [
+   "E_11",
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0084",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "Objective: maximise thermal conductivity, minimise price per kilogram, maximise in-plane thermal conductivity.",
+  "props": [
+   "cost_per_kg",
+   "k_11",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0085",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "I need a part that carries heat well in every direction, stays cheap per kilo and spreads heat sideways.",
+  "props": [
+   "cost_per_kg",
+   "k_11",
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0086",
+  "cat": "compositional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 3, maximise stiffness, maximise service temperature.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0087",
+  "cat": "compositional",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom, is genuinely stiff and survives high temperatures.",
+  "props": [
+   "E_33",
+   "E_mean",
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0088",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Optimise the following: maximise through-thickness conductivity and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0089",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "It has to be a part that lets heat pass from top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0090",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Maximise in-plane thermal conductivity and minimise stiffness along axis 3.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0091",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "What I want is something that spreads heat sideways but squashes easily top to bottom.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0092",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 3 and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0093",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "I need a part that resists being squashed top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0094",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise in-plane thermal conductivity and minimise stiffness along axis 3.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0095",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Looking for a design that spreads heat sideways but squashes easily top to bottom.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0096",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Maximise in-plane thermal conductivity and minimise through-thickness conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0097",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "It has to be a part that spreads heat sideways but blocks heat from going upward.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0098",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 3 and minimise in-plane thermal conductivity.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0099",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom but stops heat travelling sideways.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0100",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise through-thickness conductivity and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0101",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Looking for a design that lets heat pass from top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0102",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Maximise through-thickness conductivity and minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0103",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "What I want is something that lets heat pass from top to bottom but stops heat travelling sideways.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0104",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 1 and minimise through-thickness conductivity.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0105",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Looking for a design that holds firm along its length but blocks heat from going upward.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0106",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 1 and minimise stiffness along axis 3.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0107",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "I need a part that holds firm along its length but squashes easily top to bottom.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0108",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Optimise the following: maximise in-plane thermal conductivity and minimise stiffness along axis 3.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0109",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Give me something that spreads heat sideways but squashes easily top to bottom.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0110",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 1 and minimise through-thickness conductivity.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0111",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Give me something that holds firm along its length but blocks heat from going upward.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0112",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise through-thickness conductivity and minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0113",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "I need a part that lets heat pass from top to bottom but stops heat travelling sideways.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0114",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3 and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0115",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "It has to be a part that resists being squashed top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0116",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise through-thickness conductivity and minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0117",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Looking for a design that lets heat pass from top to bottom but stops heat travelling sideways.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0118",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise in-plane thermal conductivity and minimise through-thickness conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0119",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Give me something that spreads heat sideways but blocks heat from going upward.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0120",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 3 and minimise in-plane thermal conductivity.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0121",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "I need a part that resists being squashed top to bottom but stops heat travelling sideways.",
+  "props": [
+   "E_33",
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0122",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Optimise the following: maximise through-thickness conductivity and minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0123",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "It has to be a part that lets heat pass from top to bottom but stops heat travelling sideways.",
+  "props": [
+   "k_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0124",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 1 and minimise stiffness along axis 3.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0125",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "Looking for a design that holds firm along its length but squashes easily top to bottom.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0126",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 3 and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0127",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0128",
+  "cat": "directional",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 1 and minimise stiffness along axis 3.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0129",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "It has to be a part that holds firm along its length but squashes easily top to bottom.",
+  "props": [
+   "E_11",
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0130",
+  "cat": "directional",
+  "style": "literal",
+  "text": "Objective: maximise through-thickness conductivity and minimise stiffness along axis 1.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0131",
+  "cat": "directional",
+  "style": "paraphrased",
+  "text": "I need a part that lets heat pass from top to bottom but flexes along its length.",
+  "props": [
+   "E_11",
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0132",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature and also minimise service temperature.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0133",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures while it also only needs to work when cool.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0134",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise part density and also minimise part density.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0135",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "It has to be a part that is as dense as possible while it also comes out light for its size.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0136",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise relative density and also minimise relative density.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0137",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "I need a part that packs in as much metal as possible while it also uses as little metal as it can.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0138",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Objective: maximise part density and also minimise part density.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0139",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Looking for a design that is as dense as possible while it also comes out light for its size.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0140",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness along axis 3 and also minimise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0141",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom while it also squashes easily top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0142",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 3 and also minimise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0143",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "I need a part that resists being squashed top to bottom while it also squashes easily top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0144",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise part density and also minimise part density.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0145",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that is as dense as possible while it also comes out light for its size.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0146",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity and also minimise thermal conductivity.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0147",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that carries heat well in every direction while it also insulates in every direction.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0148",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3 and also minimise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0149",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "It has to be a part that resists being squashed top to bottom while it also squashes easily top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0150",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Optimise the following: maximise relative density and also minimise relative density.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0151",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "It has to be a part that packs in as much metal as possible while it also uses as little metal as it can.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0152",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise in-plane thermal conductivity and also minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0153",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Looking for a design that spreads heat sideways while it also stops heat travelling sideways.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0154",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Optimise the following: maximise price per kilogram and also minimise price per kilogram.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0155",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "I need a part that uses an expensive metal while it also stays cheap per kilo.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0156",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise thermal conductivity and also minimise thermal conductivity.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0157",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction while it also insulates in every direction.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0158",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Objective: maximise price per kilogram and also minimise price per kilogram.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0159",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that uses an expensive metal while it also stays cheap per kilo.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0160",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Objective: maximise through-thickness conductivity and also minimise through-thickness conductivity.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0161",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that lets heat pass from top to bottom while it also blocks heat from going upward.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0162",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise service temperature and also minimise service temperature.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0163",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures while it also only needs to work when cool.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0164",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Maximise thermal expansion coefficient and also minimise thermal expansion coefficient.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0165",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "It has to be a part that expands a lot when it heats up while it also barely moves when it heats up.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0166",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Objective: maximise stiffness along axis 1 and also minimise stiffness along axis 1.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0167",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that holds firm along its length while it also flexes along its length.",
+  "props": [
+   "E_11"
+  ]
+ },
+ {
+  "id": "b0168",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 3 and also minimise stiffness along axis 3.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0169",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that resists being squashed top to bottom while it also squashes easily top to bottom.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0170",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Optimise the following: maximise in-plane thermal conductivity and also minimise in-plane thermal conductivity.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0171",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "I need a part that spreads heat sideways while it also stops heat travelling sideways.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0172",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "Optimise the following: maximise through-thickness conductivity and also minimise through-thickness conductivity.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0173",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that lets heat pass from top to bottom while it also blocks heat from going upward.",
+  "props": [
+   "k_33"
+  ]
+ },
+ {
+  "id": "b0174",
+  "cat": "contradictory",
+  "style": "literal",
+  "text": "The goal is to maximise price per kilogram and also minimise price per kilogram.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0175",
+  "cat": "contradictory",
+  "style": "paraphrased",
+  "text": "Give me something that uses an expensive metal while it also stays cheap per kilo.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0176",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, and good supply lead time.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0177",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction, and it needs decent supply lead time too.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0178",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Objective: maximise in-plane thermal conductivity, and good surface finish.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0179",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that spreads heat sideways, and it needs decent surface finish too.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0180",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, and good machining time.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0181",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that stays cheap per kilo, and it needs decent machining time too.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0182",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 3, and good surface finish.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0183",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that resists being squashed top to bottom, and it needs decent surface finish too.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0184",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: minimise thermal expansion coefficient, and good machining time.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0185",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that barely moves when it heats up, and it needs decent machining time too.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0186",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3, and good recyclability.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0187",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that resists being squashed top to bottom, and it needs decent recyclability too.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0188",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, and good supply lead time.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0189",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo, and it needs decent supply lead time too.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0190",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise in-plane thermal conductivity, and good fatigue life.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0191",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that spreads heat sideways, and it needs decent fatigue life too.",
+  "props": [
+   "k_11"
+  ]
+ },
+ {
+  "id": "b0192",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, and good supply lead time.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0193",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, and it needs decent supply lead time too.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0194",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, and good recyclability.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0195",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "What I want is something that carries heat well in every direction, and it needs decent recyclability too.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0196",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, and good creep resistance.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0197",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures, and it needs decent creep resistance too.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0198",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness along axis 3, and good recyclability.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0199",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "What I want is something that resists being squashed top to bottom, and it needs decent recyclability too.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0200",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Objective: minimise part density, and good creep resistance.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0201",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "What I want is something that comes out light for its size, and it needs decent creep resistance too.",
+  "props": [
+   "mass_density"
+  ]
+ },
+ {
+  "id": "b0202",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Objective: minimise relative density, and good supply lead time.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0203",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that uses as little metal as it can, and it needs decent supply lead time too.",
+  "props": [
+   "rho"
+  ]
+ },
+ {
+  "id": "b0204",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, and good weldability.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0205",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures, and it needs decent weldability too.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0206",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Minimise thermal expansion coefficient, and good corrosion resistance.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0207",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "Give me something that barely moves when it heats up, and it needs decent corrosion resistance too.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0208",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, and good surface finish.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0209",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and it needs decent surface finish too.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0210",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, and good fatigue life.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0211",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction, and it needs decent fatigue life too.",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0212",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, and good creep resistance.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0213",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff, and it needs decent creep resistance too.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0214",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, and good corrosion resistance.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0215",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and it needs decent corrosion resistance too.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0216",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Optimise the following: minimise thermal expansion coefficient, and good corrosion resistance.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0217",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "It has to be a part that barely moves when it heats up, and it needs decent corrosion resistance too.",
+  "props": [
+   "cte"
+  ]
+ },
+ {
+  "id": "b0218",
+  "cat": "vocabulary",
+  "style": "literal",
+  "text": "Maximise stiffness along axis 3, and good machining time.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0219",
+  "cat": "vocabulary",
+  "style": "paraphrased",
+  "text": "Give me something that resists being squashed top to bottom, and it needs decent machining time too.",
+  "props": [
+   "E_33"
+  ]
+ },
+ {
+  "id": "b0220",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 51.66 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0221",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction, and that has to be at least 51.66 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0222",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Objective: maximise stiffness, with stiffness at least 23.13 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0223",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 23.13 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0224",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, with price per kilogram no more than 10369.28 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0225",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo, and that has to be no more than 10369.28 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0226",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 38.64 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0227",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 38.64 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0228",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise thermal conductivity, with thermal conductivity at least 37.98 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0229",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction, and that has to be at least 37.98 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0230",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 11599.27 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0231",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, and that has to be no more than 11599.27 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0232",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Maximise service temperature, with service temperature at least 635.71 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0233",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 635.71 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0234",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, with service temperature at least 528.72 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0235",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and that has to be at least 528.72 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0236",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness, with stiffness at least 25.08 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0237",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 25.08 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0238",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, with service temperature at least 262.68 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0239",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 262.68 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0240",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 45.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0241",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 45.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0242",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 52.9 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0243",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 52.9 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0244",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 34.59 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0245",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 34.59 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0246",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Objective: maximise thermal conductivity, with thermal conductivity at least 37.67 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0247",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction, and that has to be at least 37.67 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0248",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 33.13 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0249",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff, and that has to be at least 33.13 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0250",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, with price per kilogram no more than 30847.8 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0251",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo, and that has to be no more than 30847.8 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0252",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness, with stiffness at least 57.79 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0253",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 57.79 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0254",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, with thermal conductivity at least 44.75 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0255",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "I need a part that carries heat well in every direction, and that has to be at least 44.75 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0256",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Objective: maximise service temperature, with service temperature at least 544.72 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0257",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and that has to be at least 544.72 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0258",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness, with stiffness at least 24.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0259",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 24.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0260",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 29.13 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0261",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction, and that has to be at least 29.13 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0262",
+  "cat": "feasible",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 60.78 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0263",
+  "cat": "feasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 60.78 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0264",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Objective: maximise stiffness, with stiffness at least 260.06 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0265",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 260.06 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0266",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 276.21 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0267",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 276.21 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0268",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 1614.29 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0269",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo, and that has to be no more than 1614.29 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0270",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, with service temperature at least 2685.75 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0271",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures, and that has to be at least 2685.75 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0272",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Maximise service temperature, with service temperature at least 3027.26 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0273",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "I need a part that survives high temperatures, and that has to be at least 3027.26 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0274",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Maximise service temperature, with service temperature at least 3473.93 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0275",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "I need a part that survives high temperatures, and that has to be at least 3473.93 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0276",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 321.16 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0277",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 321.16 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0278",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 314.37 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0279",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction, and that has to be at least 314.37 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0280",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "The goal is to minimise price per kilogram, with price per kilogram no more than 2702.72 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0281",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo, and that has to be no more than 2702.72 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0282",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 2103.31 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0283",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo, and that has to be no more than 2103.31 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0284",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, with thermal conductivity at least 249.99 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0285",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "I need a part that carries heat well in every direction, and that has to be at least 249.99 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0286",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise thermal conductivity, with thermal conductivity at least 370.23 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0287",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that carries heat well in every direction, and that has to be at least 370.23 W/(m K).",
+  "props": [
+   "k_mean"
+  ]
+ },
+ {
+  "id": "b0288",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 865.34 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0289",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Looking for a design that stays cheap per kilo, and that has to be no more than 865.34 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0290",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 1698.54 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0291",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo, and that has to be no more than 1698.54 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0292",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 3336.23 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0293",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures, and that has to be at least 3336.23 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0294",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 206.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0295",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 206.28 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0296",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 3170.89 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0297",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, and that has to be no more than 3170.89 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0298",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, with service temperature at least 2159.83 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0299",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "I need a part that survives high temperatures, and that has to be at least 2159.83 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0300",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Objective: maximise stiffness, with stiffness at least 320.97 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0301",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 320.97 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0302",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Objective: maximise stiffness, with stiffness at least 223.87 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0303",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 223.87 GPa.",
+  "props": [
+   "E_mean"
+  ]
+ },
+ {
+  "id": "b0304",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 3711.52 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0305",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 3711.52 C.",
+  "props": [
+   "tmax"
+  ]
+ },
+ {
+  "id": "b0306",
+  "cat": "infeasible",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 824.53 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ },
+ {
+  "id": "b0307",
+  "cat": "infeasible",
+  "style": "paraphrased",
+  "text": "What I want is something that stays cheap per kilo, and that has to be no more than 824.53 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ]
+ }
+]

@@ -1,0 +1,36 @@
+{
+  "source": "paper_aei/data/repair_info.json",
+  "n_queries": 216,
+  "protocol": {
+    "retained_original_bounds": "exact",
+    "repaired_bounds": "display precision",
+    "mesh_witness": "withdrawn"
+  },
+  "both_methods_return_repair": 216,
+  "exec_min_repair_nearest": 107,
+  "exec_best_nearest": 94,
+  "exec_min_repair_outward": 216,
+  "exec_best_outward": 216,
+  "disagree_set": 119,
+  "disagree_uid": 107,
+  "disagree_set_and_uid": 107,
+  "disagree_set_same_uid": 12,
+  "disagree_uid_same_set": 0,
+  "agree_set_and_uid": 97,
+  "disagree_dropped_property": 119,
+  "disagree_set_min_card_1": 117,
+  "disagree_set_min_card_2": 2,
+  "uid_disagree_different_metal": 53,
+  "uid_disagree_different_family": 80,
+  "extra_incl_min": 24,
+  "revision": {
+    "n_eligible": 211,
+    "unaware_first_preserves": 133,
+    "min_card_informed_preserves": 209,
+    "full_diagnosis_preserves": 211,
+    "only_full_preserves": 2,
+    "only_full_ids": ["t_01", "x_102"],
+    "mean_dropped_allowable_when_both": 1.014354066985646
+  },
+  "note": "Set disagreements remain 119/216 after the retained-bound correction. 117/119 have min-cardinality 1. The revision task, not the disagreement count, is the full-diagnosis comparison."
+}

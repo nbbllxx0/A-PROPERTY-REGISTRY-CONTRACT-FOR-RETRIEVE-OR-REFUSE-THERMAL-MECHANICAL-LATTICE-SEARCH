@@ -1,0 +1,152 @@
+[
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.2
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 40.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 40.0
+      }
+    ],
+    "pair_n": [
+      67,
+      287,
+      2272
+    ],
+    "triple_n": 0
+  },
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.2
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 40.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 50.0
+      }
+    ],
+    "pair_n": [
+      67,
+      113,
+      1293
+    ],
+    "triple_n": 0
+  },
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.2
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 50.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 40.0
+      }
+    ],
+    "pair_n": [
+      11,
+      287,
+      2085
+    ],
+    "triple_n": 0
+  },
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.2
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 50.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 50.0
+      }
+    ],
+    "pair_n": [
+      11,
+      113,
+      1173
+    ],
+    "triple_n": 0
+  },
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.22
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 40.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 40.0
+      }
+    ],
+    "pair_n": [
+      142,
+      389,
+      2272
+    ],
+    "triple_n": 0
+  },
+  {
+    "constraints": [
+      {
+        "property": "rho",
+        "op": "<=",
+        "value": 0.22
+      },
+      {
+        "property": "E_11",
+        "op": ">=",
+        "value": 40.0
+      },
+      {
+        "property": "k_11",
+        "op": ">=",
+        "value": 50.0
+      }
+    ],
+    "pair_n": [
+      142,
+      184,
+      1293
+    ],
+    "triple_n": 0
+  }
+]

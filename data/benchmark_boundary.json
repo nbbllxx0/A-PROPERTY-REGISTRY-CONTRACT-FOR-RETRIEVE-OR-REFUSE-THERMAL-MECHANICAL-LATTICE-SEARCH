@@ -1,0 +1,1506 @@
+[
+ {
+  "id": "e0000",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 137.63 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 137.63336486281744
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0001",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff, and that has to be at least 137.63 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 137.63336486281744
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0002",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: maximise stiffness, with stiffness at least 141.68 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 141.6814050058415
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0003",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Looking for a design that is genuinely stiff, and that has to be at least 141.68 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 141.6814050058415
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0004",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 148.43 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 148.42813857754822
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0005",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 148.43 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 148.42813857754822
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0006",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "The goal is to maximise stiffness, with stiffness at least 161.92 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 161.92160572096168
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0007",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 161.92 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 161.92160572096168
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0008",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 132.24 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 132.23597800545204
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0009",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that is genuinely stiff, and that has to be at least 132.24 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 132.23597800545204
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0010",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 121.44 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 121.44120429072127
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0011",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that is genuinely stiff, and that has to be at least 121.44 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 121.44120429072127
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0012",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise stiffness, with stiffness at least 107.95 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 107.9477371473078
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0013",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Give me something that is genuinely stiff, and that has to be at least 107.95 GPa.",
+  "props": [
+   "E_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 107.9477371473078
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0014",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, with thermal conductivity at least 173.58 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 173.58203296990192
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0015",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction, and that has to be at least 173.58 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 173.58203296990192
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0016",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Objective: maximise thermal conductivity, with thermal conductivity at least 178.69 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 178.6873868807814
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0017",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction, and that has to be at least 178.69 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 178.6873868807814
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0018",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, with thermal conductivity at least 187.2 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 187.1963100655805
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0019",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "I need a part that carries heat well in every direction, and that has to be at least 187.2 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 187.1963100655805
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0020",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 204.21 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 204.2141564351787
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0021",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that carries heat well in every direction, and that has to be at least 204.21 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 204.2141564351787
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0022",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 166.77 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 166.7748944220626
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0023",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Looking for a design that carries heat well in every direction, and that has to be at least 166.77 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 166.7748944220626
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0024",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise thermal conductivity, with thermal conductivity at least 153.16 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 153.16061732638403
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0025",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction, and that has to be at least 153.16 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 153.16061732638403
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0026",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "The goal is to maximise thermal conductivity, with thermal conductivity at least 136.14 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 136.14277095678582
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0027",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "I need a part that carries heat well in every direction, and that has to be at least 136.14 W/(m K).",
+  "props": [
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 136.14277095678582
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0028",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 1530.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1530.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0029",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 1530.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1530.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0030",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "The goal is to maximise service temperature, with service temperature at least 1575.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1575.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0031",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 1575.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1575.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0032",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise service temperature, with service temperature at least 1650.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1650.0000000000002
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0033",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and that has to be at least 1650.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1650.0000000000002
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0034",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 1800.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1800.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0035",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and that has to be at least 1800.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1800.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0036",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 1470.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1470.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0037",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "I need a part that survives high temperatures, and that has to be at least 1470.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1470.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0038",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Maximise service temperature, with service temperature at least 1350.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1350.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0039",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that survives high temperatures, and that has to be at least 1350.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1350.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0040",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: maximise service temperature, with service temperature at least 1200.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0041",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures, and that has to be at least 1200.0 C.",
+  "props": [
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0042",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 0.98 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.98
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0043",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, and that has to be no more than 0.98 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.98
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0044",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 0.95 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.95
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0045",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Give me something that stays cheap per kilo, and that has to be no more than 0.95 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.95
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0046",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 0.9 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.8999999999999999
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0047",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo, and that has to be no more than 0.9 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.8999999999999999
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0048",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 0.8 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.8
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0049",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that stays cheap per kilo, and that has to be no more than 0.8 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 0.8
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0050",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Optimise the following: minimise price per kilogram, with price per kilogram no more than 1.02 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.02
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0051",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Looking for a design that stays cheap per kilo, and that has to be no more than 1.02 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.02
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0052",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Objective: minimise price per kilogram, with price per kilogram no more than 1.1 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.1
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0053",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "It has to be a part that stays cheap per kilo, and that has to be no more than 1.1 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.1
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0054",
+  "cat": "boundary_single",
+  "style": "literal",
+  "text": "Minimise price per kilogram, with price per kilogram no more than 1.2 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.2
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0055",
+  "cat": "boundary_single",
+  "style": "paraphrased",
+  "text": "Looking for a design that stays cheap per kilo, and that has to be no more than 1.2 USD/kg.",
+  "props": [
+   "cost_per_kg"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 1.2
+   }
+  ],
+  "truth_refuse": false
+ },
+ {
+  "id": "e0056",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "The goal is to find a design with thermal conductivity at least 81.86 W/(m K), and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 81.85662872035402
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0057",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction and stays cheap per kilo \u2014 specifically thermal conductivity at least 81.86 W/(m K), and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 81.85662872035402
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0058",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "The goal is to find a design with service temperature at least 600.0 C, and price per kilogram no more than 2.5 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 600.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 2.5
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0059",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures and stays cheap per kilo \u2014 specifically service temperature at least 600.0 C, and price per kilogram no more than 2.5 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 600.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 2.5
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0060",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Objective: find a design with stiffness at least 61.35 GPa, and thermal conductivity at least 79.01 W/(m K).",
+  "props": [
+   "E_mean",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 61.354931337847574
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 79.00921554255659
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0061",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "I need a part that is genuinely stiff and carries heat well in every direction \u2014 specifically stiffness at least 61.35 GPa, and thermal conductivity at least 79.01 W/(m K).",
+  "props": [
+   "E_mean",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "E_mean",
+    "op": ">=",
+    "value": 61.354931337847574
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 79.00921554255659
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0062",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "The goal is to find a design with service temperature at least 900.0 C, and price per kilogram no more than 9.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 900.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 9.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0063",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "Give me something that survives high temperatures and stays cheap per kilo \u2014 specifically service temperature at least 900.0 C, and price per kilogram no more than 9.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 900.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 9.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0064",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Objective: find a design with price per kilogram no more than 4.0 USD/kg, and service temperature at least 1200.0 C.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0065",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo and survives high temperatures \u2014 specifically price per kilogram no more than 4.0 USD/kg, and service temperature at least 1200.0 C.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0066",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Optimise the following: find a design with price per kilogram no more than 7.0 USD/kg, and thermal conductivity at least 69.12 W/(m K).",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 7.0
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 69.11750905852276
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0067",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo and carries heat well in every direction \u2014 specifically price per kilogram no more than 7.0 USD/kg, and thermal conductivity at least 69.12 W/(m K).",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 7.0
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 69.11750905852276
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0068",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Objective: find a design with thermal conductivity at least 80.01 W/(m K), and service temperature at least 1200.0 C.",
+  "props": [
+   "k_mean",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 80.01021738782413
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0069",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "It has to be a part that carries heat well in every direction and survives high temperatures \u2014 specifically thermal conductivity at least 80.01 W/(m K), and service temperature at least 1200.0 C.",
+  "props": [
+   "k_mean",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 80.01021738782413
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0070",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Optimise the following: find a design with price per kilogram no more than 7.0 USD/kg, and service temperature at least 900.0 C.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 7.0
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 900.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0071",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "Looking for a design that stays cheap per kilo and survives high temperatures \u2014 specifically price per kilogram no more than 7.0 USD/kg, and service temperature at least 900.0 C.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 7.0
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 900.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0072",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Optimise the following: find a design with thermal conductivity at least 47.66 W/(m K), and service temperature at least 1500.0 C.",
+  "props": [
+   "k_mean",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 47.662377902235335
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1500.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0073",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "Give me something that carries heat well in every direction and survives high temperatures \u2014 specifically thermal conductivity at least 47.66 W/(m K), and service temperature at least 1500.0 C.",
+  "props": [
+   "k_mean",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 47.662377902235335
+   },
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1500.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0074",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "The goal is to find a design with price per kilogram no more than 3.0 USD/kg, and thermal conductivity at least 90.12 W/(m K).",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 3.0
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 90.116897906266
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0075",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "I need a part that stays cheap per kilo and carries heat well in every direction \u2014 specifically price per kilogram no more than 3.0 USD/kg, and thermal conductivity at least 90.12 W/(m K).",
+  "props": [
+   "cost_per_kg",
+   "k_mean"
+  ],
+  "gold_constraints": [
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 3.0
+   },
+   {
+    "property": "k_mean",
+    "op": ">=",
+    "value": 90.116897906266
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0076",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Find a design with service temperature at least 1200.0 C, and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0077",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "What I want is something that survives high temperatures and stays cheap per kilo \u2014 specifically service temperature at least 1200.0 C, and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 1200.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0078",
+  "cat": "boundary_joint",
+  "style": "literal",
+  "text": "Objective: find a design with service temperature at least 600.0 C, and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 600.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ },
+ {
+  "id": "e0079",
+  "cat": "boundary_joint",
+  "style": "paraphrased",
+  "text": "Looking for a design that survives high temperatures and stays cheap per kilo \u2014 specifically service temperature at least 600.0 C, and price per kilogram no more than 4.0 USD/kg.",
+  "props": [
+   "cost_per_kg",
+   "tmax"
+  ],
+  "gold_constraints": [
+   {
+    "property": "tmax",
+    "op": ">=",
+    "value": 600.0
+   },
+   {
+    "property": "cost_per_kg",
+    "op": "<=",
+    "value": 4.0
+   }
+  ],
+  "truth_refuse": true
+ }
+]
