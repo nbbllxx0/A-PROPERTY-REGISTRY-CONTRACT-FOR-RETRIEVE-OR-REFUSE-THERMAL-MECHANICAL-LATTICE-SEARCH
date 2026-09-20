@@ -1,0 +1,90 @@
+{
+ "runs": 5,
+ "n": 308,
+ "overall": [
+  0.8975572047000618,
+  0.9062152133580705,
+  0.886734693877551,
+  0.8995052566481138,
+  0.8929035250463822
+ ],
+ "per_category": [
+  {
+   "simple": 0.946969696969697,
+   "compositional": 0.945021645021645,
+   "directional": 0.7924242424242425,
+   "contradictory": 0.7272727272727273,
+   "vocabulary": 0.8712121212121212,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  },
+  {
+   "simple": 0.9696969696969697,
+   "compositional": 0.9722943722943723,
+   "directional": 0.7878787878787878,
+   "contradictory": 0.7196969696969697,
+   "vocabulary": 0.8939393939393939,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  },
+  {
+   "simple": 0.946969696969697,
+   "compositional": 0.9616883116883117,
+   "directional": 0.7681818181818182,
+   "contradictory": 0.6590909090909091,
+   "vocabulary": 0.8712121212121212,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  },
+  {
+   "simple": 0.9924242424242424,
+   "compositional": 0.9601731601731601,
+   "directional": 0.7681818181818182,
+   "contradictory": 0.6818181818181818,
+   "vocabulary": 0.8939393939393939,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  },
+  {
+   "simple": 0.9696969696969697,
+   "compositional": 0.9427489177489178,
+   "directional": 0.7545454545454545,
+   "contradictory": 0.7045454545454546,
+   "vocabulary": 0.8939393939393939,
+   "feasible": 0.9924242424242424,
+   "infeasible": 0.9924242424242424
+  }
+ ],
+ "per_style": [
+  {
+   "literal": 1.0,
+   "paraphrased": 0.7951144094001237
+  },
+  {
+   "literal": 1.0,
+   "paraphrased": 0.812430426716141
+  },
+  {
+   "literal": 1.0,
+   "paraphrased": 0.773469387755102
+  },
+  {
+   "literal": 1.0,
+   "paraphrased": 0.7990105132962276
+  },
+  {
+   "literal": 1.0,
+   "paraphrased": 0.7858070500927644
+  }
+ ],
+ "rule_overall": 0.6061688311688311,
+ "rule_per_category": {
+  "simple": 0.4772727272727273,
+  "compositional": 0.675,
+  "directional": 0.5,
+  "contradictory": 0.4090909090909091,
+  "vocabulary": 0.4090909090909091,
+  "feasible": 0.9318181818181818,
+  "infeasible": 0.8409090909090909
+ }
+}

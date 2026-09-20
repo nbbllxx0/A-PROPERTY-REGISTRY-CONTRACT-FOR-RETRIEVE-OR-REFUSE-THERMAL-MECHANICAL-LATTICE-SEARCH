@@ -50,6 +50,13 @@ included unedited, as are `p2_protocol_correction.md` and
 `p2_outward_followup.md`, which record where a protocol was corrected after
 the fact.
 
+### `data/model_outputs/`
+
+The raw scoring records behind the 308-request parse benchmark and the
+vocabulary ablation, for both model SKUs, plus the two registry-derived
+baselines. These make the one learned stage checkable without re-running
+the model. See the README in that directory.
+
 ### `data/openfem/`
 
 The second-library check: `scikit-fem` and TetGen run against the catalogue

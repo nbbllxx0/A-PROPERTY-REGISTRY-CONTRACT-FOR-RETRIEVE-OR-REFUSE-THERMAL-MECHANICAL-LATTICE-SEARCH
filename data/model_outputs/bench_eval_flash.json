@@ -1,0 +1,48 @@
+{
+ "runs": 2,
+ "n": 308,
+ "overall": [
+  0.9967532467532467,
+  0.9967532467532467
+ ],
+ "per_category": [
+  {
+   "simple": 0.9924242424242424,
+   "compositional": 1.0,
+   "directional": 0.9848484848484849,
+   "contradictory": 1.0,
+   "vocabulary": 1.0,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  },
+  {
+   "simple": 0.9848484848484849,
+   "compositional": 1.0,
+   "directional": 0.9924242424242424,
+   "contradictory": 1.0,
+   "vocabulary": 1.0,
+   "feasible": 1.0,
+   "infeasible": 1.0
+  }
+ ],
+ "per_style": [
+  {
+   "literal": 1.0,
+   "paraphrased": 0.9935064935064936
+  },
+  {
+   "literal": 1.0,
+   "paraphrased": 0.9935064935064936
+  }
+ ],
+ "rule_overall": 0.6061688311688311,
+ "rule_per_category": {
+  "simple": 0.4772727272727273,
+  "compositional": 0.675,
+  "directional": 0.5,
+  "contradictory": 0.4090909090909091,
+  "vocabulary": 0.4090909090909091,
+  "feasible": 0.9318181818181818,
+  "infeasible": 0.8409090909090909
+ }
+}

@@ -1,0 +1,499 @@
+[
+ {
+  "id": "s1",
+  "cat": "simple",
+  "text": "I want the lightest possible part",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "s2",
+  "cat": "simple",
+  "text": "as stiff as you can make it",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "s3",
+  "cat": "simple",
+  "text": "something that conducts heat well",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "s4",
+  "cat": "simple",
+  "text": "keep the material cost down",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "c1",
+  "cat": "compositional",
+  "text": "light, stiff, and a good conductor of heat",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.8,
+   "key_f1": 0.8,
+   "recall": 0.6666666666666666,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "c2",
+  "cat": "compositional",
+  "text": "cheap, printable, stiff, and it has to survive 400 C",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.3333333333333333,
+   "recall": 0.3333333333333333,
+   "precision": 0.3333333333333333,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.8,
+   "key_f1": 0.8,
+   "recall": 0.6666666666666666,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "c3",
+  "cat": "compositional",
+  "text": "stiff for its weight and conductive for its weight",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.8,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "c4",
+  "cat": "compositional",
+  "text": "minimise mass, keep stiffness above 2 GPa, and don't spend more than 10 dollars a kilo",
+  "llm": {
+   "f1": 0.8,
+   "key_f1": 0.4,
+   "recall": 0.5,
+   "precision": 0.3333333333333333,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "d1",
+  "cat": "directional",
+  "text": "spreads heat sideways but insulates upward",
+  "llm": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "delivered": 1.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "delivered": 0.0
+  }
+ },
+ {
+  "id": "d2",
+  "cat": "directional",
+  "text": "stiff along the length, doesn't matter through the thickness",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "delivered": 1.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "delivered": 1.0
+  }
+ },
+ {
+  "id": "d3",
+  "cat": "directional",
+  "text": "I need the heat to travel through the thickness, not sideways",
+  "llm": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "delivered": 0.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "delivered": 0.0
+  }
+ },
+ {
+  "id": "d4",
+  "cat": "directional",
+  "text": "conducts equally in every direction",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "delivered": 1.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "delivered": 1.0
+  }
+ },
+ {
+  "id": "i1",
+  "cat": "infeasible",
+  "text": "relative density under 0.15 but stiffness above 100 GPa",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.5,
+   "recall": 0.5,
+   "precision": 0.5,
+   "hallucinated": 0.0,
+   "refused": 1.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "refused": 0.0
+  }
+ },
+ {
+  "id": "i2",
+  "cat": "infeasible",
+  "text": "conductivity above 500 W/mK at 20 percent density",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.5,
+   "recall": 0.5,
+   "precision": 0.5,
+   "hallucinated": 0.0,
+   "refused": 1.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "refused": 1.0
+  }
+ },
+ {
+  "id": "i3",
+  "cat": "infeasible",
+  "text": "cheaper than 1 dollar a kilo and conducts better than 300 W/mK",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.5,
+   "recall": 0.5,
+   "precision": 0.5,
+   "hallucinated": 0.0,
+   "refused": 1.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0,
+   "refused": 0.0
+  }
+ },
+ {
+  "id": "i4",
+  "cat": "infeasible",
+  "text": "cubic symmetry but conducts three times better sideways than up",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.6666666666666666,
+   "recall": 1.0,
+   "precision": 0.5,
+   "hallucinated": 0.0,
+   "refused": 1.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0,
+   "refused": 0.0
+  }
+ },
+ {
+  "id": "x1",
+  "cat": "contradictory",
+  "text": "as light as possible and as dense as possible",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "x2",
+  "cat": "contradictory",
+  "text": "insulating but highly conductive",
+  "llm": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "v1",
+  "cat": "vocabulary",
+  "text": "stiff, light, and resistant to salt water corrosion",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "oov_flagged": 1.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "oov_flagged": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "v2",
+  "cat": "vocabulary",
+  "text": "conductive and with good fatigue life at 10^7 cycles",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "oov_flagged": 1.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 1.0,
+   "key_f1": 1.0,
+   "recall": 1.0,
+   "precision": 1.0,
+   "oov_flagged": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "v3",
+  "cat": "vocabulary",
+  "text": "cheap to machine, stiff, and paintable",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "oov_flagged": 1.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 1.0,
+   "precision": 0.5,
+   "oov_flagged": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "p1",
+  "cat": "paraphrase",
+  "text": "needs to shift a lot of heat without weighing a ton",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "p2",
+  "cat": "paraphrase",
+  "text": "basically a heat spreader for a chip, has to be printable",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "p3",
+  "cat": "paraphrase",
+  "text": "don't want it warping when it heats up, and it should be rigid",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.5,
+   "recall": 0.5,
+   "precision": 0.5,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ },
+ {
+  "id": "p4",
+  "cat": "paraphrase",
+  "text": "think aluminium heat sink but lighter",
+  "llm": {
+   "f1": 1.0,
+   "key_f1": 0.0,
+   "recall": 0.0,
+   "precision": 0.0,
+   "hallucinated": 0.0
+  },
+  "rule": {
+   "f1": 0.6666666666666666,
+   "key_f1": 0.6666666666666666,
+   "recall": 0.5,
+   "precision": 1.0,
+   "hallucinated": 0.0
+  }
+ }
+]

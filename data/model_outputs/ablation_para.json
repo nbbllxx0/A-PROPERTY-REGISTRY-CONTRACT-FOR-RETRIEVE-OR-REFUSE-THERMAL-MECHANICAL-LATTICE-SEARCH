@@ -1,0 +1,50 @@
+[
+ {
+  "label": "1 concept",
+  "n_properties": 1,
+  "n_requests": 19,
+  "llm": 1.0,
+  "rule": 0.5263157894736842,
+  "gap": 0.4736842105263158
+ },
+ {
+  "label": "2 concepts",
+  "n_properties": 2,
+  "n_requests": 80,
+  "llm": 0.6833333333333333,
+  "rule": 0.5041666666666667,
+  "gap": 0.1791666666666667
+ },
+ {
+  "label": "3 concepts",
+  "n_properties": 3,
+  "n_requests": 111,
+  "llm": 0.6423423423423423,
+  "rule": 0.4189189189189189,
+  "gap": 0.22342342342342342
+ },
+ {
+  "label": "directional",
+  "n_properties": 7,
+  "n_requests": 111,
+  "llm": 0.918918918918919,
+  "rule": 0.4189189189189189,
+  "gap": 0.5
+ },
+ {
+  "label": "+ economics",
+  "n_properties": 10,
+  "n_requests": 147,
+  "llm": 0.8326530612244898,
+  "rule": 0.5108843537414965,
+  "gap": 0.32176870748299324
+ },
+ {
+  "label": "full",
+  "n_properties": 22,
+  "n_requests": 154,
+  "llm": 0.7877551020408163,
+  "rule": 0.48658008658008656,
+  "gap": 0.3011750154607298
+ }
+]
