@@ -157,10 +157,15 @@ def _assemble(conn_solid, ke, ndof_per_node):
 def _pinned_dofs(conn_local, n_nodes, ndof_per_node):
     """DOFs to fix so the periodic system is non-singular.
 
-    The fluctuation field is periodic, so rigid *rotations* (linear in x) are
-    not admissible and do not sit in the null space. Only rigid translations
-    do -- one per connected solid component, per DOF direction. Fixing one node
-    per component therefore removes the null space exactly.
+    Translations: one node per connected solid component, per DOF direction.
+    Rotations of a component that meets the periodic boundary are not
+    admissible, because a linear-in-x field is not periodic. An isolated
+    interior island never sees the opposite faces, so its three rotations
+    remain in the null space after this pin. Those islands carry no load
+    (they contribute zero to the effective tensor); the system is
+    singular-but-consistent, and the energy is invariant to that null-space
+    content. Do not read this pin as making the elastic operator positive
+    definite on a cell that still contains debris.
     """
     ne = conn_local.shape[0]
     # Node adjacency: link every node of an element to that element's node 0.
@@ -180,7 +185,13 @@ def _pinned_dofs(conn_local, n_nodes, ndof_per_node):
 
 
 def _solve_pinned(K, F, pinned, tol=1e-12, maxiter=50000):
-    """Solve K x = F with the listed DOFs held at zero (SPD after pinning)."""
+    """Solve K x = F with the listed DOFs held at zero.
+
+    Pinning removes translations (one node per component). Isolated-island
+    rotations can remain; the reduced operator need not be SPD. CG is used
+    because the load is orthogonal to that leftover kernel (islands carry
+    no macroscopic energy).
+    """
     N = K.shape[0]
     free = np.ones(N, dtype=bool)
     free[pinned] = False

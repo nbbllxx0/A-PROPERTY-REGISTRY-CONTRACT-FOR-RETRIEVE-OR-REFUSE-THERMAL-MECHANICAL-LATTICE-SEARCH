@@ -62,7 +62,8 @@ def reg(p: Prop):
 # ------------------------------------------------------------- geometry only
 reg(Prop("rho", "relative density", "-", "geometry",
          lambda r, m, c: _g(r, "rho"),
-         "fraction of the cube that is solid, 0.12 to 0.50. Lower is lighter.",
+         "fraction of the cube that is solid. Catalogue rows span 0.108 to "
+         "0.514 (isovalue targets 0.108 to 0.512). Lower is lighter.",
          "low"))
 reg(Prop("porosity", "porosity", "-", "geometry",
          lambda r, m, c: _g(r, "porosity"),
@@ -75,18 +76,20 @@ reg(Prop("porosity", "porosity", "-", "geometry",
 reg(Prop("k_aniso", "k33/k11, through-thickness over in-plane conductivity",
          "-", "geometry",
          lambda r, m, c: _g(r, "k33") / _g(r, "k11"),
-         "Ratio, not a magnitude of anisotropy. 1.0 means heat travels "
-         "equally in all directions. Below 1 means it moves better sideways "
-         "(axes 1,2) than through-thickness (axis 3), so SMALLER means more "
-         "directional: 0.2 conducts five times better sideways than upward. "
-         "A request to spread heat sideways and insulate upward asks for this "
-         "to be small."))
+         "Ratio k33/k11. 1.0 means equal response along axes 3 and 1, not "
+         "isotropy of the full tensor. Below 1 means weaker conduction "
+         "through-thickness than along axis 1."))
+reg(Prop("k_inplane", "k22/k11, the two in-plane conductivities",
+         "-", "geometry",
+         lambda r, m, c: _g(r, "k22") / _g(r, "k11"),
+         "Ratio k22/k11. 1.0 means axes 1 and 2 conduct equally. A planar "
+         "heat spreader needs this near 1 and k_aniso small; k_aniso alone "
+         "does not constrain axis 2."))
 reg(Prop("E_aniso", "E33/E11, through-thickness over in-plane stiffness",
          "-", "geometry",
          lambda r, m, c: _g(r, "E33") / _g(r, "E11"),
-         "Ratio, not a magnitude of anisotropy. 1.0 means equally stiff in "
-         "all directions; smaller means stiffer in-plane than "
-         "through-thickness."))
+         "Ratio E33/E11. 1.0 means equal stiffness along those two axes, "
+         "not full elastic isotropy."))
 # Complete periodic pore space, D*/D0. Not the inlet-accessible labyrinth.
 reg(Prop("D_11", "pore diffusivity along axis 1", "-", "geometry",
          lambda r, m, c: _g(r, "D11"),
@@ -100,9 +103,14 @@ reg(Prop("D_33", "pore diffusivity along axis 3", "-", "geometry",
 reg(Prop("D_aniso", "D33/D11, through-thickness over in-plane pore diffusivity",
          "-", "geometry",
          lambda r, m, c: _g(r, "D33") / _g(r, "D11"),
-         "Ratio. 1.0 means the pore transports equally in all directions. "
-         "Below 1 means tracer moves better sideways than through-thickness, "
-         "so SMALLER means more directional."))
+         "Ratio D33/D11. 1.0 means equal pore transport along those two axes, "
+         "not isotropy in all directions."))
+reg(Prop("conn_frac", "largest connected solid fraction", "-", "geometry",
+         lambda r, m, c: _g(r, "conn_frac"),
+         "Fraction of solid voxels in the largest periodically connected "
+         "component. 1 is fully connected. Ask for this to be at least 0.99 "
+         "to refuse disconnected debris. Stored on every row.",
+         "high"))
 reg(Prop("symmetry", "symmetry class", "-", "geometry",
          lambda r, m, c: r.get("sym"),
          "cubic, tetragonal or orthorhombic. Cubic cells cannot steer heat at "
@@ -132,7 +140,7 @@ def _Eeff(i):
 
 
 reg(Prop("k_11", "conductivity along axis 1", "W/(m K)", "effective",
-         _keff(1), "heat conduction sideways, in-plane.", "high"))
+         _keff(1), "heat conduction along axis 1 (one in-plane direction).", "high"))
 reg(Prop("k_22", "conductivity along axis 2", "W/(m K)", "effective",
          _keff(2), "the other in-plane direction.", "high"))
 reg(Prop("k_33", "conductivity along axis 3", "W/(m K)", "effective",
@@ -237,8 +245,10 @@ def prompt_block() -> str:
 
 AXIS_CONVENTION = (
     "Axis convention: axes 1 and 2 are in-plane (sideways); axis 3 is "
-    "through-thickness (up). 'along the length' or 'in-plane' means axis 1; "
-    "'across' or 'through' or 'upward' means axis 3."
+    "through-thickness (up). 'along the length' means axis 1; 'the other "
+    "in-plane direction' means axis 2; 'across' or 'through' or 'upward' "
+    "means axis 3. In-plane spreading requires both axis 1 and axis 2, "
+    "not axis 1 alone."
 )
 
 if __name__ == "__main__":

@@ -1,0 +1,1026 @@
+{
+  "n_registry": 28,
+  "registry_keys": [
+    "D_11",
+    "D_33",
+    "D_aniso",
+    "E_11",
+    "E_22",
+    "E_33",
+    "E_aniso",
+    "E_mean",
+    "conn_frac",
+    "cost_per_kg",
+    "cost_per_m3",
+    "cte",
+    "k_11",
+    "k_22",
+    "k_33",
+    "k_aniso",
+    "k_inplane",
+    "k_mean",
+    "mass_density",
+    "min_feature",
+    "permeability",
+    "porosity",
+    "printable",
+    "rho",
+    "specific_conductivity",
+    "specific_stiffness",
+    "symmetry",
+    "tmax"
+  ],
+  "h2b": {
+    "old_n": 3168,
+    "old_top": {
+      "uid": 548,
+      "material": "aluminium 6061",
+      "family": "diamond",
+      "mode": "sheet",
+      "freq": "133",
+      "symmetry": "tetragonal",
+      "rho": 0.39967628761574076,
+      "k_11": 59.836343890322794,
+      "k_22": 39.82695940281904,
+      "k_33": 39.82694256648135,
+      "k_aniso": 0.6655978620532408,
+      "k_inplane": 0.6655981434263428,
+      "conn_frac": 0.99998,
+      "E_11": 22.759964127845652,
+      "cost_per_kg": 2.5,
+      "mass_density": 1079.1259765625,
+      "n_feasible": 3168,
+      "k22_over_k33": 1.0000004227373884
+    },
+    "new_n": 1572,
+    "new_top": {
+      "uid": 152,
+      "material": "aluminium 6061",
+      "family": "gyroid",
+      "mode": "sheet",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.3980034722222222,
+      "k_11": 55.41427835979319,
+      "k_22": 55.42108577783588,
+      "k_33": 20.345820487916473,
+      "k_aniso": 0.36715844887152305,
+      "k_inplane": 1.0001228459206577,
+      "conn_frac": 0.99986,
+      "E_11": 15.885331178582025,
+      "cost_per_kg": 2.5,
+      "mass_density": 1074.609375,
+      "n_feasible": 1572,
+      "k22_over_k33": 2.723954328150632
+    },
+    "new_top5": [
+      {
+        "uid": 152,
+        "material": "aluminium 6061",
+        "family": "gyroid",
+        "mode": "sheet",
+        "freq": "113",
+        "symmetry": "tetragonal",
+        "rho": 0.3980034722222222,
+        "k_11": 55.41427835979319,
+        "k_22": 55.42108577783588,
+        "k_33": 20.345820487916473,
+        "k_aniso": 0.36715844887152305,
+        "k_inplane": 1.0001228459206577,
+        "conn_frac": 0.99986,
+        "E_11": 15.885331178582025,
+        "cost_per_kg": 2.5,
+        "mass_density": 1074.609375,
+        "n_feasible": null,
+        "k22_over_k33": 2.723954328150632
+      },
+      {
+        "uid": 440,
+        "material": "aluminium 6061",
+        "family": "diamond",
+        "mode": "network",
+        "freq": "113",
+        "symmetry": "tetragonal",
+        "rho": 0.39682798032407407,
+        "k_11": 54.78442238636091,
+        "k_22": 54.78442238636087,
+        "k_33": 10.468445973678195,
+        "k_aniso": 0.19108435423213316,
+        "k_inplane": 0.9999999999999993,
+        "conn_frac": 1.0,
+        "E_11": 14.46240782095161,
+        "cost_per_kg": 2.5,
+        "mass_density": 1071.435546875,
+        "n_feasible": null,
+        "k22_over_k33": 5.233290836491924
+      },
+      {
+        "uid": 536,
+        "material": "aluminium 6061",
+        "family": "diamond",
+        "mode": "sheet",
+        "freq": "113",
+        "symmetry": "tetragonal",
+        "rho": 0.3927589699074074,
+        "k_11": 54.53933605504744,
+        "k_22": 54.53934304722384,
+        "k_33": 26.567617678850088,
+        "k_aniso": 0.48712763301766193,
+        "k_inplane": 1.0000001282042816,
+        "conn_frac": 0.99993,
+        "E_11": 19.273133672092076,
+        "cost_per_kg": 2.5,
+        "mass_density": 1060.44921875,
+        "n_feasible": null,
+        "k22_over_k33": 2.0528503423414377
+      },
+      {
+        "uid": 344,
+        "material": "aluminium 6061",
+        "family": "schwarz_p",
+        "mode": "sheet",
+        "freq": "113",
+        "symmetry": "tetragonal",
+        "rho": 0.39210792824074076,
+        "k_11": 53.23395420559173,
+        "k_22": 53.233954205592596,
+        "k_33": 19.7452716239348,
+        "k_aniso": 0.3709149906031355,
+        "k_inplane": 1.0000000000000162,
+        "conn_frac": 1.0,
+        "E_11": 15.637539398477072,
+        "cost_per_kg": 2.5,
+        "mass_density": 1058.69140625,
+        "n_feasible": null,
+        "k22_over_k33": 2.6960355481290783
+      },
+      {
+        "uid": 320,
+        "material": "aluminium 6061",
+        "family": "schwarz_p",
+        "mode": "sheet",
+        "freq": "112",
+        "symmetry": "tetragonal",
+        "rho": 0.39617919921875,
+        "k_11": 52.28914790499375,
+        "k_22": 52.2891479049939,
+        "k_33": 30.455941340030947,
+        "k_aniso": 0.582452431532592,
+        "k_inplane": 1.0000000000000029,
+        "conn_frac": 1.0,
+        "E_11": 14.359187173571796,
+        "cost_per_kg": 2.5,
+        "mass_density": 1069.683837890625,
+        "n_feasible": null,
+        "k22_over_k33": 1.7168784021876753
+      }
+    ],
+    "refused": false,
+    "reason": "",
+    "mus": []
+  },
+  "h2b_sweep": [
+    {
+      "rho_cap": 0.25,
+      "n_feasible": 774,
+      "uid": 532,
+      "material": "aluminium 6061",
+      "family": "diamond",
+      "mode": "sheet",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.24635597511574073,
+      "k_11": 32.350647638161014,
+      "k_22": 32.35337862768577,
+      "k_33": 14.322556461370322,
+      "k_aniso": 0.44272858526873354,
+      "k_inplane": 1.000084418388012,
+      "conn_frac": 1.0,
+      "E_11": 11.075119783550717,
+      "cost_per_kg": 2.5,
+      "mass_density": 665.1611328125,
+      "k22_over_k33": 2.2589108805363605
+    },
+    {
+      "rho_cap": 0.3,
+      "n_feasible": 1092,
+      "uid": 149,
+      "material": "aluminium 6061",
+      "family": "gyroid",
+      "mode": "sheet",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.2906901041666667,
+      "k_11": 39.20537611800989,
+      "k_22": 39.20537311752569,
+      "k_33": 12.948963222312068,
+      "k_aniso": 0.3302853971693863,
+      "k_inplane": 0.9999999234675317,
+      "conn_frac": 0.99997,
+      "E_11": 10.730048613158683,
+      "cost_per_kg": 2.5,
+      "mass_density": 784.86328125,
+      "k22_over_k33": 3.0276843361460624
+    },
+    {
+      "rho_cap": 0.35,
+      "n_feasible": 1284,
+      "uid": 534,
+      "material": "aluminium 6061",
+      "family": "diamond",
+      "mode": "sheet",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.33841507523148145,
+      "k_11": 46.31466439013724,
+      "k_22": 46.31521802084433,
+      "k_33": 20.63043271383665,
+      "k_aniso": 0.44544061768544146,
+      "k_inplane": 1.0000119536806404,
+      "conn_frac": 0.99997,
+      "E_11": 16.295871934478086,
+      "cost_per_kg": 2.5,
+      "mass_density": 913.7207031249999,
+      "k22_over_k33": 2.2449949869340897
+    },
+    {
+      "rho_cap": 0.4,
+      "n_feasible": 1572,
+      "uid": 152,
+      "material": "aluminium 6061",
+      "family": "gyroid",
+      "mode": "sheet",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.3980034722222222,
+      "k_11": 55.41427835979319,
+      "k_22": 55.42108577783588,
+      "k_33": 20.345820487916473,
+      "k_aniso": 0.36715844887152305,
+      "k_inplane": 1.0001228459206577,
+      "conn_frac": 0.99986,
+      "E_11": 15.885331178582025,
+      "cost_per_kg": 2.5,
+      "mass_density": 1074.609375,
+      "k22_over_k33": 2.723954328150632
+    },
+    {
+      "rho_cap": 0.45,
+      "n_feasible": 1812,
+      "uid": 1401,
+      "material": "aluminium 6061",
+      "family": "split_p",
+      "mode": "network",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.44025788483796297,
+      "k_11": 62.42483502730979,
+      "k_22": 62.42449557685216,
+      "k_33": 23.801558633692533,
+      "k_aniso": 0.381283484742567,
+      "k_inplane": 0.9999945622530283,
+      "conn_frac": 0.99994,
+      "E_11": 18.85950560035099,
+      "cost_per_kg": 2.5,
+      "mass_density": 1188.6962890625,
+      "k22_over_k33": 2.6227062075038456
+    },
+    {
+      "rho_cap": 0.5,
+      "n_feasible": 2046,
+      "uid": 1403,
+      "material": "aluminium 6061",
+      "family": "split_p",
+      "mode": "network",
+      "freq": "113",
+      "symmetry": "tetragonal",
+      "rho": 0.4939236111111111,
+      "k_11": 71.18225773284342,
+      "k_22": 71.1822577328434,
+      "k_33": 28.48126228375772,
+      "k_aniso": 0.4001174336258302,
+      "k_inplane": 0.9999999999999996,
+      "conn_frac": 0.99989,
+      "E_11": 22.443728205322987,
+      "cost_per_kg": 2.5,
+      "mass_density": 1333.59375,
+      "k22_over_k33": 2.4992662552543248
+    }
+  ],
+  "h3": {
+    "open_top_conn": [
+      1.0,
+      0.02149,
+      0.00312,
+      0.00112,
+      0.00543
+    ],
+    "open_top": [
+      {
+        "uid": 195,
+        "material": "Ti-6Al-4V",
+        "family": "schwarz_p",
+        "mode": "network",
+        "freq": "111",
+        "symmetry": "cubic",
+        "rho": 0.22247314453125,
+        "k_11": 0.19180407880853528,
+        "k_22": 0.19180407880853514,
+        "k_33": 0.19180407880853514,
+        "k_aniso": 0.9999999999999994,
+        "k_inplane": 0.9999999999999992,
+        "conn_frac": 1.0,
+        "E_11": 3.006720643991294,
+        "cost_per_kg": 30.0,
+        "mass_density": 985.5560302734375,
+        "n_feasible": null,
+        "k22_over_k33": 1.0
+      },
+      {
+        "uid": 973,
+        "material": "Ti-6Al-4V",
+        "family": "fischer_koch_s",
+        "mode": "network",
+        "freq": "222",
+        "symmetry": "cubic",
+        "rho": 0.14630126953125,
+        "k_11": 0.21943072953498155,
+        "k_22": 0.21972633260932758,
+        "k_33": 0.22016929450065184,
+        "k_aniso": 1.0033658228600681,
+        "k_inplane": 1.0013471361781117,
+        "conn_frac": 0.02149,
+        "E_11": 1.2383519701628505,
+        "cost_per_kg": 30.0,
+        "mass_density": 648.1146240234375,
+        "n_feasible": null,
+        "k22_over_k33": 0.9979880850673165
+      },
+      {
+        "uid": 1140,
+        "material": "Ti-6Al-4V",
+        "family": "fischer_koch_s",
+        "mode": "sheet",
+        "freq": "123",
+        "symmetry": "orthorhombic",
+        "rho": 0.1245388454861111,
+        "k_11": 0.22757405867607286,
+        "k_22": 0.29667751768808676,
+        "k_33": 0.1853918073314281,
+        "k_aniso": 0.8146438500502087,
+        "k_inplane": 1.303652619345227,
+        "conn_frac": 0.00312,
+        "E_11": 1.616176487357988,
+        "cost_per_kg": 30.0,
+        "mass_density": 551.7070855034722,
+        "n_feasible": null,
+        "k22_over_k33": 1.600273075485538
+      },
+      {
+        "uid": 1260,
+        "material": "Ti-6Al-4V",
+        "family": "frd",
+        "mode": "sheet",
+        "freq": "222",
+        "symmetry": "cubic",
+        "rho": 0.109405517578125,
+        "k_11": 0.24872967620802536,
+        "k_22": 0.24819784628883926,
+        "k_33": 0.24861550833763318,
+        "k_aniso": 0.9995409961845619,
+        "k_inplane": 0.9978618155770794,
+        "conn_frac": 0.00112,
+        "E_11": 2.1512411677721763,
+        "cost_per_kg": 30.0,
+        "mass_density": 484.66644287109375,
+        "n_feasible": null,
+        "k22_over_k33": 0.998320048288272
+      },
+      {
+        "uid": 1117,
+        "material": "Ti-6Al-4V",
+        "family": "fischer_koch_s",
+        "mode": "sheet",
+        "freq": "133",
+        "symmetry": "tetragonal",
+        "rho": 0.15144856770833334,
+        "k_11": 0.25894223589379106,
+        "k_22": 0.2847538267093085,
+        "k_33": 0.28551380037209095,
+        "k_aniso": 1.1026157991823267,
+        "k_inplane": 1.0996808833693104,
+        "conn_frac": 0.00543,
+        "E_11": 2.183950363234277,
+        "cost_per_kg": 30.0,
+        "mass_density": 670.9171549479167,
+        "n_feasible": null,
+        "k22_over_k33": 0.9973382244158004
+      }
+    ],
+    "closed_n": 22382,
+    "closed_top_conn": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "closed_top": [
+      {
+        "uid": 195,
+        "material": "Ti-6Al-4V",
+        "family": "schwarz_p",
+        "mode": "network",
+        "freq": "111",
+        "symmetry": "cubic",
+        "rho": 0.22247314453125,
+        "k_11": 0.19180407880853528,
+        "k_22": 0.19180407880853514,
+        "k_33": 0.19180407880853514,
+        "k_aniso": 0.9999999999999994,
+        "k_inplane": 0.9999999999999992,
+        "conn_frac": 1.0,
+        "E_11": 3.006720643991294,
+        "cost_per_kg": 30.0,
+        "mass_density": 985.5560302734375,
+        "n_feasible": null,
+        "k22_over_k33": 1.0
+      },
+      {
+        "uid": 384,
+        "material": "Ti-6Al-4V",
+        "family": "diamond",
+        "mode": "network",
+        "freq": "111",
+        "symmetry": "cubic",
+        "rho": 0.12158203125,
+        "k_11": 0.2629648157578812,
+        "k_22": 0.2629646823957273,
+        "k_33": 0.2629579461168363,
+        "k_aniso": 0.9999738761969921,
+        "k_inplane": 0.9999994928517203,
+        "conn_frac": 1.0,
+        "E_11": 1.1078260875996968,
+        "cost_per_kg": 30.0,
+        "mass_density": 538.6083984375,
+        "n_feasible": null,
+        "k22_over_k33": 1.0000256173239503
+      },
+      {
+        "uid": 1033,
+        "material": "Ti-6Al-4V",
+        "family": "fischer_koch_s",
+        "mode": "network",
+        "freq": "223",
+        "symmetry": "tetragonal",
+        "rho": 0.14993851273148148,
+        "k_11": 0.2825328011089744,
+        "k_22": 0.28208158340083445,
+        "k_33": 0.17360698591788876,
+        "k_aniso": 0.6144666574516692,
+        "k_inplane": 0.9984029546078583,
+        "conn_frac": 1.0,
+        "E_11": 1.4591529386418578,
+        "cost_per_kg": 30.0,
+        "mass_density": 664.2276114004629,
+        "n_feasible": null,
+        "k22_over_k33": 1.624828528123005
+      },
+      {
+        "uid": 207,
+        "material": "Ti-6Al-4V",
+        "family": "schwarz_p",
+        "mode": "network",
+        "freq": "222",
+        "symmetry": "cubic",
+        "rho": 0.22125244140625,
+        "k_11": 0.3081042150562828,
+        "k_22": 0.3081042150562553,
+        "k_33": 0.2762215360273115,
+        "k_aniso": 0.8965198219597639,
+        "k_inplane": 0.9999999999999106,
+        "conn_frac": 1.0,
+        "E_11": 4.5054944743778895,
+        "cost_per_kg": 30.0,
+        "mass_density": 980.1483154296875,
+        "n_feasible": null,
+        "k22_over_k33": 1.11542430574925
+      },
+      {
+        "uid": 195,
+        "material": "Inconel 718",
+        "family": "schwarz_p",
+        "mode": "network",
+        "freq": "111",
+        "symmetry": "cubic",
+        "rho": 0.22247314453125,
+        "k_11": 0.31490221893938625,
+        "k_22": 0.314902218939386,
+        "k_33": 0.3149022189393861,
+        "k_aniso": 0.9999999999999994,
+        "k_inplane": 0.9999999999999992,
+        "conn_frac": 1.0,
+        "E_11": 5.274948498230341,
+        "cost_per_kg": 50.0,
+        "mass_density": 1822.0550537109375,
+        "n_feasible": null,
+        "k22_over_k33": 0.9999999999999998
+      }
+    ],
+    "n_keys": 28
+  },
+  "h8": {
+    "n_considered": 0,
+    "n_feasible": 0,
+    "reason": "No material passes the material filter.",
+    "mus": [],
+    "mcs": [],
+    "strict_ops_supported": true,
+    "strict_example": {
+      "n_feasible": 665,
+      "answered": true
+    },
+    "second": {
+      "n_considered": 0,
+      "reason": "No material passes the material filter.",
+      "mus": []
+    }
+  },
+  "h9": {
+    "query1": {
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15,
+          "_id": "c0",
+          "_label": "rho<=0.15"
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0,
+          "_id": "c1",
+          "_label": "E_11>=100"
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 200.0,
+          "_id": "c2",
+          "_label": "k_11>=200"
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0,
+          "_id": "c3",
+          "_label": "cost_per_kg<=3"
+        }
+      ],
+      "n_feasible": 0,
+      "mus": [
+        [
+          "rho<=0.15",
+          "E_11>=100"
+        ],
+        [
+          "rho<=0.15",
+          "k_11>=200"
+        ],
+        [
+          "E_11>=100",
+          "k_11>=200"
+        ],
+        [
+          "E_11>=100",
+          "cost_per_kg<=3"
+        ],
+        [
+          "k_11>=200",
+          "cost_per_kg<=3"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "E_11>=100",
+          "k_11>=200"
+        ]
+      ],
+      "n_singleton_mus": 0,
+      "loo_empty": true,
+      "loo": {
+        "names": [
+          "rho<=0.15",
+          "E_11>=100",
+          "k_11>=200",
+          "cost_per_kg<=3"
+        ],
+        "any_restores": false,
+        "rows": [
+          {
+            "dropped": "rho<=0.15",
+            "n_feasible": 0,
+            "restores": false
+          },
+          {
+            "dropped": "E_11>=100",
+            "n_feasible": 0,
+            "restores": false
+          },
+          {
+            "dropped": "k_11>=200",
+            "n_feasible": 0,
+            "restores": false
+          },
+          {
+            "dropped": "cost_per_kg<=3",
+            "n_feasible": 0,
+            "restores": false
+          }
+        ]
+      },
+      "reason": "These requirements cannot be met together: E_11 >= 100, k_11 >= 200. MUS: {rho<=0.15, E_11>=100}; {rho<=0.15, k_11>=200}; {E_11>=100, k_11>=200}; {E_11>=100, cost_per_kg<=3}; {k_11>=200, cost_per_kg<=3}."
+    },
+    "query2": {
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18,
+          "_id": "c0",
+          "_label": "rho<=0.18"
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 80.0,
+          "_id": "c1",
+          "_label": "E_11>=80"
+        },
+        {
+          "property": "k_aniso",
+          "op": "<=",
+          "value": 0.55,
+          "_id": "c2",
+          "_label": "k_aniso<=0.55"
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0,
+          "_id": "c3",
+          "_label": "cost_per_kg<=3"
+        }
+      ],
+      "n_feasible": 0,
+      "mus": [
+        [
+          "rho<=0.18",
+          "E_11>=80"
+        ]
+      ],
+      "min_mcs": [
+        [
+          "rho<=0.18"
+        ],
+        [
+          "E_11>=80"
+        ]
+      ],
+      "n_singleton_mus": 0,
+      "loo_empty": false,
+      "loo": {
+        "names": [
+          "rho<=0.18",
+          "E_11>=80",
+          "k_aniso<=0.55",
+          "cost_per_kg<=3"
+        ],
+        "any_restores": true,
+        "rows": [
+          {
+            "dropped": "rho<=0.18",
+            "n_feasible": 2,
+            "restores": true
+          },
+          {
+            "dropped": "E_11>=80",
+            "n_feasible": 219,
+            "restores": true
+          },
+          {
+            "dropped": "k_aniso<=0.55",
+            "n_feasible": 0,
+            "restores": false
+          },
+          {
+            "dropped": "cost_per_kg<=3",
+            "n_feasible": 0,
+            "restores": false
+          }
+        ]
+      },
+      "reason": "These requirements cannot be met together: rho <= 0.18, E_11 >= 80. MUS: {rho<=0.18, E_11>=80}."
+    }
+  },
+  "h11": {
+    "n_geom": 1397,
+    "rho_min": 0.10835322627314815,
+    "rho_max": 0.514434814453125,
+    "target_min": 0.10828,
+    "target_max": 0.51189,
+    "max_abs_dev": 0.005103740234374987,
+    "band": [
+      0.10317625976562501,
+      0.5169937402343749
+    ]
+  },
+  "suite_constraints": [
+    {
+      "id": "p_00",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "id": "p_01",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.0
+        }
+      ]
+    },
+    {
+      "id": "p_03",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "p_04",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "id": "p_06",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "p_10",
+      "constraints": [
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "t_00",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "id": "t_01",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.18
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 50.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 60.0
+        }
+      ]
+    },
+    {
+      "id": "t_02",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 40.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        }
+      ]
+    },
+    {
+      "id": "t_03",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.25
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 60.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 5.0
+        }
+      ]
+    },
+    {
+      "id": "t_04",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.2
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 40.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "id": "t_07",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 80.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 10.0
+        }
+      ]
+    },
+    {
+      "id": "t_08",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.3
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 80.0
+        }
+      ]
+    },
+    {
+      "id": "t_10",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.22
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 45.0
+        },
+        {
+          "property": "k_11",
+          "op": ">=",
+          "value": 35.0
+        }
+      ]
+    },
+    {
+      "id": "t_11",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.35
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 70.0
+        },
+        {
+          "property": "cost_per_kg",
+          "op": "<=",
+          "value": 3.0
+        }
+      ]
+    },
+    {
+      "id": "r_light_stiff",
+      "constraints": [
+        {
+          "property": "rho",
+          "op": "<=",
+          "value": 0.15
+        },
+        {
+          "property": "E_11",
+          "op": ">=",
+          "value": 100.0
+        }
+      ]
+    }
+  ]
+}

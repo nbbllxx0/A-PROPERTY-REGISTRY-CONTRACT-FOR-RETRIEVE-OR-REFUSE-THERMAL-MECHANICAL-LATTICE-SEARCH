@@ -57,6 +57,14 @@ vocabulary ablation, for both model SKUs, plus the two registry-derived
 baselines. These make the one learned stage checkable without re-running
 the model. See the README in that directory.
 
+### `data/verification_20260920/`
+
+Records from a co-author review round: semantic-frame scoring of the parse
+against author-assigned gold frames, the nullity measurement on the
+lowest-connectivity cell, the dual-axis heat-spreader query and its density
+sweep, and the connectivity-floor comparison. See the README in that
+directory.
+
 ### `data/openfem/`
 
 The second-library check: `scikit-fem` and TetGen run against the catalogue
