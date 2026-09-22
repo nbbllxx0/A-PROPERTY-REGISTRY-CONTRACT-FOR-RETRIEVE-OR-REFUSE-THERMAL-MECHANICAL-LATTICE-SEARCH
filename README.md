@@ -65,6 +65,12 @@ lowest-connectivity cell, the dual-axis heat-spreader query and its density
 sweep, and the connectivity-floor comparison. See the README in that
 directory.
 
+### `data/verification_20260922/`
+
+Fifteen design-aim sentences from published papers, selected by a fixed rule
+and run unchanged through parse and search, and the Poisson re-solves at the
+ceramic and noble-metal ratios. See the README in that directory.
+
 ### `data/openfem/`
 
 The second-library check: `scikit-fem` and TetGen run against the catalogue

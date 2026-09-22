@@ -1,0 +1,1109 @@
+{
+ "query": "ABSTRACT:(\"TPMS\" OR \"triply periodic minimal surface\" OR \"lattice structure\" OR \"lattice structures\") AND ABSTRACT:(\"heat sink\" OR \"heat exchanger\" OR \"thermal management\" OR \"heat dissipation\") AND OPEN_ACCESS:Y AND FIRST_PDATE:[2019-01-01 TO 2026-12-31]",
+ "retrieved": "2026-09-22",
+ "rule": "v2: first full-text sentence of 8-60 words with an aim/requirement cue and >=2 property families, one of weight/stiffness/thermal",
+ "rule_v1_result": [
+  {
+   "id": "lit00",
+   "text": "Triply periodic minimal surface (TPMS) metamaterials show promise for thermal management systems but are challenging to integrate into existing packaging with strict mechanical requirements.",
+   "families": [
+    "stiffness",
+    "thermal"
+   ],
+   "source": {
+    "title": "Triply periodic minimal surfaces for thermo-mechanical protection.",
+    "doi": "10.1038/s41598-025-85935-x",
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pmcid": "PMC11724854",
+    "authors": "Cheung S, Kang J, Lin Y, Goodson KE, Asheghi M, Gu XW."
+   }
+  },
+  {
+   "id": "lit01",
+   "text": "The results of this research can be used to design and manufacture more efficient, lightweight components for energy absorption applications in the fields of healthcare, transportation, and aerospace.",
+   "families": [
+    "weight",
+    "manufacturing"
+   ],
+   "source": {
+    "title": "Mechanical Properties and Energy Absorption Abilities of Diamond TPMS Cylindrical Structures Fabricated by Selective Laser Melting with 316L Stainless Steel.",
+    "doi": "10.3390/ma16083196",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2023",
+    "pmcid": "PMC10143552",
+    "authors": "Laskowska D, Szatkiewicz T, Bałasz B, Mitura K."
+   }
+  },
+  {
+   "id": "lit02",
+   "text": "This research highlights the transformative potential of additive manufacturing in injection molding tool design, offering increased flexibility, cost efficiency, and enhanced functionality to meet the evolving demands of modern industrial applications.",
+   "families": [
+    "cost",
+    "manufacturing"
+   ],
+   "source": {
+    "title": "Optimizing Injection Molding Tool Design with Additive Manufacturing: A Focus on Thermal Performance and Process Efficiency.",
+    "doi": "10.3390/ma18030571",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2025",
+    "pmcid": "PMC11818177",
+    "authors": "Chalicheemalapalli Jayasankar D, Tröster T, Marten T."
+   }
+  },
+  {
+   "id": "lit03",
+   "text": "These results can be used to design and manufacture more efficient lightweight parts lattices for energy absorbing applications, e.g., in the field of biomedical and bumpers applications.",
+   "families": [
+    "weight",
+    "manufacturing"
+   ],
+   "source": {
+    "title": "The Influence of the Structure Parameters on the Mechanical Properties of Cylindrically Mapped Gyroid TPMS Fabricated by Selective Laser Melting with 316L Stainless Steel Powder.",
+    "doi": "10.3390/ma15124352",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2022",
+    "pmcid": "PMC9229397",
+    "authors": "Szatkiewicz T, Laskowska D, Bałasz B, Mitura K."
+   }
+  }
+ ],
+ "n_scanned": 19,
+ "n_taken": 15,
+ "briefs": [
+  {
+   "id": "lit00",
+   "text": "For manufacturing purposes, under forced-convection cooling, it is possible to optimise porosity, wall thickness, and cell size, or locally adjust the geometry based on the required thermal conditions [ 13 ].",
+   "families": [
+    "weight",
+    "thermal",
+    "manufacturing",
+    "fluid"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Performance Enhancement of the Passive Heat Exchanger in the MNTZV-159 Metal Hydride Storage System Using Triply Periodic Minimal Surface (TPMS) Structures.",
+    "doi": "10.3390/ma19163539",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2026",
+    "pmcid": "PMC13514832",
+    "authors": "Hudák Š, Lázár M, Ižaríková G, Brestovič T, Jasminská N, Čurma P, Dobáková R, Milenovský P."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "forced-convection cooling",
+      "locally adjust the geometry"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit01",
+   "text": "Accurate assessment therefore requires a coupled analysis of conduction, convection, and radiation within a unified thermal framework [ 6 , 15 , 16 ].",
+   "families": [
+    "thermal",
+    "fluid"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "AlSi10Mg Heat Sinks for Passive Cooling: Convective-Radiative Performance of Finned and Triply Periodic Minimal Surface Designs via Laser Powder Bed Fusion.",
+    "doi": "10.3390/ma19173709",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2026",
+    "pmcid": "PMC13566951",
+    "authors": "Hollaman JT, Saeed A, Khan ZA, Singleton T."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit02",
+   "text": "Figure a–b present solid-based and sheet-based gyroid TPMS structures with dimensions of 4π × 4π × 4π mm and a volume fraction of 60%. 2.1.2 Design of Graded and Heterogeneous Lattice Structures The requirements for porosity and TPMS unit morphology may vary across different structural regions in specific applications such as bone tissue repair, heat dissipation, and fluid permeation.",
+   "families": [
+    "weight",
+    "thermal"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Heterogeneous Composite Design and 3D Printing Parameter Optimization of Al&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;3&lt;/sub&gt; Ceramic Triply Periodic Minimal Surface Structures.",
+    "doi": "10.1021/acsmaterialsau.5c00142",
+    "journal": "ACS materials Au",
+    "year": "2026",
+    "pmcid": "PMC13352279",
+    "authors": "Liu W, Ren K, Zhou J, Zhao J, Liu Q, Chen L, Zhou S, Zheng Z, Tu L, Cao Y."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "permeability",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "porosity",
+       "op": "==",
+       "value": 0.6
+      }
+     ],
+     "material_filter": null,
+     "unmet": [
+      "bone tissue repair bioactivity",
+      "graded and heterogeneous lattice structures"
+     ],
+     "dropped": [],
+     "n_feasible": 0,
+     "refused": true,
+     "reason": "",
+     "mus": [
+      [
+       "porosity==0.6"
+      ]
+     ],
+     "top": null
+    }
+   }
+  },
+  {
+   "id": "lit03",
+   "text": "Introduction Periodic cellular architectures have received considerable attention in efforts to achieve multifunctional performance that combines thermal, fluidic, and mechanical requirements.",
+   "families": [
+    "stiffness",
+    "thermal"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Triply periodic minimal surfaces for thermo-mechanical protection.",
+    "doi": "10.1038/s41598-025-85935-x",
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pmcid": "PMC11724854",
+    "authors": "Cheung S, Kang J, Lin Y, Goodson KE, Asheghi M, Gu XW."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit04",
+   "text": "In addition, 3D printing can use a variety of materials, including metals, plastics, ceramics, etc., to adapt to different heat transfer needs.",
+   "families": [
+    "thermal",
+    "manufacturing"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Statics Performance and Heat Dissipation Evaluation of Lattice Structures Prepared by Laser Powder Bed Fusion.",
+    "doi": "10.3390/mi15070888",
+    "journal": "Micromachines",
+    "year": "2024",
+    "pmcid": "PMC11278536",
+    "authors": "Bai J, Zhang C, Li Z, Liao R, Men Z, Wang L, Ji C, Li K."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {
+      "printable_only": true
+     },
+     "unmet": [
+      "plastics",
+      "ceramics"
+     ],
+     "dropped": [],
+     "n_feasible": 12573,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "copper",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 23.579922828400846,
+      "E_11": 1.3732543330432412,
+      "cost_per_kg": 9.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit05",
+   "text": "These innovations are expected to play a critical role in addressing the growing demand for high-power-density and precise thermal management solutions.",
+   "families": [
+    "weight",
+    "thermal"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Additive Manufacturing of Vapor Chambers.",
+    "doi": "10.3390/ma18050979",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2025",
+    "pmcid": "PMC11901201",
+    "authors": "Chen KL, Hsu SC, Kang SW."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "schwarz_p",
+      "mode": "sheet",
+      "freq": "111",
+      "rho": 0.514434814453125,
+      "k_11": 170.12155085944687,
+      "E_11": 21.173333448794132,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit06",
+   "text": "Inspired by this, the lattice structure is designed to support the payload of Fengyun-3 satellite, as shown in Figure 9 b, ensuring the stiffness and strength while achieving the lightweight design goal.",
+   "families": [
+    "weight",
+    "stiffness"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Additive Manufacturing and Influencing Factors of Lattice Structures: A Review.",
+    "doi": "10.3390/ma18071397",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2025",
+    "pmcid": "PMC11989511",
+    "authors": "Yang J, Liu H, Cai G, Jin H."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "E_mean",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "strength"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silicon carbide",
+      "family": "neovius",
+      "mode": "sheet",
+      "freq": "113",
+      "rho": 0.26488353587962965,
+      "k_11": 24.417433174868233,
+      "E_11": 70.164415922684,
+      "cost_per_kg": 50.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit07",
+   "text": "The highly interconnected through-hole structure is more conducive to fluid flow and forced convection heat dissipation, which could be used to design compact heat exchangers, but different pore sizes affect its heat transfer [ 15 , 16 ].",
+   "families": [
+    "thermal",
+    "fluid"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Fire Growth Behavior and Predictive Modeling of 3D-Printed Triply Periodic Minimal Surface (TPMS) Porous PLA Structures.",
+    "doi": "10.3390/polym18141788",
+    "journal": "Polymers",
+    "year": "2026",
+    "pmcid": "PMC13416880",
+    "authors": "Guo M, Wang Y, Lu D, Vahabi H."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "permeability",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "specific pore sizes"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "schwarz_p",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.45867919921875,
+      "k_11": 122.33401912742951,
+      "E_11": 21.815846126204214,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit08",
+   "text": "This is where structural optimization becomes essential, allowing the design of TPMS-based lattice structures with enhanced performance goals, such as improved weight-to-strength ratio, better heat dissipation, etc.",
+   "families": [
+    "weight",
+    "stiffness",
+    "thermal"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Recent Developments in Novel TPMS Lattice Materials: Design Optimization, Performance Control, and Applications in Biomimetic Scaffolds.",
+    "doi": "10.3390/ma18225209",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2025",
+    "pmcid": "PMC12654865",
+    "authors": "Ahmad SZ, Masood MH, Khattab MU, Ahmad SS, Zaidi SAA, Khan SZ."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "specific_stiffness",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "aluminium nitride",
+      "family": "neovius",
+      "mode": "sheet",
+      "freq": "133",
+      "rho": 0.5007685908564815,
+      "k_11": 83.79891060106264,
+      "E_11": 142.85962069408643,
+      "cost_per_kg": 80.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit09",
+   "text": "The mathematical model’s objective is to evaluate and quantify the anisotropy of the elastic modulus in the x, y, and z directions of a 3D-printed lattice structure under specified 3D process parameters and methods.",
+   "families": [
+    "stiffness",
+    "manufacturing"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "3D Printing of Flexible Mechanical Metamaterials: Synergistic Design of Process and Geometric Parameters.",
+    "doi": "10.3390/polym15234523",
+    "journal": "Polymers",
+    "year": "2023",
+    "pmcid": "PMC10708401",
+    "authors": "Li N, Xue C, Chen S, Aiyiti W, Khan SB, Liang J, Zhou J, Lu B."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {
+      "printable_only": true
+     },
+     "unmet": [
+      "3D process parameters and methods",
+      "specific evaluation and quantification of elastic modulus anisotropy"
+     ],
+     "dropped": [],
+     "n_feasible": 12573,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "copper",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 23.579922828400846,
+      "E_11": 1.3732543330432412,
+      "cost_per_kg": 9.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit10",
+   "text": "The natural convection heat transfer properties of enriched types of TPMS structures need to be investigated under forced convection heat exchangers, which is the goal of this study.",
+   "families": [
+    "thermal",
+    "fluid"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Flow and heat transfer characteristics of 3D printed sheet and solid triply periodic minimal surfaces porous structures.",
+    "doi": "10.1038/s41598-025-15029-1",
+    "journal": "Scientific reports",
+    "year": "2025",
+    "pmcid": "PMC12336323",
+    "authors": "Hu J, Xu W, Liang H, Shi J, Tang W, Guo B, Yang J, Zhu L."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "natural convection heat transfer",
+      "forced convection heat exchangers"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit11",
+   "text": "Lattice-structure design inherently requires compromises between several competing factors, including topological complexity (number of strut classes and node coordination degrees), functional control (thermal isotropy/anisotropy and thermal stability), and manufacturing feasibility (3D printing constraints, tolerances, and repeatability).",
+   "families": [
+    "thermal",
+    "manufacturing"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Additively Manufactured Bionic Cellular Metamaterials with Controllable Thermal Conductivity-Mathematical Models and Experimental Research.",
+    "doi": "10.3390/ma19142992",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2026",
+    "pmcid": "PMC13412845",
+    "authors": "Anwajler B."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "topological complexity",
+      "number of strut classes",
+      "node coordination degrees",
+      "thermal stability",
+      "manufacturing feasibility",
+      "tolerances",
+      "repeatability"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit12",
+   "text": "In this paper, we aim to evaluate the fluid flow and heat transfer characteristics of two foam TPMS structures (gyroid and primitive) and a traditional wavy fin in a heat sink using numerical methods.",
+   "families": [
+    "thermal",
+    "fluid"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Computational Analysis of Thermal Performance of Heat Sinks with Foam Structures.",
+    "doi": "10.3390/ma18235280",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2025",
+    "pmcid": "PMC12693496",
+    "authors": "Iticha W, Stręk T."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "gyroid and primitive geometry types specifically",
+      "traditional wavy fin comparison",
+      "fluid flow characteristics via CFD / numerical methods"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit13",
+   "text": "Meanwhile, although aluminum foams possess high porosity, their randomly distributed pore topology makes it difficult to achieve precise parametric control of their mechanical properties [ 8 ].",
+   "families": [
+    "weight",
+    "stiffness"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Microstructure and Properties of Crack-Free Ti-Modified 6063 Aluminum Alloy TPMS Porous Structures Fabricated by LPBF.",
+    "doi": "10.3390/ma19091784",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2026",
+    "pmcid": "PMC13165373",
+    "authors": "Pan Z, Liu Y, Fan Z, Huang M, Jiang W."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": null,
+     "unmet": [
+      "precise parametric control of mechanical properties in random topologies"
+     ],
+     "dropped": [],
+     "n_feasible": 26543,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "silver",
+      "family": "gyroid",
+      "mode": "network",
+      "freq": "111",
+      "rho": 0.131317138671875,
+      "k_11": 25.22640123038395,
+      "E_11": 0.9498342470215752,
+      "cost_per_kg": 900.0
+     }
+    }
+   }
+  },
+  {
+   "id": "lit14",
+   "text": "The SLM-manufactured lattice structure is competitive if light-weight and high-modulus-ratio mechanical bearing parts are desired.",
+   "families": [
+    "weight",
+    "stiffness",
+    "manufacturing"
+   ],
+   "found_in": "full text",
+   "source": {
+    "title": "Microchannel Liquid-Cooled Heat Exchanger Based on a Nonuniform Lattice: Study on Structure Calculation, Formation Process, and Boiling Heat Transfer Performance.",
+    "doi": "10.3390/ma14237248",
+    "journal": "Materials (Basel, Switzerland)",
+    "year": "2021",
+    "pmcid": "PMC8658575",
+    "authors": "Qian B, Fan H, Liu G, Zhang J, Li P."
+   },
+   "runs": {
+    "gemini-3.5-flash-lite": {
+     "model": "gemini-3.5-flash-lite",
+     "parse_ok": true,
+     "objectives": [
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      },
+      {
+       "property": "E_aniso",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {
+      "printable_only": true
+     },
+     "unmet": [],
+     "dropped": [],
+     "n_feasible": 12573,
+     "refused": false,
+     "reason": "",
+     "mus": [],
+     "top": {
+      "material": "magnesium AZ31",
+      "family": "diamond",
+      "mode": "sheet",
+      "freq": "113",
+      "rho": 0.1118435329861111,
+      "k_11": 5.794866498733205,
+      "E_11": 0.6423778941797693,
+      "cost_per_kg": 4.0
+     }
+    }
+   }
+  }
+ ],
+ "summary": {
+  "n": 15,
+  "parse_ok": 15,
+  "undeclared_keys_total": 0,
+  "with_registry_content": 8,
+  "with_unmet": 11,
+  "nothing_expressible": 7,
+  "unranked": 0,
+  "refused": 1,
+  "estimate_flagged": 2
+ },
+ "per_brief": [
+  {
+   "id": "lit00",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "forced-convection cooling",
+    "locally adjust the geometry"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit01",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit02",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 1,
+   "n_constraints": 1,
+   "material_filter": null,
+   "unmet": [
+    "bone tissue repair bioactivity",
+    "graded and heterogeneous lattice structures"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [
+    "permeability: Kozeny-Carman estimate from porosity and surface area, not a flow solve -- treat as a ranking, not a number"
+   ],
+   "n_feasible": 0,
+   "refused": true,
+   "mus": [
+    [
+     "porosity==0.6"
+    ]
+   ],
+   "relaxation": "porosity==0.6 would have to reach 0.58 instead of 0.6"
+  },
+  {
+   "id": "lit03",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit04",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": {
+    "printable_only": true
+   },
+   "unmet": [
+    "plastics",
+    "ceramics"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 12573,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit05",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 1,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit06",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 2,
+   "n_constraints": 0,
+   "material_filter": {},
+   "unmet": [
+    "strength"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit07",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 2,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "specific pore sizes"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [
+    "permeability: Kozeny-Carman estimate from porosity and surface area, not a flow solve -- treat as a ranking, not a number"
+   ],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit08",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 2,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit09",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": {
+    "printable_only": true
+   },
+   "unmet": [
+    "3D process parameters and methods",
+    "specific evaluation and quantification of elastic modulus anisotropy"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 12573,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit10",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "natural convection heat transfer",
+    "forced convection heat exchangers"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit11",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "topological complexity",
+    "number of strut classes",
+    "node coordination degrees",
+    "thermal stability",
+    "manufacturing feasibility",
+    "tolerances",
+    "repeatability"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit12",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "gyroid and primitive geometry types specifically",
+    "traditional wavy fin comparison",
+    "fluid flow characteristics via CFD / numerical methods"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit13",
+   "parse_ok": true,
+   "registry_content": false,
+   "n_objectives": 0,
+   "n_constraints": 0,
+   "material_filter": null,
+   "unmet": [
+    "precise parametric control of mechanical properties in random topologies"
+   ],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 26543,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  },
+  {
+   "id": "lit14",
+   "parse_ok": true,
+   "registry_content": true,
+   "n_objectives": 2,
+   "n_constraints": 0,
+   "material_filter": {
+    "printable_only": true
+   },
+   "unmet": [],
+   "undeclared_keys": [],
+   "unranked": false,
+   "estimate_caveats": [],
+   "n_feasible": 12573,
+   "refused": false,
+   "mus": [],
+   "relaxation": ""
+  }
+ ]
+}
