@@ -43,13 +43,14 @@ DEMOS = [
 ]
 
 
-def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0):
+def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0,
+         accept_reduced=False):
     t0 = time.time()
     q = parse(request)
     t_parse = time.time() - t0
 
     t0 = time.time()
-    r = cat.search(q, top_k=top_k)
+    r = cat.search(q, top_k=top_k, accept_reduced=accept_reduced)
     t_search = time.time() - t0
 
     print("\n" + "=" * 76)
@@ -60,8 +61,13 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0):
         print(f"CANNOT EXPRESS {'; '.join(q['unmet'])}")
     if q.get("_rejected"):
         print(f"DISCARDED      {'; '.join(q['_rejected'])}")
+    if r.status == "answered_reduced":
+        print("REDUCED QUERY  accepted by the user; the rows below ignore: "
+              + "; ".join(r.lost))
     if r.dropped:
         print(f"NOT APPLIED    {'; '.join(r.dropped)}")
+    if r.implied:
+        print(f"IMPLIED        {'; '.join(r.implied)}")
     if r.caveats:
         for c in r.caveats:
             print(f"ESTIMATE ONLY  {c}")
@@ -72,7 +78,13 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0):
           f"{r.n_considered:,} combinations considered")
     print("-" * 76)
 
-    if not r.rows:
+    if r.status == "refused_no_content":
+        print("REFUSED: NOTHING SEARCHABLE")
+        print(f"  {r.rejected_reason}")
+    elif r.status == "gated_reduced":
+        print("NOT ANSWERED: PART OF THE REQUEST WAS LOST")
+        print(f"  {r.rejected_reason}")
+    elif not r.rows:
         print("NO CATALOGUE ROW SATISFIES THIS")
         print(f"  {r.rejected_reason}")
         if r.mus:
@@ -84,6 +96,11 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0):
             print("  other MCS: " + "; ".join("{" + ", ".join(h) + "}" for h in extra))
         if r.relaxation:
             print(f"  closest achievable: {r.relaxation}")
+        if r.flip_margin is not None:
+            print("  flip margin: " + (
+                f"a {100 * r.flip_margin:.0f}% error in the solved properties would admit a row"
+                if r.flip_margin != float("inf") else
+                "no error in the solved properties admits a row"))
     else:
         print(f"{r.n_feasible:,} qualify; {r.pareto_size} are genuine "
               f"alternatives rather than also-rans\n")

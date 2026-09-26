@@ -1,0 +1,560 @@
+{
+ "catalogue": {
+  "geometries": 1397,
+  "materials": 19,
+  "combinations": 26543,
+  "properties": 26
+ },
+ "n_suite_empty": 15,
+ "n_p2_frozen": 216,
+ "n_p2_still_empty": 207,
+ "briefs": {
+  "heat_spreader_dual": {
+   "status": "answered",
+   "n_feasible": 1506,
+   "pareto": 1,
+   "mus": [],
+   "relaxation": "",
+   "margin_solved": 4.483441242345788,
+   "top": {
+    "material": "aluminium 6061",
+    "family": "gyroid",
+    "mode": "sheet",
+    "freq": "113",
+    "rho": 0.3980034722222222,
+    "k_11": 55.41427835979319,
+    "k_22": 55.42108577783588,
+    "k_33": 20.345820487916473,
+    "E_11": 15.885331178582025,
+    "specific_stiffness": 0.014782423779414753,
+    "cost_per_kg": 2.5,
+    "uid": 152,
+    "tie": "legacy",
+    "wall_voxels": 3.6245288507753406
+   }
+  },
+  "heat_spreader_dual_printable": {
+   "status": "answered",
+   "n_feasible": 678,
+   "pareto": 1,
+   "mus": [],
+   "relaxation": "",
+   "margin_solved": 4.483441242345788,
+   "top": {
+    "material": "AlSi10Mg",
+    "family": "gyroid",
+    "mode": "sheet",
+    "freq": "113",
+    "rho": 0.3980034722222222,
+    "k_11": 43.13686339385099,
+    "k_22": 43.14216258154889,
+    "k_33": 15.838063852869112,
+    "E_11": 16.115553369575967,
+    "specific_stiffness": 0.015165163623239365,
+    "cost_per_kg": 4.0,
+    "uid": 152,
+    "tie": "legacy",
+    "wall_voxels": 3.6245288507753406
+   }
+  },
+  "heat_spreader_one_axis": {
+   "status": "answered",
+   "n_feasible": 3168,
+   "pareto": 1,
+   "mus": [],
+   "relaxation": "",
+   "margin_solved": 4.483441242345788,
+   "top": {
+    "material": "aluminium 6061",
+    "family": "diamond",
+    "mode": "sheet",
+    "freq": "133",
+    "rho": 0.39967628761574076,
+    "k_11": 59.836343890322794,
+    "k_22": 39.82695940281904,
+    "k_33": 39.82694256648135,
+    "E_11": 22.759964127845652,
+    "specific_stiffness": 0.021091109492467543,
+    "cost_per_kg": 2.5,
+    "uid": 548,
+    "tie": "legacy",
+    "wall_voxels": 2.184617832670268
+   }
+  },
+  "cheap_conductor": {
+   "status": "answered",
+   "n_feasible": 4191,
+   "pareto": 1,
+   "mus": [],
+   "relaxation": "",
+   "margin_solved": Infinity,
+   "top": {
+    "material": "aluminium 6061",
+    "family": "split_p",
+    "mode": "network",
+    "freq": "133",
+    "rho": 0.5093858506944444,
+    "k_11": 78.16683263028816,
+    "k_22": 51.49612959003582,
+    "k_33": 51.4718335701662,
+    "E_11": 28.45367780617298,
+    "specific_stiffness": 0.02068844113574121,
+    "cost_per_kg": 2.5,
+    "uid": 1415,
+    "tie": "legacy",
+    "wall_voxels": 7.232811960755312
+   }
+  },
+  "stiff_light": {
+   "status": "answered",
+   "n_feasible": 3336,
+   "pareto": 1,
+   "mus": [],
+   "relaxation": "",
+   "margin_solved": Infinity,
+   "top": {
+    "material": "AlSi10Mg",
+    "family": "diamond",
+    "mode": "sheet",
+    "freq": "133",
+    "rho": 0.233795166015625,
+    "k_11": 26.62416350010857,
+    "k_22": 16.670776842050557,
+    "k_33": 16.67077684205055,
+    "E_11": 12.85811809093006,
+    "specific_stiffness": 0.02059826406149715,
+    "cost_per_kg": 4.0,
+    "uid": 543,
+    "tie": "legacy",
+    "wall_voxels": 3.232846510507422
+   }
+  },
+  "light_stiff_empty": {
+   "status": "refused_empty",
+   "n_feasible": 0,
+   "pareto": 0,
+   "mus": [
+    [
+     "rho<=0.15",
+     "E_11>=100"
+    ]
+   ],
+   "relaxation": "rho<=0.15 would have to reach 0.326 instead of 0.15; E_11>=100 would have to reach 38.7 GPa instead of 100 GPa",
+   "margin_solved": 1.5805700694274436
+  },
+  "cubic_directional": {
+   "status": "refused_empty",
+   "n_feasible": 0,
+   "pareto": 0,
+   "mus": [
+    [
+     "symmetry==cubic",
+     "k_aniso<=0.9"
+    ]
+   ],
+   "relaxation": "symmetry==cubic would have to be dropped; the closest row is tetragonal; k_aniso<=0.9 would have to reach 0.998 instead of 0.9",
+   "margin_solved": Infinity
+  },
+  "quad": {
+   "status": "refused_empty",
+   "mus": [
+    [
+     "rho<=0.15",
+     "E_11>=100"
+    ],
+    [
+     "rho<=0.15",
+     "k_11>=200"
+    ],
+    [
+     "E_11>=100",
+     "k_11>=200"
+    ],
+    [
+     "E_11>=100",
+     "cost_per_kg<=3"
+    ],
+    [
+     "k_11>=200",
+     "cost_per_kg<=3"
+    ]
+   ],
+   "min_mcs": [
+    [
+     "E_11>=100",
+     "k_11>=200"
+    ]
+   ],
+   "mcs": [
+    [
+     "E_11>=100",
+     "k_11>=200"
+    ],
+    [
+     "rho<=0.15",
+     "E_11>=100",
+     "cost_per_kg<=3"
+    ],
+    [
+     "rho<=0.15",
+     "k_11>=200",
+     "cost_per_kg<=3"
+    ]
+   ],
+   "loo": []
+  }
+ },
+ "cap_sweep": [
+  {
+   "cap": 0.25,
+   "status": "answered",
+   "n_feasible": 720,
+   "material": "aluminium 6061",
+   "family": "diamond",
+   "freq": "113",
+   "rho": 0.2463005913628472,
+   "k_11": 33.19937243345083
+  },
+  {
+   "cap": 0.3,
+   "status": "answered",
+   "n_feasible": 1020,
+   "material": "aluminium 6061",
+   "family": "fischer_koch_s",
+   "freq": "113",
+   "rho": 0.2983940972222222,
+   "k_11": 39.39794339900782
+  },
+  {
+   "cap": 0.35,
+   "status": "answered",
+   "n_feasible": 1218,
+   "material": "aluminium 6061",
+   "family": "diamond",
+   "freq": "113",
+   "rho": 0.33841507523148145,
+   "k_11": 46.31466439013724
+  },
+  {
+   "cap": 0.4,
+   "status": "answered",
+   "n_feasible": 1506,
+   "material": "aluminium 6061",
+   "family": "gyroid",
+   "freq": "113",
+   "rho": 0.3980034722222222,
+   "k_11": 55.41427835979319
+  },
+  {
+   "cap": 0.45,
+   "status": "answered",
+   "n_feasible": 1752,
+   "material": "aluminium 6061",
+   "family": "split_p",
+   "freq": "113",
+   "rho": 0.44025788483796297,
+   "k_11": 62.42483502730979
+  },
+  {
+   "cap": 0.5,
+   "status": "answered",
+   "n_feasible": 1992,
+   "material": "aluminium 6061",
+   "family": "split_p",
+   "freq": "113",
+   "rho": 0.4939236111111111,
+   "k_11": 71.18225773284342
+  }
+ ],
+ "hidden_priority": {
+  "policies": {
+   "first": {
+    "pairs": 3698,
+    "usable": 2135,
+    "rate": 0.5773391022174148,
+    "mean_repairs_shown": 1.0,
+    "max_repairs_shown": 1
+   },
+   "loo": {
+    "pairs": 3698,
+    "usable": 3563,
+    "rate": 0.9634937804218496,
+    "mean_repairs_shown": 2.550724637681159,
+    "max_repairs_shown": 5
+   },
+   "mincard": {
+    "pairs": 3698,
+    "usable": 3601,
+    "rate": 0.9737696051919956,
+    "mean_repairs_shown": 2.5990338164251208,
+    "max_repairs_shown": 5
+   },
+   "full": {
+    "pairs": 3698,
+    "usable": 3698,
+    "rate": 1.0,
+    "mean_repairs_shown": 2.8019323671497585,
+    "max_repairs_shown": 6
+   }
+  },
+  "by_protected_size": {
+   "1": {
+    "first": [
+     889,
+     680
+    ],
+    "loo": [
+     889,
+     867
+    ],
+    "mincard": [
+     889,
+     877
+    ],
+    "full": [
+     889,
+     889
+    ]
+   },
+   "2": {
+    "first": [
+     1471,
+     856
+    ],
+    "loo": [
+     1471,
+     1403
+    ],
+    "mincard": [
+     1471,
+     1421
+    ],
+    "full": [
+     1471,
+     1471
+    ]
+   },
+   "3": {
+    "first": [
+     1056,
+     491
+    ],
+    "loo": [
+     1056,
+     1011
+    ],
+    "mincard": [
+     1056,
+     1021
+    ],
+    "full": [
+     1056,
+     1056
+    ]
+   },
+   "4": {
+    "first": [
+     282,
+     108
+    ],
+    "loo": [
+     282,
+     282
+    ],
+    "mincard": [
+     282,
+     282
+    ],
+    "full": [
+     282,
+     282
+    ]
+   }
+  },
+  "queries_where_policy_fails_some_P": {
+   "first": 207,
+   "loo": 25,
+   "mincard": 24,
+   "full": 0
+  },
+  "n_queries": 207,
+  "n_queries_with_P": 207
+ },
+ "margins": {
+  "empty216": {
+   "n": 207,
+   "n_infinite": 0,
+   "min": 0.0016341765052196866,
+   "median": 0.24499011272800186,
+   "below_10pct": 51,
+   "below_25pct": 105,
+   "below_35pct": 127
+  },
+  "suite_empty16": {
+   "n": 15,
+   "n_infinite": 0,
+   "min": 0.016211307039670775,
+   "median": 0.41254038403941573,
+   "below_10pct": 4,
+   "below_25pct": 5,
+   "below_35pct": 7
+  },
+  "boundary_bench_empty": {
+   "n": 56,
+   "n_infinite": 28,
+   "min": 0.020000000000000018,
+   "median": 0.10325830587909723,
+   "below_10pct": 10,
+   "below_25pct": 22,
+   "below_35pct": 22
+  },
+  "suite_empty16_values": {
+   "p_00": 1.5805700694274436,
+   "p_03": 0.05966550002866633,
+   "p_04": 0.16891130517364217,
+   "p_06": 0.099740065895489,
+   "p_10": 0.02345198478723476,
+   "t_00": 1.5805700694274436,
+   "t_01": 1.257551720566377,
+   "t_02": 0.31052357852545787,
+   "t_03": 0.6332094519191818,
+   "t_04": 0.41254038403941573,
+   "t_07": 3.2424571941387166,
+   "t_08": 0.7250481984441199,
+   "t_10": 0.016211307039670775,
+   "t_11": 0.3070464008702798,
+   "r_light_stiff": 1.5805700694274436
+  }
+ },
+ "cap_timing": [
+  {
+   "n_constraints": 1,
+   "n_empty": 1,
+   "median_diag_ms": 3.3818999072536826,
+   "max_diag_ms": 3.3818999072536826,
+   "max_mus": 1,
+   "subsets": 2
+  },
+  {
+   "n_constraints": 2,
+   "n_empty": 4,
+   "median_diag_ms": 3.8324499619193375,
+   "max_diag_ms": 4.501999937929213,
+   "max_mus": 1,
+   "subsets": 4
+  },
+  {
+   "n_constraints": 3,
+   "n_empty": 5,
+   "median_diag_ms": 3.9645000360906124,
+   "max_diag_ms": 4.3694000924006104,
+   "max_mus": 1,
+   "subsets": 8
+  },
+  {
+   "n_constraints": 4,
+   "n_empty": 6,
+   "median_diag_ms": 4.541450005490333,
+   "max_diag_ms": 4.688900080509484,
+   "max_mus": 1,
+   "subsets": 16
+  },
+  {
+   "n_constraints": 5,
+   "n_empty": 12,
+   "median_diag_ms": 4.915700003039092,
+   "max_diag_ms": 5.212499992921948,
+   "max_mus": 3,
+   "subsets": 32
+  },
+  {
+   "n_constraints": 6,
+   "n_empty": 14,
+   "median_diag_ms": 5.54784998530522,
+   "max_diag_ms": 6.168800056912005,
+   "max_mus": 5,
+   "subsets": 64
+  },
+  {
+   "n_constraints": 7,
+   "n_empty": 15,
+   "median_diag_ms": 6.058100028894842,
+   "max_diag_ms": 7.085300050675869,
+   "max_mus": 6,
+   "subsets": 128
+  },
+  {
+   "n_constraints": 8,
+   "n_empty": 15,
+   "median_diag_ms": 7.061899988912046,
+   "max_diag_ms": 7.748399977572262,
+   "max_mus": 6,
+   "subsets": 256
+  },
+  {
+   "n_constraints": 9,
+   "n_empty": 8,
+   "median_diag_ms": 8.638399944175035,
+   "max_diag_ms": 10.269899968989193,
+   "max_mus": 11,
+   "subsets": 512
+  },
+  {
+   "n_constraints": 10,
+   "n_empty": 8,
+   "median_diag_ms": 9.641400014515966,
+   "max_diag_ms": 12.488899985328317,
+   "max_mus": 11,
+   "subsets": 1024
+  },
+  {
+   "n_constraints": 11,
+   "n_empty": 8,
+   "median_diag_ms": 11.542950058355927,
+   "max_diag_ms": 15.30500000808388,
+   "max_mus": 17,
+   "subsets": 2048
+  },
+  {
+   "n_constraints": 12,
+   "n_empty": 8,
+   "median_diag_ms": 15.969950007274747,
+   "max_diag_ms": 22.331699961796403,
+   "max_mus": 30,
+   "subsets": 4096
+  },
+  {
+   "n_constraints": 13,
+   "n_empty": 8,
+   "median_diag_ms": 23.77735002664849,
+   "max_diag_ms": 35.95180006232113,
+   "max_mus": 25,
+   "subsets": 8192
+  },
+  {
+   "n_constraints": 14,
+   "n_empty": 8,
+   "median_diag_ms": 31.073749996721745,
+   "max_diag_ms": 51.52780003845692,
+   "max_mus": 34,
+   "subsets": 16384
+  },
+  {
+   "n_constraints": 15,
+   "n_empty": 8,
+   "median_diag_ms": 87.8491000039503,
+   "max_diag_ms": 103.72500005178154,
+   "max_mus": 38,
+   "subsets": 32768
+  },
+  {
+   "n_constraints": 16,
+   "n_empty": 8,
+   "median_diag_ms": 199.049599992577,
+   "max_diag_ms": 330.6778999976814,
+   "max_mus": 48,
+   "subsets": 65536
+  }
+ ],
+ "seconds": 4.3
+}

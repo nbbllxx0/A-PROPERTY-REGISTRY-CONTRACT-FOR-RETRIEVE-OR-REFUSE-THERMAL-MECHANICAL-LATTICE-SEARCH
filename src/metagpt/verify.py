@@ -81,12 +81,20 @@ def rebuild(row):
     """The exact voxel mask the catalogue row describes."""
     freq = tuple(int(c) for c in str(row["freq"]))
     return solid_mask(row["family"], float(row["level"]), n=int(float(row["n"])),
-                      freq=freq, mode=row["mode"])
+                      freq=freq, mode=row["mode"], tie=row.get("tie") or "legacy")
 
 
 def verify_row(row, prefer_gpu=True, tol=TOL, elastic=True):
-    """Re-simulate one catalogue row. Returns a report dict."""
+    """Re-simulate one catalogue row. Returns a report dict.
+
+    The check uses the solver that did NOT build the row: rows built by the
+    CPU assembled solver are checked on the GPU matrix-free path, and rows
+    re-solved on the GPU (builder = 'gpu') are checked on the CPU."""
+    if (row.get("builder") or "cpu") == "gpu":
+        prefer_gpu = False
     name, kfn, cfn, independent = _backend(prefer_gpu)
+    if (row.get("builder") or "cpu") == "gpu":
+        independent = name.startswith("cpu")
     t0 = time.perf_counter()
     mask = rebuild(row)
 

@@ -2,7 +2,7 @@
 Base material database -- the handbook layer.
 
 The base metal is the stronger of the two levers on the thermal-mechanical
-coupling. Geometry alone moves the ratio k/E by 2.1-3.3x inside density bands
+coupling. Geometry alone moves the ratio k/E by 2.3-3.3x inside density bands
 of width 0.04, because both properties track density together. Choosing a
 different base metal moves it by 94x across the 19-row table, because
 conductivity and stiffness are set by unrelated physics in a solid.
@@ -123,7 +123,7 @@ def ratio_spread():
     """How much the material choice alone moves the thermal/mechanical ratio.
 
     Reported because it is the argument for having this table at all: geometry
-    moves k/E by 2.1-3.3x inside density bands of width 0.04, this moves it by
+    moves k/E by 2.3-3.3x inside density bands of width 0.04, this moves it by
     94x across the 19-row table, and the two are independent.
     """
     r = [(m.name, m.k / m.E) for m in MATERIALS]

@@ -1,0 +1,22 @@
+[PASS] full solid -> k* = k_s I  max err 8.882e-16
+[PASS] full solid -> C* = C_base  rel err 1.731e-14
+[PASS] layered w/ void -> k = diag(0, phi, phi)  got diag [0.  0.5 0.5]
+[PASS] layered w/ void -> E11 = 0 (disconnected across x)  C11 = -1.350e-15, C22 = 0.5495
+[PASS] isolated island -> k* = 0  max |k| 9.323e-18
+[PASS] TPMS cells respect Hashin-Shtrikman upper bound  worst k*/k_HS+ = 0.8268 (must be <= 1)
+[PASS] cubic gyroid -> conductivity isotropic  diag spread 2.90e-15, off-diag 3.75e-15
+[PASS] mesh convergence 32 -> 48  n=16:0.1993  n=24:0.2025  n=32:0.2009  n=48:0.2023
+[PASS] thermal solve cheaper than elastic solve  thermal 0.21s vs elastic 10.12s  (47.2x)
+[PASS] two-phase layers -> series = harmonic mean (exact)  worst rel err 7.52e-14 over 4 cases
+[PASS] two-phase layers -> parallel = arithmetic mean (exact)  worst rel err 6.23e-14 over 4 cases
+[PASS] Maxwell dilute sphere -> agrees within 0.2%  f=0.012:0.024%  f=0.033:0.053%  f=0.091:0.096%
+[PASS] Maxwell residual is discretisation (falls under refinement)  rel err n=32: 1.38e-03 -> n=80: 6.84e-04  (2.02x reduction)
+[PASS] all cells bracketed by Wiener bounds 0 <= k* <= rho k_s  15 cells, tightest k*/(rho k_s) = 0.6806 (must be <= 1)
+[PASS] Backus closed form is self-consistent  one-material 2.84e-16, C22-C23-2C44 2.36e-16
+[PASS] steel/aluminium laminate -> exact Backus 6x6  worst rel err 3.97e-15 over 4 cases, 3 layering axes
+
+16/16 checks passed
+
+real	0m33.789s
+user	0m0.015s
+sys	0m0.015s

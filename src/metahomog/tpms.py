@@ -81,18 +81,55 @@ FAMILIES = [
 ]
 
 
-def solid_mask(family, level, n=32, freq=(1, 1, 1), mode="network"):
+# Symmetry-equivalent voxels of a TPMS level set share one analytic value, but
+# the computed values differ in the last bits because the terms are summed in a
+# fixed order. When the isovalue sits on such a tied value, a plain `g <= level`
+# keeps some members of the orbit and drops others, and the voxel cell loses the
+# symmetry of the analytic cell. `tie` makes that choice explicit:
+#   legacy  : g <= level (the original rule; kept so stored rows rebuild exactly)
+#   include : every voxel within TIE_EPS of the level is solid
+#   exclude : every voxel within TIE_EPS of the level is void
+TIE_EPS = 1e-9
+TIE_RULES = ("legacy", "include", "exclude")
+
+
+def _threshold(g, level, tie="legacy"):
+    if tie == "legacy":
+        return g <= level
+    if tie == "include":
+        return g <= level + TIE_EPS
+    if tie == "exclude":
+        return g <= level - TIE_EPS
+    raise ValueError(f"unknown tie rule: {tie}")
+
+
+def solid_mask(family, level, n=32, freq=(1, 1, 1), mode="network",
+               tie="legacy"):
     """Boolean solid mask.
 
     mode='network' : solid where f <= level        (strut-like)
     mode='sheet'   : solid where |f| <= level      (shell-like)
+    tie            : how voxels tied with the level are classified (see above)
     """
     f = level_set(family, n=n, freq=freq)
     if mode == "network":
-        return f <= level
+        return _threshold(f, level, tie)
     if mode == "sheet":
-        return np.abs(f) <= level
+        return _threshold(np.abs(f), level, tie)
     raise ValueError(mode)
+
+
+def tie_safe_mask(family, level, target_rho, n=32, freq=(1, 1, 1),
+                  mode="network"):
+    """Symmetric mask at a stored level: include or exclude the whole tied set,
+    whichever lands closer to the target density. Returns (mask, tie)."""
+    best = None
+    for tie in ("include", "exclude"):
+        m = solid_mask(family, level, n=n, freq=freq, mode=mode, tie=tie)
+        err = abs(float(m.mean()) - target_rho)
+        if best is None or err < best[0]:
+            best = (err, m, tie)
+    return best[1], best[2]
 
 
 def relative_density(mask):

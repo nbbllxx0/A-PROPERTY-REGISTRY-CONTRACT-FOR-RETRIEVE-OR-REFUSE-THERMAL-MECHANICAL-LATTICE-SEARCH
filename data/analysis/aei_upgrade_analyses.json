@@ -3,12 +3,12 @@
     "geometries": 1397,
     "materials": 19,
     "combinations": 26543,
-    "properties": 20
+    "properties": 26
   },
   "gold_feas_source": "independent mask intersection, not search().rows",
   "latency_s": {
-    "gold_hit": 0.003059899994696025,
-    "gold_refusal": 0.003144599999359343
+    "gold_hit": 0.0029784999787807465,
+    "gold_refusal": 0.0029111000476405025
   },
   "latency_by_ncons": [
     {
@@ -16,7 +16,7 @@
       "n_draw": 16,
       "n_feasible": 16,
       "n_infeasible": 0,
-      "median_feas_ms": 4.095799999049632,
+      "median_feas_ms": 4.264049988705665,
       "median_inf_ms": null
     },
     {
@@ -24,32 +24,32 @@
       "n_draw": 16,
       "n_feasible": 15,
       "n_infeasible": 1,
-      "median_feas_ms": 4.108599998289719,
-      "median_inf_ms": 5.09779999993043
+      "median_feas_ms": 4.232599982060492,
+      "median_inf_ms": 6.111100083217025
     },
     {
       "n_constraints": 3,
       "n_draw": 16,
       "n_feasible": 11,
       "n_infeasible": 5,
-      "median_feas_ms": 4.298399995604996,
-      "median_inf_ms": 4.9263999972026795
+      "median_feas_ms": 4.704099963419139,
+      "median_inf_ms": 4.687899956479669
     },
     {
       "n_constraints": 4,
       "n_draw": 16,
       "n_feasible": 7,
       "n_infeasible": 9,
-      "median_feas_ms": 4.4720000005327165,
-      "median_inf_ms": 5.310199994710274
+      "median_feas_ms": 7.25110003259033,
+      "median_inf_ms": 5.54409995675087
     },
     {
       "n_constraints": 5,
       "n_draw": 16,
       "n_feasible": 2,
       "n_infeasible": 14,
-      "median_feas_ms": 4.818699999304954,
-      "median_inf_ms": 5.7980000019597355
+      "median_feas_ms": 5.290650005917996,
+      "median_inf_ms": 6.134799914434552
     },
     {
       "n_constraints": 6,
@@ -57,7 +57,7 @@
       "n_feasible": 0,
       "n_infeasible": 16,
       "median_feas_ms": null,
-      "median_inf_ms": 6.45029999941471
+      "median_inf_ms": 6.717949989251792
     }
   ],
   "interval_unsat": {
@@ -84,7 +84,7 @@
         "rho>=0.3"
       ]
     ],
-    "relaxation": "rho<=0.2 would have to reach 0.3 instead of 0.2; rho>=0.3 would have to reach 0.2 instead of 0.3",
+    "relaxation": "rho<=0.2 would have to reach 0.301 instead of 0.2; rho>=0.3 would have to reach 0.199 instead of 0.3",
     "repairs": [
       {
         "set": [
@@ -103,33 +103,33 @@
         "vector": {
           "rho>=0.3": 0.19998734085648148
         },
-        "n_after": 5206,
+        "n_after": 5225,
         "minimum_cardinality": true
       }
     ]
   },
   "leverage": {
     "material_spread": 93.97590361445783,
-    "geometry_global": 7.140194521808094,
+    "geometry_global": 5.045873235628711,
     "geometry_metal": "aluminium 6061",
     "bands": [
       {
         "lo": 0.2,
         "hi": 0.24,
         "spread": 3.312357845437403,
-        "n": 123
+        "n": 122
       },
       {
         "lo": 0.3,
         "hi": 0.34,
-        "spread": 2.4504363868256975,
+        "spread": 2.4320470379725876,
         "n": 144
       },
       {
         "lo": 0.4,
         "hi": 0.44,
-        "spread": 2.122624012461184,
-        "n": 156
+        "spread": 2.3113725423513904,
+        "n": 157
       }
     ]
   },
@@ -181,7 +181,7 @@
       "rho",
       "E_11"
     ],
-    "relaxation": "rho<=0.15 would have to reach 0.325 instead of 0.15; E_11>=100 would have to reach 36.6 GPa instead of 100 GPa",
+    "relaxation": "rho<=0.15 would have to reach 0.326 instead of 0.15; E_11>=100 would have to reach 38.7 GPa instead of 100 GPa",
     "mus": [
       [
         "rho<=0.15",
@@ -210,9 +210,9 @@
           "rho<=0.15"
         ],
         "vector": {
-          "rho<=0.15": 0.3250325520833333
+          "rho<=0.15": 0.32503029152199076
         },
-        "n_after": 1301,
+        "n_after": 1285,
         "minimum_cardinality": true
       },
       {
@@ -220,7 +220,7 @@
           "E_11>=100"
         ],
         "vector": {
-          "E_11>=100": 36.59653368548281
+          "E_11>=100": 38.75112758406409
         },
         "n_after": 1900,
         "minimum_cardinality": true
@@ -241,12 +241,12 @@
       "material": "tungsten",
       "family": "diamond",
       "mode": "sheet",
-      "freq": "123",
-      "rho": 0.3167588975694444,
-      "k_11": 47.31403370694206,
-      "E_11": 99.46046451337769,
+      "freq": "133",
+      "rho": 0.3012051052517361,
+      "k_11": 46.05889766251944,
+      "E_11": 98.15327557561865,
       "cost_per_kg": 40.0,
-      "mass_density": 6097.608778211805
+      "mass_density": 5798.19827609592
     },
     "diagnosis": {
       "n_feasible": 0,
@@ -267,7 +267,7 @@
     "cheap_conductor": {
       "n_feasible": 4191,
       "n_considered": 26543,
-      "search_s": 0.002721799995924812,
+      "search_s": 0.00263440003618598,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -341,12 +341,12 @@
     "light_stiff_empty": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.002815200001350604,
+      "search_s": 0.002783500007353723,
       "binding": [
         "rho",
         "E_11"
       ],
-      "relaxation": "rho<=0.15 would have to reach 0.325 instead of 0.15; E_11>=100 would have to reach 36.6 GPa instead of 100 GPa",
+      "relaxation": "rho<=0.15 would have to reach 0.326 instead of 0.15; E_11>=100 would have to reach 38.7 GPa instead of 100 GPa",
       "mus": [
         [
           "rho<=0.15",
@@ -375,9 +375,9 @@
             "rho<=0.15"
           ],
           "vector": {
-            "rho<=0.15": 0.3250325520833333
+            "rho<=0.15": 0.32503029152199076
           },
-          "n_after": 1301,
+          "n_after": 1285,
           "minimum_cardinality": true
         },
         {
@@ -385,7 +385,7 @@
             "E_11>=100"
           ],
           "vector": {
-            "E_11>=100": 36.59653368548281
+            "E_11>=100": 38.75112758406409
           },
           "n_after": 1900,
           "minimum_cardinality": true
@@ -408,36 +408,36 @@
       },
       "always_neighbour": {
         "material": "tungsten",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.25651945891203703,
-        "k_11": 38.593535286129956,
-        "E_11": 81.2453336194653,
+        "rho": 0.26412172011661805,
+        "k_11": 40.22722132995191,
+        "E_11": 86.03623088712233,
         "cost_per_kg": 40.0,
-        "mass_density": 4937.999584056713
+        "mass_density": 5084.343112244897
       },
       "penalty": {
         "material": "tungsten",
         "family": "diamond",
         "mode": "sheet",
-        "freq": "123",
-        "rho": 0.3167588975694444,
-        "k_11": 47.31403370694206,
-        "E_11": 99.46046451337769,
+        "freq": "133",
+        "rho": 0.3012051052517361,
+        "k_11": 46.05889766251944,
+        "E_11": 98.15327557561865,
         "cost_per_kg": 40.0,
-        "mass_density": 6097.608778211805
+        "mass_density": 5798.19827609592
       },
       "min_repair": {
         "material": "tungsten",
         "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.3250325520833333,
-        "k_11": 47.25903271767589,
-        "E_11": 102.62863337049555,
+        "rho": 0.32503029152199076,
+        "k_11": 50.05584378867351,
+        "E_11": 107.36439938561568,
         "cost_per_kg": 40.0,
-        "mass_density": 6256.876627604166
+        "mass_density": 6256.833111798322
       },
       "min_repair_kind": "repair",
       "lex_drop": {
@@ -458,7 +458,7 @@
     "heat_spreader": {
       "n_feasible": 3168,
       "n_considered": 26543,
-      "search_s": 0.002935999997134786,
+      "search_s": 0.002851800061762333,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -532,7 +532,7 @@
     "stiff_light": {
       "n_feasible": 3336,
       "n_considered": 26543,
-      "search_s": 0.00262539999675937,
+      "search_s": 0.002630900009535253,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -541,14 +541,14 @@
       "repairs": [],
       "top": {
         "material": "AlSi10Mg",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2272406684027778,
-        "k_11": 25.629147078572554,
-        "E_11": 11.960892528696789,
+        "rho": 0.233795166015625,
+        "k_11": 26.62416350010857,
+        "E_11": 12.85811809093006,
         "cost_per_kg": 4.0,
-        "mass_density": 606.7325846354167
+        "mass_density": 624.2330932617188
       },
       "diagnosis": {
         "n_feasible": 3336,
@@ -569,49 +569,49 @@
       },
       "penalty": {
         "material": "silicon carbide",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2272406684027778,
-        "k_11": 23.657674226374667,
-        "E_11": 70.05665623950976,
+        "rho": 0.233795166015625,
+        "k_11": 24.57615092317714,
+        "E_11": 75.31183453259035,
         "cost_per_kg": 50.0,
-        "mass_density": 729.4425455729167
+        "mass_density": 750.4824829101562
       },
       "min_repair": {
         "material": "AlSi10Mg",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2272406684027778,
-        "k_11": 25.629147078572554,
-        "E_11": 11.960892528696789,
+        "rho": 0.233795166015625,
+        "k_11": 26.62416350010857,
+        "E_11": 12.85811809093006,
         "cost_per_kg": 4.0,
-        "mass_density": 606.7325846354167
+        "mass_density": 624.2330932617188
       },
       "min_repair_kind": "feasible",
       "lex_drop": {
         "material": "AlSi10Mg",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2272406684027778,
-        "k_11": 25.629147078572554,
-        "E_11": 11.960892528696789,
+        "rho": 0.233795166015625,
+        "k_11": 26.62416350010857,
+        "E_11": 12.85811809093006,
         "cost_per_kg": 4.0,
-        "mass_density": 606.7325846354167
+        "mass_density": 624.2330932617188
       },
       "lex_dropped": []
     },
     "triple_conflict": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.0030431999985012226,
+      "search_s": 0.0030474000377580523,
       "binding": [
         "rho",
         "E_11"
       ],
-      "relaxation": "rho<=0.15 would have to reach 0.325 instead of 0.15; E_11>=100 would have to reach 10.7 GPa instead of 100 GPa",
+      "relaxation": "rho<=0.15 would have to reach 0.326 instead of 0.15; E_11>=100 would have to reach 11.3 GPa instead of 100 GPa",
       "mus": [
         [
           "rho<=0.15",
@@ -640,9 +640,9 @@
             "rho<=0.15"
           ],
           "vector": {
-            "rho<=0.15": 0.3250325520833333
+            "rho<=0.15": 0.32503029152199076
           },
-          "n_after": 935,
+          "n_after": 924,
           "minimum_cardinality": true
         },
         {
@@ -650,9 +650,9 @@
             "E_11>=100"
           ],
           "vector": {
-            "E_11>=100": 10.685119324228557
+            "E_11>=100": 11.31419783476324
           },
-          "n_after": 17,
+          "n_after": 50,
           "minimum_cardinality": true
         }
       ],
@@ -673,36 +673,36 @@
       },
       "always_neighbour": {
         "material": "tungsten",
-        "family": "schwarz_p",
+        "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.25651945891203703,
-        "k_11": 38.593535286129956,
-        "E_11": 81.2453336194653,
+        "rho": 0.26412172011661805,
+        "k_11": 40.22722132995191,
+        "E_11": 86.03623088712233,
         "cost_per_kg": 40.0,
-        "mass_density": 4937.999584056713
+        "mass_density": 5084.343112244897
       },
       "penalty": {
         "material": "tungsten",
         "family": "diamond",
         "mode": "sheet",
-        "freq": "123",
-        "rho": 0.3167588975694444,
-        "k_11": 47.31403370694206,
-        "E_11": 99.46046451337769,
+        "freq": "133",
+        "rho": 0.3012051052517361,
+        "k_11": 46.05889766251944,
+        "E_11": 98.15327557561865,
         "cost_per_kg": 40.0,
-        "mass_density": 6097.608778211805
+        "mass_density": 5798.19827609592
       },
       "min_repair": {
         "material": "tungsten",
         "family": "diamond",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.3250325520833333,
-        "k_11": 47.25903271767589,
-        "E_11": 102.62863337049555,
+        "rho": 0.32503029152199076,
+        "k_11": 50.05584378867351,
+        "E_11": 107.36439938561568,
         "cost_per_kg": 40.0,
-        "mass_density": 6256.876627604166
+        "mass_density": 6256.833111798322
       },
       "min_repair_kind": "repair",
       "lex_drop": {
@@ -723,24 +723,24 @@
     "triple_pair_ok": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.003120500005024951,
+      "search_s": 0.0028992999577894807,
       "binding": [
         "rho"
       ],
-      "relaxation": "rho<=0.18 would have to reach 0.371 instead of 0.18; joint repair after dropping {E_11>=50, k_11>=60}: E_11>=50=44.8, k_11>=60=22.6",
+      "relaxation": "rho<=0.15 would have to reach 0.371 instead of 0.15; joint repair after dropping {E_11>=50, k_11>=60}: E_11=38.7, k_11=19.2",
       "mus": [
         [
-          "rho<=0.18",
+          "rho<=0.15",
           "E_11>=50"
         ],
         [
-          "rho<=0.18",
+          "rho<=0.15",
           "k_11>=60"
         ]
       ],
       "mcs": [
         [
-          "rho<=0.18"
+          "rho<=0.15"
         ],
         [
           "E_11>=50",
@@ -749,18 +749,18 @@
       ],
       "min_mcs": [
         [
-          "rho<=0.18"
+          "rho<=0.15"
         ]
       ],
       "repairs": [
         {
           "set": [
-            "rho<=0.18"
+            "rho<=0.15"
           ],
           "vector": {
-            "rho<=0.18": 0.3708767361111111
+            "rho<=0.15": 0.3708767361111111
           },
-          "n_after": 541,
+          "n_after": 540,
           "minimum_cardinality": true
         },
         {
@@ -769,10 +769,10 @@
             "k_11>=60"
           ],
           "vector": {
-            "E_11>=50": 44.7731648088018,
-            "k_11>=60": 22.5752969125495
+            "E_11>=50": 38.75112758406409,
+            "k_11>=60": 19.299141446197613
           },
-          "n_after": 3515,
+          "n_after": 1900,
           "minimum_cardinality": false
         }
       ],
@@ -784,11 +784,11 @@
         ],
         "mus": [
           [
-            "rho<=0.18",
+            "rho<=0.15",
             "E_11>=50"
           ],
           [
-            "rho<=0.18",
+            "rho<=0.15",
             "k_11>=60"
           ]
         ],
@@ -799,22 +799,22 @@
         "family": "schwarz_p",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2272406684027778,
-        "k_11": 35.486511339562,
-        "E_11": 56.387064778142005,
+        "rho": 0.19222005208333334,
+        "k_11": 30.522152104280487,
+        "E_11": 48.85336216036684,
         "cost_per_kg": 80.0,
-        "mass_density": 740.8045789930555
+        "mass_density": 626.6373697916667
       },
       "penalty": {
         "material": "tungsten",
-        "family": "gyroid",
+        "family": "schwarz_p",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.18468786168981483,
-        "k_11": 26.914977845313707,
-        "E_11": 49.85808443895517,
+        "rho": 0.15453338623046875,
+        "k_11": 23.33487832394378,
+        "E_11": 48.22563213144104,
         "cost_per_kg": 40.0,
-        "mass_density": 3555.241337528935
+        "mass_density": 2974.7676849365234
       },
       "min_repair": {
         "material": "aluminium nitride",
@@ -846,13 +846,13 @@
     "threeway_mus": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.0033280999996350147,
+      "search_s": 0.003020399948582053,
       "binding": [
         "rho",
         "E_11",
         "k_11"
       ],
-      "relaxation": "rho<=0.2 would have to reach 0.257 instead of 0.2; E_11>=40 would have to reach 17.1 GPa instead of 40 GPa; k_11>=40 would have to reach 29.4 W/(m K) instead of 40 W/(m K)",
+      "relaxation": "rho<=0.2 would have to reach 0.257 instead of 0.2; E_11>=40 would have to reach 17.7 GPa instead of 40 GPa; k_11>=40 would have to reach 30.5 W/(m K) instead of 40 W/(m K)",
       "mus": [
         [
           "rho<=0.2",
@@ -890,7 +890,7 @@
           "vector": {
             "rho<=0.2": 0.25651945891203703
           },
-          "n_after": 2272,
+          "n_after": 2275,
           "minimum_cardinality": true
         },
         {
@@ -898,9 +898,9 @@
             "E_11>=40"
           ],
           "vector": {
-            "E_11>=40": 17.14667651688784
+            "E_11>=40": 17.764858967406127
           },
-          "n_after": 287,
+          "n_after": 391,
           "minimum_cardinality": true
         },
         {
@@ -908,9 +908,9 @@
             "k_11>=40"
           ],
           "vector": {
-            "k_11>=40": 29.364806823963953
+            "k_11>=40": 30.522152104280487
           },
-          "n_after": 67,
+          "n_after": 148,
           "minimum_cardinality": true
         }
       ],
@@ -936,22 +936,22 @@
         "family": "gyroid",
         "mode": "sheet",
         "freq": "133",
-        "rho": 0.2174660011574074,
-        "k_11": 33.49607632918157,
-        "E_11": 50.525600145903816,
+        "rho": 0.21747448979591838,
+        "k_11": 34.441655743782896,
+        "E_11": 51.86493165638753,
         "cost_per_kg": 80.0,
-        "mass_density": 708.9391637731482
+        "mass_density": 708.966836734694
       },
       "penalty": {
         "material": "aluminium nitride",
         "family": "diamond",
-        "mode": "network",
+        "mode": "sheet",
         "freq": "133",
-        "rho": 0.20075593171296297,
-        "k_11": 30.308182038482467,
-        "E_11": 43.036177979442364,
+        "rho": 0.200836181640625,
+        "k_11": 31.308584678527954,
+        "E_11": 51.21351648418238,
         "cost_per_kg": 80.0,
-        "mass_density": 654.4643373842592
+        "mass_density": 654.7259521484375
       },
       "min_repair": {
         "material": "aluminium nitride",
@@ -1045,33 +1045,33 @@
   },
   "suite": {
     "n": 64,
-    "n_feasible": 48,
-    "n_infeasible": 16,
+    "n_feasible": 49,
+    "n_infeasible": 15,
     "summary": {
       "retrieve": {
         "n": 64,
-        "n_feasible": 48,
-        "n_infeasible": 16,
-        "satisfy": 48,
-        "satisfy_feas": 48,
+        "n_feasible": 49,
+        "n_infeasible": 15,
+        "satisfy": 49,
+        "satisfy_feas": 49,
         "satisfy_inf": 0,
-        "satisfy_frac": 0.75,
-        "answered": 48,
+        "satisfy_frac": 0.765625,
+        "answered": 49,
         "refuse_correct": 64,
         "refuse_correct_frac": 1.0,
-        "mus_exact": 16,
+        "mus_exact": 15,
         "mus_exact_frac": 1.0,
         "kept_satisfy": null,
-        "median_ms": 2.650599999469705
+        "median_ms": 2.386100066360086
       },
       "neighbour": {
         "n": 64,
-        "n_feasible": 48,
-        "n_infeasible": 16,
-        "satisfy": 45,
-        "satisfy_feas": 45,
+        "n_feasible": 49,
+        "n_infeasible": 15,
+        "satisfy": 46,
+        "satisfy_feas": 46,
         "satisfy_inf": 0,
-        "satisfy_frac": 0.703125,
+        "satisfy_frac": 0.71875,
         "answered": 64,
         "refuse_correct": 0,
         "refuse_correct_frac": null,
@@ -1082,12 +1082,12 @@
       },
       "penalty": {
         "n": 64,
-        "n_feasible": 48,
-        "n_infeasible": 16,
-        "satisfy": 37,
-        "satisfy_feas": 37,
+        "n_feasible": 49,
+        "n_infeasible": 15,
+        "satisfy": 38,
+        "satisfy_feas": 38,
         "satisfy_inf": 0,
-        "satisfy_frac": 0.578125,
+        "satisfy_frac": 0.59375,
         "answered": 64,
         "refuse_correct": 0,
         "refuse_correct_frac": null,
@@ -1098,12 +1098,12 @@
       },
       "min_repair": {
         "n": 64,
-        "n_feasible": 48,
-        "n_infeasible": 16,
-        "satisfy": 48,
-        "satisfy_feas": 48,
+        "n_feasible": 49,
+        "n_infeasible": 15,
+        "satisfy": 49,
+        "satisfy_feas": 49,
         "satisfy_inf": 0,
-        "satisfy_frac": 0.75,
+        "satisfy_frac": 0.765625,
         "answered": 64,
         "refuse_correct": 0,
         "refuse_correct_frac": null,
@@ -1114,12 +1114,12 @@
       },
       "lex_drop": {
         "n": 64,
-        "n_feasible": 48,
-        "n_infeasible": 16,
-        "satisfy": 48,
-        "satisfy_feas": 48,
+        "n_feasible": 49,
+        "n_infeasible": 15,
+        "satisfy": 49,
+        "satisfy_feas": 49,
         "satisfy_inf": 0,
-        "satisfy_frac": 0.75,
+        "satisfy_frac": 0.765625,
         "answered": 64,
         "refuse_correct": 0,
         "refuse_correct_frac": null,
@@ -1136,7 +1136,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 665,
-      "search_ms": 2.6866999978665262,
+      "search_ms": 2.2389000514522195,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1178,14 +1178,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "split_p",
-          "mode": "network",
+          "family": "gyroid",
+          "mode": "sheet",
           "freq": "133",
-          "rho": 0.1171875,
-          "k_11": 14.354742870336578,
-          "E_11": 23.049114247671714,
+          "rho": 0.1198577880859375,
+          "k_11": 17.757391549538855,
+          "E_11": 33.559048544317626,
           "cost_per_kg": 40.0,
-          "mass_density": 2255.859375
+          "mass_density": 2307.262420654297
         }
       },
       "min_repair": {
@@ -1226,7 +1226,277 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 1900,
-      "search_ms": 2.2291999994195066,
+      "search_ms": 2.1178999450057745,
+      "mus": [],
+      "min_mcs": [],
+      "mcs": [],
+      "binding": [],
+      "lex_dropped": [],
+      "min_repair_kind": "feasible",
+      "retrieve": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "neighbour": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "penalty": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "tungsten",
+          "family": "frd",
+          "mode": "sheet",
+          "freq": "123",
+          "rho": 0.14935302734375,
+          "k_11": 19.299141446197613,
+          "E_11": 38.75112758406409,
+          "cost_per_kg": 40.0,
+          "mass_density": 2875.0457763671875
+        }
+      },
+      "min_repair": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        },
+        "kept_satisfy": true,
+        "dropped": []
+      },
+      "lex_drop": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      }
+    },
+    {
+      "id": "s_rho_<=_0.18",
+      "kind": "single",
+      "gold_feas": true,
+      "n_feasible": 3515,
+      "search_ms": 2.216299995779991,
+      "mus": [],
+      "min_mcs": [],
+      "mcs": [],
+      "binding": [],
+      "lex_dropped": [],
+      "min_repair_kind": "feasible",
+      "retrieve": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "neighbour": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "penalty": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "tungsten",
+          "family": "fischer_koch_s",
+          "mode": "sheet",
+          "freq": "133",
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
+          "cost_per_kg": 40.0,
+          "mass_density": 3427.5550842285156
+        }
+      },
+      "min_repair": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        },
+        "kept_satisfy": true,
+        "dropped": []
+      },
+      "lex_drop": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      }
+    },
+    {
+      "id": "s_rho_<=_0.2",
+      "kind": "single",
+      "gold_feas": true,
+      "n_feasible": 5225,
+      "search_ms": 2.0671000238507986,
+      "mus": [],
+      "min_mcs": [],
+      "mcs": [],
+      "binding": [],
+      "lex_dropped": [],
+      "min_repair_kind": "feasible",
+      "retrieve": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "neighbour": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      },
+      "penalty": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "tungsten",
+          "family": "schwarz_p",
+          "mode": "sheet",
+          "freq": "133",
+          "rho": 0.19222005208333334,
+          "k_11": 29.335179522447355,
+          "E_11": 60.84464196336598,
+          "cost_per_kg": 40.0,
+          "mass_density": 3700.236002604167
+        }
+      },
+      "min_repair": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        },
+        "kept_satisfy": true,
+        "dropped": []
+      },
+      "lex_drop": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "silver",
+          "family": "gyroid",
+          "mode": "network",
+          "freq": "111",
+          "rho": 0.131317138671875,
+          "k_11": 25.22640123038395,
+          "E_11": 0.9498342470215752,
+          "cost_per_kg": 900.0,
+          "mass_density": 1377.5167846679688
+        }
+      }
+    },
+    {
+      "id": "s_rho_<=_0.25",
+      "kind": "single",
+      "gold_feas": true,
+      "n_feasible": 7923,
+      "search_ms": 2.0825000246986747,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1269,283 +1539,13 @@
         "brief": {
           "material": "tungsten",
           "family": "diamond",
-          "mode": "network",
-          "freq": "133",
-          "rho": 0.14945927372685186,
-          "k_11": 20.69943552493053,
-          "E_11": 36.59653368548281,
-          "cost_per_kg": 40.0,
-          "mass_density": 2877.0910192418983
-        }
-      },
-      "min_repair": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        },
-        "kept_satisfy": true,
-        "dropped": []
-      },
-      "lex_drop": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      }
-    },
-    {
-      "id": "s_rho_<=_0.18",
-      "kind": "single",
-      "gold_feas": true,
-      "n_feasible": 3515,
-      "search_ms": 2.584100002422929,
-      "mus": [],
-      "min_mcs": [],
-      "mcs": [],
-      "binding": [],
-      "lex_dropped": [],
-      "min_repair_kind": "feasible",
-      "retrieve": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "neighbour": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "penalty": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "tungsten",
-          "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.15452293113425927,
-          "k_11": 22.5752969125495,
-          "E_11": 44.7731648088018,
+          "rho": 0.233795166015625,
+          "k_11": 35.43061758091371,
+          "E_11": 75.49552193388935,
           "cost_per_kg": 40.0,
-          "mass_density": 2974.566424334491
-        }
-      },
-      "min_repair": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        },
-        "kept_satisfy": true,
-        "dropped": []
-      },
-      "lex_drop": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      }
-    },
-    {
-      "id": "s_rho_<=_0.2",
-      "kind": "single",
-      "gold_feas": true,
-      "n_feasible": 5206,
-      "search_ms": 2.2071999992476776,
-      "mus": [],
-      "min_mcs": [],
-      "mcs": [],
-      "binding": [],
-      "lex_dropped": [],
-      "min_repair_kind": "feasible",
-      "retrieve": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "neighbour": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "penalty": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "tungsten",
-          "family": "schwarz_p",
-          "mode": "sheet",
-          "freq": "133",
-          "rho": 0.19212962962962962,
-          "k_11": 28.143184813573825,
-          "E_11": 58.727367070340854,
-          "cost_per_kg": 40.0,
-          "mass_density": 3698.4953703703704
-        }
-      },
-      "min_repair": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        },
-        "kept_satisfy": true,
-        "dropped": []
-      },
-      "lex_drop": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      }
-    },
-    {
-      "id": "s_rho_<=_0.25",
-      "kind": "single",
-      "gold_feas": true,
-      "n_feasible": 7923,
-      "search_ms": 2.191399995354004,
-      "mus": [],
-      "min_mcs": [],
-      "mcs": [],
-      "binding": [],
-      "lex_dropped": [],
-      "min_repair_kind": "feasible",
-      "retrieve": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "neighbour": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "silver",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.131317138671875,
-          "k_11": 25.22640123038395,
-          "E_11": 0.9498342470215752,
-          "cost_per_kg": 900.0,
-          "mass_density": 1377.5167846679688
-        }
-      },
-      "penalty": {
-        "satisfy": true,
-        "answered": true,
-        "brief": {
-          "material": "tungsten",
-          "family": "gyroid",
-          "mode": "sheet",
-          "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 37.56758831099247,
-          "E_11": 73.4544206401531,
-          "cost_per_kg": 40.0,
-          "mass_density": 4796.6602466724535
+          "mass_density": 4500.556945800781
         }
       },
       "min_repair": {
@@ -1586,7 +1586,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 11647,
-      "search_ms": 3.4138999981223606,
+      "search_ms": 2.3755000438541174,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1675,8 +1675,8 @@
       "id": "s_rho_<=_0.4",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 18411,
-      "search_ms": 2.264199996716343,
+      "n_feasible": 18392,
+      "search_ms": 2.1714000031352043,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1765,8 +1765,8 @@
       "id": "s_E_11_>=_20",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 14196,
-      "search_ms": 2.249400000437163,
+      "n_feasible": 14530,
+      "search_ms": 2.24609998986125,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1855,8 +1855,8 @@
       "id": "s_E_11_>=_40",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 7170,
-      "search_ms": 2.2317999973893166,
+      "n_feasible": 7243,
+      "search_ms": 2.203600015491247,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1945,8 +1945,8 @@
       "id": "s_E_11_>=_50",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 5429,
-      "search_ms": 2.4505000037606806,
+      "n_feasible": 5428,
+      "search_ms": 2.0625999895855784,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2035,8 +2035,8 @@
       "id": "s_E_11_>=_80",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 2323,
-      "search_ms": 3.189299997757189,
+      "n_feasible": 2303,
+      "search_ms": 2.120200078934431,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2125,8 +2125,8 @@
       "id": "s_E_11_>=_100",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 1301,
-      "search_ms": 2.2141000008559786,
+      "n_feasible": 1285,
+      "search_ms": 2.270400058478117,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2215,8 +2215,8 @@
       "id": "s_E_11_>=_150",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 98,
-      "search_ms": 2.2372000021277927,
+      "n_feasible": 96,
+      "search_ms": 2.1281999070197344,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2305,8 +2305,8 @@
       "id": "s_k_11_>=_10",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 18057,
-      "search_ms": 3.159100000630133,
+      "n_feasible": 18386,
+      "search_ms": 2.3216999834403396,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2395,8 +2395,8 @@
       "id": "s_k_11_>=_40",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 7161,
-      "search_ms": 2.372500006458722,
+      "n_feasible": 7278,
+      "search_ms": 2.2159001091495156,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2485,8 +2485,8 @@
       "id": "s_k_11_>=_60",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 3627,
-      "search_ms": 2.1825000003445894,
+      "n_feasible": 3681,
+      "search_ms": 2.163900062441826,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2575,8 +2575,8 @@
       "id": "s_k_11_>=_80",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 2273,
-      "search_ms": 2.59129999903962,
+      "n_feasible": 2298,
+      "search_ms": 2.289899974130094,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2665,8 +2665,8 @@
       "id": "s_k_11_>=_120",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 1013,
-      "search_ms": 3.0361000026459806,
+      "n_feasible": 1016,
+      "search_ms": 2.1201999625191092,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2756,7 +2756,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 4191,
-      "search_ms": 2.347699999518227,
+      "search_ms": 2.2854999406263232,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2846,7 +2846,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 8382,
-      "search_ms": 2.2689000034006312,
+      "search_ms": 2.076399978250265,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2936,7 +2936,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 11176,
-      "search_ms": 2.5195999987772666,
+      "search_ms": 2.08020000718534,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3026,7 +3026,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 19558,
-      "search_ms": 2.759800001513213,
+      "search_ms": 2.257399959489703,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3115,8 +3115,8 @@
       "id": "s_k_aniso_<=_0.55",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 7866,
-      "search_ms": 2.3247999997693114,
+      "n_feasible": 7809,
+      "search_ms": 2.074299962259829,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3205,8 +3205,8 @@
       "id": "s_k_aniso_<=_0.7",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 13471,
-      "search_ms": 2.2859000018797815,
+      "n_feasible": 13547,
+      "search_ms": 2.163100056350231,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3295,8 +3295,8 @@
       "id": "s_k_aniso_<=_0.9",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 19437,
-      "search_ms": 2.708100000745617,
+      "n_feasible": 19570,
+      "search_ms": 2.2067000390961766,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3385,8 +3385,8 @@
       "id": "s_mass_density_<=_800",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 3635,
-      "search_ms": 2.403899998171255,
+      "n_feasible": 3636,
+      "search_ms": 2.1214999724179506,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3428,14 +3428,14 @@
         "answered": true,
         "brief": {
           "material": "silicon carbide",
-          "family": "gyroid",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 26.058442759069923,
-          "E_11": 73.27569942205054,
+          "rho": 0.233795166015625,
+          "k_11": 24.57615092317714,
+          "E_11": 75.31183453259035,
           "cost_per_kg": 50.0,
-          "mass_density": 799.8586697048612
+          "mass_density": 750.4824829101562
         }
       },
       "min_repair": {
@@ -3475,8 +3475,8 @@
       "id": "s_mass_density_<=_1200",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 7397,
-      "search_ms": 2.42650000291178,
+      "n_feasible": 7393,
+      "search_ms": 2.2099000634625554,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3565,8 +3565,8 @@
       "id": "s_mass_density_<=_2000",
       "kind": "single",
       "gold_feas": true,
-      "n_feasible": 13210,
-      "search_ms": 2.386200001637917,
+      "n_feasible": 13209,
+      "search_ms": 2.243999973870814,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3656,7 +3656,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 4.093800002010539,
+      "search_ms": 2.6279999874532223,
       "mus": [
         [
           "rho<=0.15",
@@ -3697,14 +3697,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.25651945891203703,
-          "k_11": 38.593535286129956,
-          "E_11": 81.2453336194653,
+          "rho": 0.26412172011661805,
+          "k_11": 40.22722132995191,
+          "E_11": 86.03623088712233,
           "cost_per_kg": 40.0,
-          "mass_density": 4937.999584056713
+          "mass_density": 5084.343112244897
         }
       },
       "penalty": {
@@ -3714,12 +3714,12 @@
           "material": "tungsten",
           "family": "diamond",
           "mode": "sheet",
-          "freq": "123",
-          "rho": 0.3167588975694444,
-          "k_11": 47.31403370694206,
-          "E_11": 99.46046451337769,
+          "freq": "133",
+          "rho": 0.3012051052517361,
+          "k_11": 46.05889766251944,
+          "E_11": 98.15327557561865,
           "cost_per_kg": 40.0,
-          "mass_density": 6097.608778211805
+          "mass_density": 5798.19827609592
         }
       },
       "min_repair": {
@@ -3730,11 +3730,11 @@
           "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.3250325520833333,
-          "k_11": 47.25903271767589,
-          "E_11": 102.62863337049555,
+          "rho": 0.32503029152199076,
+          "k_11": 50.05584378867351,
+          "E_11": 107.36439938561568,
           "cost_per_kg": 40.0,
-          "mass_density": 6256.876627604166
+          "mass_density": 6256.833111798322
         },
         "kept_satisfy": true,
         "dropped": [
@@ -3771,126 +3771,99 @@
     {
       "id": "p_01",
       "kind": "pair",
-      "gold_feas": false,
-      "n_feasible": 0,
-      "search_ms": 2.8768999982276,
-      "mus": [
-        [
-          "rho<=0.18",
-          "E_11>=50"
-        ]
-      ],
-      "min_mcs": [
-        [
-          "rho<=0.18"
-        ],
-        [
-          "E_11>=50"
-        ]
-      ],
-      "mcs": [
-        [
-          "rho<=0.18"
-        ],
-        [
-          "E_11>=50"
-        ]
-      ],
-      "binding": [
-        "rho",
-        "E_11"
-      ],
-      "lex_dropped": [
-        "rho"
-      ],
-      "min_repair_kind": "repair",
+      "gold_feas": true,
+      "n_feasible": 2,
+      "search_ms": 2.3218999849632382,
+      "mus": [],
+      "min_mcs": [],
+      "mcs": [],
+      "binding": [],
+      "lex_dropped": [],
+      "min_repair_kind": "feasible",
       "retrieve": {
-        "satisfy": false,
-        "answered": false,
-        "brief": null
-      },
-      "neighbour": {
-        "satisfy": false,
+        "satisfy": true,
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "gyroid",
+          "family": "fischer_koch_s",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.18468786168981483,
-          "k_11": 26.914977845313707,
-          "E_11": 49.85808443895517,
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
           "cost_per_kg": 40.0,
-          "mass_density": 3555.241337528935
+          "mass_density": 3427.5550842285156
+        }
+      },
+      "neighbour": {
+        "satisfy": true,
+        "answered": true,
+        "brief": {
+          "material": "tungsten",
+          "family": "fischer_koch_s",
+          "mode": "sheet",
+          "freq": "133",
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
+          "cost_per_kg": 40.0,
+          "mass_density": 3427.5550842285156
         }
       },
       "penalty": {
-        "satisfy": false,
+        "satisfy": true,
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "gyroid",
+          "family": "fischer_koch_s",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.18468786168981483,
-          "k_11": 26.914977845313707,
-          "E_11": 49.85808443895517,
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
           "cost_per_kg": 40.0,
-          "mass_density": 3555.241337528935
+          "mass_density": 3427.5550842285156
         }
       },
       "min_repair": {
-        "satisfy": false,
+        "satisfy": true,
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "frd",
+          "family": "fischer_koch_s",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.1904839409722222,
-          "k_11": 24.75513972176901,
-          "E_11": 52.34955609548406,
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
           "cost_per_kg": 40.0,
-          "mass_density": 3666.8158637152774
+          "mass_density": 3427.5550842285156
         },
         "kept_satisfy": true,
-        "dropped": [
-          "rho<=0.18"
-        ]
+        "dropped": []
       },
       "lex_drop": {
-        "satisfy": false,
+        "satisfy": true,
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "gyroid",
-          "mode": "network",
-          "freq": "111",
-          "rho": 0.39697265625,
-          "k_11": 41.41304268719364,
-          "E_11": 51.844760762433665,
+          "family": "fischer_koch_s",
+          "mode": "sheet",
+          "freq": "133",
+          "rho": 0.1780548095703125,
+          "k_11": 25.543896133728087,
+          "E_11": 50.76436081730089,
           "cost_per_kg": 40.0,
-          "mass_density": 7641.7236328125
+          "mass_density": 3427.5550842285156
         }
-      },
-      "loo": [
-        "rho",
-        "E_11"
-      ],
-      "indep_mus": [
-        [
-          "rho<=0.18",
-          "E_11>=50"
-        ]
-      ],
-      "mus_exact": true
+      }
     },
     {
       "id": "p_02",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 67,
-      "search_ms": 2.4416999949608,
+      "n_feasible": 148,
+      "search_ms": 2.5108999107033014,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3905,11 +3878,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "122",
-          "rho": 0.19183349609375,
-          "k_11": 26.23592780081807,
-          "E_11": 43.529968703021275,
+          "rho": 0.1918402777777778,
+          "k_11": 27.43884229611618,
+          "E_11": 47.13511948174715,
           "cost_per_kg": 40.0,
-          "mass_density": 3692.7947998046875
+          "mass_density": 3692.9253472222226
         }
       },
       "neighbour": {
@@ -3920,11 +3893,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "122",
-          "rho": 0.19183349609375,
-          "k_11": 26.23592780081807,
-          "E_11": 43.529968703021275,
+          "rho": 0.1918402777777778,
+          "k_11": 27.43884229611618,
+          "E_11": 47.13511948174715,
           "cost_per_kg": 40.0,
-          "mass_density": 3692.7947998046875
+          "mass_density": 3692.9253472222226
         }
       },
       "penalty": {
@@ -3935,11 +3908,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.19212962962962962,
-          "k_11": 28.143184813573825,
-          "E_11": 58.727367070340854,
+          "rho": 0.19222005208333334,
+          "k_11": 29.335179522447355,
+          "E_11": 60.84464196336598,
           "cost_per_kg": 40.0,
-          "mass_density": 3698.4953703703704
+          "mass_density": 3700.236002604167
         }
       },
       "min_repair": {
@@ -3950,11 +3923,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "122",
-          "rho": 0.19183349609375,
-          "k_11": 26.23592780081807,
-          "E_11": 43.529968703021275,
+          "rho": 0.1918402777777778,
+          "k_11": 27.43884229611618,
+          "E_11": 47.13511948174715,
           "cost_per_kg": 40.0,
-          "mass_density": 3692.7947998046875
+          "mass_density": 3692.9253472222226
         },
         "kept_satisfy": true,
         "dropped": []
@@ -3967,11 +3940,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "122",
-          "rho": 0.19183349609375,
-          "k_11": 26.23592780081807,
-          "E_11": 43.529968703021275,
+          "rho": 0.1918402777777778,
+          "k_11": 27.43884229611618,
+          "E_11": 47.13511948174715,
           "cost_per_kg": 40.0,
-          "mass_density": 3692.7947998046875
+          "mass_density": 3692.9253472222226
         }
       }
     },
@@ -3980,7 +3953,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.358699999807868,
+      "search_ms": 2.861600019969046,
       "mus": [
         [
           "rho<=0.25",
@@ -4097,7 +4070,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.9174000010243617,
+      "search_ms": 2.571500022895634,
       "mus": [
         [
           "rho<=0.15",
@@ -4141,11 +4114,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.15452293113425927,
-          "k_11": 55.98151662129327,
-          "E_11": 9.041782674283576,
+          "rho": 0.15453338623046875,
+          "k_11": 57.86510289579122,
+          "E_11": 9.738996269853056,
           "cost_per_kg": 900.0,
-          "mass_density": 1620.9455475983798
+          "mass_density": 1621.0552215576172
         }
       },
       "penalty": {
@@ -4156,11 +4129,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.15452293113425927,
-          "k_11": 55.98151662129327,
-          "E_11": 9.041782674283576,
+          "rho": 0.15453338623046875,
+          "k_11": 57.86510289579122,
+          "E_11": 9.738996269853056,
           "cost_per_kg": 900.0,
-          "mass_density": 1620.9455475983798
+          "mass_density": 1621.0552215576172
         }
       },
       "min_repair": {
@@ -4169,13 +4142,13 @@
         "brief": {
           "material": "silver",
           "family": "diamond",
-          "mode": "network",
+          "mode": "sheet",
           "freq": "123",
-          "rho": 0.18055555555555555,
-          "k_11": 60.70882278918013,
-          "E_11": 7.927584858802483,
+          "rho": 0.166015625,
+          "k_11": 60.014037702769215,
+          "E_11": 9.882652267972134,
           "cost_per_kg": 900.0,
-          "mass_density": 1894.0277777777778
+          "mass_density": 1741.50390625
         },
         "kept_satisfy": true,
         "dropped": [
@@ -4213,8 +4186,8 @@
       "id": "p_05",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 108,
-      "search_ms": 2.467300000716932,
+      "n_feasible": 194,
+      "search_ms": 2.396700088866055,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4256,14 +4229,14 @@
         "answered": true,
         "brief": {
           "material": "copper",
-          "family": "schwarz_p",
+          "family": "fischer_koch_s",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.15452293113425927,
-          "k_11": 52.32771134064942,
-          "E_11": 13.072456878482278,
+          "rho": 0.1780548095703125,
+          "k_11": 59.2086841018784,
+          "E_11": 14.821711187533108,
           "cost_per_kg": 9.0,
-          "mass_density": 1384.525462962963
+          "mass_density": 1595.37109375
         }
       },
       "min_repair": {
@@ -4304,7 +4277,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.228499997931067,
+      "search_ms": 2.9887999407947063,
       "mus": [
         [
           "rho<=0.2",
@@ -4348,11 +4321,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 79.83231525121607,
-          "E_11": 12.70795397609096,
+          "rho": 0.21747448979591838,
+          "k_11": 82.08594618934923,
+          "E_11": 13.044816143879288,
           "cost_per_kg": 900.0,
-          "mass_density": 2281.218352141204
+          "mass_density": 2281.3073979591836
         }
       },
       "penalty": {
@@ -4363,11 +4336,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 79.83231525121607,
-          "E_11": 12.70795397609096,
+          "rho": 0.21747448979591838,
+          "k_11": 82.08594618934923,
+          "E_11": 13.044816143879288,
           "cost_per_kg": 900.0,
-          "mass_density": 2281.218352141204
+          "mass_density": 2281.3073979591836
         }
       },
       "min_repair": {
@@ -4375,14 +4348,14 @@
         "answered": true,
         "brief": {
           "material": "silver",
-          "family": "schwarz_p",
+          "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 84.57618535928943,
-          "E_11": 14.182201141169049,
+          "rho": 0.21747448979591838,
+          "k_11": 82.08594618934923,
+          "E_11": 13.044816143879288,
           "cost_per_kg": 900.0,
-          "mass_density": 2383.754611545139
+          "mass_density": 2281.3073979591836
         },
         "kept_satisfy": true,
         "dropped": [
@@ -4420,8 +4393,8 @@
       "id": "p_07",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 541,
-      "search_ms": 3.2585999942966737,
+      "n_feasible": 540,
+      "search_ms": 2.2728999610990286,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4510,8 +4483,8 @@
       "id": "p_08",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 2272,
-      "search_ms": 2.584400004707277,
+      "n_feasible": 2275,
+      "search_ms": 2.444899990223348,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4600,8 +4573,8 @@
       "id": "p_09",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 935,
-      "search_ms": 2.5081999992835335,
+      "n_feasible": 924,
+      "search_ms": 2.424099948257208,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4691,7 +4664,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.7570000020205043,
+      "search_ms": 2.7975999983027577,
       "mus": [
         [
           "cost_per_kg<=3",
@@ -4807,8 +4780,8 @@
       "id": "p_11",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 5814,
-      "search_ms": 2.411100002063904,
+      "n_feasible": 5808,
+      "search_ms": 2.357600023970008,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4898,7 +4871,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 11,
-      "search_ms": 3.191700001480058,
+      "search_ms": 2.7594000566750765,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4987,8 +4960,8 @@
       "id": "p_13",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 3786,
-      "search_ms": 2.490499995474238,
+      "n_feasible": 3878,
+      "search_ms": 2.4707999546080828,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5077,8 +5050,8 @@
       "id": "p_14",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 4351,
-      "search_ms": 2.859399995941203,
+      "n_feasible": 4218,
+      "search_ms": 2.354900003410876,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5167,8 +5140,8 @@
       "id": "p_15",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 145,
-      "search_ms": 2.5632999968365766,
+      "n_feasible": 202,
+      "search_ms": 2.633300027810037,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5210,14 +5183,14 @@
         "answered": true,
         "brief": {
           "material": "silicon carbide",
-          "family": "gyroid",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 26.058442759069923,
-          "E_11": 73.27569942205054,
+          "rho": 0.233795166015625,
+          "k_11": 24.57615092317714,
+          "E_11": 75.31183453259035,
           "cost_per_kg": 50.0,
-          "mass_density": 799.8586697048612
+          "mass_density": 750.4824829101562
         }
       },
       "min_repair": {
@@ -5257,8 +5230,8 @@
       "id": "p_16",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 781,
-      "search_ms": 2.746600002865307,
+      "n_feasible": 803,
+      "search_ms": 2.8734999941661954,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5347,8 +5320,8 @@
       "id": "p_17",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 5672,
-      "search_ms": 3.4881000028690323,
+      "n_feasible": 5704,
+      "search_ms": 2.4161000037565827,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5437,8 +5410,8 @@
       "id": "p_18",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 1810,
-      "search_ms": 2.404200000455603,
+      "n_feasible": 1991,
+      "search_ms": 2.4112999672070146,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5527,8 +5500,8 @@
       "id": "p_19",
       "kind": "pair",
       "gold_feas": true,
-      "n_feasible": 492,
-      "search_ms": 2.4886000028345734,
+      "n_feasible": 497,
+      "search_ms": 2.63590004760772,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5618,7 +5591,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.9761999976472,
+      "search_ms": 3.4815999679267406,
       "mus": [
         [
           "rho<=0.15",
@@ -5659,14 +5632,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.25651945891203703,
-          "k_11": 38.593535286129956,
-          "E_11": 81.2453336194653,
+          "rho": 0.26412172011661805,
+          "k_11": 40.22722132995191,
+          "E_11": 86.03623088712233,
           "cost_per_kg": 40.0,
-          "mass_density": 4937.999584056713
+          "mass_density": 5084.343112244897
         }
       },
       "penalty": {
@@ -5676,12 +5649,12 @@
           "material": "tungsten",
           "family": "diamond",
           "mode": "sheet",
-          "freq": "123",
-          "rho": 0.3167588975694444,
-          "k_11": 47.31403370694206,
-          "E_11": 99.46046451337769,
+          "freq": "133",
+          "rho": 0.3012051052517361,
+          "k_11": 46.05889766251944,
+          "E_11": 98.15327557561865,
           "cost_per_kg": 40.0,
-          "mass_density": 6097.608778211805
+          "mass_density": 5798.19827609592
         }
       },
       "min_repair": {
@@ -5692,11 +5665,11 @@
           "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.3250325520833333,
-          "k_11": 47.25903271767589,
-          "E_11": 102.62863337049555,
+          "rho": 0.32503029152199076,
+          "k_11": 50.05584378867351,
+          "E_11": 107.36439938561568,
           "cost_per_kg": 40.0,
-          "mass_density": 6256.876627604166
+          "mass_density": 6256.833111798322
         },
         "kept_satisfy": true,
         "dropped": [
@@ -5735,20 +5708,23 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.991900000779424,
+      "search_ms": 3.4320999402552843,
       "mus": [
         [
           "rho<=0.18",
-          "E_11>=50"
-        ],
-        [
-          "rho<=0.18",
+          "E_11>=50",
           "k_11>=60"
         ]
       ],
       "min_mcs": [
         [
           "rho<=0.18"
+        ],
+        [
+          "E_11>=50"
+        ],
+        [
+          "k_11>=60"
         ]
       ],
       "mcs": [
@@ -5756,12 +5732,16 @@
           "rho<=0.18"
         ],
         [
-          "E_11>=50",
+          "E_11>=50"
+        ],
+        [
           "k_11>=60"
         ]
       ],
       "binding": [
-        "rho"
+        "rho",
+        "E_11",
+        "k_11"
       ],
       "lex_dropped": [
         "rho"
@@ -5780,11 +5760,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 35.486511339562,
-          "E_11": 56.387064778142005,
+          "rho": 0.2273125,
+          "k_11": 36.073513400472464,
+          "E_11": 58.25245550673035,
           "cost_per_kg": 80.0,
-          "mass_density": 740.8045789930555
+          "mass_density": 741.03875
         }
       },
       "penalty": {
@@ -5795,11 +5775,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.18468786168981483,
-          "k_11": 26.914977845313707,
-          "E_11": 49.85808443895517,
+          "rho": 0.1846466064453125,
+          "k_11": 27.98139695832791,
+          "E_11": 54.188609394860066,
           "cost_per_kg": 40.0,
-          "mass_density": 3555.241337528935
+          "mass_density": 3554.4471740722656
         }
       },
       "min_repair": {
@@ -5837,15 +5817,14 @@
         }
       },
       "loo": [
-        "rho"
+        "rho",
+        "E_11",
+        "k_11"
       ],
       "indep_mus": [
         [
           "rho<=0.18",
-          "E_11>=50"
-        ],
-        [
-          "rho<=0.18",
+          "E_11>=50",
           "k_11>=60"
         ]
       ],
@@ -5856,7 +5835,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.2403000004705973,
+      "search_ms": 3.154000034555793,
       "mus": [
         [
           "rho<=0.2",
@@ -5908,11 +5887,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 33.49607632918157,
-          "E_11": 50.525600145903816,
+          "rho": 0.21747448979591838,
+          "k_11": 34.441655743782896,
+          "E_11": 51.86493165638753,
           "cost_per_kg": 80.0,
-          "mass_density": 708.9391637731482
+          "mass_density": 708.966836734694
         }
       },
       "penalty": {
@@ -5921,13 +5900,13 @@
         "brief": {
           "material": "aluminium nitride",
           "family": "diamond",
-          "mode": "network",
+          "mode": "sheet",
           "freq": "133",
-          "rho": 0.20075593171296297,
-          "k_11": 30.308182038482467,
-          "E_11": 43.036177979442364,
+          "rho": 0.200836181640625,
+          "k_11": 31.308584678527954,
+          "E_11": 51.21351648418238,
           "cost_per_kg": 80.0,
-          "mass_density": 654.4643373842592
+          "mass_density": 654.7259521484375
         }
       },
       "min_repair": {
@@ -5983,7 +5962,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.8922000021557324,
+      "search_ms": 3.1572000589221716,
       "mus": [
         [
           "rho<=0.25",
@@ -6035,11 +6014,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 6.514610689767481,
-          "E_11": 66.12685069794804,
+          "rho": 0.24907882125289352,
+          "k_11": 6.593953327054265,
+          "E_11": 67.13208871387592,
           "cost_per_kg": 20.0,
-          "mass_density": 984.2497649016204
+          "mass_density": 983.8613439489294
         }
       },
       "penalty": {
@@ -6047,14 +6026,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "gyroid",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 37.56758831099247,
-          "E_11": 73.4544206401531,
+          "rho": 0.233795166015625,
+          "k_11": 35.43061758091371,
+          "E_11": 75.49552193388935,
           "cost_per_kg": 40.0,
-          "mass_density": 4796.6602466724535
+          "mass_density": 4500.556945800781
         }
       },
       "min_repair": {
@@ -6084,11 +6063,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 32.193451138602285,
-          "E_11": 62.92733836353475,
+          "rho": 0.21747448979591838,
+          "k_11": 33.10225802041356,
+          "E_11": 64.5954148811372,
           "cost_per_kg": 40.0,
-          "mass_density": 4186.220522280093
+          "mass_density": 4186.383928571428
         }
       },
       "loo": [
@@ -6110,7 +6089,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.8708999961963855,
+      "search_ms": 3.044300014153123,
       "mus": [
         [
           "rho<=0.2",
@@ -6177,11 +6156,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.19212962962962962,
-          "k_11": 65.23362491470002,
-          "E_11": 17.14667651688784,
+          "rho": 0.19222005208333334,
+          "k_11": 67.9965721878693,
+          "E_11": 17.764858967406127,
           "cost_per_kg": 9.0,
-          "mass_density": 1721.4814814814815
+          "mass_density": 1722.2916666666667
         }
       },
       "min_repair": {
@@ -6237,7 +6216,7 @@
       "kind": "triple",
       "gold_feas": true,
       "n_feasible": 3168,
-      "search_ms": 2.543800001149066,
+      "search_ms": 2.74679996073246,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6326,8 +6305,8 @@
       "id": "t_06",
       "kind": "triple",
       "gold_feas": true,
-      "n_feasible": 36,
-      "search_ms": 2.6797000027727336,
+      "n_feasible": 49,
+      "search_ms": 2.5429000379517674,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6369,14 +6348,14 @@
         "answered": true,
         "brief": {
           "material": "silicon carbide",
-          "family": "gyroid",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2491771556712963,
-          "k_11": 26.058442759069923,
-          "E_11": 73.27569942205054,
+          "rho": 0.233795166015625,
+          "k_11": 24.57615092317714,
+          "E_11": 75.31183453259035,
           "cost_per_kg": 50.0,
-          "mass_density": 799.8586697048612
+          "mass_density": 750.4824829101562
         }
       },
       "min_repair": {
@@ -6417,7 +6396,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.6446999947656877,
+      "search_ms": 2.9826000100001693,
       "mus": [
         [
           "rho<=0.15",
@@ -6459,14 +6438,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 34.10648034302348,
-          "E_11": 70.22752613277686,
+          "rho": 0.200836181640625,
+          "k_11": 30.09102860769631,
+          "E_11": 63.78410689393623,
           "cost_per_kg": 40.0,
-          "mass_density": 4374.382866753473
+          "mass_density": 3866.0964965820312
         }
       },
       "penalty": {
@@ -6474,14 +6453,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.25651945891203703,
-          "k_11": 38.593535286129956,
-          "E_11": 81.2453336194653,
+          "rho": 0.233795166015625,
+          "k_11": 35.43061758091371,
+          "E_11": 75.49552193388935,
           "cost_per_kg": 40.0,
-          "mass_density": 4937.999584056713
+          "mass_density": 4500.556945800781
         }
       },
       "min_repair": {
@@ -6535,7 +6514,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.9676999984076247,
+      "search_ms": 2.807399956509471,
       "mus": [
         [
           "rho<=0.3",
@@ -6591,14 +6570,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.33203125,
-          "k_11": 51.28739322977656,
-          "E_11": 110.05730164148677,
+          "rho": 0.3012051052517361,
+          "k_11": 46.05889766251944,
+          "E_11": 98.15327557561865,
           "cost_per_kg": 40.0,
-          "mass_density": 6391.6015625
+          "mass_density": 5798.19827609592
         }
       },
       "min_repair": {
@@ -6651,8 +6630,8 @@
       "id": "t_09",
       "kind": "triple",
       "gold_feas": true,
-      "n_feasible": 759,
-      "search_ms": 2.6214999961666763,
+      "n_feasible": 778,
+      "search_ms": 2.5393000105395913,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6742,7 +6721,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.1617000058759004,
+      "search_ms": 2.9272999381646514,
       "mus": [
         [
           "rho<=0.22",
@@ -6794,11 +6773,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 33.49607632918157,
-          "E_11": 50.525600145903816,
+          "rho": 0.21747448979591838,
+          "k_11": 34.441655743782896,
+          "E_11": 51.86493165638753,
           "cost_per_kg": 80.0,
-          "mass_density": 708.9391637731482
+          "mass_density": 708.966836734694
         }
       },
       "penalty": {
@@ -6809,11 +6788,11 @@
           "family": "gyroid",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2174660011574074,
-          "k_11": 33.49607632918157,
-          "E_11": 50.525600145903816,
+          "rho": 0.21747448979591838,
+          "k_11": 34.441655743782896,
+          "E_11": 51.86493165638753,
           "cost_per_kg": 80.0,
-          "mass_density": 708.9391637731482
+          "mass_density": 708.966836734694
         }
       },
       "min_repair": {
@@ -6824,11 +6803,11 @@
           "family": "schwarz_p",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 35.486511339562,
-          "E_11": 56.387064778142005,
+          "rho": 0.2273125,
+          "k_11": 36.073513400472464,
+          "E_11": 58.25245550673035,
           "cost_per_kg": 80.0,
-          "mass_density": 740.8045789930555
+          "mass_density": 741.03875
         },
         "kept_satisfy": true,
         "dropped": [
@@ -6869,7 +6848,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.5425999958533794,
+      "search_ms": 2.877000020816922,
       "mus": [
         [
           "rho<=0.35",
@@ -6996,7 +6975,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 4191,
-      "search_ms": 2.8315000017755665,
+      "search_ms": 2.5090998969972134,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7086,7 +7065,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 3168,
-      "search_ms": 3.3702000000630505,
+      "search_ms": 2.987199928611517,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7176,7 +7155,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 3336,
-      "search_ms": 3.280199998698663,
+      "search_ms": 2.723500016145408,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7188,14 +7167,14 @@
         "answered": true,
         "brief": {
           "material": "AlSi10Mg",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 25.629147078572554,
-          "E_11": 11.960892528696789,
+          "rho": 0.233795166015625,
+          "k_11": 26.62416350010857,
+          "E_11": 12.85811809093006,
           "cost_per_kg": 4.0,
-          "mass_density": 606.7325846354167
+          "mass_density": 624.2330932617188
         }
       },
       "neighbour": {
@@ -7218,14 +7197,14 @@
         "answered": true,
         "brief": {
           "material": "silicon carbide",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 23.657674226374667,
-          "E_11": 70.05665623950976,
+          "rho": 0.233795166015625,
+          "k_11": 24.57615092317714,
+          "E_11": 75.31183453259035,
           "cost_per_kg": 50.0,
-          "mass_density": 729.4425455729167
+          "mass_density": 750.4824829101562
         }
       },
       "min_repair": {
@@ -7233,14 +7212,14 @@
         "answered": true,
         "brief": {
           "material": "AlSi10Mg",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 25.629147078572554,
-          "E_11": 11.960892528696789,
+          "rho": 0.233795166015625,
+          "k_11": 26.62416350010857,
+          "E_11": 12.85811809093006,
           "cost_per_kg": 4.0,
-          "mass_density": 606.7325846354167
+          "mass_density": 624.2330932617188
         },
         "kept_satisfy": true,
         "dropped": []
@@ -7250,14 +7229,14 @@
         "answered": true,
         "brief": {
           "material": "AlSi10Mg",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.2272406684027778,
-          "k_11": 25.629147078572554,
-          "E_11": 11.960892528696789,
+          "rho": 0.233795166015625,
+          "k_11": 26.62416350010857,
+          "E_11": 12.85811809093006,
           "cost_per_kg": 4.0,
-          "mass_density": 606.7325846354167
+          "mass_density": 624.2330932617188
         }
       }
     },
@@ -7266,7 +7245,7 @@
       "kind": "ranked",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 2.7462999933050014,
+      "search_ms": 2.7975999983027577,
       "mus": [
         [
           "rho<=0.15",
@@ -7307,14 +7286,14 @@
         "answered": true,
         "brief": {
           "material": "tungsten",
-          "family": "schwarz_p",
+          "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.25651945891203703,
-          "k_11": 38.593535286129956,
-          "E_11": 81.2453336194653,
+          "rho": 0.26412172011661805,
+          "k_11": 40.22722132995191,
+          "E_11": 86.03623088712233,
           "cost_per_kg": 40.0,
-          "mass_density": 4937.999584056713
+          "mass_density": 5084.343112244897
         }
       },
       "penalty": {
@@ -7324,12 +7303,12 @@
           "material": "tungsten",
           "family": "diamond",
           "mode": "sheet",
-          "freq": "123",
-          "rho": 0.3167588975694444,
-          "k_11": 47.31403370694206,
-          "E_11": 99.46046451337769,
+          "freq": "133",
+          "rho": 0.3012051052517361,
+          "k_11": 46.05889766251944,
+          "E_11": 98.15327557561865,
           "cost_per_kg": 40.0,
-          "mass_density": 6097.608778211805
+          "mass_density": 5798.19827609592
         }
       },
       "min_repair": {
@@ -7340,11 +7319,11 @@
           "family": "diamond",
           "mode": "sheet",
           "freq": "133",
-          "rho": 0.3250325520833333,
-          "k_11": 47.25903271767589,
-          "E_11": 102.62863337049555,
+          "rho": 0.32503029152199076,
+          "k_11": 50.05584378867351,
+          "E_11": 107.36439938561568,
           "cost_per_kg": 40.0,
-          "mass_density": 6256.876627604166
+          "mass_density": 6256.833111798322
         },
         "kept_satisfy": true,
         "dropped": [

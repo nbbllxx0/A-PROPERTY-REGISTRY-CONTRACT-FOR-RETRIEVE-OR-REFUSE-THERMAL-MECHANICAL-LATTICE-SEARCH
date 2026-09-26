@@ -32,6 +32,7 @@ class Prop:
     fn: Callable                  # (row, material, ctx) -> float
     hint: str = ""                # shown to the LLM
     better: Optional[str] = None  # "high" or "low" if there is a usual direction
+    values: tuple = ()            # admissible values of a categorical key
 
 
 def _g(row, name):
@@ -48,9 +49,9 @@ REGISTRY: dict[str, Prop] = {}
 ESTIMATED: dict[str, str] = {
     "permeability": "Kozeny-Carman estimate from porosity and surface area, "
                     "not a flow solve -- treat as a ranking, not a number",
-    "min_feature": "hydraulic thickness from relative density and specific "
-                   "surface -- a mean wall or ligament thickness, not a "
-                   "measured minimum and not a manufacturing guarantee",
+    "mean_feature": "mean wall or ligament thickness from relative density and "
+                   "specific surface -- a local wall can be thinner; a "
+                   "screening proxy, not a manufacturing guarantee",
 }
 
 
@@ -105,16 +106,20 @@ reg(Prop("D_aniso", "D33/D11, through-thickness over in-plane pore diffusivity",
          lambda r, m, c: _g(r, "D33") / _g(r, "D11"),
          "Ratio D33/D11. 1.0 means equal pore transport along those two axes, "
          "not isotropy in all directions."))
-reg(Prop("conn_frac", "largest connected solid fraction", "-", "geometry",
+reg(Prop("conn_frac", "largest face-connected solid fraction", "-", "geometry",
          lambda r, m, c: _g(r, "conn_frac"),
-         "Fraction of solid voxels in the largest periodically connected "
-         "component. 1 is fully connected. Ask for this to be at least 0.99 "
-         "to refuse disconnected debris. Stored on every row.",
+         "Fraction of solid voxels in the largest periodically face-connected "
+         "component of the stored voxel cell. 1 is fully connected. A lower "
+         "value on a thin-walled cell means its walls are thinner than a "
+         "voxel in places and hold together only through voxel edges and "
+         "corners, so its stored properties are under-resolved. Ask for at "
+         "least 0.99 to exclude those rows. Stored on every row.",
          "high"))
 reg(Prop("symmetry", "symmetry class", "-", "geometry",
          lambda r, m, c: r.get("sym"),
          "cubic, tetragonal or orthorhombic. Cubic cells cannot steer heat at "
-         "all -- their conductivity is identical in every direction."))
+         "all -- their conductivity is identical in every direction.",
+         values=("cubic", "tetragonal", "orthorhombic")))
 
 # ------------------------------------------------------------- material only
 reg(Prop("cost_per_kg", "material price", "USD/kg", "material",
@@ -128,7 +133,8 @@ reg(Prop("tmax", "max service temperature", "C", "material",
          lambda r, m, c: m.tmax, "", "high"))
 reg(Prop("printable", "additively manufacturable", "-", "material",
          lambda r, m, c: bool(m.am),
-         "whether this metal is routinely 3D printed."))
+         "whether this metal is routinely 3D printed.",
+         values=("true", "false")))
 
 # --------------------------------------------------------------- effective
 def _keff(i):
@@ -157,10 +163,8 @@ reg(Prop("E_33", "stiffness along axis 3", "GPa", "effective",
 reg(Prop("E_mean", "mean stiffness", "GPa", "effective",
          lambda r, m, c: (_Eeff(1)(r, m, c) + _Eeff(2)(r, m, c)
                           + _Eeff(3)(r, m, c)) / 3,
-         "average over the three axes. Registered because k_mean is: without "
-         "it, a request like 'stiffness above 1 GPa' with no axis named parses "
-         "to E_mean, fails validation, and the constraint is dropped -- which "
-         "returns designs that violate it instead of refusing.", "high"))
+         "average over the three axes. Use it when a stiffness limit names no "
+         "axis.", "high"))
 reg(Prop("mass_density", "part density", "kg/m3", "effective",
          lambda r, m, c: m.rho * _g(r, "rho"),
          "actual mass per unit volume of the porous part, not the metal.",
@@ -183,14 +187,13 @@ reg(Prop("permeability", "permeability", "m2", "effective",
          "ESTIMATE ONLY -- from porosity and surface area, not a flow solve."))
 
 
-def _min_feature_mm(r, m, c):
-    """Thinnest wall or ligament, in mm, at the requested cell size.
+def _mean_feature_mm(r, m, c):
+    """Mean wall or ligament thickness, in mm, at the requested cell size.
 
     The catalogue is dimensionless, so a cell has no thickness until someone
-    chooses how big to print it. This is the property that decides whether a
-    returned design can actually be made: below roughly 0.2 mm a TPMS wall
-    stops being reliably printable by laser powder-bed fusion, and a general
-    powder-bed guideline is about 0.4 mm.
+    chooses how big to print it. A mean thickness is a screening quantity for
+    printability, not a minimum: a local wall can be thinner, so it cannot
+    certify that a part is printable.
 
     Estimated from the stored relative density and specific surface by the
     standard hydraulic-thickness argument, t = C * V / A, with C = 2 for
@@ -205,13 +208,12 @@ def _min_feature_mm(r, m, c):
     return coeff * rho / s_v * c.get("cell_mm", 10.0)
 
 
-reg(Prop("min_feature", "thinnest wall or ligament", "mm", "effective",
-         _min_feature_mm,
-         "how thin the metal gets, at the chosen cell size (default 10 mm). "
-         "Ask for this to be at least 0.2 mm for a printable TPMS wall, or "
-         "at least 0.4 mm for a comfortable powder-bed margin. Scaling the "
-         "cell up scales this with it. ESTIMATE ONLY -- a mean thickness "
-         "from density and surface area, not a measured minimum.",
+reg(Prop("mean_feature", "mean wall or ligament thickness", "mm", "effective",
+         _mean_feature_mm,
+         "average thickness of the metal walls or struts at the chosen cell "
+         "size (default 10 mm); scaling the cell scales it. A local wall can "
+         "be thinner, so this screens printability but does not guarantee "
+         "it. ESTIMATE ONLY -- from density and surface area, not measured.",
          "high"))
 
 
@@ -239,6 +241,8 @@ def prompt_block() -> str:
                 continue
             u = "" if p.unit == "-" else f" ({p.unit})"
             h = f"  -- {p.hint}" if p.hint else ""
+            if p.values:
+                h += f" Values: {' | '.join(p.values)}."
             lines.append(f"  {p.key}{u}: {p.label}{h}")
     return "\n".join(lines)
 

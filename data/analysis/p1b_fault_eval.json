@@ -1,7 +1,7 @@
 {
-  "n": 9,
-  "n_detector": 6,
-  "n_detector_pass": 6,
+  "n": 10,
+  "n_detector": 7,
+  "n_detector_pass": 7,
   "n_smoke": 3,
   "failed": [],
   "tests": [
@@ -14,7 +14,7 @@
     {
       "id": "smoke_manual_equivalent_keys",
       "kind": "smoke",
-      "detail": "manual 26 vs registry 26",
+      "detail": "manual 28 vs registry 28",
       "pass": true
     },
     {
@@ -23,7 +23,7 @@
       "detail": "query using E_mean is flagged when the evaluator omitted E_mean",
       "detected": true,
       "gold_n_feasible": 0,
-      "silent_n_feasible": 5206,
+      "silent_n_feasible": 5225,
       "false_accept_if_silent_drop": true,
       "feasible_set_changed": true,
       "pass": true
@@ -33,7 +33,7 @@
       "kind": "detector",
       "detail": "dropping the omitted constraint changes n_feasible vs gold",
       "gold_n_feasible": 0,
-      "silent_n_feasible": 5206,
+      "silent_n_feasible": 5225,
       "pass": true
     },
     {
@@ -49,8 +49,8 @@
       "kind": "detector",
       "detail": "rho-only query is unchanged when the unused key E_mean is omitted",
       "detections": [],
-      "gold_n_feasible": 18411,
-      "eval_n_feasible": 18411,
+      "gold_n_feasible": 18392,
+      "eval_n_feasible": 18392,
       "false_refuse": false,
       "pass": true
     },
@@ -72,14 +72,20 @@
       "id": "unit_scale_changes_feasible_set",
       "kind": "detector",
       "detail": "interpreting 80 W/(m K) as 80 mW/(m K) changes n_feasible",
-      "gold_n_feasible": 198,
+      "gold_n_feasible": 222,
       "scaled_n_feasible": 11647,
       "pass": true
     },
     {
       "id": "historical_E_mean_still_registered",
       "kind": "smoke",
-      "detail": "E_mean remains registered; the drop is documented in schema.py",
+      "detail": "E_mean remains registered, so an axis-free stiffness limit has a key",
+      "pass": true
+    },
+    {
+      "id": "undeclared_key_is_gated",
+      "kind": "detector",
+      "detail": "status gated_reduced; rows returned 0",
       "pass": true
     }
   ],

@@ -1,0 +1,49 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "runs": [
+  {
+   "n_ok": 308,
+   "concept_f1": 0.8992115027829314,
+   "key_f1": 0.8547850958565244,
+   "constraint_atom_f1": 1.0,
+   "objective_key_f1": 0.7872758194186765,
+   "constraint_key_f1": 1.0,
+   "n_with_gold_atoms": 88,
+   "n_error": 0,
+   "latency_median_s": 0.881,
+   "latency_p90_s": 1.151
+  },
+  {
+   "n_ok": 308,
+   "concept_f1": 0.9022727272727272,
+   "key_f1": 0.8614409400123686,
+   "constraint_atom_f1": 0.9886363636363636,
+   "objective_key_f1": 0.793800247371676,
+   "constraint_key_f1": 0.9886363636363636,
+   "n_with_gold_atoms": 88,
+   "n_error": 0,
+   "latency_median_s": 0.799,
+   "latency_p90_s": 1.053
+  },
+  {
+   "n_ok": 308,
+   "concept_f1": 0.9044372294372294,
+   "key_f1": 0.8684755720470007,
+   "constraint_atom_f1": 1.0,
+   "objective_key_f1": 0.7994279529993816,
+   "constraint_key_f1": 1.0,
+   "n_with_gold_atoms": 88,
+   "n_error": 0,
+   "latency_median_s": 0.834,
+   "latency_p90_s": 1.141
+  }
+ ],
+ "concept_f1_mean": 0.9019738198309627,
+ "concept_f1_sd": 0.002625654967892163,
+ "constraint_atom_f1_mean": 0.9962121212121212,
+ "constraint_atom_f1_sd": 0.006560798513518469,
+ "objective_key_f1_mean": 0.7935013399299113,
+ "objective_key_f1_sd": 0.006081578486288068,
+ "latency_median_s_mean": 0.838,
+ "latency_median_s_sd": 0.04114608122288195
+}

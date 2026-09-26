@@ -97,7 +97,7 @@ def main():
         # Rebuild from the stored isovalue: same geometry as the stored row,
         # not a fresh bisection that would land microscopically elsewhere.
         mask = solid_mask(r["family"], float(r["level"]), n=n, freq=freq,
-                          mode=r["mode"])
+                          mode=r["mode"], tie=r.get("tie") or "legacy")
         rho_rebuilt = float(mask.mean())
         worst_rho = max(worst_rho, abs(rho_rebuilt - float(r["rho"])))
 

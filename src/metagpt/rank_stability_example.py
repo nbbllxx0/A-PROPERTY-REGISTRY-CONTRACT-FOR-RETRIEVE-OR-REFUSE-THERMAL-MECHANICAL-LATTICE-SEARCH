@@ -34,7 +34,7 @@ FIELDS = [k for k in ("material", "family", "mode", "freq", "symmetry", "rho",
                       "cost_per_kg", "cte", "tmax", "k_11", "k_22", "k_33",
                       "k_mean", "E_11", "E_22", "E_33", "E_mean", "mass_density",
                       "specific_stiffness", "specific_conductivity",
-                      "cost_per_m3", "permeability", "min_feature")]
+                      "cost_per_m3", "permeability", "mean_feature")]
 
 
 def ident(row):

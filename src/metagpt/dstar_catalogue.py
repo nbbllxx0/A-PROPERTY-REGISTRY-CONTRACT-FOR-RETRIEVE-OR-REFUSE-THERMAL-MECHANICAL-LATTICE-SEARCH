@@ -27,7 +27,7 @@ from homogenize import homogenize_conductivity  # noqa: E402
 from tpms import solid_mask  # noqa: E402
 
 CAT = os.path.join(HERE, "catalogue.csv")
-OUT = os.path.join(ROOT, "paper_aei", "data", "dstar_complete_pore.csv")
+OUT = os.path.join(ROOT, "paper_aei_v4", "data", "dstar_complete_pore.csv")
 FIELDS = ["uid", "D11", "D22", "D33", "max_offdiag", "phi", "seconds"]
 
 
@@ -70,7 +70,7 @@ def main():
         freq = tuple(int(c) for c in str(r["freq"]))
         t1 = time.time()
         solid = solid_mask(r["family"], float(r["level"]), n=n, freq=freq,
-                           mode=r["mode"])
+                           mode=r["mode"], tie=r.get("tie") or "legacy")
         pore = ~solid
         D = homogenize_conductivity(pore, k_solid=1.0)
         off = float(np.abs(D - np.diag(np.diag(D))).max())

@@ -69,52 +69,62 @@ def run_cell(job):
                 "n": n, "rho_target": round(rho_t, 5), "feasible": 0})
     try:
         mask, level, rho = solid_at_density(family, rho_t, n=n, freq=freq, mode=mode)
-        # Full precision, deliberately. TPMS level sets are highly degenerate on
-        # a symmetric grid -- hundreds of voxels can share one exact value -- so
-        # rounding the isovalue moves the threshold across a whole block at once
-        # and rebuilds a different cell. At 6 decimals that reached 3.9% error in
-        # relative density, which broke the claim that the row is the geometry.
-        row["level"] = repr(float(level))
-        row["rho"] = repr(float(rho))
-        row["conn_frac"] = round(largest_connected_fraction(mask), 5)
-
-        k = homogenize_conductivity(mask, k_solid=K_S)
-        kd = np.diag(k)
-        row["k11"], row["k22"], row["k33"] = kd
-        row["k_off_rel"] = float(np.abs(k - np.diag(kd)).max() / max(kd.mean(), 1e-12))
-
-        C = homogenize_elasticity(mask, E=E_S, nu=NU_S, tol=1e-9)
-        for i, nm in enumerate(["C11", "C22", "C33"]):
-            row[nm] = C[i, i]
-        row["C12"], row["C13"], row["C23"] = C[0, 1], C[0, 2], C[1, 2]
-        row["C44"], row["C55"], row["C66"] = C[3, 3], C[4, 4], C[5, 5]
-        row["C_coupling_rel"] = float(
-            np.abs(np.r_[C[0:3, 3:6].ravel(), C[3, 4], C[3, 5], C[4, 5]]).max()
-            / max(abs(C[0, 0]), 1e-12))
-
-        if abs(np.linalg.det(C)) > 1e-14:
-            S = np.linalg.inv(C)
-            row["E11"], row["E22"], row["E33"] = 1/S[0, 0], 1/S[1, 1], 1/S[2, 2]
-            row["G23"], row["G13"], row["G12"] = 1/S[3, 3], 1/S[4, 4], 1/S[5, 5]
-            row["nu12"] = -S[0, 1]/S[0, 0]
-            row["nu13"] = -S[0, 2]/S[0, 0]
-            row["nu23"] = -S[1, 2]/S[1, 1]
-        row["Kbulk"] = C[:3, :3].sum() / 9.0
-
-        v, f, _ = interface_mesh(family, level, n=n, freq=freq, mode=mode)
-        Sa = surface_area(v, f)
-        eps = 1.0 - float(mask.mean())
-        row["porosity"] = round(eps, 6)
-        row["spec_surf"] = round(Sa, 5)
-        row["K_perm"] = eps**3 / (KOZENY_C * Sa**2) if Sa > 0 else np.nan
-
-        # A row is usable only if the solid actually carries load and heat.
-        row["feasible"] = int(kd.min() > 1e-6 and row["E11"] > 1e-6
-                              and np.isfinite(row["E11"]))
+        solve_fields(row, mask, level, family, mode, freq, n)
     except Exception as e:
         row["feasible"] = 0
         row["_error"] = f"{type(e).__name__}: {e}"
     row["t_total"] = round(time.perf_counter() - t0, 2)
+    return row
+
+
+def solve_fields(row, mask, level, family, mode, freq, n):
+    """Fill every solved column of `row` from a given voxel mask.
+
+    Split out of run_cell so that a row can be re-solved on a mask built with a
+    different tie rule (see tpms.TIE_RULES) without repeating the physics."""
+    rho = float(mask.mean())
+    # Full precision, deliberately. TPMS level sets are highly degenerate on
+    # a symmetric grid -- hundreds of voxels can share one exact value -- so
+    # rounding the isovalue moves the threshold across a whole block at once
+    # and rebuilds a different cell. At 6 decimals that reached 3.9% error in
+    # relative density, which broke the claim that the row is the geometry.
+    row["level"] = repr(float(level))
+    row["rho"] = repr(float(rho))
+    row["conn_frac"] = round(largest_connected_fraction(mask), 5)
+
+    k = homogenize_conductivity(mask, k_solid=K_S)
+    kd = np.diag(k)
+    row["k11"], row["k22"], row["k33"] = kd
+    row["k_off_rel"] = float(np.abs(k - np.diag(kd)).max() / max(kd.mean(), 1e-12))
+
+    C = homogenize_elasticity(mask, E=E_S, nu=NU_S, tol=1e-9)
+    for i, nm in enumerate(["C11", "C22", "C33"]):
+        row[nm] = C[i, i]
+    row["C12"], row["C13"], row["C23"] = C[0, 1], C[0, 2], C[1, 2]
+    row["C44"], row["C55"], row["C66"] = C[3, 3], C[4, 4], C[5, 5]
+    row["C_coupling_rel"] = float(
+        np.abs(np.r_[C[0:3, 3:6].ravel(), C[3, 4], C[3, 5], C[4, 5]]).max()
+        / max(abs(C[0, 0]), 1e-12))
+
+    if abs(np.linalg.det(C)) > 1e-14:
+        S = np.linalg.inv(C)
+        row["E11"], row["E22"], row["E33"] = 1/S[0, 0], 1/S[1, 1], 1/S[2, 2]
+        row["G23"], row["G13"], row["G12"] = 1/S[3, 3], 1/S[4, 4], 1/S[5, 5]
+        row["nu12"] = -S[0, 1]/S[0, 0]
+        row["nu13"] = -S[0, 2]/S[0, 0]
+        row["nu23"] = -S[1, 2]/S[1, 1]
+    row["Kbulk"] = C[:3, :3].sum() / 9.0
+
+    v, f, _ = interface_mesh(family, level, n=n, freq=freq, mode=mode)
+    Sa = surface_area(v, f)
+    eps = 1.0 - float(mask.mean())
+    row["porosity"] = round(eps, 6)
+    row["spec_surf"] = round(Sa, 5)
+    row["K_perm"] = eps**3 / (KOZENY_C * Sa**2) if Sa > 0 else np.nan
+
+    # A row is usable only if the solid actually carries load and heat.
+    row["feasible"] = int(kd.min() > 1e-6 and row["E11"] > 1e-6
+                          and np.isfinite(row["E11"]))
     return row
 
 

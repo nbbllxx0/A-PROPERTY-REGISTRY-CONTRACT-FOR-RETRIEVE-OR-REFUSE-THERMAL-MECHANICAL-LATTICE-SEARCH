@@ -1,0 +1,5881 @@
+{
+ "n_suite": 64,
+ "n_p2_still_empty": 207,
+ "decision_classes": {
+  "levels": {
+   "p90": {
+    "k": 0.031604245069905834,
+    "E": 0.04494145475841894,
+    "ratio": 0.04050910147110004
+   },
+   "worst": {
+    "k": 0.2112665842527466,
+    "E": 0.22856016170245477,
+    "ratio": 0.14738397967161943
+   },
+   "worst+nu": {
+    "k": 0.2112665842527466,
+    "E": 0.3735302607833446,
+    "ratio": 0.14738397967161943
+   }
+  },
+  "nu_drift_e11": 0.11800000000000001,
+  "summary": {
+   "p90": {
+    "delta": {
+     "k": 0.031604245069905834,
+     "E": 0.04494145475841894,
+     "ratio": 0.04050910147110004
+    },
+    "suite": {
+     "feasible: reliably feasible": 48,
+     "empty: reliably infeasible": 13,
+     "feasible: unresolved": 1,
+     "empty: unresolved": 2
+    },
+    "repair": {
+     "empty: reliably infeasible": 188,
+     "empty: unresolved": 19
+    },
+    "briefs": {
+     "feasible: reliably feasible": 5,
+     "empty: reliably infeasible": 2
+    }
+   },
+   "worst": {
+    "delta": {
+     "k": 0.2112665842527466,
+     "E": 0.22856016170245477,
+     "ratio": 0.14738397967161943
+    },
+    "suite": {
+     "feasible: reliably feasible": 46,
+     "feasible: unresolved": 3,
+     "empty: reliably infeasible": 10,
+     "empty: unresolved": 5
+    },
+    "repair": {
+     "empty: reliably infeasible": 114,
+     "empty: unresolved": 93
+    },
+    "briefs": {
+     "feasible: reliably feasible": 5,
+     "empty: reliably infeasible": 2
+    }
+   },
+   "worst+nu": {
+    "delta": {
+     "k": 0.2112665842527466,
+     "E": 0.3735302607833446,
+     "ratio": 0.14738397967161943
+    },
+    "suite": {
+     "feasible: reliably feasible": 44,
+     "feasible: unresolved": 5,
+     "empty: reliably infeasible": 9,
+     "empty: unresolved": 6
+    },
+    "repair": {
+     "empty: reliably infeasible": 106,
+     "empty: unresolved": 101
+    },
+    "briefs": {
+     "feasible: reliably feasible": 5,
+     "empty: reliably infeasible": 2
+    }
+   }
+  },
+  "rows": {
+   "suite": [
+    {
+     "id": "s_rho_<=_0.12",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.15",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.18",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.2",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.25",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.3",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_rho_<=_0.4",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_20",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_40",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_50",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_80",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_100",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_E_11_>=_150",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "s_k_11_>=_10",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_11_>=_40",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_11_>=_60",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_11_>=_80",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_11_>=_120",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_cost_per_kg_<=_3",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_cost_per_kg_<=_5",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_cost_per_kg_<=_10",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_cost_per_kg_<=_40",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_aniso_<=_0.55",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_aniso_<=_0.7",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_k_aniso_<=_0.9",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_mass_density_<=_800",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_mass_density_<=_1200",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "s_mass_density_<=_2000",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_00",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "p_01",
+     "empty": false,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_02",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_03",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_04",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_05",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_06",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_07",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_08",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_09",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_10",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_11",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_12",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_13",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_14",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_15",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_16",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_17",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_18",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "p_19",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "t_00",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_01",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_02",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_03",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_04",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_05",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "t_06",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "t_07",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_08",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_09",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "t_10",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "t_11",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "r_cheap_k",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "r_spreader",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "r_stiff_light",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "r_light_stiff",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    }
+   ],
+   "repair": [
+    {
+     "id": "p_00",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "p_03",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_04",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_06",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "p_10",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "t_00",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_01",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_02",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_03",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_04",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_07",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_08",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "t_10",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "t_11",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "r_light_stiff",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_000",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_001",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_002",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_003",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_004",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_005",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_006",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_007",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_008",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_009",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_010",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_011",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_012",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_013",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_014",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_015",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_016",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_017",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_018",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_019",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_020",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_021",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_022",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_023",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_024",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_026",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_027",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_028",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_029",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_030",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_031",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_032",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_033",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_034",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_035",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_036",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_037",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_038",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_040",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_041",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_042",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_043",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_044",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_045",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_046",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_047",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_048",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_049",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_050",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_051",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_052",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_053",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_054",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_055",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_056",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_057",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_058",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_059",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_060",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_061",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_062",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_063",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_064",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_065",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_066",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_067",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_068",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_069",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_070",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_071",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_072",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_073",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_074",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_075",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_076",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_077",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_078",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_079",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_080",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_081",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_082",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_083",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_084",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_085",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_086",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_087",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_088",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_089",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_090",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_091",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_092",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_093",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_094",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_095",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_096",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_097",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_098",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_099",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_100",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_101",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_102",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_103",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_104",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_105",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_106",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_107",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_108",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_109",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_110",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_112",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_113",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_114",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_115",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_116",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_117",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_118",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_119",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_120",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_121",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_122",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_123",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_124",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_125",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_127",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_128",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_129",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_130",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_131",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_132",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_133",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_136",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_137",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_138",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_139",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_140",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_141",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_144",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_145",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_146",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_147",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_148",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_149",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_150",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_151",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_152",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_153",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_154",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_155",
+     "empty": true,
+     "class": {
+      "p90": "unresolved",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_156",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_157",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_158",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_159",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_160",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_161",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_162",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_163",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_164",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_165",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_166",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_167",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_168",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_169",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_170",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_171",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_172",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_173",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_174",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_175",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_176",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_177",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_178",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_179",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_180",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_181",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_182",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_183",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_184",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_185",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_186",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_187",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_188",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_189",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_190",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_191",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_192",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_193",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_194",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_195",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    },
+    {
+     "id": "x_196",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_197",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_198",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "x_199",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "unresolved",
+      "worst+nu": "unresolved"
+     }
+    }
+   ],
+   "briefs": [
+    {
+     "id": "heat_spreader_dual",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "heat_spreader_dual_printable",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "heat_spreader_one_axis",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "cheap_conductor",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "stiff_light",
+     "empty": false,
+     "class": {
+      "p90": "reliably feasible",
+      "worst": "reliably feasible",
+      "worst+nu": "reliably feasible"
+     }
+    },
+    {
+     "id": "light_stiff_empty",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    },
+    {
+     "id": "cubic_directional",
+     "empty": true,
+     "class": {
+      "p90": "reliably infeasible",
+      "worst": "reliably infeasible",
+      "worst+nu": "reliably infeasible"
+     }
+    }
+   ]
+  }
+ },
+ "objective_repairs": {
+  "summary": {
+   "seed": 20260926,
+   "pool": [
+    "max k_11",
+    "max E_11",
+    "max specific_stiffness",
+    "min mass_density",
+    "max specific_conductivity"
+   ],
+   "n": 207,
+   "no_protection": {
+    "first": {
+     "n_scored": 207,
+     "n_answered": 207,
+     "mean_percentile": 0.7587191133039713,
+     "matches_best": 81,
+     "mean_regret": 0.1255647325158158,
+     "max_regret": 0.7917263205485645
+    },
+    "list_best": {
+     "n_scored": 207,
+     "n_answered": 207,
+     "mean_percentile": 0.8749521767888067,
+     "matches_best": 197,
+     "mean_regret": 0.009331669030980705,
+     "max_regret": 0.42506216562429355
+    },
+    "full_best": {
+     "n_scored": 207,
+     "n_answered": 207,
+     "mean_percentile": 0.8842838458197873,
+     "matches_best": 207,
+     "mean_regret": 0.0,
+     "max_regret": 0.0
+    }
+   },
+   "full_beats_list": 10,
+   "list_beats_first": 117,
+   "n_eligible": 202,
+   "protected": {
+    "first_prot": {
+     "n_scored": 202,
+     "n_answered": 202,
+     "mean_percentile": 0.7283444285201636,
+     "matches_best": 129,
+     "mean_regret": 0.09953587476900054,
+     "max_regret": 0.7917263205485645
+    },
+    "list_best_prot": {
+     "n_scored": 202,
+     "n_answered": 201,
+     "mean_percentile": 0.8226248757718453,
+     "matches_best": 196,
+     "mean_regret": 0.004761063944087865,
+     "max_regret": 0.31030065556476527
+    },
+    "full_best_prot": {
+     "n_scored": 202,
+     "n_answered": 202,
+     "mean_percentile": 0.827880303289164,
+     "matches_best": 202,
+     "mean_regret": 0.0,
+     "max_regret": 0.0
+    },
+    "protection_first": {
+     "n_scored": 202,
+     "n_answered": 202,
+     "mean_percentile": 0.7977675583849545,
+     "matches_best": 115,
+     "mean_regret": 0.030112744904209364,
+     "max_regret": 0.5383543063823374
+    }
+   },
+   "full_beats_list_protected": 6
+  },
+  "rows": [
+   {
+    "id": "p_00",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8010323261246327,
+    "list_best": 0.8010323261246327,
+    "full_best": 0.8010323261246327,
+    "first_prot": 0.3737095923442092,
+    "list_best_prot": 0.3737095923442092,
+    "full_best_prot": 0.3737095923442092,
+    "protection_first": 0.9958933011830307
+   },
+   {
+    "id": "p_03",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7886745535377891,
+    "list_best": 0.7886745535377891,
+    "full_best": 0.7886745535377891,
+    "first_prot": 0.42811393263506897,
+    "list_best_prot": 0.42811393263506897,
+    "full_best_prot": 0.42811393263506897,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "p_04",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8248436440358676,
+    "list_best": 0.8248436440358676,
+    "full_best": 0.8248436440358676,
+    "first_prot": 0.7924044909954036,
+    "list_best_prot": 0.7924044909954036,
+    "full_best_prot": 0.7924044909954036,
+    "protection_first": 0.8828648933765353
+   },
+   {
+    "id": "p_06",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8434179790520684,
+    "list_best": 0.8450003767613593,
+    "full_best": 0.8450003767613593,
+    "first_prot": 0.8450003767613593,
+    "list_best_prot": 0.8450003767613593,
+    "full_best_prot": 0.8450003767613593,
+    "protection_first": 0.9974756988923216
+   },
+   {
+    "id": "p_10",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9190339838746138,
+    "list_best": 0.999849295456258,
+    "full_best": 0.999849295456258,
+    "first_prot": 0.999849295456258,
+    "list_best_prot": 0.999849295456258,
+    "full_best_prot": 0.999849295456258,
+    "protection_first": 1.0
+   },
+   {
+    "id": "t_00",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.05410293120337584,
+    "list_best": 0.6686760605832266,
+    "full_best": 0.6686760605832266,
+    "first_prot": 0.6686760605832266,
+    "list_best_prot": 0.6686760605832266,
+    "full_best_prot": 0.6686760605832266,
+    "protection_first": 0.7665209856077161
+   },
+   {
+    "id": "t_01",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8641021776806571,
+    "list_best": 0.8733705071207897,
+    "full_best": 0.8733705071207897,
+    "first_prot": 0.8733705071207897,
+    "list_best_prot": 0.8733705071207897,
+    "full_best_prot": 0.8733705071207897,
+    "protection_first": 0.8733705071207897
+   },
+   {
+    "id": "t_02",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8510662346469746,
+    "list_best": 0.915793836184161,
+    "full_best": 0.915793836184161,
+    "first_prot": 0.560997664079572,
+    "list_best_prot": 0.915793836184161,
+    "full_best_prot": 0.915793836184161,
+    "protection_first": 0.7665209856077161
+   },
+   {
+    "id": "t_03",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8341496496119358,
+    "list_best": 0.9726848014467636,
+    "full_best": 0.9726848014467636,
+    "first_prot": 0.8227714565594153,
+    "list_best_prot": 0.8227714565594153,
+    "full_best_prot": 0.8227714565594153,
+    "protection_first": 0.8306457689699345
+   },
+   {
+    "id": "t_04",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9947253409690302,
+    "list_best": 0.9974756988923216,
+    "full_best": 0.9974756988923216,
+    "first_prot": 0.9974756988923216,
+    "list_best_prot": 0.9974756988923216,
+    "full_best_prot": 0.9974756988923216,
+    "protection_first": 0.9974756988923216
+   },
+   {
+    "id": "t_07",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5078743124105192,
+    "list_best": 0.5078743124105192,
+    "full_best": 0.5078743124105192,
+    "first_prot": 0.231821264411122,
+    "list_best_prot": 0.231821264411122,
+    "full_best_prot": 0.231821264411122,
+    "protection_first": 0.7968879511717278
+   },
+   {
+    "id": "t_08",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9869263808303821,
+    "list_best": 0.9869263808303821,
+    "full_best": 0.9869263808303821,
+    "first_prot": 0.5764448798131264,
+    "list_best_prot": 0.5764448798131264,
+    "full_best_prot": 0.5764448798131264,
+    "protection_first": 0.5764448798131264
+   },
+   {
+    "id": "t_10",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6821641172481351,
+    "list_best": 0.9080702283173838,
+    "full_best": 0.9080702283173838,
+    "first_prot": 0.9080702283173838,
+    "list_best_prot": 0.9080702283173838,
+    "full_best_prot": 0.9080702283173838,
+    "protection_first": 0.9165850350388064
+   },
+   {
+    "id": "t_11",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8364855700399367,
+    "list_best": 0.976791500263733,
+    "full_best": 0.976791500263733,
+    "first_prot": 0.8302690076105794,
+    "list_best_prot": 0.8302690076105794,
+    "full_best_prot": 0.8302690076105794,
+    "protection_first": 0.8307211212418054
+   },
+   {
+    "id": "r_light_stiff",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9990204204656771,
+    "list_best": 0.9990204204656771,
+    "full_best": 0.9990204204656771,
+    "first_prot": 0.6006329590837164,
+    "list_best_prot": 0.6006329590837164,
+    "full_best_prot": 0.6006329590837164,
+    "protection_first": 0.9956295682314822
+   },
+   {
+    "id": "x_000",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8876120865044081,
+    "list_best": 0.8876120865044081,
+    "full_best": 0.8876120865044081,
+    "first_prot": 0.8876120865044081,
+    "list_best_prot": 0.8876120865044081,
+    "full_best_prot": 0.8876120865044081,
+    "protection_first": 0.8876120865044081
+   },
+   {
+    "id": "x_001",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9934066762112878,
+    "list_best": 0.9968728807173536,
+    "full_best": 0.9968728807173536,
+    "first_prot": 0.9968728807173536,
+    "list_best_prot": 0.9968728807173536,
+    "full_best_prot": 0.9968728807173536,
+    "protection_first": 0.9968728807173536
+   },
+   {
+    "id": "x_002",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8910406148745385,
+    "list_best": 0.9803707331776053,
+    "full_best": 0.9803707331776053,
+    "first_prot": 0.8910406148745385,
+    "list_best_prot": 0.9793534775073468,
+    "full_best_prot": 0.9793534775073468,
+    "protection_first": 0.89228392736041
+   },
+   {
+    "id": "x_003",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6485946801296059,
+    "list_best": 0.8981990807022832,
+    "full_best": 0.8981990807022832,
+    "first_prot": 0.8981990807022832,
+    "list_best_prot": 0.8981990807022832,
+    "full_best_prot": 0.8981990807022832,
+    "protection_first": 0.6040614874538467
+   },
+   {
+    "id": "x_004",
+    "objective": "max specific_stiffness",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.561148368623314,
+    "list_best": 0.85487152437646,
+    "full_best": 0.85487152437646,
+    "first_prot": 0.561148368623314,
+    "list_best_prot": 0.8231858940547058,
+    "full_best_prot": 0.8231858940547058,
+    "protection_first": 0.8453394619847788
+   },
+   {
+    "id": "x_005",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8212644111219953,
+    "list_best": 0.8212644111219953,
+    "full_best": 0.8212644111219953,
+    "first_prot": 0.5813804536206767,
+    "list_best_prot": 0.5813804536206767,
+    "full_best_prot": 0.5813804536206767,
+    "protection_first": 0.34974756988923217
+   },
+   {
+    "id": "x_006",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9942355512018687,
+    "list_best": 0.9942355512018687,
+    "full_best": 0.9942355512018687,
+    "first_prot": 0.6368774018536659,
+    "list_best_prot": 0.6368774018536659,
+    "full_best_prot": 0.6368774018536659,
+    "protection_first": 0.9902042046567704
+   },
+   {
+    "id": "x_007",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.10534247607565368,
+    "list_best": 0.8970687966242182,
+    "full_best": 0.8970687966242182,
+    "first_prot": 0.10534247607565368,
+    "list_best_prot": 0.8970687966242182,
+    "full_best_prot": 0.8970687966242182,
+    "protection_first": 0.9847788410820586
+   },
+   {
+    "id": "x_008",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": false,
+    "first": 0.9993595056890965,
+    "list_best": 0.9997739431843871,
+    "full_best": 0.9997739431843871
+   },
+   {
+    "id": "x_009",
+    "objective": "max specific_conductivity",
+    "n_mcs": 6,
+    "n_min_mcs": 5,
+    "eligible": true,
+    "first": 0.7951171727827594,
+    "list_best": 0.9995855625047095,
+    "full_best": 0.9995855625047095,
+    "first_prot": 0.8868585637856982,
+    "list_best_prot": 0.8920201944088614,
+    "full_best_prot": 0.8920201944088614,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "x_010",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8920201944088614,
+    "list_best": 0.9800693240901213,
+    "full_best": 0.9800693240901213,
+    "first_prot": 0.8920201944088614,
+    "list_best_prot": 0.9800693240901213,
+    "full_best_prot": 0.9800693240901213,
+    "protection_first": 0.8920201944088614
+   },
+   {
+    "id": "x_011",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.6254992088011453,
+    "list_best": 0.8833923592796322,
+    "full_best": 0.8833923592796322,
+    "first_prot": 0.6254992088011453,
+    "list_best_prot": 0.6254992088011453,
+    "full_best_prot": 0.6254992088011453,
+    "protection_first": 0.803858036319795
+   },
+   {
+    "id": "x_012",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7843041217692713,
+    "list_best": 0.8346394393790972,
+    "full_best": 0.9388893075126215,
+    "first_prot": 0.7843041217692713,
+    "list_best_prot": 0.7843041217692713,
+    "full_best_prot": 0.9388893075126215,
+    "protection_first": 0.7843041217692713
+   },
+   {
+    "id": "x_013",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8577349107075578,
+    "list_best": 0.8925476603119584,
+    "full_best": 0.8925476603119584,
+    "first_prot": 0.8577349107075578,
+    "list_best_prot": 0.8577349107075578,
+    "full_best_prot": 0.8577349107075578,
+    "protection_first": 0.8577349107075578
+   },
+   {
+    "id": "x_014",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8543440584733629,
+    "list_best": 0.8543440584733629,
+    "full_best": 0.8543440584733629,
+    "first_prot": 0.3587521663778163,
+    "list_best_prot": 0.3587521663778163,
+    "full_best_prot": 0.3587521663778163,
+    "protection_first": 0.3587521663778163
+   },
+   {
+    "id": "x_015",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9827820058774772,
+    "list_best": 0.9827820058774772,
+    "full_best": 0.9827820058774772,
+    "first_prot": 0.9827820058774772,
+    "list_best_prot": 0.9827820058774772,
+    "full_best_prot": 0.9827820058774772,
+    "protection_first": 0.8978599954788636
+   },
+   {
+    "id": "x_016",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8185517293346395,
+    "list_best": 0.8185517293346395,
+    "full_best": 0.8185517293346395,
+    "first_prot": 0.7895787808002411,
+    "list_best_prot": 0.7895787808002411,
+    "full_best_prot": 0.7895787808002411,
+    "protection_first": 0.7895787808002411
+   },
+   {
+    "id": "x_017",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7962474568608243,
+    "list_best": 0.7962474568608243,
+    "full_best": 0.7962474568608243,
+    "first_prot": 0.7962474568608243,
+    "list_best_prot": 0.7962474568608243,
+    "full_best_prot": 0.7962474568608243,
+    "protection_first": 0.5440434029085977
+   },
+   {
+    "id": "x_018",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.987077085374124,
+    "list_best": 0.987077085374124,
+    "full_best": 0.987077085374124,
+    "first_prot": 0.9853063069851556,
+    "list_best_prot": 0.9853063069851556,
+    "full_best_prot": 0.9853063069851556,
+    "protection_first": 0.9991711250094191
+   },
+   {
+    "id": "x_019",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.987755255820963,
+    "list_best": 0.987755255820963,
+    "full_best": 0.987755255820963,
+    "first_prot": 0.987755255820963,
+    "list_best_prot": 0.987755255820963,
+    "full_best_prot": 0.987755255820963,
+    "protection_first": 0.9907316705598673
+   },
+   {
+    "id": "x_020",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.950041443749529,
+    "list_best": 0.9814256649837992,
+    "full_best": 0.9814256649837992,
+    "first_prot": 0.950041443749529,
+    "list_best_prot": 0.950041443749529,
+    "full_best_prot": 0.950041443749529,
+    "protection_first": 0.8884409614949891
+   },
+   {
+    "id": "x_021",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9801823524979278,
+    "list_best": 0.9801823524979278,
+    "full_best": 0.9801823524979278,
+    "first_prot": 0.8772511491221461,
+    "list_best_prot": 0.9792781252354759,
+    "full_best_prot": 0.9792781252354759,
+    "protection_first": 0.9974756988923216
+   },
+   {
+    "id": "x_022",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8903624444276995,
+    "list_best": 0.8903624444276995,
+    "full_best": 0.8903624444276995,
+    "first_prot": 0.8180242634315424,
+    "list_best_prot": 0.8180242634315424,
+    "full_best_prot": 0.8180242634315424,
+    "protection_first": 0.4455203074372692
+   },
+   {
+    "id": "x_023",
+    "objective": "min mass_density",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.9095772737548037,
+    "list_best": 0.9095772737548037,
+    "full_best": 0.9095772737548037,
+    "first_prot": 0.8754803707331776,
+    "list_best_prot": 0.8754803707331776,
+    "full_best_prot": 0.8754803707331776,
+    "protection_first": 0.9991711250094191
+   },
+   {
+    "id": "x_024",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8501243312485871,
+    "list_best": 0.8501243312485871,
+    "full_best": 0.8501243312485871,
+    "first_prot": 0.8501243312485871,
+    "list_best_prot": 0.8501243312485871,
+    "full_best_prot": 0.8501243312485871,
+    "protection_first": 0.6251601235777259
+   },
+   {
+    "id": "x_026",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.9714414889608922,
+    "list_best": 0.9714414889608922,
+    "full_best": 0.9714414889608922,
+    "first_prot": 0.9714414889608922,
+    "list_best_prot": 0.9714414889608922,
+    "full_best_prot": 0.9714414889608922,
+    "protection_first": 0.9809358752166378
+   },
+   {
+    "id": "x_027",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.461984778841082,
+    "list_best": 0.461984778841082,
+    "full_best": 0.461984778841082,
+    "first_prot": 0.461984778841082,
+    "list_best_prot": 0.461984778841082,
+    "full_best_prot": 0.461984778841082,
+    "protection_first": 0.7593625197799714
+   },
+   {
+    "id": "x_028",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7025845829251751,
+    "list_best": 0.890852234194861,
+    "full_best": 0.890852234194861,
+    "first_prot": 0.890852234194861,
+    "list_best_prot": 0.890852234194861,
+    "full_best_prot": 0.890852234194861,
+    "protection_first": 0.5747494536960289
+   },
+   {
+    "id": "x_029",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8426644563333585,
+    "list_best": 0.8426644563333585,
+    "full_best": 0.8581870243387838,
+    "first_prot": 0.8426644563333585,
+    "list_best_prot": 0.8426644563333585,
+    "full_best_prot": 0.8426644563333585,
+    "protection_first": 0.9827066536056062
+   },
+   {
+    "id": "x_030",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.97581192072941,
+    "list_best": 0.9792781252354759,
+    "full_best": 0.9792781252354759,
+    "first_prot": 0.97581192072941,
+    "list_best_prot": 0.97581192072941,
+    "full_best_prot": 0.97581192072941,
+    "protection_first": 0.9965714716298696
+   },
+   {
+    "id": "x_031",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5440434029085977,
+    "list_best": 0.9064501544721574,
+    "full_best": 0.9064501544721574,
+    "first_prot": 0.5440434029085977,
+    "list_best_prot": 0.9064501544721574,
+    "full_best_prot": 0.9064501544721574,
+    "protection_first": 0.6569964584432221
+   },
+   {
+    "id": "x_032",
+    "objective": "max specific_stiffness",
+    "n_mcs": 4,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.9838746138196066,
+    "list_best": 0.9838746138196066,
+    "full_best": 0.9838746138196066,
+    "first_prot": 0.9838746138196066,
+    "list_best_prot": 0.9838746138196066,
+    "full_best_prot": 0.9838746138196066,
+    "protection_first": 0.9838746138196066
+   },
+   {
+    "id": "x_033",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8933388591666038,
+    "list_best": 0.8933388591666038,
+    "full_best": 0.8933388591666038,
+    "first_prot": 0.8933388591666038,
+    "list_best_prot": 0.8933388591666038,
+    "full_best_prot": 0.8933388591666038,
+    "protection_first": 0.8978599954788636
+   },
+   {
+    "id": "x_034",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9711024037374727,
+    "list_best": 0.9711024037374727,
+    "full_best": 0.9711024037374727,
+    "first_prot": 0.9711024037374727,
+    "list_best_prot": 0.9711024037374727,
+    "full_best_prot": 0.9711024037374727,
+    "protection_first": 0.89228392736041
+   },
+   {
+    "id": "x_035",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.744066008590159,
+    "list_best": 0.744066008590159,
+    "full_best": 0.744066008590159,
+    "first_prot": 0.744066008590159,
+    "list_best_prot": 0.744066008590159,
+    "full_best_prot": 0.744066008590159,
+    "protection_first": 0.9199758872730013
+   },
+   {
+    "id": "x_036",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": false,
+    "first": 0.6554517368698667,
+    "list_best": 0.8426644563333585,
+    "full_best": 0.8426644563333585
+   },
+   {
+    "id": "x_037",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8989902795569287,
+    "list_best": 0.9062240976565443,
+    "full_best": 0.9062240976565443,
+    "first_prot": 0.8989902795569287,
+    "list_best_prot": 0.9062240976565443,
+    "full_best_prot": 0.9062240976565443,
+    "protection_first": 0.8811694672594379
+   },
+   {
+    "id": "x_038",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8969934443523472,
+    "list_best": 0.9808228468088313,
+    "full_best": 0.9808228468088313,
+    "first_prot": 0.8826388365609223,
+    "list_best_prot": 0.9808228468088313,
+    "full_best_prot": 0.9808228468088313,
+    "protection_first": 0.8978599954788636
+   },
+   {
+    "id": "x_040",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5764448798131264,
+    "list_best": 0.9527164494009495,
+    "full_best": 0.9527164494009495,
+    "first_prot": 0.5764448798131264,
+    "list_best_prot": 0.8706578253334338,
+    "full_best_prot": 0.8706578253334338,
+    "protection_first": 0.5764448798131264
+   },
+   {
+    "id": "x_041",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.35517293346394396,
+    "list_best": 0.7503955994273227,
+    "full_best": 0.7503955994273227,
+    "first_prot": 0.35517293346394396,
+    "list_best_prot": 0.7503955994273227,
+    "full_best_prot": 0.7503955994273227,
+    "protection_first": 0.35517293346394396
+   },
+   {
+    "id": "x_042",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8372767688945821,
+    "list_best": 0.8372767688945821,
+    "full_best": 0.8372767688945821,
+    "first_prot": 0.8372767688945821,
+    "list_best_prot": 0.8372767688945821,
+    "full_best_prot": 0.8372767688945821,
+    "protection_first": 0.8914173762338935
+   },
+   {
+    "id": "x_043",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8985758420616382,
+    "list_best": 0.9830457388290257,
+    "full_best": 0.9830457388290257,
+    "first_prot": 0.8985758420616382,
+    "list_best_prot": 0.9803707331776053,
+    "full_best_prot": 0.9803707331776053,
+    "protection_first": 0.8985758420616382
+   },
+   {
+    "id": "x_044",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8049506442619245,
+    "list_best": 0.8394996609147766,
+    "full_best": 0.8394996609147766,
+    "first_prot": 0.4975133750282571,
+    "list_best_prot": 0.8394996609147766,
+    "full_best_prot": 0.8394996609147766,
+    "protection_first": 0.8430035415567779
+   },
+   {
+    "id": "x_045",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8717504332755632,
+    "list_best": 0.9286790746741014,
+    "full_best": 0.9286790746741014,
+    "first_prot": 0.9286790746741014,
+    "list_best_prot": 0.9286790746741014,
+    "full_best_prot": 0.9286790746741014,
+    "protection_first": 0.9376083188908145
+   },
+   {
+    "id": "x_046",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.4036621204129304,
+    "list_best": 0.4420541029312034,
+    "full_best": 0.4420541029312034,
+    "first_prot": 0.4036621204129304,
+    "list_best_prot": 0.4036621204129304,
+    "full_best_prot": 0.4036621204129304,
+    "protection_first": 0.9694446537563107
+   },
+   {
+    "id": "x_047",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6224851179263055,
+    "list_best": 0.8925476603119584,
+    "full_best": 0.8925476603119584,
+    "first_prot": 0.6224851179263055,
+    "list_best_prot": 0.8925476603119584,
+    "full_best_prot": 0.8925476603119584,
+    "protection_first": 0.8925476603119584
+   },
+   {
+    "id": "x_048",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.1925250546303971,
+    "list_best": 0.1925250546303971,
+    "full_best": 0.1925250546303971,
+    "first_prot": 0.1925250546303971,
+    "list_best_prot": 0.1925250546303971,
+    "full_best_prot": 0.1925250546303971,
+    "protection_first": 0.43493331323939416
+   },
+   {
+    "id": "x_049",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7632054856453923,
+    "list_best": 0.7632054856453923,
+    "full_best": 0.7632054856453923,
+    "first_prot": 0.7632054856453923,
+    "list_best_prot": 0.7632054856453923,
+    "full_best_prot": 0.7632054856453923,
+    "protection_first": 0.5747494536960289
+   },
+   {
+    "id": "x_050",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.706427548790596,
+    "list_best": 0.7217240599804084,
+    "full_best": 0.7217240599804084,
+    "first_prot": 0.706427548790596,
+    "list_best_prot": 0.7217240599804084,
+    "full_best_prot": 0.7217240599804084,
+    "protection_first": 0.706427548790596
+   },
+   {
+    "id": "x_051",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9982668977469671,
+    "list_best": 0.9982668977469671,
+    "full_best": 0.9982668977469671,
+    "first_prot": 0.9982668977469671,
+    "list_best_prot": 0.9982668977469671,
+    "full_best_prot": 0.9982668977469671,
+    "protection_first": 0.9801823524979278
+   },
+   {
+    "id": "x_052",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8788712229673724,
+    "list_best": 0.8876120865044081,
+    "full_best": 0.8876120865044081,
+    "first_prot": 0.8471102403737473,
+    "list_best_prot": 0.8876120865044081,
+    "full_best_prot": 0.8876120865044081,
+    "protection_first": 0.8471102403737473
+   },
+   {
+    "id": "x_053",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.47257177303895714,
+    "list_best": 0.9809358752166378,
+    "full_best": 0.9809358752166378,
+    "first_prot": 0.9809358752166378,
+    "list_best_prot": 0.9809358752166378,
+    "full_best_prot": 0.9809358752166378,
+    "protection_first": 0.4440509381357848
+   },
+   {
+    "id": "x_054",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9070906487830608,
+    "list_best": 0.9308266144224249,
+    "full_best": 0.9308266144224249,
+    "first_prot": 0.9070906487830608,
+    "list_best_prot": 0.9070906487830608,
+    "full_best_prot": 0.9070906487830608,
+    "protection_first": 0.6628739356491599
+   },
+   {
+    "id": "x_055",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9687664833094718,
+    "list_best": 0.9687664833094718,
+    "full_best": 0.9687664833094718,
+    "first_prot": 0.7277899178660237,
+    "list_best_prot": 0.926079421294552,
+    "full_best_prot": 0.926079421294552,
+    "protection_first": 0.7277899178660237
+   },
+   {
+    "id": "x_056",
+    "objective": "max k_11",
+    "n_mcs": 4,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.5773114309396429,
+    "list_best": 0.5773114309396429,
+    "full_best": 0.8876120865044081,
+    "first_prot": 0.5773114309396429,
+    "list_best_prot": 0.5773114309396429,
+    "full_best_prot": 0.8876120865044081,
+    "protection_first": 0.5773114309396429
+   },
+   {
+    "id": "x_057",
+    "objective": "max k_11",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.8631602742822696,
+    "list_best": 0.8631602742822696,
+    "full_best": 0.8631602742822696,
+    "first_prot": 0.8631602742822696,
+    "list_best_prot": 0.8631602742822696,
+    "full_best_prot": 0.8631602742822696,
+    "protection_first": 0.9108582623766106
+   },
+   {
+    "id": "x_058",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8811694672594379,
+    "list_best": 0.8811694672594379,
+    "full_best": 0.8811694672594379,
+    "first_prot": 0.8811694672594379,
+    "list_best_prot": 0.8811694672594379,
+    "full_best_prot": 0.8811694672594379,
+    "protection_first": 0.6536432823449627
+   },
+   {
+    "id": "x_059",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9831964433727677,
+    "list_best": 0.9831964433727677,
+    "full_best": 0.9831964433727677,
+    "first_prot": 0.47257177303895714,
+    "list_best_prot": 0.9806721422650893,
+    "full_best_prot": 0.9806721422650893,
+    "protection_first": 0.47257177303895714
+   },
+   {
+    "id": "x_060",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9869263808303821,
+    "list_best": 0.9869263808303821,
+    "full_best": 0.9869263808303821,
+    "first_prot": 0.9732876196217316,
+    "list_best_prot": 0.9732876196217316,
+    "full_best_prot": 0.9732876196217316,
+    "protection_first": 0.8920201944088614
+   },
+   {
+    "id": "x_061",
+    "objective": "max k_11",
+    "n_mcs": 5,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.5773114309396429,
+    "list_best": 0.5773114309396429,
+    "full_best": 0.8338859166603874,
+    "first_prot": 0.5773114309396429,
+    "list_best_prot": 0.5773114309396429,
+    "full_best_prot": 0.8338859166603874,
+    "protection_first": 0.5773114309396429
+   },
+   {
+    "id": "x_062",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.28901363876120867,
+    "list_best": 0.6416622711174742,
+    "full_best": 0.6416622711174742,
+    "first_prot": 0.28901363876120867,
+    "list_best_prot": 0.28901363876120867,
+    "full_best_prot": 0.28901363876120867,
+    "protection_first": 0.3210760304423178
+   },
+   {
+    "id": "x_063",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.22221384974756989,
+    "list_best": 0.9852686308492201,
+    "full_best": 0.9852686308492201,
+    "first_prot": 0.22221384974756989,
+    "list_best_prot": 0.4420541029312034,
+    "full_best_prot": 0.4420541029312034,
+    "protection_first": 0.9809358752166378
+   },
+   {
+    "id": "x_064",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9286037224022304,
+    "list_best": 0.9286037224022304,
+    "full_best": 0.9286037224022304,
+    "first_prot": 0.8706578253334338,
+    "list_best_prot": 0.8706578253334338,
+    "full_best_prot": 0.8706578253334338,
+    "protection_first": 0.5611860447592495
+   },
+   {
+    "id": "x_065",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9968352045814182,
+    "list_best": 0.9968352045814182,
+    "full_best": 0.9968352045814182,
+    "first_prot": 0.9968352045814182,
+    "list_best_prot": 0.9968352045814182,
+    "full_best_prot": 0.9968352045814182,
+    "protection_first": 0.9968352045814182
+   },
+   {
+    "id": "x_066",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9977771079798056,
+    "list_best": 0.9977771079798056,
+    "full_best": 0.9977771079798056,
+    "first_prot": 0.7232687815537638,
+    "list_best_prot": 0.7232687815537638,
+    "full_best_prot": 0.7232687815537638,
+    "protection_first": 0.9973249943485796
+   },
+   {
+    "id": "x_067",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5838294024564841,
+    "list_best": 0.9661291537939869,
+    "full_best": 0.9661291537939869,
+    "first_prot": 0.5838294024564841,
+    "list_best_prot": 0.9661291537939869,
+    "full_best_prot": 0.9661291537939869,
+    "protection_first": 0.9905056137442544
+   },
+   {
+    "id": "x_068",
+    "objective": "max specific_conductivity",
+    "n_mcs": 5,
+    "n_min_mcs": 5,
+    "eligible": true,
+    "first": 0.8121467862256047,
+    "list_best": 0.9805967899932183,
+    "full_best": 0.9805967899932183,
+    "first_prot": 0.4312033757817798,
+    "list_best_prot": 0.875668751412855,
+    "full_best_prot": 0.875668751412855,
+    "protection_first": 0.7974530932107603
+   },
+   {
+    "id": "x_069",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8868585637856982,
+    "list_best": 0.8868585637856982,
+    "full_best": 0.8868585637856982,
+    "first_prot": 0.8868585637856982,
+    "list_best_prot": 0.8868585637856982,
+    "full_best_prot": 0.8868585637856982,
+    "protection_first": 0.6959159068645919
+   },
+   {
+    "id": "x_070",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9762263582247005,
+    "list_best": 0.9972496420767086,
+    "full_best": 0.9972496420767086,
+    "first_prot": 0.9762263582247005,
+    "list_best_prot": 0.9972496420767086,
+    "full_best_prot": 0.9972496420767086,
+    "protection_first": 0.9793534775073468
+   },
+   {
+    "id": "x_071",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8510662346469746,
+    "list_best": 0.8510662346469746,
+    "full_best": 0.8510662346469746,
+    "first_prot": 0.8510662346469746,
+    "list_best_prot": 0.8510662346469746,
+    "full_best_prot": 0.8510662346469746,
+    "protection_first": 0.6536432823449627
+   },
+   {
+    "id": "x_072",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.3730690980333057,
+    "list_best": 0.8853891944842137,
+    "full_best": 0.8853891944842137,
+    "first_prot": 0.3730690980333057,
+    "list_best_prot": 0.8853891944842137,
+    "full_best_prot": 0.8853891944842137,
+    "protection_first": 0.3730690980333057
+   },
+   {
+    "id": "x_073",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5935875216637782,
+    "list_best": 0.8911913194182804,
+    "full_best": 0.8911913194182804,
+    "first_prot": 0.5935875216637782,
+    "list_best_prot": 0.8865194785622786,
+    "full_best_prot": 0.8865194785622786,
+    "protection_first": 0.5935875216637782
+   },
+   {
+    "id": "x_074",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.998342250018838,
+    "list_best": 0.998342250018838,
+    "full_best": 0.998342250018838,
+    "first_prot": 0.6799789013638762,
+    "list_best_prot": 0.6799789013638762,
+    "full_best_prot": 0.6799789013638762,
+    "protection_first": 0.9968728807173536
+   },
+   {
+    "id": "x_075",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9707256423781176,
+    "list_best": 0.9852686308492201,
+    "full_best": 0.9852686308492201,
+    "first_prot": 0.9707256423781176,
+    "list_best_prot": 0.9852686308492201,
+    "full_best_prot": 0.9852686308492201,
+    "protection_first": 0.9994348579609675
+   },
+   {
+    "id": "x_076",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8743124105191772,
+    "list_best": 0.9690302162610203,
+    "full_best": 0.9690302162610203,
+    "first_prot": 0.8743124105191772,
+    "list_best_prot": 0.9690302162610203,
+    "full_best_prot": 0.9690302162610203,
+    "protection_first": 0.9965714716298696
+   },
+   {
+    "id": "x_077",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9793534775073468,
+    "list_best": 0.9793534775073468,
+    "full_best": 0.9793534775073468,
+    "first_prot": 0.9762263582247005,
+    "list_best_prot": 0.9762263582247005,
+    "full_best_prot": 0.9762263582247005,
+    "protection_first": 0.89228392736041
+   },
+   {
+    "id": "x_078",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.902569512470801,
+    "list_best": 0.902569512470801,
+    "full_best": 0.902569512470801,
+    "first_prot": 0.902569512470801,
+    "list_best_prot": 0.902569512470801,
+    "full_best_prot": 0.902569512470801,
+    "protection_first": 0.9195614497777108
+   },
+   {
+    "id": "x_079",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8507271494235551,
+    "list_best": 0.8507271494235551,
+    "full_best": 0.8507271494235551,
+    "first_prot": 0.8507271494235551,
+    "list_best_prot": 0.8507271494235551,
+    "full_best_prot": 0.8507271494235551,
+    "protection_first": 0.7135860146183407
+   },
+   {
+    "id": "x_080",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8690000753522719,
+    "list_best": 0.8690000753522719,
+    "full_best": 0.8690000753522719,
+    "first_prot": 0.8690000753522719,
+    "list_best_prot": 0.8690000753522719,
+    "full_best_prot": 0.8690000753522719,
+    "protection_first": 0.8784191093361465
+   },
+   {
+    "id": "x_081",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.560997664079572,
+    "list_best": 0.8439831210911009,
+    "full_best": 0.8439831210911009,
+    "first_prot": 0.560997664079572,
+    "list_best_prot": 0.8439831210911009,
+    "full_best_prot": 0.8439831210911009,
+    "protection_first": 0.9957425966392887
+   },
+   {
+    "id": "x_082",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8618416095245272,
+    "list_best": 0.8618416095245272,
+    "full_best": 0.8618416095245272,
+    "first_prot": 0.8618416095245272,
+    "list_best_prot": 0.8618416095245272,
+    "full_best_prot": 0.8618416095245272,
+    "protection_first": 0.42344209177906716
+   },
+   {
+    "id": "x_083",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.47867530706050787,
+    "list_best": 0.8811694672594379,
+    "full_best": 0.8811694672594379,
+    "first_prot": 0.49325597166754576,
+    "list_best_prot": 0.8811694672594379,
+    "full_best_prot": 0.8811694672594379,
+    "protection_first": 0.6536432823449627
+   },
+   {
+    "id": "x_084",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8185517293346395,
+    "list_best": 0.9688041594454073,
+    "full_best": 0.9688041594454073,
+    "first_prot": 0.8185517293346395,
+    "list_best_prot": 0.8185517293346395,
+    "full_best_prot": 0.8185517293346395,
+    "protection_first": 0.3587521663778163
+   },
+   {
+    "id": "x_085",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7579685027503579,
+    "list_best": 0.9166980634466129,
+    "full_best": 0.9166980634466129,
+    "first_prot": 0.6746288900610353,
+    "list_best_prot": 0.9166980634466129,
+    "full_best_prot": 0.9166980634466129,
+    "protection_first": 0.9166980634466129
+   },
+   {
+    "id": "x_086",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8499359505689097,
+    "list_best": 0.8499359505689097,
+    "full_best": 0.8499359505689097,
+    "first_prot": 0.8499359505689097,
+    "list_best_prot": 0.8499359505689097,
+    "full_best_prot": 0.8499359505689097,
+    "protection_first": 0.40385050109260795
+   },
+   {
+    "id": "x_087",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": false,
+    "first": 0.839763393866325,
+    "list_best": 0.839763393866325,
+    "full_best": 0.839763393866325
+   },
+   {
+    "id": "x_088",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.36455429131188305,
+    "list_best": 0.414889608921709,
+    "full_best": 0.414889608921709,
+    "first_prot": 0.36455429131188305,
+    "list_best_prot": 0.414889608921709,
+    "full_best_prot": 0.414889608921709,
+    "protection_first": 0.4001205636349936
+   },
+   {
+    "id": "x_089",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.7947780875593399,
+    "list_best": 0.7947780875593399,
+    "full_best": 0.9867380001507046,
+    "first_prot": 0.7947780875593399,
+    "list_best_prot": 0.7947780875593399,
+    "full_best_prot": 0.891681109185442,
+    "protection_first": 0.7947780875593399
+   },
+   {
+    "id": "x_090",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5642001356340893,
+    "list_best": 0.5642001356340893,
+    "full_best": 0.5642001356340893,
+    "first_prot": 0.5642001356340893,
+    "list_best_prot": 0.5642001356340893,
+    "full_best_prot": 0.5642001356340893,
+    "protection_first": 0.8037450079119886
+   },
+   {
+    "id": "x_091",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.47475698892321605,
+    "list_best": 0.8876120865044081,
+    "full_best": 0.8876120865044081,
+    "first_prot": 0.47475698892321605,
+    "list_best_prot": 0.8876120865044081,
+    "full_best_prot": 0.8876120865044081,
+    "protection_first": 0.8998191545475096
+   },
+   {
+    "id": "x_092",
+    "objective": "max specific_stiffness",
+    "n_mcs": 5,
+    "n_min_mcs": 5,
+    "eligible": true,
+    "first": 0.9788260116042499,
+    "list_best": 0.998342250018838,
+    "full_best": 0.998342250018838,
+    "first_prot": 0.9788260116042499,
+    "list_best_prot": 0.9788260116042499,
+    "full_best_prot": 0.9788260116042499,
+    "protection_first": 0.9968728807173536
+   },
+   {
+    "id": "x_093",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": false,
+    "first": 0.414889608921709,
+    "list_best": 0.9264561826539071,
+    "full_best": 0.9264561826539071
+   },
+   {
+    "id": "x_094",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.3987265466053802,
+    "list_best": 0.8083791726320548,
+    "full_best": 0.8083791726320548,
+    "first_prot": 0.3987265466053802,
+    "list_best_prot": 0.8083791726320548,
+    "full_best_prot": 0.8083791726320548,
+    "protection_first": 0.5941903398387461
+   },
+   {
+    "id": "x_095",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6381207143395373,
+    "list_best": 0.8426644563333585,
+    "full_best": 0.8426644563333585,
+    "first_prot": 0.4289804837615854,
+    "list_best_prot": 0.8426644563333585,
+    "full_best_prot": 0.8426644563333585,
+    "protection_first": 0.5175570793459423
+   },
+   {
+    "id": "x_096",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.47475698892321605,
+    "list_best": 0.47475698892321605,
+    "full_best": 0.8998191545475096,
+    "first_prot": 0.47475698892321605,
+    "list_best_prot": 0.47475698892321605,
+    "full_best_prot": 0.47475698892321605,
+    "protection_first": 0.47475698892321605
+   },
+   {
+    "id": "x_097",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5285961871750433,
+    "list_best": 0.547095169919373,
+    "full_best": 0.547095169919373,
+    "first_prot": 0.5285961871750433,
+    "list_best_prot": 0.5285961871750433,
+    "full_best_prot": 0.5285961871750433,
+    "protection_first": 0.8471102403737473
+   },
+   {
+    "id": "x_098",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.44224248361088087,
+    "list_best": 0.9806721422650893,
+    "full_best": 0.9806721422650893,
+    "first_prot": 0.44224248361088087,
+    "list_best_prot": 0.9805214377213473,
+    "full_best_prot": 0.9805214377213473,
+    "protection_first": 0.4533946198477884
+   },
+   {
+    "id": "x_099",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.20593775902343459,
+    "list_best": 0.8957124557305403,
+    "full_best": 0.8957124557305403,
+    "first_prot": 0.20593775902343459,
+    "list_best_prot": 0.20593775902343459,
+    "full_best_prot": 0.20593775902343459,
+    "protection_first": 0.999698590912516
+   },
+   {
+    "id": "x_100",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.33482782005877476,
+    "list_best": 0.8543440584733629,
+    "full_best": 0.8543440584733629,
+    "first_prot": 0.33482782005877476,
+    "list_best_prot": 0.7996383090950192,
+    "full_best_prot": 0.7996383090950192,
+    "protection_first": 0.33482782005877476
+   },
+   {
+    "id": "x_101",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.96409464245347,
+    "list_best": 0.96409464245347,
+    "full_best": 0.96409464245347,
+    "first_prot": 0.8868585637856982,
+    "list_best_prot": 0.8868585637856982,
+    "full_best_prot": 0.8868585637856982,
+    "protection_first": 0.8868585637856982
+   },
+   {
+    "id": "x_102",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.6741391002938739,
+    "list_best": 0.6741391002938739,
+    "full_best": 0.9272473815085525,
+    "first_prot": 0.9272473815085525,
+    "list_best_prot": null,
+    "full_best_prot": 0.9272473815085525,
+    "protection_first": 0.8037450079119886
+   },
+   {
+    "id": "x_103",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8492577801220706,
+    "list_best": 0.8760831889081456,
+    "full_best": 0.8760831889081456,
+    "first_prot": 0.8492577801220706,
+    "list_best_prot": 0.8492577801220706,
+    "full_best_prot": 0.8492577801220706,
+    "protection_first": 0.8492577801220706
+   },
+   {
+    "id": "x_104",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5521437721347299,
+    "list_best": 0.5521437721347299,
+    "full_best": 0.5521437721347299,
+    "first_prot": 0.24033607113254465,
+    "list_best_prot": 0.24033607113254465,
+    "full_best_prot": 0.24033607113254465,
+    "protection_first": 0.24033607113254465
+   },
+   {
+    "id": "x_105",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8988018988772511,
+    "list_best": 0.987152437645995,
+    "full_best": 0.987152437645995,
+    "first_prot": 0.8988018988772511,
+    "list_best_prot": 0.9833094717805742,
+    "full_best_prot": 0.9833094717805742,
+    "protection_first": 0.8988018988772511
+   },
+   {
+    "id": "x_106",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9779594604777334,
+    "list_best": 0.9819531308868963,
+    "full_best": 0.9819531308868963,
+    "first_prot": 0.9779594604777334,
+    "list_best_prot": 0.9779594604777334,
+    "full_best_prot": 0.9779594604777334,
+    "protection_first": 0.8884409614949891
+   },
+   {
+    "id": "x_107",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8450003767613593,
+    "list_best": 0.8831663024640193,
+    "full_best": 0.8831663024640193,
+    "first_prot": 0.8831663024640193,
+    "list_best_prot": 0.8831663024640193,
+    "full_best_prot": 0.8831663024640193,
+    "protection_first": 0.9974756988923216
+   },
+   {
+    "id": "x_108",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.3725039559942732,
+    "list_best": 0.9314294325973929,
+    "full_best": 0.9314294325973929,
+    "first_prot": 0.3725039559942732,
+    "list_best_prot": 0.9264561826539071,
+    "full_best_prot": 0.9264561826539071,
+    "protection_first": 0.9625122447441791
+   },
+   {
+    "id": "x_109",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7620375254313918,
+    "list_best": 0.7620375254313918,
+    "full_best": 0.7620375254313918,
+    "first_prot": 0.4149272850576445,
+    "list_best_prot": 0.4149272850576445,
+    "full_best_prot": 0.4149272850576445,
+    "protection_first": 0.9965714716298696
+   },
+   {
+    "id": "x_110",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": false,
+    "first": 0.8978223193429282,
+    "list_best": 0.8978223193429282,
+    "full_best": 0.8978223193429282
+   },
+   {
+    "id": "x_112",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8517067289578781,
+    "list_best": 0.9397181825032025,
+    "full_best": 0.9397181825032025,
+    "first_prot": 0.9397181825032025,
+    "list_best_prot": 0.9397181825032025,
+    "full_best_prot": 0.9397181825032025,
+    "protection_first": 0.7884108205862407
+   },
+   {
+    "id": "x_113",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.9809358752166378,
+    "list_best": 0.9809358752166378,
+    "full_best": 0.9809358752166378,
+    "first_prot": 0.9809358752166378,
+    "list_best_prot": 0.9809358752166378,
+    "full_best_prot": 0.9809358752166378,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "x_114",
+    "objective": "max specific_stiffness",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.4440509381357848,
+    "list_best": 0.9986059829703866,
+    "full_best": 0.9986059829703866,
+    "first_prot": 0.4440509381357848,
+    "list_best_prot": 0.9975133750282571,
+    "full_best_prot": 0.9975133750282571,
+    "protection_first": 0.818061939567478
+   },
+   {
+    "id": "x_115",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8510662346469746,
+    "list_best": 0.8510662346469746,
+    "full_best": 0.8510662346469746,
+    "first_prot": 0.8510662346469746,
+    "list_best_prot": 0.8510662346469746,
+    "full_best_prot": 0.8510662346469746,
+    "protection_first": 0.6569964584432221
+   },
+   {
+    "id": "x_116",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7479466505915153,
+    "list_best": 0.8083791726320548,
+    "full_best": 0.8083791726320548,
+    "first_prot": 0.8083791726320548,
+    "list_best_prot": 0.8083791726320548,
+    "full_best_prot": 0.8083791726320548,
+    "protection_first": 0.6536432823449627
+   },
+   {
+    "id": "x_117",
+    "objective": "min mass_density",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.8957124557305403,
+    "list_best": 0.9095019214829327,
+    "full_best": 0.9095019214829327,
+    "first_prot": 0.9095019214829327,
+    "list_best_prot": 0.9095019214829327,
+    "full_best_prot": 0.9095019214829327,
+    "protection_first": 0.9711777560093436
+   },
+   {
+    "id": "x_118",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.44747946650591514,
+    "list_best": 0.9806721422650893,
+    "full_best": 0.9806721422650893,
+    "first_prot": 0.44747946650591514,
+    "list_best_prot": 0.9609675231708236,
+    "full_best_prot": 0.9609675231708236,
+    "protection_first": 0.4586692788787582
+   },
+   {
+    "id": "x_119",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.31561299073167054,
+    "list_best": 0.3731821264411122,
+    "full_best": 0.3731821264411122,
+    "first_prot": 0.31561299073167054,
+    "list_best_prot": 0.31561299073167054,
+    "full_best_prot": 0.31561299073167054,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "x_120",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9103307964735137,
+    "list_best": 0.9103307964735137,
+    "full_best": 0.9103307964735137,
+    "first_prot": 0.9103307964735137,
+    "list_best_prot": 0.9103307964735137,
+    "full_best_prot": 0.9103307964735137,
+    "protection_first": 0.6040614874538467
+   },
+   {
+    "id": "x_121",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.487227789917866,
+    "list_best": 0.976640795719991,
+    "full_best": 0.976640795719991,
+    "first_prot": 0.976640795719991,
+    "list_best_prot": 0.976640795719991,
+    "full_best_prot": 0.976640795719991,
+    "protection_first": 0.45900836410217766
+   },
+   {
+    "id": "x_122",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.692977168261623,
+    "list_best": 0.692977168261623,
+    "full_best": 0.692977168261623,
+    "first_prot": 0.692977168261623,
+    "list_best_prot": 0.692977168261623,
+    "full_best_prot": 0.692977168261623,
+    "protection_first": 0.7848692638083038
+   },
+   {
+    "id": "x_123",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9798432672745083,
+    "list_best": 0.9827820058774772,
+    "full_best": 0.9827820058774772,
+    "first_prot": 0.9798432672745083,
+    "list_best_prot": 0.9827820058774772,
+    "full_best_prot": 0.9827820058774772,
+    "protection_first": 0.9869263808303821
+   },
+   {
+    "id": "x_124",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5764448798131264,
+    "list_best": 0.9432974154170748,
+    "full_best": 0.9432974154170748,
+    "first_prot": 0.5764448798131264,
+    "list_best_prot": 0.938324165473589,
+    "full_best_prot": 0.938324165473589,
+    "protection_first": 0.9768291763996685
+   },
+   {
+    "id": "x_125",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.44698967673875367,
+    "list_best": 0.9817647502072188,
+    "full_best": 0.9817647502072188,
+    "first_prot": 0.44698967673875367,
+    "list_best_prot": 0.9817647502072188,
+    "full_best_prot": 0.9817647502072188,
+    "protection_first": 0.44698967673875367
+   },
+   {
+    "id": "x_127",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.47370205711702207,
+    "list_best": 0.9314294325973929,
+    "full_best": 0.9314294325973929,
+    "first_prot": 0.47370205711702207,
+    "list_best_prot": 0.9314294325973929,
+    "full_best_prot": 0.9314294325973929,
+    "protection_first": 0.950719614196368
+   },
+   {
+    "id": "x_128",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9370808529877176,
+    "list_best": 0.9370808529877176,
+    "full_best": 0.9370808529877176,
+    "first_prot": 0.9370808529877176,
+    "list_best_prot": 0.9370808529877176,
+    "full_best_prot": 0.9370808529877176,
+    "protection_first": 0.9370808529877176
+   },
+   {
+    "id": "x_129",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.47475698892321605,
+    "list_best": 0.5269761133298169,
+    "full_best": 0.5269761133298169,
+    "first_prot": 0.47475698892321605,
+    "list_best_prot": 0.47475698892321605,
+    "full_best_prot": 0.47475698892321605,
+    "protection_first": 0.8998191545475096
+   },
+   {
+    "id": "x_130",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9858714490241881,
+    "list_best": 0.9886218069474795,
+    "full_best": 0.9886218069474795,
+    "first_prot": 0.9858714490241881,
+    "list_best_prot": 0.9858714490241881,
+    "full_best_prot": 0.9858714490241881,
+    "protection_first": 0.9993218295531611
+   },
+   {
+    "id": "x_131",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.32759400195915905,
+    "list_best": 0.9527164494009495,
+    "full_best": 0.9527164494009495,
+    "first_prot": 0.32759400195915905,
+    "list_best_prot": 0.3587521663778163,
+    "full_best_prot": 0.3587521663778163,
+    "protection_first": 0.9004219727224776
+   },
+   {
+    "id": "x_132",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.939755858639138,
+    "list_best": 0.939755858639138,
+    "full_best": 0.939755858639138,
+    "first_prot": 0.3580363197950418,
+    "list_best_prot": 0.9286037224022304,
+    "full_best_prot": 0.9286037224022304,
+    "protection_first": 0.9637555572300505
+   },
+   {
+    "id": "x_133",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.5440434029085977,
+    "list_best": 0.8083791726320548,
+    "full_best": 0.8083791726320548,
+    "first_prot": 0.5440434029085977,
+    "list_best_prot": 0.8083791726320548,
+    "full_best_prot": 0.8083791726320548,
+    "protection_first": 0.8426644563333585
+   },
+   {
+    "id": "x_136",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9711024037374727,
+    "list_best": 0.9803707331776053,
+    "full_best": 0.9803707331776053,
+    "first_prot": 0.9711024037374727,
+    "list_best_prot": 0.9711024037374727,
+    "full_best_prot": 0.9711024037374727,
+    "protection_first": 0.89228392736041
+   },
+   {
+    "id": "x_137",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9546379323336599,
+    "list_best": 0.9546379323336599,
+    "full_best": 0.9546379323336599,
+    "first_prot": 0.9388893075126215,
+    "list_best_prot": 0.9388893075126215,
+    "full_best_prot": 0.9388893075126215,
+    "protection_first": 0.9495139778464321
+   },
+   {
+    "id": "x_138",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.3946198477884108,
+    "list_best": 0.3946198477884108,
+    "full_best": 0.3946198477884108,
+    "first_prot": 0.28370130359430334,
+    "list_best_prot": 0.28370130359430334,
+    "full_best_prot": 0.28370130359430334,
+    "protection_first": 0.3216788486172858
+   },
+   {
+    "id": "x_139",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5269761133298169,
+    "list_best": 0.7964735136764374,
+    "full_best": 0.7964735136764374,
+    "first_prot": 0.5269761133298169,
+    "list_best_prot": 0.7964735136764374,
+    "full_best_prot": 0.7964735136764374,
+    "protection_first": 0.8907015296511189
+   },
+   {
+    "id": "x_140",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9791274206917339,
+    "list_best": 0.9791274206917339,
+    "full_best": 0.9791274206917339,
+    "first_prot": 0.4925401250847713,
+    "list_best_prot": 0.8488056664908447,
+    "full_best_prot": 0.8488056664908447,
+    "protection_first": 0.4925401250847713
+   },
+   {
+    "id": "x_141",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9817647502072188,
+    "list_best": 0.9817647502072188,
+    "full_best": 0.9817647502072188,
+    "first_prot": 0.9817647502072188,
+    "list_best_prot": 0.9817647502072188,
+    "full_best_prot": 0.9817647502072188,
+    "protection_first": 1.0
+   },
+   {
+    "id": "x_144",
+    "objective": "max E_11",
+    "n_mcs": 4,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.8309848541933539,
+    "list_best": 0.8309848541933539,
+    "full_best": 0.9695953583000527,
+    "first_prot": 0.8309848541933539,
+    "list_best_prot": 0.8309848541933539,
+    "full_best_prot": 0.9695953583000527,
+    "protection_first": 0.9108205862406752
+   },
+   {
+    "id": "x_145",
+    "objective": "max E_11",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.33437570642754877,
+    "list_best": 0.8711852912365308,
+    "full_best": 0.8711852912365308,
+    "first_prot": 0.8711852912365308,
+    "list_best_prot": 0.8711852912365308,
+    "full_best_prot": 0.8711852912365308,
+    "protection_first": 0.9350086655112652
+   },
+   {
+    "id": "x_146",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.6254992088011453,
+    "list_best": 0.8510662346469746,
+    "full_best": 0.8510662346469746,
+    "first_prot": 0.6254992088011453,
+    "list_best_prot": 0.6254992088011453,
+    "full_best_prot": 0.6254992088011453,
+    "protection_first": 0.7665209856077161
+   },
+   {
+    "id": "x_147",
+    "objective": "max specific_stiffness",
+    "n_mcs": 4,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.9125160123577726,
+    "list_best": 0.9125160123577726,
+    "full_best": 0.9125160123577726,
+    "first_prot": 0.9125160123577726,
+    "list_best_prot": 0.9125160123577726,
+    "full_best_prot": 0.9125160123577726,
+    "protection_first": 0.9526410971290784
+   },
+   {
+    "id": "x_148",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5628814708763469,
+    "list_best": 0.5963002034511341,
+    "full_best": 0.5963002034511341,
+    "first_prot": 0.5628814708763469,
+    "list_best_prot": 0.5628814708763469,
+    "full_best_prot": 0.5628814708763469,
+    "protection_first": 0.8914927285057644
+   },
+   {
+    "id": "x_149",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.45900836410217766,
+    "list_best": 0.9793158013714114,
+    "full_best": 0.9793158013714114,
+    "first_prot": 0.45900836410217766,
+    "list_best_prot": 0.976640795719991,
+    "full_best_prot": 0.976640795719991,
+    "protection_first": 0.45900836410217766
+   },
+   {
+    "id": "x_150",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8586391379700098,
+    "list_best": 0.8586391379700098,
+    "full_best": 0.8586391379700098,
+    "first_prot": 0.8586391379700098,
+    "list_best_prot": 0.8586391379700098,
+    "full_best_prot": 0.8586391379700098,
+    "protection_first": 0.6821641172481351
+   },
+   {
+    "id": "x_151",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8914173762338935,
+    "list_best": 0.8914173762338935,
+    "full_best": 0.8914173762338935,
+    "first_prot": 0.8611257629417527,
+    "list_best_prot": 0.8611257629417527,
+    "full_best_prot": 0.8611257629417527,
+    "protection_first": 0.8611257629417527
+   },
+   {
+    "id": "x_152",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8370130359430337,
+    "list_best": 0.902569512470801,
+    "full_best": 0.902569512470801,
+    "first_prot": 0.902569512470801,
+    "list_best_prot": 0.902569512470801,
+    "full_best_prot": 0.902569512470801,
+    "protection_first": 0.9123653078140306
+   },
+   {
+    "id": "x_153",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9770552332152814,
+    "list_best": 0.9770552332152814,
+    "full_best": 0.9770552332152814,
+    "first_prot": 0.9770552332152814,
+    "list_best_prot": 0.9770552332152814,
+    "full_best_prot": 0.9770552332152814,
+    "protection_first": 0.8868585637856982
+   },
+   {
+    "id": "x_154",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8985758420616382,
+    "list_best": 0.9830834149649612,
+    "full_best": 0.9830834149649612,
+    "first_prot": 0.8985758420616382,
+    "list_best_prot": 0.9830834149649612,
+    "full_best_prot": 0.9830834149649612,
+    "protection_first": 0.8985758420616382
+   },
+   {
+    "id": "x_155",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.6649084469896768,
+    "list_best": 0.6746288900610353,
+    "full_best": 0.6746288900610353,
+    "first_prot": 0.6649084469896768,
+    "list_best_prot": 0.6649084469896768,
+    "full_best_prot": 0.6649084469896768,
+    "protection_first": 0.9139100293873861
+   },
+   {
+    "id": "x_156",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9242332906337126,
+    "list_best": 0.9388893075126215,
+    "full_best": 0.9388893075126215,
+    "first_prot": 0.9242332906337126,
+    "list_best_prot": 0.9242332906337126,
+    "full_best_prot": 0.9242332906337126,
+    "protection_first": 0.9242332906337126
+   },
+   {
+    "id": "x_157",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7506593323788712,
+    "list_best": 0.7506593323788712,
+    "full_best": 0.8364855700399367,
+    "first_prot": 0.4678622560470198,
+    "list_best_prot": 0.4678622560470198,
+    "full_best_prot": 0.4678622560470198,
+    "protection_first": 0.487227789917866
+   },
+   {
+    "id": "x_158",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.670974304875292,
+    "list_best": 0.8911913194182804,
+    "full_best": 0.8911913194182804,
+    "first_prot": 0.670974304875292,
+    "list_best_prot": 0.8865194785622786,
+    "full_best_prot": 0.8865194785622786,
+    "protection_first": 0.670974304875292
+   },
+   {
+    "id": "x_159",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8884409614949891,
+    "list_best": 0.8884409614949891,
+    "full_best": 0.8884409614949891,
+    "first_prot": 0.8884409614949891,
+    "list_best_prot": 0.8884409614949891,
+    "full_best_prot": 0.8884409614949891,
+    "protection_first": 0.9367794439002336
+   },
+   {
+    "id": "x_160",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.414889608921709,
+    "list_best": 0.5695878230728656,
+    "full_best": 0.5695878230728656,
+    "first_prot": 0.414889608921709,
+    "list_best_prot": 0.5695878230728656,
+    "full_best_prot": 0.5695878230728656,
+    "protection_first": 0.9367794439002336
+   },
+   {
+    "id": "x_161",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8539296209780725,
+    "list_best": 0.8539296209780725,
+    "full_best": 0.8539296209780725,
+    "first_prot": 0.8539296209780725,
+    "list_best_prot": 0.8539296209780725,
+    "full_best_prot": 0.8539296209780725,
+    "protection_first": 0.5701529651118982
+   },
+   {
+    "id": "x_162",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9853063069851556,
+    "list_best": 0.987981312636576,
+    "full_best": 0.987981312636576,
+    "first_prot": 0.9853063069851556,
+    "list_best_prot": 0.9853063069851556,
+    "full_best_prot": 0.9853063069851556,
+    "protection_first": 0.9991711250094191
+   },
+   {
+    "id": "x_163",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6869866626478789,
+    "list_best": 0.719802577047698,
+    "full_best": 0.719802577047698,
+    "first_prot": 0.2693466958028785,
+    "list_best_prot": 0.719802577047698,
+    "full_best_prot": 0.719802577047698,
+    "protection_first": 0.5747494536960289
+   },
+   {
+    "id": "x_164",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9983799261547736,
+    "list_best": 0.999095772737548,
+    "full_best": 0.999095772737548,
+    "first_prot": 0.9983799261547736,
+    "list_best_prot": 0.999095772737548,
+    "full_best_prot": 0.999095772737548,
+    "protection_first": 0.9983799261547736
+   },
+   {
+    "id": "x_165",
+    "objective": "max E_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9216713133900987,
+    "list_best": 0.9216713133900987,
+    "full_best": 0.9216713133900987,
+    "first_prot": 0.3587521663778163,
+    "list_best_prot": 0.3587521663778163,
+    "full_best_prot": 0.3587521663778163,
+    "protection_first": 0.3587521663778163
+   },
+   {
+    "id": "x_166",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8831663024640193,
+    "list_best": 0.9747946650591516,
+    "full_best": 0.9747946650591516,
+    "first_prot": 0.8831663024640193,
+    "list_best_prot": 0.9747946650591516,
+    "full_best_prot": 0.9747946650591516,
+    "protection_first": 0.9800693240901213
+   },
+   {
+    "id": "x_167",
+    "objective": "max specific_conductivity",
+    "n_mcs": 4,
+    "n_min_mcs": 4,
+    "eligible": true,
+    "first": 0.987755255820963,
+    "list_best": 0.987755255820963,
+    "full_best": 0.987755255820963,
+    "first_prot": 0.9072790294627383,
+    "list_best_prot": 0.9826689774696707,
+    "full_best_prot": 0.9826689774696707,
+    "protection_first": 0.89228392736041
+   },
+   {
+    "id": "x_168",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.9711024037374727,
+    "list_best": 0.9711024037374727,
+    "full_best": 0.9711024037374727,
+    "first_prot": 0.9711024037374727,
+    "list_best_prot": 0.9711024037374727,
+    "full_best_prot": 0.9711024037374727,
+    "protection_first": 0.9801823524979278
+   },
+   {
+    "id": "x_169",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9388893075126215,
+    "list_best": 0.9388893075126215,
+    "full_best": 0.9388893075126215,
+    "first_prot": 0.9388893075126215,
+    "list_best_prot": 0.9388893075126215,
+    "full_best_prot": 0.9388893075126215,
+    "protection_first": 0.9421671313390099
+   },
+   {
+    "id": "x_170",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.5119056589556175,
+    "list_best": 0.5269761133298169,
+    "full_best": 0.5269761133298169,
+    "first_prot": 0.5119056589556175,
+    "list_best_prot": 0.5119056589556175,
+    "full_best_prot": 0.5119056589556175,
+    "protection_first": 0.6628739356491599
+   },
+   {
+    "id": "x_171",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9895260342099315,
+    "list_best": 0.9895260342099315,
+    "full_best": 0.9895260342099315,
+    "first_prot": 0.4678622560470198,
+    "list_best_prot": 0.9852686308492201,
+    "full_best_prot": 0.9852686308492201,
+    "protection_first": 0.487227789917866
+   },
+   {
+    "id": "x_172",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9455203074372692,
+    "list_best": 0.9645090799487605,
+    "full_best": 0.9645090799487605,
+    "first_prot": 0.8037450079119886,
+    "list_best_prot": 0.9645090799487605,
+    "full_best_prot": 0.9645090799487605,
+    "protection_first": 0.8037450079119886
+   },
+   {
+    "id": "x_173",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 1,
+    "eligible": true,
+    "first": 0.7421068495215131,
+    "list_best": 0.7421068495215131,
+    "full_best": 0.8925476603119584,
+    "first_prot": 0.7421068495215131,
+    "list_best_prot": 0.7421068495215131,
+    "full_best_prot": 0.7421068495215131,
+    "protection_first": 0.7421068495215131
+   },
+   {
+    "id": "x_174",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.4149272850576445,
+    "list_best": 0.7961721045889534,
+    "full_best": 0.7961721045889534,
+    "first_prot": 0.4149272850576445,
+    "list_best_prot": 0.4149272850576445,
+    "full_best_prot": 0.4149272850576445,
+    "protection_first": 0.9965714716298696
+   },
+   {
+    "id": "x_175",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9714414889608922,
+    "list_best": 0.9714414889608922,
+    "full_best": 0.9714414889608922,
+    "first_prot": 0.9714414889608922,
+    "list_best_prot": 0.9714414889608922,
+    "full_best_prot": 0.9714414889608922,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "x_176",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9680129605907618,
+    "list_best": 0.9804084093135408,
+    "full_best": 0.9804084093135408,
+    "first_prot": 0.4420541029312034,
+    "list_best_prot": 0.9804084093135408,
+    "full_best_prot": 0.9804084093135408,
+    "protection_first": 0.4420541029312034
+   },
+   {
+    "id": "x_177",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7924044909954036,
+    "list_best": 0.8811694672594379,
+    "full_best": 0.8811694672594379,
+    "first_prot": 0.7924044909954036,
+    "list_best_prot": 0.8811694672594379,
+    "full_best_prot": 0.8811694672594379,
+    "protection_first": 0.7924044909954036
+   },
+   {
+    "id": "x_178",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.7315575314595735,
+    "list_best": 0.8343003541556778,
+    "full_best": 0.8343003541556778,
+    "first_prot": 0.7315575314595735,
+    "list_best_prot": 0.8343003541556778,
+    "full_best_prot": 0.8343003541556778,
+    "protection_first": 0.7315575314595735
+   },
+   {
+    "id": "x_179",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.7685931730841685,
+    "list_best": 0.7685931730841685,
+    "full_best": 0.7685931730841685,
+    "first_prot": 0.7685931730841685,
+    "list_best_prot": 0.7685931730841685,
+    "full_best_prot": 0.7685931730841685,
+    "protection_first": 0.7419184688418355
+   },
+   {
+    "id": "x_180",
+    "objective": "max E_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6956144977771079,
+    "list_best": 0.9999246477281291,
+    "full_best": 0.9999246477281291,
+    "first_prot": 0.6956144977771079,
+    "list_best_prot": 0.892585336447894,
+    "full_best_prot": 0.892585336447894,
+    "protection_first": 0.6956144977771079
+   },
+   {
+    "id": "x_181",
+    "objective": "max specific_conductivity",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9975510511641926,
+    "list_best": 0.9975510511641926,
+    "full_best": 0.9975510511641926,
+    "first_prot": 0.9975510511641926,
+    "list_best_prot": 0.9975510511641926,
+    "full_best_prot": 0.9975510511641926,
+    "protection_first": 0.9975510511641926
+   },
+   {
+    "id": "x_182",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.41877025092306536,
+    "list_best": 0.9668073242408258,
+    "full_best": 0.9668073242408258,
+    "first_prot": 0.9668073242408258,
+    "list_best_prot": 0.9668073242408258,
+    "full_best_prot": 0.9668073242408258,
+    "protection_first": 0.43493331323939416
+   },
+   {
+    "id": "x_183",
+    "objective": "max specific_stiffness",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9853063069851556,
+    "list_best": 0.9853063069851556,
+    "full_best": 0.9853063069851556,
+    "first_prot": 0.9853063069851556,
+    "list_best_prot": 0.9853063069851556,
+    "full_best_prot": 0.9853063069851556,
+    "protection_first": 0.4683897219501168
+   },
+   {
+    "id": "x_184",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8104513601085073,
+    "list_best": 0.902569512470801,
+    "full_best": 0.902569512470801,
+    "first_prot": 0.902569512470801,
+    "list_best_prot": 0.902569512470801,
+    "full_best_prot": 0.902569512470801,
+    "protection_first": 0.9113480521437721
+   },
+   {
+    "id": "x_185",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9826689774696707,
+    "list_best": 0.987755255820963,
+    "full_best": 0.987755255820963,
+    "first_prot": 0.9826689774696707,
+    "list_best_prot": 0.9826689774696707,
+    "full_best_prot": 0.9826689774696707,
+    "protection_first": 0.8985758420616382
+   },
+   {
+    "id": "x_186",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.4420541029312034,
+    "list_best": 0.9838746138196066,
+    "full_best": 0.9838746138196066,
+    "first_prot": 0.4420541029312034,
+    "list_best_prot": 0.9838746138196066,
+    "full_best_prot": 0.9838746138196066,
+    "protection_first": 0.9986059829703866
+   },
+   {
+    "id": "x_187",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8949212568758949,
+    "list_best": 0.9857584206163816,
+    "full_best": 0.9857584206163816,
+    "first_prot": 0.9857584206163816,
+    "list_best_prot": 0.9857584206163816,
+    "full_best_prot": 0.9857584206163816,
+    "protection_first": 0.9857584206163816
+   },
+   {
+    "id": "x_188",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.8831663024640193,
+    "list_best": 0.987755255820963,
+    "full_best": 0.987755255820963,
+    "first_prot": 0.8831663024640193,
+    "list_best_prot": 0.9833094717805742,
+    "full_best_prot": 0.9833094717805742,
+    "protection_first": 0.9833094717805742
+   },
+   {
+    "id": "x_189",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6794137593248437,
+    "list_best": 0.7839273604099164,
+    "full_best": 0.7839273604099164,
+    "first_prot": 0.6794137593248437,
+    "list_best_prot": 0.6794137593248437,
+    "full_best_prot": 0.6794137593248437,
+    "protection_first": 0.915793836184161
+   },
+   {
+    "id": "x_190",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9372315575314596,
+    "list_best": 0.9372315575314596,
+    "full_best": 0.9372315575314596,
+    "first_prot": 0.9372315575314596,
+    "list_best_prot": 0.9372315575314596,
+    "full_best_prot": 0.9372315575314596,
+    "protection_first": 0.9539597618868209
+   },
+   {
+    "id": "x_191",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8234873031421898,
+    "list_best": 0.8234873031421898,
+    "full_best": 0.8234873031421898,
+    "first_prot": 0.8234873031421898,
+    "list_best_prot": 0.8234873031421898,
+    "full_best_prot": 0.8234873031421898,
+    "protection_first": 0.7747720593775902
+   },
+   {
+    "id": "x_192",
+    "objective": "min mass_density",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.9195614497777108,
+    "list_best": 0.9399442393188154,
+    "full_best": 0.9399442393188154,
+    "first_prot": 0.9399442393188154,
+    "list_best_prot": 0.9399442393188154,
+    "full_best_prot": 0.9399442393188154,
+    "protection_first": 1.0
+   },
+   {
+    "id": "x_193",
+    "objective": "max specific_stiffness",
+    "n_mcs": 5,
+    "n_min_mcs": 5,
+    "eligible": true,
+    "first": 0.8456785472081984,
+    "list_best": 0.9850802501695426,
+    "full_best": 0.9850802501695426,
+    "first_prot": 0.8456785472081984,
+    "list_best_prot": 0.8456785472081984,
+    "full_best_prot": 0.8456785472081984,
+    "protection_first": 0.830155979202773
+   },
+   {
+    "id": "x_194",
+    "objective": "max k_11",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.6224851179263055,
+    "list_best": 0.8925476603119584,
+    "full_best": 0.8925476603119584,
+    "first_prot": 0.6224851179263055,
+    "list_best_prot": 0.8925476603119584,
+    "full_best_prot": 0.8925476603119584,
+    "protection_first": 0.8925476603119584
+   },
+   {
+    "id": "x_195",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9830457388290257,
+    "list_best": 0.9830457388290257,
+    "full_best": 0.9830457388290257,
+    "first_prot": 0.9827820058774772,
+    "list_best_prot": 0.9827820058774772,
+    "full_best_prot": 0.9827820058774772,
+    "protection_first": 0.8978599954788636
+   },
+   {
+    "id": "x_196",
+    "objective": "max k_11",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.8234873031421898,
+    "list_best": 0.8439077688192299,
+    "full_best": 0.8439077688192299,
+    "first_prot": 0.8439077688192299,
+    "list_best_prot": 0.8439077688192299,
+    "full_best_prot": 0.8439077688192299,
+    "protection_first": 0.8642152060884636
+   },
+   {
+    "id": "x_197",
+    "objective": "max specific_stiffness",
+    "n_mcs": 2,
+    "n_min_mcs": 2,
+    "eligible": true,
+    "first": 0.4036621204129304,
+    "list_best": 0.9714414889608922,
+    "full_best": 0.9714414889608922,
+    "first_prot": 0.4036621204129304,
+    "list_best_prot": 0.9714414889608922,
+    "full_best_prot": 0.9714414889608922,
+    "protection_first": 0.9975133750282571
+   },
+   {
+    "id": "x_198",
+    "objective": "min mass_density",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.9373445859392661,
+    "list_best": 0.9373445859392661,
+    "full_best": 0.9373445859392661,
+    "first_prot": 0.9373445859392661,
+    "list_best_prot": 0.9373445859392661,
+    "full_best_prot": 0.9373445859392661,
+    "protection_first": 0.7665209856077161
+   },
+   {
+    "id": "x_199",
+    "objective": "max specific_conductivity",
+    "n_mcs": 3,
+    "n_min_mcs": 3,
+    "eligible": true,
+    "first": 0.43056288147087635,
+    "list_best": 0.9763017104965714,
+    "full_best": 0.9763017104965714,
+    "first_prot": 0.43056288147087635,
+    "list_best_prot": 0.8597694220480747,
+    "full_best_prot": 0.8597694220480747,
+    "protection_first": 0.89228392736041
+   }
+  ]
+ },
+ "frames": {
+  "gemini-3.5-flash": {
+   "runs": [
+    1,
+    2
+   ],
+   "agreement": [
+    {
+     "runs": [
+      1,
+      2
+     ],
+     "n": 308,
+     "identical": 279,
+     "differing_ids": [
+      "b0009",
+      "b0015",
+      "b0017",
+      "b0029",
+      "b0045",
+      "b0051",
+      "b0055",
+      "b0085",
+      "b0091",
+      "b0093",
+      "b0101",
+      "b0105",
+      "b0107",
+      "b0113",
+      "b0117",
+      "b0123",
+      "b0127",
+      "b0133",
+      "b0135",
+      "b0139",
+      "b0167",
+      "b0171",
+      "b0178",
+      "b0183",
+      "b0219",
+      "b0229",
+      "b0241",
+      "b0245",
+      "b0271"
+     ]
+    }
+   ],
+   "e2e": {
+    "1": {
+     "n": 88,
+     "gold_feasible": 58,
+     "answered": 58,
+     "false_accept": 0,
+     "false_refuse": 0,
+     "correct": 88,
+     "status": {
+      "answered": 58,
+      "refused_empty": 30
+     }
+    },
+    "2": {
+     "n": 88,
+     "gold_feasible": 58,
+     "answered": 58,
+     "false_accept": 0,
+     "false_refuse": 0,
+     "correct": 88,
+     "status": {
+      "answered": 58,
+      "refused_empty": 30
+     }
+    }
+   },
+   "frame_exact": {
+    "1": {
+     "bound": [
+      80,
+      88
+     ],
+     "objective": [
+      153,
+      220
+     ]
+    },
+    "2": {
+     "bound": [
+      80,
+      88
+     ],
+     "objective": [
+      158,
+      220
+     ]
+    }
+   }
+  },
+  "gemini-3.5-flash-lite": {
+   "runs": [
+    1,
+    2,
+    3
+   ],
+   "agreement": [
+    {
+     "runs": [
+      1,
+      2
+     ],
+     "n": 308,
+     "identical": 265,
+     "differing_ids": [
+      "b0005",
+      "b0011",
+      "b0033",
+      "b0045",
+      "b0054",
+      "b0055",
+      "b0057",
+      "b0059",
+      "b0065",
+      "b0067",
+      "b0069",
+      "b0073",
+      "b0081",
+      "b0087",
+      "b0090",
+      "b0096",
+      "b0097",
+      "b0102",
+      "b0103",
+      "b0105",
+      "b0107",
+      "b0111",
+      "b0117",
+      "b0118",
+      "b0120",
+      "b0121",
+      "b0123",
+      "b0127",
+      "b0129",
+      "b0145",
+      "b0155",
+      "b0171",
+      "b0173",
+      "b0179",
+      "b0190",
+      "b0191",
+      "b0197",
+      "b0203",
+      "b0221",
+      "b0229",
+      "b0247",
+      "b0287",
+      "b0303"
+     ]
+    },
+    {
+     "runs": [
+      1,
+      3
+     ],
+     "n": 308,
+     "identical": 274,
+     "differing_ids": [
+      "b0005",
+      "b0045",
+      "b0054",
+      "b0055",
+      "b0057",
+      "b0059",
+      "b0067",
+      "b0069",
+      "b0091",
+      "b0096",
+      "b0097",
+      "b0099",
+      "b0103",
+      "b0111",
+      "b0112",
+      "b0113",
+      "b0115",
+      "b0116",
+      "b0117",
+      "b0118",
+      "b0120",
+      "b0121",
+      "b0123",
+      "b0129",
+      "b0145",
+      "b0159",
+      "b0178",
+      "b0183",
+      "b0190",
+      "b0203",
+      "b0209",
+      "b0221",
+      "b0229",
+      "b0303"
+     ]
+    },
+    {
+     "runs": [
+      2,
+      3
+     ],
+     "n": 308,
+     "identical": 270,
+     "differing_ids": [
+      "b0005",
+      "b0011",
+      "b0033",
+      "b0057",
+      "b0059",
+      "b0065",
+      "b0067",
+      "b0073",
+      "b0081",
+      "b0087",
+      "b0090",
+      "b0091",
+      "b0099",
+      "b0102",
+      "b0103",
+      "b0105",
+      "b0107",
+      "b0111",
+      "b0112",
+      "b0113",
+      "b0115",
+      "b0116",
+      "b0117",
+      "b0121",
+      "b0123",
+      "b0127",
+      "b0155",
+      "b0159",
+      "b0171",
+      "b0173",
+      "b0178",
+      "b0179",
+      "b0183",
+      "b0191",
+      "b0197",
+      "b0209",
+      "b0247",
+      "b0287"
+     ]
+    }
+   ],
+   "e2e": {
+    "1": {
+     "n": 88,
+     "gold_feasible": 58,
+     "answered": 58,
+     "false_accept": 0,
+     "false_refuse": 0,
+     "correct": 88,
+     "status": {
+      "answered": 58,
+      "refused_empty": 30
+     }
+    },
+    "2": {
+     "n": 88,
+     "gold_feasible": 58,
+     "answered": 58,
+     "false_accept": 0,
+     "false_refuse": 0,
+     "correct": 88,
+     "status": {
+      "answered": 58,
+      "refused_empty": 30
+     }
+    },
+    "3": {
+     "n": 88,
+     "gold_feasible": 58,
+     "answered": 58,
+     "false_accept": 0,
+     "false_refuse": 0,
+     "correct": 88,
+     "status": {
+      "answered": 58,
+      "refused_empty": 30
+     }
+    }
+   },
+   "identical_all_runs": {
+    "n": 308,
+    "identical": 255
+   },
+   "frame_exact": {
+    "1": {
+     "bound": [
+      88,
+      88
+     ],
+     "objective": [
+      151,
+      220
+     ]
+    },
+    "2": {
+     "bound": [
+      87,
+      88
+     ],
+     "objective": [
+      147,
+      220
+     ]
+    },
+    "3": {
+     "bound": [
+      88,
+      88
+     ],
+     "objective": [
+      149,
+      220
+     ]
+    }
+   }
+  }
+ }
+}

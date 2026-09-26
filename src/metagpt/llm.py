@@ -28,9 +28,16 @@ WEIGHT_MAX = 100.0
 
 MODEL = "gemini-3.5-flash-lite"
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={k}"
-KEYFILE = pathlib.Path(__file__).resolve().parent.parent / "api.txt"
+# The key file is looked up in this file's parent directories, so one key file
+# at the project root serves every checkout below it.
+KEYFILE = next((d / "api.txt" for d in pathlib.Path(__file__).resolve().parents
+                if (d / "api.txt").exists()),
+               pathlib.Path(__file__).resolve().parent.parent / "api.txt")
 
 _OPS = ["<=", ">=", "==", "<", ">"]
+# Categorical keys and their admissible values come from the registry, so the
+# response schema, the prompt and the search accept the same values.
+_CATEGORICAL = {k: list(p.values) for k, p in REGISTRY.items() if p.values}
 
 QUERY_SCHEMA = {
     "type": "OBJECT",
@@ -53,6 +60,17 @@ QUERY_SCHEMA = {
                 "op": {"type": "STRING", "enum": _OPS},
                 "value": {"type": "NUMBER"}},
                 "required": ["property", "op", "value"]}},
+        "categorical_constraints": {
+            "type": "ARRAY",
+            "description": "hard limits on categorical properties "
+                           + "; ".join(f"{k}: one of {', '.join(v)}"
+                                       for k, v in _CATEGORICAL.items()),
+            "items": {"type": "OBJECT", "properties": {
+                "property": {"type": "STRING", "enum": list(_CATEGORICAL)},
+                "value": {"type": "STRING",
+                          "enum": sorted({x for v in _CATEGORICAL.values()
+                                          for x in v})}},
+                "required": ["property", "value"]}},
         "material_filter": {
             "type": "OBJECT",
             "properties": {
@@ -86,6 +104,9 @@ Rules:
 - If the request implies a direction, pick the axis-specific property rather
   than the mean.
 - Convert units to those listed. Conductivity in W/(m K), stiffness in GPa.
+- A limit on a categorical property ({", ".join(_CATEGORICAL)}) goes in
+  `categorical_constraints` with one of its listed values, never in
+  `constraints`.
 - If the request mentions something this vocabulary cannot express -- fatigue,
   corrosion, cost of manufacture, anything absent from the list -- put it in
   `unmet` rather than forcing it into a property that does not mean the same
@@ -155,15 +176,29 @@ def validate(q: dict, allowed: set = None) -> dict:
     place it would be silently ignored during scoring and the user would get a
     confident answer to a question nobody asked.
     """
-    bad = []
+    bad, lost = [], []
     q.setdefault("objectives", [])
     q.setdefault("constraints", [])
     q.setdefault("unmet", [])
 
+    # Categorical limits arrive in their own typed field; fold them into the
+    # constraint list as '==' atoms once their values are checked.
+    for c in q.pop("categorical_constraints", None) or []:
+        key, val = c.get("property"), str(c.get("value", "")).strip().lower()
+        if key in _CATEGORICAL and val in _CATEGORICAL[key]:
+            q["constraints"].append({"property": key, "op": "==", "value": val})
+        else:
+            msg = f"categorical constraint {key}={c.get('value')!r} is not admissible"
+            bad.append(msg)
+            lost.append(msg)
+
     keep = []
     for o in q["objectives"]:
-        if o.get("property") not in (allowed or REGISTRY):
-            bad.append(f"objective on unknown property '{o.get('property')}'")
+        if (o.get("property") not in (allowed or REGISTRY)
+                or o.get("property") in _CATEGORICAL):
+            msg = f"objective on unknown property '{o.get('property')}'"
+            bad.append(msg)
+            lost.append(msg)
             continue
         # An unbounded weight is as damaging as a bad property name and less
         # visible: zero silently deletes an objective, and a negative one
@@ -186,14 +221,26 @@ def validate(q: dict, allowed: set = None) -> dict:
 
     keep = []
     for c in q["constraints"]:
-        if c.get("property") not in (allowed or REGISTRY):
-            bad.append(f"constraint on unknown property '{c.get('property')}'")
+        key = c.get("property")
+        if key not in (allowed or REGISTRY):
+            msg = f"constraint on unknown property '{key}'"
         elif c.get("op") not in _OPS:
-            bad.append(f"unknown operator '{c.get('op')}'")
+            msg = f"unknown operator '{c.get('op')}' on '{key}'"
+        elif key in _CATEGORICAL and (
+                c.get("op") != "==" or
+                str(c.get("value")).strip().lower() not in _CATEGORICAL[key]):
+            msg = (f"constraint {key} {c.get('op')} {c.get('value')!r}: "
+                   f"admissible values are {', '.join(_CATEGORICAL[key])}")
         else:
             keep.append(c)
+            continue
+        bad.append(msg)
+        lost.append(msg)
     q["constraints"] = keep
+    # _rejected: everything validation changed (including clamped weights);
+    # _lost: the subset that removed stated content, which the search gates on.
     q["_rejected"] = bad
+    q["_lost"] = lost
     return q
 
 
@@ -222,7 +269,9 @@ def summarise(q: dict) -> str:
     for o in q.get("objectives", []):
         bits.append(f"{o['sense']} {o['property']}")
     for c in q.get("constraints", []):
-        bits.append(f"{c['property']} {c['op']} {c['value']:g}")
+        v = c["value"]
+        v = f"{v:g}" if isinstance(v, (int, float)) and not isinstance(v, bool) else v
+        bits.append(f"{c['property']} {c['op']} {v}")
     mf = q.get("material_filter") or {}
     if mf.get("printable_only"):
         bits.append("printable only")

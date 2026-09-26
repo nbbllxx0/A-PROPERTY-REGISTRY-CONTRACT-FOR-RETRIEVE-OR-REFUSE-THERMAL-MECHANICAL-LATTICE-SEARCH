@@ -1,0 +1,1805 @@
+{
+ "model": "gemini-3.5-flash-lite",
+ "source": "data\\verification_20260922\\literature_briefs.json",
+ "runs": [
+  {
+   "summary": {
+    "n": 15,
+    "parse_ok": 15,
+    "undeclared_or_invalid": 0,
+    "with_registry_content": 6,
+    "with_unmet": 13,
+    "status": {
+     "answered": 1,
+     "answered_reduced": 0,
+     "gated_reduced": 5,
+     "refused_empty": 0,
+     "refused_no_content": 9,
+     "refused_cap": 0
+    },
+    "rows_returned": 1,
+    "estimate_flagged": 1,
+    "latency_median_s": 0.846
+   },
+   "records": [
+    {
+     "id": "lit00",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "forced-convection cooling",
+       "locally adjust the geometry"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.97,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "forced-convection cooling",
+      "locally adjust the geometry"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: forced-convection cooling; not expressible in the registry: locally adjust the geometry.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit01",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.811,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: coupled analysis of conduction, convection, and radiation within a unified thermal framework.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit02",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "bone tissue repair",
+       "graded and heterogeneous lattice structures"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.119,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "bone tissue repair",
+      "graded and heterogeneous lattice structures"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: bone tissue repair; not expressible in the registry: graded and heterogeneous lattice structures.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit03",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.775,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit04",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "plastics and ceramics materials are outside the metal vocabulary"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.796,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "plastics and ceramics materials are outside the metal vocabulary"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: plastics and ceramics materials are outside the metal vocabulary.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit05",
+     "query": {
+      "objectives": [
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "high-power-density application specifics"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.958,
+     "objectives": [
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "high-power-density application specifics"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: high-power-density application specifics). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit06",
+     "query": {
+      "objectives": [
+       {
+        "property": "E_mean",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "strength"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.961,
+     "objectives": [
+      {
+       "property": "E_mean",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "strength"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: strength). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit07",
+     "query": {
+      "objectives": [
+       {
+        "property": "permeability",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "pore size distribution"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.833,
+     "objectives": [
+      {
+       "property": "permeability",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "pore size distribution"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: pore size distribution). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": [
+      "permeability: Kozeny-Carman estimate from porosity and surface area, not a flow solve -- treat as a ranking, not a number"
+     ]
+    },
+    {
+     "id": "lit08",
+     "query": {
+      "objectives": [
+       {
+        "property": "specific_stiffness",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.846,
+     "objectives": [
+      {
+       "property": "specific_stiffness",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "answered",
+     "n_feasible": 26543,
+     "reason": "",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit09",
+     "query": {
+      "objectives": [
+       {
+        "property": "E_aniso",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [
+       "specific 3D process parameters and methods"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.065,
+     "objectives": [
+      {
+       "property": "E_aniso",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [
+      "specific 3D process parameters and methods"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 11754,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: specific 3D process parameters and methods). The remaining query admits 11,754 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit10",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "natural convection heat transfer properties",
+       "forced convection heat exchangers"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.702,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "natural convection heat transfer properties",
+      "forced convection heat exchangers"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: natural convection heat transfer properties; not expressible in the registry: forced convection heat exchangers.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit11",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "topological complexity (number of strut classes and node coordination degrees)",
+       "thermal isotropy/anisotropy and thermal stability (beyond available thermal expansion and conductivity)",
+       "manufacturing feasibility (tolerances and repeatability)"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.797,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "topological complexity (number of strut classes and node coordination degrees)",
+      "thermal isotropy/anisotropy and thermal stability (beyond available thermal expansion and conductivity)",
+      "manufacturing feasibility (tolerances and repeatability)"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: topological complexity (number of strut classes and node coordination degrees); not expressible in the registry: thermal isotropy/anisotropy and thermal stability (beyond available thermal expansion and conductivity); not expressible in the registry: manufacturing feasibility (tolerances and repeatability).",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit12",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "fluid flow characteristics",
+       "heat transfer characteristics",
+       "gyroid structure",
+       "primitive structure",
+       "traditional wavy fin"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.65,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "fluid flow characteristics",
+      "heat transfer characteristics",
+      "gyroid structure",
+      "primitive structure",
+      "traditional wavy fin"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: fluid flow characteristics; not expressible in the registry: heat transfer characteristics; not expressible in the registry: gyroid structure; not expressible in the registry: primitive structure; not expressible in the registry: traditional wavy fin.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit13",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "precise parametric control of mechanical properties through randomly distributed pore topology"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 3.544,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "precise parametric control of mechanical properties through randomly distributed pore topology"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: precise parametric control of mechanical properties through randomly distributed pore topology.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit14",
+     "query": {
+      "objectives": [
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       },
+       {
+        "property": "E_aniso",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [
+       "bearing performance details beyond modulus ratio"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.016,
+     "objectives": [
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      },
+      {
+       "property": "E_aniso",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [
+      "bearing performance details beyond modulus ratio"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 11754,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: bearing performance details beyond modulus ratio). The remaining query admits 11,754 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    }
+   ]
+  },
+  {
+   "summary": {
+    "n": 15,
+    "parse_ok": 15,
+    "undeclared_or_invalid": 0,
+    "with_registry_content": 6,
+    "with_unmet": 12,
+    "status": {
+     "answered": 2,
+     "answered_reduced": 0,
+     "gated_reduced": 4,
+     "refused_empty": 0,
+     "refused_no_content": 9,
+     "refused_cap": 0
+    },
+    "rows_returned": 2,
+    "estimate_flagged": 1,
+    "latency_median_s": 0.793
+   },
+   "records": [
+    {
+     "id": "lit00",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "forced-convection cooling optimization",
+       "locally adjust geometry"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.726,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "forced-convection cooling optimization",
+      "locally adjust geometry"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: forced-convection cooling optimization; not expressible in the registry: locally adjust geometry.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit01",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.788,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: coupled analysis of conduction, convection, and radiation within a unified thermal framework.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit02",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "bone tissue repair",
+       "heat dissipation",
+       "fluid permeation",
+       "graded and heterogeneous lattice structures"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.691,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "bone tissue repair",
+      "heat dissipation",
+      "fluid permeation",
+      "graded and heterogeneous lattice structures"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: bone tissue repair; not expressible in the registry: heat dissipation; not expressible in the registry: fluid permeation; not expressible in the registry: graded and heterogeneous lattice structures.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit03",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.722,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit04",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "plastics",
+       "ceramics"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.022,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "plastics",
+      "ceramics"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: plastics; not expressible in the registry: ceramics.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit05",
+     "query": {
+      "objectives": [
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": {},
+      "unmet": [
+       "high-power-density system context"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.82,
+     "objectives": [
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "high-power-density system context"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: high-power-density system context). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit06",
+     "query": {
+      "objectives": [
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       },
+       {
+        "property": "E_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "strength"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.793,
+     "objectives": [
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      },
+      {
+       "property": "E_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "strength"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: strength). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit07",
+     "query": {
+      "objectives": [
+       {
+        "property": "permeability",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "pore size"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.912,
+     "objectives": [
+      {
+       "property": "permeability",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "pore size"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: pore size). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": [
+      "permeability: Kozeny-Carman estimate from porosity and surface area, not a flow solve -- treat as a ranking, not a number"
+     ]
+    },
+    {
+     "id": "lit08",
+     "query": {
+      "objectives": [
+       {
+        "property": "specific_stiffness",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.85,
+     "objectives": [
+      {
+       "property": "specific_stiffness",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "answered",
+     "n_feasible": 26543,
+     "reason": "",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit09",
+     "query": {
+      "objectives": [
+       {
+        "property": "E_11",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "E_22",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "E_33",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [
+       "specific 3D process parameters and methods"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.006,
+     "objectives": [
+      {
+       "property": "E_11",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "E_22",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "E_33",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [
+      "specific 3D process parameters and methods"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 11754,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: specific 3D process parameters and methods). The remaining query admits 11,754 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit10",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "natural convection heat transfer properties",
+       "forced convection heat exchangers"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.784,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "natural convection heat transfer properties",
+      "forced convection heat exchangers"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: natural convection heat transfer properties; not expressible in the registry: forced convection heat exchangers.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit11",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "topological complexity",
+       "node coordination degrees",
+       "thermal isotropy",
+       "manufacturing feasibility",
+       "tolerances",
+       "repeatability"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.761,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "topological complexity",
+      "node coordination degrees",
+      "thermal isotropy",
+      "manufacturing feasibility",
+      "tolerances",
+      "repeatability"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: topological complexity; not expressible in the registry: node coordination degrees; not expressible in the registry: thermal isotropy; not expressible in the registry: manufacturing feasibility; not expressible in the registry: tolerances; not expressible in the registry: repeatability.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit12",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "evaluation of specific TPMS structures such as gyroid and primitive",
+       "evaluation of traditional wavy fin structures",
+       "fluid flow and heat transfer characteristics inside a heat sink via numerical methods"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.734,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "evaluation of specific TPMS structures such as gyroid and primitive",
+      "evaluation of traditional wavy fin structures",
+      "fluid flow and heat transfer characteristics inside a heat sink via numerical methods"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: evaluation of specific TPMS structures such as gyroid and primitive; not expressible in the registry: evaluation of traditional wavy fin structures; not expressible in the registry: fluid flow and heat transfer characteristics inside a heat sink via numerical methods.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit13",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "randomly distributed pore topology",
+       "precise parametric control of mechanical properties"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.065,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "randomly distributed pore topology",
+      "precise parametric control of mechanical properties"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: randomly distributed pore topology; not expressible in the registry: precise parametric control of mechanical properties.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit14",
+     "query": {
+      "objectives": [
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       },
+       {
+        "property": "E_aniso",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.026,
+     "objectives": [
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      },
+      {
+       "property": "E_aniso",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "answered",
+     "n_feasible": 11754,
+     "reason": "",
+     "mus": [],
+     "caveats": []
+    }
+   ]
+  },
+  {
+   "summary": {
+    "n": 15,
+    "parse_ok": 15,
+    "undeclared_or_invalid": 0,
+    "with_registry_content": 6,
+    "with_unmet": 14,
+    "status": {
+     "answered": 1,
+     "answered_reduced": 0,
+     "gated_reduced": 5,
+     "refused_empty": 0,
+     "refused_no_content": 9,
+     "refused_cap": 0
+    },
+    "rows_returned": 1,
+    "estimate_flagged": 1,
+    "latency_median_s": 0.824
+   },
+   "records": [
+    {
+     "id": "lit00",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "forced-convection cooling optimization of cell size and local geometry adjustment"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.692,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "forced-convection cooling optimization of cell size and local geometry adjustment"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: forced-convection cooling optimization of cell size and local geometry adjustment.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit01",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.002,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "coupled analysis of conduction, convection, and radiation within a unified thermal framework"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: coupled analysis of conduction, convection, and radiation within a unified thermal framework.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit02",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "bone tissue repair",
+       "heat dissipation",
+       "fluid permeation",
+       "graded and heterogeneous lattice structures"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.883,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "bone tissue repair",
+      "heat dissipation",
+      "fluid permeation",
+      "graded and heterogeneous lattice structures"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: bone tissue repair; not expressible in the registry: heat dissipation; not expressible in the registry: fluid permeation; not expressible in the registry: graded and heterogeneous lattice structures.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit03",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "multifunctional performance combining thermal, fluidic, and mechanical requirements"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.728,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "multifunctional performance combining thermal, fluidic, and mechanical requirements"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: multifunctional performance combining thermal, fluidic, and mechanical requirements.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit04",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "plastics",
+       "ceramics"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.881,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "plastics",
+      "ceramics"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: plastics; not expressible in the registry: ceramics.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit05",
+     "query": {
+      "objectives": [
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "high-power-density",
+       "precise thermal management solutions"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.824,
+     "objectives": [
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "high-power-density",
+      "precise thermal management solutions"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: high-power-density; not expressible in the registry: precise thermal management solutions). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit06",
+     "query": {
+      "objectives": [
+       {
+        "property": "E_mean",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "strength"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.966,
+     "objectives": [
+      {
+       "property": "E_mean",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "strength"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: strength). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit07",
+     "query": {
+      "objectives": [
+       {
+        "property": "permeability",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "forced convection heat dissipation performance as a direct coupled flow-thermal solve",
+       "specific pore size values"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.91,
+     "objectives": [
+      {
+       "property": "permeability",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "forced convection heat dissipation performance as a direct coupled flow-thermal solve",
+      "specific pore size values"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 26543,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: forced convection heat dissipation performance as a direct coupled flow-thermal solve; not expressible in the registry: specific pore size values). The remaining query admits 26,543 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": [
+      "permeability: Kozeny-Carman estimate from porosity and surface area, not a flow solve -- treat as a ranking, not a number"
+     ]
+    },
+    {
+     "id": "lit08",
+     "query": {
+      "objectives": [
+       {
+        "property": "specific_stiffness",
+        "sense": "max",
+        "weight": 1.0
+       },
+       {
+        "property": "k_mean",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [],
+      "material_filter": {},
+      "unmet": [],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.821,
+     "objectives": [
+      {
+       "property": "specific_stiffness",
+       "sense": "max",
+       "weight": 1.0
+      },
+      {
+       "property": "k_mean",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "answered",
+     "n_feasible": 26543,
+     "reason": "",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit09",
+     "query": {
+      "objectives": [],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [
+       "evaluate and quantify the anisotropy of the elastic modulus under specified 3D process parameters and methods"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.853,
+     "objectives": [],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [
+      "evaluate and quantify the anisotropy of the elastic modulus under specified 3D process parameters and methods"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 11754,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: evaluate and quantify the anisotropy of the elastic modulus under specified 3D process parameters and methods). The remaining query admits 11,754 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit10",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "natural convection heat transfer properties under forced convection heat exchangers"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.803,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "natural convection heat transfer properties under forced convection heat exchangers"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: natural convection heat transfer properties under forced convection heat exchangers.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit11",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "topological complexity (number of strut classes and node coordination degrees)",
+       "manufacturing tolerances and repeatability"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.652,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "topological complexity (number of strut classes and node coordination degrees)",
+      "manufacturing tolerances and repeatability"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: topological complexity (number of strut classes and node coordination degrees); not expressible in the registry: manufacturing tolerances and repeatability.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit12",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "fluid flow and heat transfer characteristics of gyroid and primitive TPMS structures and traditional wavy fin in a heat sink using numerical methods"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.736,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "fluid flow and heat transfer characteristics of gyroid and primitive TPMS structures and traditional wavy fin in a heat sink using numerical methods"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: fluid flow and heat transfer characteristics of gyroid and primitive TPMS structures and traditional wavy fin in a heat sink using numerical methods.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit13",
+     "query": {
+      "objectives": [],
+      "constraints": [],
+      "material_filter": null,
+      "unmet": [
+       "precise parametric control of mechanical properties through ordered pore topology"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 0.696,
+     "objectives": [],
+     "constraints": [],
+     "material_filter": {},
+     "unmet": [
+      "precise parametric control of mechanical properties through ordered pore topology"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": false,
+     "status": "refused_no_content",
+     "n_feasible": 0,
+     "reason": "Nothing in this request maps to a searchable property, so no row is returned. Not applied: not expressible in the registry: precise parametric control of mechanical properties through ordered pore topology.",
+     "mus": [],
+     "caveats": []
+    },
+    {
+     "id": "lit14",
+     "query": {
+      "objectives": [
+       {
+        "property": "mass_density",
+        "sense": "min",
+        "weight": 1.0
+       },
+       {
+        "property": "E_aniso",
+        "sense": "max",
+        "weight": 1.0
+       }
+      ],
+      "constraints": [
+       {
+        "property": "printable",
+        "op": "==",
+        "value": "true"
+       }
+      ],
+      "material_filter": null,
+      "unmet": [
+       "bearing performance"
+      ],
+      "_lost": [],
+      "_rejected": []
+     },
+     "parse_ok": true,
+     "latency_s": 1.036,
+     "objectives": [
+      {
+       "property": "mass_density",
+       "sense": "min",
+       "weight": 1.0
+      },
+      {
+       "property": "E_aniso",
+       "sense": "max",
+       "weight": 1.0
+      }
+     ],
+     "constraints": [
+      {
+       "property": "printable",
+       "op": "==",
+       "value": "true"
+      }
+     ],
+     "material_filter": {},
+     "unmet": [
+      "bearing performance"
+     ],
+     "lost": [],
+     "rejected": [],
+     "has_content": true,
+     "status": "gated_reduced",
+     "n_feasible": 11754,
+     "reason": "Part of this request was lost in parsing (not expressible in the registry: bearing performance). The remaining query admits 11,754 rows, but they answer a smaller request than the one asked. Rephrase, or accept the reduced query explicitly.",
+     "mus": [],
+     "caveats": []
+    }
+   ]
+  }
+ ]
+}

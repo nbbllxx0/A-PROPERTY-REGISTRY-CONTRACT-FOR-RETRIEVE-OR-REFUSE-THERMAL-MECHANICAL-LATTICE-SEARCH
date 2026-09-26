@@ -1,0 +1,38 @@
+cells: 16   nu values: [0.15, 0.3, 0.45]   grid: 24^3
+
+  gyroid network rho=0.30 f=111      E11 0.06534 0.06443 0.06542   spread   1.5%
+  gyroid network rho=0.30 f=113      E11 0.09105 0.08973 0.09203   spread   2.6%
+  gyroid sheet rho=0.30 f=111        E11 0.11346 0.10947 0.10905   spread   4.0%
+  gyroid sheet rho=0.30 f=113        E11 0.10553 0.10586 0.11430   spread   8.3%
+  diamond network rho=0.30 f=111     E11 0.06928 0.06637 0.06515   spread   6.2%
+  diamond network rho=0.30 f=113     E11 0.13100 0.12751 0.12792   spread   2.7%
+  diamond sheet rho=0.30 f=111       E11 0.14475 0.13932 0.13716   spread   5.4%
+  diamond sheet rho=0.30 f=113       E11 0.10086 0.10138 0.11019   spread   9.2%
+  schwarz_p network rho=0.30 f=111   E11 0.11578 0.12011 0.12661   spread   9.0%
+  schwarz_p network rho=0.30 f=113   E11 0.13465 0.13736 0.14246   spread   5.7%
+  schwarz_p sheet rho=0.30 f=111     E11 0.08396 0.08463 0.08897   spread   5.9%
+  schwarz_p sheet rho=0.30 f=113     E11 0.14876 0.14898 0.15431   spread   3.7%
+  iwp network rho=0.30 f=111         E11 0.14201 0.14405 0.14805   spread   4.2%
+  iwp network rho=0.30 f=113         E11 0.15717 0.15800 0.16086   spread   2.3%
+  iwp sheet rho=0.30 f=111           E11 0.12392 0.12751 0.13894   spread  11.8%
+  iwp sheet rho=0.30 f=113           E11 0.15028 0.15212 0.16151   spread   7.4%
+
+cells solved: 16
+  E11 drift over nu 0.15-0.45 : median 5.6%  worst 11.8%
+  E22 drift over nu 0.15-0.45 : median 5.6%  worst 11.8%
+  E33 drift over nu 0.15-0.45 : median 7.1%  worst 33.5%
+
+  nu=0.15  E11 ranking vs nu=0.30 : max rank shift 6
+  nu=0.30  E11 ranking vs nu=0.30 : max rank shift 0
+  nu=0.45  E11 ranking vs nu=0.30 : max rank shift 9
+  E33/E11 drift            : median 0.93%  worst 28.97%
+
+  nu=0.15  our pick is 0.000% below the true best E11
+  nu=0.30  our pick is 0.000% below the true best E11
+  nu=0.45  our pick is 0.403% below the true best E11
+  top-3 overlap with the nu=0.30 ranking: 3, 3, 3 of 3
+
+RESULT
+  max rank shift            : 9 of 16 cells
+  worst regret on the pick  : 0.403%
+  Reordering happens among near-ties and costs the user under 1%%. The nu=0.30 assumption changes the label on the answer, not the quality of the answer.

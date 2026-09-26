@@ -1,0 +1,37 @@
+{
+ "model": "gemini-3.5-flash",
+ "runs": [
+  {
+   "n_ok": 308,
+   "concept_f1": 0.9930426716141001,
+   "key_f1": 0.9229359925788498,
+   "constraint_atom_f1": 0.9356060606060606,
+   "objective_key_f1": 0.9387445887445888,
+   "constraint_key_f1": 0.9318181818181818,
+   "n_with_gold_atoms": 88,
+   "n_error": 0,
+   "latency_median_s": 5.237,
+   "latency_p90_s": 8.787
+  },
+  {
+   "n_ok": 308,
+   "concept_f1": 0.9923933209647495,
+   "key_f1": 0.9234461966604824,
+   "constraint_atom_f1": 0.9356060606060606,
+   "objective_key_f1": 0.9289579468150896,
+   "constraint_key_f1": 0.9318181818181818,
+   "n_with_gold_atoms": 88,
+   "n_error": 0,
+   "latency_median_s": 4.862,
+   "latency_p90_s": 8.75
+  }
+ ],
+ "concept_f1_mean": 0.9927179962894248,
+ "concept_f1_sd": 0.00045916024752367345,
+ "constraint_atom_f1_mean": 0.9356060606060606,
+ "constraint_atom_f1_sd": 0.0,
+ "objective_key_f1_mean": 0.9338512677798392,
+ "objective_key_f1_sd": 0.006920200873393471,
+ "latency_median_s_mean": 5.0495,
+ "latency_median_s_sd": 0.2651650429449553
+}

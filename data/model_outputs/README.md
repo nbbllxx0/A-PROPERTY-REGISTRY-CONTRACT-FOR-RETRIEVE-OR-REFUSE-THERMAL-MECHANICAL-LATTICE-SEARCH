@@ -4,7 +4,8 @@ The raw scoring records behind the parse benchmark and the vocabulary
 ablation, so both can be checked without re-running the model.
 
 The parse benchmark is the "Concept F1 on 308 template-generated requests"
-table — **Table 15** in the arXiv preprint (2609.14741v1).
+table — **Table 15** in the arXiv preprint (2609.14741v1), and the upper
+block of Table 9 in the revised manuscript.
 
 | File | What it holds |
 |---|---|
@@ -16,6 +17,8 @@ table — **Table 15** in the arXiv preprint (2609.14741v1).
 | `ablation_para.json` | vocabulary-size ablation, paraphrased phrasings |
 | `refusal_flash.json` | refusal-path records, Flash |
 | `refusal_flashlite.json` | refusal-path records, Flash-Lite |
+| `frames_v3/` | every parse of the 308 requests on the current 28-key prompt (Flash-Lite three runs of 25 September 2026; Flash two runs, of 25 and 26 September 2026), the per-model summaries, and the rule-based frame scores; Table 9 of the revised manuscript |
+| `agent_baseline/` | every transcript of the tool-using-model comparison: the frozen suite, the 216 empty repair queries and the undeclared-key requests |
 
 The parse stage is the only learned component, and it is the only stage
 these records cover. Retrieval is a boolean mask intersection followed by
