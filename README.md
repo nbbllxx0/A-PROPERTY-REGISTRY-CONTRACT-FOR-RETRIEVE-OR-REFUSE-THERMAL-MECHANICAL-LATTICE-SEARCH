@@ -7,7 +7,7 @@ Data and code for the paper.
 > arXiv:2609.14741 [cs.CE], 2026. <https://arxiv.org/abs/2609.14741>
 
 An engineer's sentence is compiled against a declared property registry into a
-typed query over a catalogue of solved metal–cell combinations. If the feasible
+typed query over a catalogue of solved material–cell combinations. If the feasible
 set is non-empty the system returns a catalogue row that a second solver can
 rebuild. If it is empty the system returns **why** — the minimal unsatisfiable
 subsets, the correction sets, and the slack of a repair — rather than the

@@ -3,7 +3,7 @@ message: "If you use this data or code, please cite the paper below."
 title: "A property-registry contract for retrieve-or-refuse thermal-mechanical lattice search"
 abstract: >-
   An engineer's sentence is compiled against a declared property registry into a
-  typed query over a catalogue of solved metal-cell combinations. A non-empty
+  typed query over a catalogue of solved material-cell combinations. A non-empty
   feasible set returns a catalogue row that a second solver can rebuild; an empty
   one returns minimal unsatisfiable subsets and the slack of a repair rather than
   the nearest row.
@@ -24,7 +24,9 @@ authors:
     email: jwang22@scu.edu
 repository-code: "https://github.com/nbbllxx0/A-PROPERTY-REGISTRY-CONTRACT-FOR-RETRIEVE-OR-REFUSE-THERMAL-MECHANICAL-LATTICE-SEARCH"
 url: "https://arxiv.org/abs/2609.14741"
-license: MIT
+license:
+  - MIT
+  - CC-BY-4.0
 keywords:
   - engineering knowledge representation
   - retrieve-or-refuse
