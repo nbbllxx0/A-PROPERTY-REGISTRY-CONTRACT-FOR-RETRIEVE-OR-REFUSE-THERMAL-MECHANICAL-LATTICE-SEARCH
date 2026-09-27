@@ -60,7 +60,9 @@ the three stiffest cells with ρ ≤ 0.15 re-solved at n = 192;
 `mesh_probe_working_grid.json`, `grid_study_pooled.json` and
 `rebuild_rho_check.json`, the row re-solves and grid checks;
 `agent_baseline.json`, the tool-using-model comparison; `literature_v3.json`,
-the published design-aim sentences through the current prompt.
+the published design-aim sentences through the current prompt, and
+`literature_answered_audit.json`, the authors' reading of every answered
+literature parse (two silent misreadings).
 
 The `*_preregister.md` files fix each metric **before** its result and are
 included unedited, as are `p2_protocol_correction.md` and
@@ -128,6 +130,10 @@ python verify.py --uid 0                      # re-solve one catalogue row (seco
 
 Without `--uid`, `verify.py` re-solves eight random rows; a row on the
 n = 128 grid can take many minutes.
+
+Size-dependent properties (`mean_feature`, `permeability`) use the cell size
+the registry declares, 10 mm, which the generated prompt also states;
+`app.py --cell-mm` sets another.
 
 `scikit-fem` and TetGen are needed only to re-run `data/openfem/`; the logs of
 the runs reported in the paper are included so the check can be read without

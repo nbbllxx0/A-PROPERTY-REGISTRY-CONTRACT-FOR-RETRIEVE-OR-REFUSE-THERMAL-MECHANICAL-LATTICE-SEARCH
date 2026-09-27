@@ -1,0 +1,17 @@
+{
+  "note": "Every literature parse that the search answered, read against its sentence by the authors on 26 September 2026. An entry lists the runs (0-based, as in literature_v3.json) in which the answered parse lost part of the sentence without reporting it.",
+  "records": {
+    "lit08": {
+      "runs": [0, 1, 2],
+      "sentence_asks": "improved weight-to-strength ratio, better heat dissipation",
+      "parse": "max specific_stiffness, max k_mean; nothing reported as unmet",
+      "lost_unreported": "strength: read as specific stiffness (modulus over density); the registry has no strength quantity, and the parse did not report it"
+    },
+    "lit14": {
+      "runs": [1],
+      "sentence_asks": "light-weight and high-modulus-ratio mechanical bearing parts, SLM-manufactured",
+      "parse": "min mass_density, max E_aniso, printable == true; nothing reported as unmet in run 1",
+      "lost_unreported": "bearing performance: not reported in run 1; runs 0 and 2 reported it and were held back"
+    }
+  }
+}

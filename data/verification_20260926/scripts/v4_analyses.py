@@ -136,6 +136,14 @@ def survives(cat, cons, deltas, favourable):
     return bool(ok.any())
 
 
+# Solved keys whose error class is calibrated: k11 and its axis companions (the
+# conductivity residual), E11 (stiffness residual plus the E11 Poisson drift) and
+# the conductivity ratios. E33 and E33/E11 drift more with nu (Table E.6), so a
+# query on them needs its own envelope before it can be classed.
+CALIBRATED = {"k_11", "k_22", "k_33", "k_mean", "k_aniso", "k_inplane",
+              "specific_conductivity", "E_11", "E_22", "specific_stiffness"}
+
+
 def decision_classes(cat, suite, p2):
     lv, dn = error_levels()
     sets = {"suite": suite, "repair": p2,
@@ -144,6 +152,10 @@ def decision_classes(cat, suite, p2):
     for name, items in sets.items():
         rows[name] = []
         for it in items:
+            uncal = {c["property"] for c in it["constraints"]
+                     if prop_class(c["property"]) and c["property"] not in CALIBRATED}
+            if uncal:
+                raise SystemExit(f"{name} {it['id']}: no calibrated error class for {sorted(uncal)}")
             cons = stamp_constraints(it["constraints"])
             empty = is_empty(cat, cons)
             cls = {}

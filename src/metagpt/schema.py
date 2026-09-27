@@ -23,6 +23,11 @@ from typing import Callable, Optional
 import numpy as np
 
 
+# The one cell size the registry declares for size-dependent properties: the
+# prompt states it, and the evaluator uses it unless a caller sets another.
+DEFAULT_CELL_MM = 10.0
+
+
 @dataclass(frozen=True)
 class Prop:
     key: str
@@ -182,7 +187,7 @@ reg(Prop("cost_per_m3", "material cost per unit volume", "USD/m3", "effective",
          "price of the metal actually used; porosity makes a part cheaper.",
          "low"))
 reg(Prop("permeability", "permeability", "m2", "effective",
-         lambda r, m, c: _g(r, "K_perm") * (c.get("cell_mm", 1.0) * 1e-3) ** 2,
+         lambda r, m, c: _g(r, "K_perm") * (c.get("cell_mm", DEFAULT_CELL_MM) * 1e-3) ** 2,
          "how easily fluid flows through the pores, for a given cell size. "
          "ESTIMATE ONLY -- from porosity and surface area, not a flow solve."))
 
@@ -205,13 +210,13 @@ def _mean_feature_mm(r, m, c):
     if not np.isfinite(rho) or not np.isfinite(s_v) or s_v <= 0:
         return np.nan
     coeff = 2.0 if r.get("mode") == "sheet" else 4.0
-    return coeff * rho / s_v * c.get("cell_mm", 10.0)
+    return coeff * rho / s_v * c.get("cell_mm", DEFAULT_CELL_MM)
 
 
 reg(Prop("mean_feature", "mean wall or ligament thickness", "mm", "effective",
          _mean_feature_mm,
          "average thickness of the metal walls or struts at the chosen cell "
-         "size (default 10 mm); scaling the cell scales it. A local wall can "
+         f"size (default {DEFAULT_CELL_MM:g} mm); scaling the cell scales it. A local wall can "
          "be thinner, so this screens printability but does not guarantee "
          "it. ESTIMATE ONLY -- from density and surface area, not measured.",
          "high"))

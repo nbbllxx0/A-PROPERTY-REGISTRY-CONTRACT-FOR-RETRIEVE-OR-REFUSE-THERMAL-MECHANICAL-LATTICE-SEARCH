@@ -25,7 +25,7 @@ from itertools import combinations
 import numpy as np
 
 from materials import MATERIALS, filter_materials
-from schema import REGISTRY, ESTIMATED, evaluate
+from schema import REGISTRY, ESTIMATED, evaluate, DEFAULT_CELL_MM
 
 HERE = pathlib.Path(__file__).resolve().parent
 NUMERIC_KINDS = ("effective", "geometry", "material")
@@ -77,6 +77,32 @@ def _shortfall(v, op, bound):
                          0.0, np.abs(bound / v - 1.0))
         else:
             s = np.where(v <= bound, 0.0, 1.0 - bound / v)
+    return np.where(np.isfinite(s), s, np.inf)
+
+
+def _shared_shortfall(v, atoms):
+    """Smallest |e| such that v*(1+e) meets every (op, bound) on one property,
+    with one e for all of them; inf where the bounds cannot hold together."""
+    lo = np.full(v.shape, -np.inf)
+    hi = np.full(v.shape, np.inf)
+    held = np.ones(v.shape, dtype=bool)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        for op, b in atoms:
+            if op in (">=", ">"):
+                lo = np.maximum(lo, b / v - 1.0)
+                held &= v >= b
+            elif op == "==":
+                t = equality_tolerance(b) * (1 + 1e-9)
+                lo = np.maximum(lo, (b - t) / v - 1.0)
+                hi = np.minimum(hi, (b + t) / v - 1.0)
+                held &= np.abs(v - b) <= t
+            else:
+                hi = np.minimum(hi, b / v - 1.0)
+                held &= v <= b
+        s = np.where(lo > hi, np.inf, np.where(lo > 0, lo, np.where(hi < 0, -hi, 0.0)))
+    usable = np.isfinite(v) & (v > 0)
+    # a value that is zero or missing cannot be scaled: met now, or never
+    s = np.where(usable, s, np.where(held, 0.0, np.inf))
     return np.where(np.isfinite(s), s, np.inf)
 
 
@@ -336,8 +362,10 @@ class Result:
 class Catalogue:
     """Geometry rows x materials, with every queryable property precomputed."""
 
-    def __init__(self, csv_path=None, cell_mm=1.0, materials=None):
+    def __init__(self, csv_path=None, cell_mm=None, materials=None):
         csv_path = pathlib.Path(csv_path or HERE / "catalogue.csv")
+        # size-dependent properties use the cell size the registry declares
+        cell_mm = DEFAULT_CELL_MM if cell_mm is None else float(cell_mm)
         self.cell_mm = cell_mm
         self.geoms = self._load(csv_path)
         self.materials = list(materials or MATERIALS)
@@ -403,19 +431,30 @@ class Catalogue:
 
     def flip_margin(self, cons, mat_ok=None):
         """Smallest uniform relative change of the solved properties (k, E, their
-        ratios, D*) that would let some row meet every constraint. Handbook
-        values, relative density, part density and price are held fixed, and so
-        is a ratio that the row's symmetry fixes at one: a discretisation error
-        of a symmetric mask moves both axes alike. inf if no such change exists."""
+        ratios, D*) that would let some row meet every constraint. Each property
+        moves as one quantity, so two bounds on the same property move together
+        and contradictory bounds give inf. A ratio moves independently of its
+        components, so when both are constrained the margin is a lower bound.
+        Handbook values, relative density, part density and price are held
+        fixed, and so is a ratio that the row's symmetry fixes at one: a
+        discretisation error of a symmetric mask moves both axes alike. inf if
+        no such change exists."""
         need = np.zeros(self.M.shape[0])
         if mat_ok is not None:
             need = np.where(mat_ok, need, np.inf)
+        by_key = {}
         for c in cons:
-            key = c["property"]
+            by_key.setdefault(c["property"], []).append(c)
+        for key, atoms in by_key.items():
             if key not in self.col:
-                need = np.where(self._categorical_mask(key, c), need, np.inf)
+                for c in atoms:
+                    need = np.where(self._categorical_mask(key, c), need, np.inf)
                 continue
-            s = _shortfall(self.M[:, self.col[key]], c["op"], float(c["value"]))
+            v = self.M[:, self.col[key]]
+            if len(atoms) == 1:
+                s = _shortfall(v, atoms[0]["op"], float(atoms[0]["value"]))
+            else:
+                s = _shared_shortfall(v, [(c["op"], float(c["value"])) for c in atoms])
             if not key.startswith(SOLVED_PREFIX):
                 s = np.where(s > 0, np.inf, 0.0)
             elif key in RATIO_PAIR:

@@ -16,7 +16,7 @@ sys.path.insert(0, str(HERE.parent / "metahomog"))
 
 from retrieval import Catalogue, CATEGORICAL  # noqa: E402
 from llm import validate, QUERY_SCHEMA  # noqa: E402
-from schema import REGISTRY  # noqa: E402
+from schema import REGISTRY, DEFAULT_CELL_MM  # noqa: E402
 
 CAT = Catalogue()
 
@@ -210,6 +210,30 @@ def test_symmetry_identities_hold_in_catalogue():
             for q in ("k", "E"):
                 worst = max(worst, abs(g[f"{q}{j}{j}"] / g[f"{q}{i}{i}"] - 1))
     assert worst <= 0.01, worst
+
+
+def test_cell_size_is_the_declared_one():
+    # the prompt tells the model the default cell size; the evaluator must use it
+    assert f"default {DEFAULT_CELL_MM:g} mm" in REGISTRY["mean_feature"].hint
+    assert CAT.cell_mm == DEFAULT_CELL_MM
+    r = CAT.search(_q(objectives=[{"property": "k_11", "sense": "max"}],
+                      constraints=[{"property": "mean_feature", "op": ">=", "value": 1.0}]))
+    assert r.status == "answered", r.status
+    small = Catalogue(cell_mm=1.0)
+    r1 = small.search(_q(constraints=[{"property": "mean_feature", "op": ">=", "value": 1.0}]))
+    assert r1.status == "refused_empty", r1.status
+
+
+def test_flip_margin_moves_one_property_as_one_quantity():
+    k11 = lambda op, v: {"property": "k_11", "op": op, "value": v}
+    # contradictory bounds on one property: no error in it can admit a row
+    r = CAT.search(_q(objectives=[{"property": "k_11", "sense": "max"}],
+                      constraints=[k11("<=", 10), k11(">=", 20)]))
+    assert r.status == "refused_empty" and r.flip_margin == float("inf"), r.flip_margin
+    # a consistent range: the shared margin equals the tighter single-bound one
+    lo = CAT.flip_margin([k11(">=", 500)])
+    both = CAT.flip_margin([k11(">=", 500), k11("<=", 2000)])
+    assert abs(both - lo) < 1e-12, (both, lo)
 
 
 if __name__ == "__main__":

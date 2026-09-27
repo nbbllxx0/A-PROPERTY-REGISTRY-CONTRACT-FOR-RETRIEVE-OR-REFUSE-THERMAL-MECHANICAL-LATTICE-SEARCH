@@ -30,7 +30,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 
 from llm import parse, summarise  # noqa: E402
 from retrieval import Catalogue  # noqa: E402
-from schema import REGISTRY  # noqa: E402
+from schema import REGISTRY, DEFAULT_CELL_MM  # noqa: E402
 
 DEMOS = [
     "light and stiff along the length, and it should spread heat sideways "
@@ -140,6 +140,9 @@ def main():
     ap.add_argument("--demo", action="store_true")
     ap.add_argument("--catalogue", default=None)
     ap.add_argument("--top", type=int, default=5)
+    ap.add_argument("--cell-mm", type=float, default=DEFAULT_CELL_MM,
+                    help="cell size in mm for size-dependent properties "
+                         f"(mean_feature, permeability; default {DEFAULT_CELL_MM:g})")
     ap.add_argument("--fig", action="store_true")
     # Re-solving is on by default. A returned design whose properties were only
     # looked up is a claim; one that has been rebuilt from its row and re-solved
@@ -156,7 +159,7 @@ def main():
     path = a.catalogue or (HERE / "catalogue.csv")
     if not pathlib.Path(path).exists():
         sys.exit(f"no catalogue at {path} -- run gen_dataset.py first")
-    cat = Catalogue(csv_path=path)
+    cat = Catalogue(csv_path=path, cell_mm=a.cell_mm)
     s = cat.stats()
     print(f"catalogue: {s['geometries']:,} geometries x {s['materials']} "
           f"materials = {s['combinations']:,} combinations, "
