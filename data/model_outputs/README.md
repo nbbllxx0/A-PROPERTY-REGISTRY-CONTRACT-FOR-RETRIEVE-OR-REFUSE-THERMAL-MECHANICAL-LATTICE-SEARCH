@@ -11,7 +11,7 @@ block of Table 9 in the revised manuscript.
 |---|---|
 | `bench_eval_flash.json` | Gemini 3.5 Flash on the 308-request benchmark, two runs |
 | `bench_eval_flashlite.json` | Gemini 3.5 Flash-Lite on the same benchmark, five runs |
-| `eval_results.json` | per-request scoring records for the benchmark |
+| `eval_results.json` | per-request concept scores for a 25-request pilot set across seven categories (scores only) |
 | `baseline_results.json` | the registry-derived keyword table and the TF-IDF 1-NN baseline |
 | `ablation_literal.json` | vocabulary-size ablation, literal phrasings |
 | `ablation_para.json` | vocabulary-size ablation, paraphrased phrasings |
@@ -19,6 +19,8 @@ block of Table 9 in the revised manuscript.
 | `refusal_flashlite.json` | refusal-path records, Flash-Lite |
 | `frames_v3/` | every parse of the 308 requests on the current 28-key prompt (Flash-Lite three runs of 25 September 2026; Flash two runs, of 25 and 26 September 2026), the per-model summaries, and the rule-based frame scores; Table 9 of the revised manuscript |
 | `agent_baseline/` | every transcript of the tool-using-model comparison: the frozen suite, the 216 empty repair queries and the undeclared-key requests |
+
+For the frozen measurement (upper block of Table 9) these files hold the per-run scores; the per-request parses of those runs were not stored. The current-prompt parses are all in `frames_v3/`.
 
 The parse stage is the only learned component, and it is the only stage
 these records cover. Retrieval is a boolean mask intersection followed by

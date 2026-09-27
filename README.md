@@ -62,7 +62,10 @@ the three stiffest cells with ρ ≤ 0.15 re-solved at n = 192;
 `agent_baseline.json`, the tool-using-model comparison; `literature_v3.json`,
 the published design-aim sentences through the current prompt, and
 `literature_answered_audit.json`, the authors' reading of every answered
-literature parse (two silent misreadings).
+literature parse (two silent misreadings); `node_conn_pre_thin.json`, face
+versus node connectivity of the rows below `conn_frac` 0.99 before the
+thin-wall re-solve; `repair_timing.json`, the compiled search's time on the 216
+frozen repair queries.
 
 The `*_preregister.md` files fix each metric **before** its result and are
 included unedited, as are `p2_protocol_correction.md` and

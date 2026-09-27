@@ -31,6 +31,8 @@ fi
 step "$PY" scripts/v3_analyses.py
 step "$PY" scripts/v4_analyses.py
 step "$PY" scripts/census_wrap.py
+step "$PY" scripts/node_conn_pre_thin.py
+step "$PY" scripts/repair_timing.py
 step "$PY" scripts/test_partial_percolation.py --gpu
 step "$PY" scripts/run_literature_v3.py --research
 if [ "${SKIP_SOLVES:-0}" != "1" ]; then
