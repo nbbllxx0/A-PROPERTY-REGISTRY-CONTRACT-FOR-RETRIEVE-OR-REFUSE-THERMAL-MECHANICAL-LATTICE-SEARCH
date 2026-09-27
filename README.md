@@ -109,7 +109,7 @@ limitation — the driver is ours, not an independent third-party run.
 | Package | Contents |
 |---|---|
 | `metahomog/` | Geometry and physics. `tpms.py` builds the implicit cells and holds the tie rule, `homogenize.py` solves the periodic cell problem on trilinear hexes, `pore_phase.py` points the same solver at the void to get D\*, and **`validate.py` is the sixteen-test suite** of Sec. 4.2 and Appendix E.3 of the revised manuscript. |
-| `metagpt/` | The contract and the search. **`schema.py` is the property registry** — the single declaration from which both the language-model prompt and the deterministic evaluator are generated. `retrieval.py` is the retrieve-or-refuse reasoner with MUS and MCS enumeration, `refusal.py` the refusal objects, `materials.py` the 19-metal handbook layer, `evaluate.py` the parse benchmark harness, `verify.py` the GPU-versus-CPU re-solve check, **`test_contract.py` the tests of the registry contract**, and `resolve_thin_rows.py` and `resolve_symmetry_rows.py` the row re-solves. |
+| `metagpt/` | The contract and the search. **`schema.py` is the property registry** — the single declaration from which both the language-model prompt and the deterministic evaluator are generated. `retrieval.py` is the retrieve-or-refuse reasoner with MUS and MCS enumeration, `refusal.py` the refusal objects, `materials.py` the handbook layer of 19 base materials (16 metals and 3 ceramics), `evaluate.py` the parse benchmark harness, `verify.py` the GPU-versus-CPU re-solve check, **`test_contract.py` the tests of the registry contract**, and `resolve_thin_rows.py` and `resolve_symmetry_rows.py` the row re-solves. |
 
 ---
 

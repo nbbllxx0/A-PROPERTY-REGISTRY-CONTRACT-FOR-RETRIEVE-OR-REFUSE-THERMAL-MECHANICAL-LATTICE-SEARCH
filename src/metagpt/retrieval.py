@@ -4,9 +4,9 @@ The search: (material x geometry) -> ranked candidates, or an explained refusal.
 Two things here are worth more than the ranking itself.
 
 First, the search space is the *product* of the catalogue and the material
-table. 1500 shapes and 19 metals is 28500 combinations, and only the shapes
-needed simulating. Every effective property is a material number times a
-geometry factor, so the cross product is free.
+table. 1,397 shapes and 19 base materials is 26,543 combinations, and only
+the shapes needed simulating. Every effective property is a material number
+times a geometry factor, so the cross product is free.
 
 Second, the system has to be able to say no. Most property combinations an
 engineer would ask for do not exist, and a design tool that always returns its
