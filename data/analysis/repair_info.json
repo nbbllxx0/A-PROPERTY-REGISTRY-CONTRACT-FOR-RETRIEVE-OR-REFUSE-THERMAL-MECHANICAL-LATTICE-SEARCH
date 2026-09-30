@@ -12,9 +12,9 @@
       "rate": 1.0
     },
     "exec_best_min_card": {
-      "k": 90,
+      "k": 92,
       "n": 207,
-      "rate": 0.43478260869565216
+      "rate": 0.4444444444444444
     },
     "exec_best_min_card_outward": {
       "k": 207,
@@ -22,17 +22,17 @@
       "rate": 1.0
     },
     "disagree_set": {
-      "k": 111,
+      "k": 109,
       "n": 207,
-      "rate": 0.5362318840579711
+      "rate": 0.5265700483091788
     },
     "disagree_uid": {
-      "k": 97,
+      "k": 96,
       "n": 207,
-      "rate": 0.46859903381642515
+      "rate": 0.463768115942029
     },
     "disagree_set_by_min_card": {
-      "1": 109,
+      "1": 107,
       "2": 2
     },
     "min_card_vs_incl_min": {
@@ -5708,20 +5708,20 @@
         "best_min_card": {
           "has_repair": true,
           "set": [
-            "k_11>=27.6584"
+            "E_11>=56.4602"
           ],
           "uid": 542,
-          "material": "silicon carbide",
+          "material": "copper",
           "family": "diamond",
           "min_card": true,
           "n_dropped": 1,
-          "executable": false,
+          "executable": true,
           "executable_outward": true,
-          "n_feasible_printed": 0,
+          "n_feasible_printed": 1,
           "n_feasible_printed_outward": 1
         }
       },
-      "disagree_set": true,
+      "disagree_set": false,
       "disagree_uid": false,
       "n_inclusion_minimal_mcs": 4
     },
@@ -6698,11 +6698,11 @@
         "best_min_card": {
           "has_repair": true,
           "set": [
-            "k_11>=70.6533"
+            "rho<=0.176395"
           ],
-          "uid": 181,
+          "uid": 375,
           "material": "copper",
-          "family": "gyroid",
+          "family": "schwarz_p",
           "min_card": true,
           "n_dropped": 1,
           "executable": false,
@@ -6711,8 +6711,8 @@
           "n_feasible_printed_outward": 1
         }
       },
-      "disagree_set": true,
-      "disagree_uid": true,
+      "disagree_set": false,
+      "disagree_uid": false,
       "n_inclusion_minimal_mcs": 2
     },
     {
@@ -6962,11 +6962,11 @@
         "best_min_card": {
           "has_repair": true,
           "set": [
-            "k_11>=50.7176"
+            "rho<=0.360545"
           ],
-          "uid": 1051,
+          "uid": 1399,
           "material": "aluminium 6061",
-          "family": "fischer_koch_s",
+          "family": "split_p",
           "min_card": true,
           "n_dropped": 1,
           "executable": true,
@@ -6975,8 +6975,8 @@
           "n_feasible_printed_outward": 1
         }
       },
-      "disagree_set": true,
-      "disagree_uid": true,
+      "disagree_set": false,
+      "disagree_uid": false,
       "n_inclusion_minimal_mcs": 4
     },
     {
@@ -9030,21 +9030,21 @@
         "best_min_card": {
           "has_repair": true,
           "set": [
-            "rho<=0.167504"
+            "E_11>=59.992"
           ],
-          "uid": 350,
+          "uid": 565,
           "material": "silicon carbide",
-          "family": "schwarz_p",
+          "family": "diamond",
           "min_card": true,
           "n_dropped": 1,
-          "executable": false,
+          "executable": true,
           "executable_outward": true,
-          "n_feasible_printed": 0,
+          "n_feasible_printed": 1,
           "n_feasible_printed_outward": 1
         }
       },
-      "disagree_set": false,
-      "disagree_uid": false,
+      "disagree_set": true,
+      "disagree_uid": true,
       "n_inclusion_minimal_mcs": 2
     },
     {

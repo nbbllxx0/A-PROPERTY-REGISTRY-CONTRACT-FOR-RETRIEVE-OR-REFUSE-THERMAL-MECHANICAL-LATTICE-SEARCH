@@ -152,7 +152,7 @@
      "k_aniso<=0.9"
     ]
    ],
-   "relaxation": "symmetry==cubic would have to be dropped; the closest row is tetragonal; k_aniso<=0.9 would have to reach 0.998 instead of 0.9",
+   "relaxation": "symmetry==cubic would have to be dropped; the closest row is tetragonal; k_aniso<=0.9 would have to reach 1 instead of 0.9",
    "margin_solved": Infinity
   },
   "quad": {
@@ -430,128 +430,128 @@
   {
    "n_constraints": 1,
    "n_empty": 1,
-   "median_diag_ms": 3.7215999327600002,
-   "max_diag_ms": 3.7215999327600002,
+   "median_diag_ms": 3.3285999670624733,
+   "max_diag_ms": 3.3285999670624733,
    "max_mus": 1,
    "subsets": 2
   },
   {
    "n_constraints": 2,
    "n_empty": 4,
-   "median_diag_ms": 3.591549990233034,
-   "max_diag_ms": 4.290199954994023,
+   "median_diag_ms": 3.6121999728493392,
+   "max_diag_ms": 5.5951999966055155,
    "max_mus": 1,
    "subsets": 4
   },
   {
    "n_constraints": 3,
    "n_empty": 5,
-   "median_diag_ms": 3.9200999308377504,
-   "max_diag_ms": 4.758500028401613,
+   "median_diag_ms": 4.079599981196225,
+   "max_diag_ms": 4.420500015839934,
    "max_mus": 1,
    "subsets": 8
   },
   {
    "n_constraints": 4,
    "n_empty": 6,
-   "median_diag_ms": 4.669749992899597,
-   "max_diag_ms": 5.013299989514053,
+   "median_diag_ms": 4.750149964820594,
+   "max_diag_ms": 5.295500042848289,
    "max_mus": 1,
    "subsets": 16
   },
   {
    "n_constraints": 5,
    "n_empty": 12,
-   "median_diag_ms": 5.367899953853339,
-   "max_diag_ms": 6.758100003935397,
+   "median_diag_ms": 5.240400030743331,
+   "max_diag_ms": 6.480299984104931,
    "max_mus": 3,
    "subsets": 32
   },
   {
    "n_constraints": 6,
    "n_empty": 14,
-   "median_diag_ms": 5.773600016254932,
-   "max_diag_ms": 7.002199999988079,
+   "median_diag_ms": 5.813899973873049,
+   "max_diag_ms": 7.304999977350235,
    "max_mus": 5,
    "subsets": 64
   },
   {
    "n_constraints": 7,
    "n_empty": 15,
-   "median_diag_ms": 6.508999969810247,
-   "max_diag_ms": 7.559799938462675,
+   "median_diag_ms": 6.341999978758395,
+   "max_diag_ms": 7.4523999355733395,
    "max_mus": 6,
    "subsets": 128
   },
   {
    "n_constraints": 8,
    "n_empty": 15,
-   "median_diag_ms": 7.8656000550836325,
-   "max_diag_ms": 9.022500016726553,
+   "median_diag_ms": 7.331399945542216,
+   "max_diag_ms": 8.435700088739395,
    "max_mus": 6,
    "subsets": 256
   },
   {
    "n_constraints": 9,
    "n_empty": 8,
-   "median_diag_ms": 9.464150003623217,
-   "max_diag_ms": 10.53580001462251,
+   "median_diag_ms": 9.512049960903823,
+   "max_diag_ms": 11.769100092351437,
    "max_mus": 11,
    "subsets": 512
   },
   {
    "n_constraints": 10,
    "n_empty": 8,
-   "median_diag_ms": 9.48155001970008,
-   "max_diag_ms": 11.91499992273748,
+   "median_diag_ms": 10.531800042372197,
+   "max_diag_ms": 13.290300033986568,
    "max_mus": 11,
    "subsets": 1024
   },
   {
    "n_constraints": 11,
    "n_empty": 8,
-   "median_diag_ms": 12.126500019803643,
-   "max_diag_ms": 18.12890009023249,
+   "median_diag_ms": 12.328199984040111,
+   "max_diag_ms": 16.781599959358573,
    "max_mus": 17,
    "subsets": 2048
   },
   {
    "n_constraints": 12,
    "n_empty": 8,
-   "median_diag_ms": 16.608850040938705,
-   "max_diag_ms": 23.968599969521165,
+   "median_diag_ms": 17.35444995574653,
+   "max_diag_ms": 22.087099961936474,
    "max_mus": 30,
    "subsets": 4096
   },
   {
    "n_constraints": 13,
    "n_empty": 8,
-   "median_diag_ms": 26.85399999609217,
-   "max_diag_ms": 38.478699978441,
+   "median_diag_ms": 25.235800014343113,
+   "max_diag_ms": 38.76949998084456,
    "max_mus": 25,
    "subsets": 8192
   },
   {
    "n_constraints": 14,
    "n_empty": 8,
-   "median_diag_ms": 31.774549977853894,
-   "max_diag_ms": 53.44539997167885,
+   "median_diag_ms": 31.94705001078546,
+   "max_diag_ms": 53.01869998220354,
    "max_mus": 34,
    "subsets": 16384
   },
   {
    "n_constraints": 15,
    "n_empty": 8,
-   "median_diag_ms": 47.448249999433756,
-   "max_diag_ms": 52.49749997165054,
+   "median_diag_ms": 47.41514998022467,
+   "max_diag_ms": 50.92920002061874,
    "max_mus": 38,
    "subsets": 32768
   },
   {
    "n_constraints": 16,
    "n_empty": 8,
-   "median_diag_ms": 91.08235000167042,
-   "max_diag_ms": 156.50580008514225,
+   "median_diag_ms": 88.71434995671734,
+   "max_diag_ms": 155.29699996113777,
    "max_mus": 48,
    "subsets": 65536
   }

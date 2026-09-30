@@ -51,7 +51,7 @@ empty-query repair and revision checks.
 Records added with the revised manuscript: `v3_analyses.json` (hidden
 priorities, flip margins, cap timing, density-cap sweep) and
 `v4_analyses.json` (per-property decision classes, objective-scored repairs,
-parse repeat agreement and complete frames, end-to-end re-runs);
+parse repeat agreement and full frames, end-to-end re-runs);
 `census_wrap.json`, the axes that every solid component of every catalogue
 mask wraps; `partial_percolation_cpu_gpu.json`, the closed-form tests on
 partly percolating components for both solvers; `refusal_boundary_check.json`,

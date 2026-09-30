@@ -236,6 +236,101 @@ def test_flip_margin_moves_one_property_as_one_quantity():
     assert abs(both - lo) < 1e-12, (both, lo)
 
 
+def _dominated_by(row, objs, mask=None):
+    """Rows that are at least as good on every objective and better on one."""
+    ge = np.ones(CAT.M.shape[0], bool)
+    gt = np.zeros(CAT.M.shape[0], bool)
+    for o in objs:
+        v = CAT.M[:, CAT.col[o["property"]]] * (1 if o["sense"] == "max" else -1)
+        t = row[o["property"]] * (1 if o["sense"] == "max" else -1)
+        ge &= v >= t
+        gt |= v > t
+    m = ge & gt
+    return int((m if mask is None else m & mask).sum())
+
+
+def test_ties_do_not_select_a_dominated_row():
+    # equal values share one rank, so the top row cannot be dominated on the
+    # stated objectives, and a constant objective adds no preference
+    objs = [{"property": "cost_per_kg", "sense": "min", "weight": 1.0},
+            {"property": "k_11", "sense": "max", "weight": 1.0}]
+    r = CAT.search(_q(objectives=objs), top_k=1)
+    assert _dominated_by(r.rows[0], objs) == 0
+    alu = np.array([CAT.materials[i].name == "aluminium 6061" for i in CAT.mi])
+    objs = [{"property": "cost_per_kg", "sense": "min", "weight": 1.0},
+            {"property": "E_11", "sense": "max", "weight": 1.0}]
+    r = CAT.search(_q(objectives=objs, material_filter={"allowed": ["aluminium 6061"]}),
+                   top_k=1)
+    assert _dominated_by(r.rows[0], objs, alu) == 0
+    one = CAT.search(_q(objectives=objs[1:], material_filter={"allowed": ["aluminium 6061"]}),
+                     top_k=1)
+    assert r.rows[0]["uid"] == one.rows[0]["uid"]
+
+
+def test_notes_field_is_a_gated_loss_channel():
+    q = validate({"objectives": [{"property": "k_11", "sense": "max", "weight": 1}],
+                  "constraints": [], "unmet": [],
+                  "notes": "Fatigue life cannot be expressed by these properties."})
+    r = CAT.search(q)
+    assert r.status == "gated_reduced" and not r.rows
+    assert any("Fatigue" in x for x in r.lost)
+
+
+def test_joint_repair_prints_its_executable_bounds():
+    import re
+    from retrieval import printed_repair_query
+    cons = [{"property": "rho", "op": "<=", "value": 0.15},
+            {"property": "E_11", "op": ">=", "value": 50},
+            {"property": "k_11", "op": ">=", "value": 60}]
+    r = CAT.search(_q(constraints=cons))
+    assert r.status == "refused_empty"
+    joint = [x for x in r.relaxation.split("; ") if x.startswith("joint repair")]
+    assert joint, r.relaxation
+    for rep in r.repairs:
+        if len(rep["set"]) < 2:
+            continue
+        pq = printed_repair_query(cons, rep)
+        shown = {(p, op, float(v)) for p, op, v in
+                 re.findall(r"(\w+)(<=|>=|==|<|>)([0-9.eE+-]+)",
+                            joint[0].split("require ")[1].split(" (")[0])}
+        new = {(c["property"], c["op"], float(c["value"])) for c in pq["constraints"]
+               if c["property"] in {a["property"] for a in rep["atoms"]}}
+        assert shown == new, (shown, new)
+        # the printed bounds, kept with the untouched constraint, admit a row
+        kept = [c for c in cons if c["property"] == "rho"]
+        q2 = _q(constraints=kept + [{"property": p, "op": op, "value": v}
+                                    for p, op, v in shown])
+        assert CAT.search(q2).n_feasible > 0
+
+
+def test_price_cap_is_repairable_in_either_field():
+    a = CAT.search(_q(constraints=[{"property": "E_11", "op": ">=", "value": 100},
+                                   {"property": "cost_per_kg", "op": "<=", "value": 3}]))
+    b = CAT.search(_q(constraints=[{"property": "E_11", "op": ">=", "value": 100}],
+                      material_filter={"cost_max": 3}))
+    assert a.status == b.status == "refused_empty"
+    assert a.mus == b.mus and len(a.mus[0]) == 2
+    assert a.relaxation == b.relaxation
+    # a named-material list is a deliberate protection: held fixed and listed
+    c = CAT.search(_q(constraints=[{"property": "E_11", "op": ">=", "value": 100}],
+                      material_filter={"allowed": ["aluminium 6061"]}))
+    assert c.status == "refused_empty" and c.fixed and "Held fixed" in c.rejected_reason
+
+
+def test_symmetry_fixed_ratio_is_exactly_one():
+    # cubic cells have k33/k11 = 1 exactly; the stored residual must not
+    # decide a bound near one, in the search or in the stress test
+    r = CAT.search(_q(constraints=[{"property": "symmetry", "op": "==", "value": "cubic"},
+                                   {"property": "k_aniso", "op": "<=", "value": 0.999}]))
+    assert r.status == "refused_empty" and r.flip_margin == float("inf")
+    for key in ("k_aniso", "k_inplane", "E_aniso", "D_aniso"):
+        fx = CAT.fixed_by_symmetry(key)
+        v = CAT.M[fx, CAT.col[key]]
+        # a pore that does not conduct leaves D33/D11 undefined, not one
+        assert fx.any() and np.all(v[np.isfinite(v)] == 1.0), key
+    assert np.isfinite(CAT.M[:, CAT.col["D_aniso"]]).sum() < CAT.M.shape[0]
+
+
 if __name__ == "__main__":
     fails = 0
     for name, fn in list(globals().items()):

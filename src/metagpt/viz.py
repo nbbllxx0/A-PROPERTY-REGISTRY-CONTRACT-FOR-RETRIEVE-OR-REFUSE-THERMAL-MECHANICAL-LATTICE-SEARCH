@@ -177,7 +177,7 @@ def result_card(cat, query, result, fname="fig_result.png", request=""):
         ax.text(.02, .52, result.rejected_reason, fontsize=11.5, color=INK,
                 transform=ax.transAxes, wrap=True)
         if result.relaxation:
-            ax.text(.02, .26, "Closest achievable: " + result.relaxation,
+            ax.text(.02, .26, "Repairs: " + result.relaxation,
                     fontsize=11, color=MUTED, transform=ax.transAxes)
         fig.tight_layout()
         fig.savefig(HERE / fname, dpi=160)

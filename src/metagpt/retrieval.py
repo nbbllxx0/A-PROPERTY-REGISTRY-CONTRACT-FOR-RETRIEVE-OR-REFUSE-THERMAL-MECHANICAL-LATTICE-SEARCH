@@ -25,7 +25,7 @@ from itertools import combinations
 import numpy as np
 
 from materials import MATERIALS, filter_materials
-from schema import REGISTRY, ESTIMATED, evaluate, DEFAULT_CELL_MM
+from schema import REGISTRY, ESTIMATED, evaluate, DEFAULT_CELL_MM, identity_pairs
 
 HERE = pathlib.Path(__file__).resolve().parent
 NUMERIC_KINDS = ("effective", "geometry", "material")
@@ -46,25 +46,9 @@ PRINTABLE_CONN = 0.99
 # Solved quantities: a discretisation or Poisson-ratio error can move them.
 # Handbook values, relative density, part density and price cannot.
 SOLVED_PREFIX = ("k_", "E_", "D_", "specific_")
-# Axis ratios and the axis pair (0-based) whose symmetry identity fixes them at one.
+# Axis ratios and the axis pair (0-based) whose symmetry identity fixes them at
+# one; the registry evaluates such a ratio as exactly one (schema._ratio).
 RATIO_PAIR = {"k_inplane": (0, 1), "k_aniso": (0, 2), "E_aniso": (0, 2), "D_aniso": (0, 2)}
-
-
-def identity_pairs(sym, freq):
-    """Axis pairs (0-based) that the analytic cell makes equal; the same rule as
-    resolve_symmetry_rows.identity_pairs, kept here so the search does not load
-    the solver."""
-    if sym == "cubic":
-        return [(0, 1), (0, 2)]
-    if sym == "tetragonal":
-        a, b, c = (int(x) for x in str(freq))
-        if a == b:
-            return [(0, 1)]
-        if b == c:
-            return [(1, 2)]
-        if a == c:
-            return [(0, 2)]
-    return []
 
 
 def _shortfall(v, op, bound):
@@ -301,15 +285,24 @@ def _rank_normalise(v):
     Ranking is scale-free and spreads candidates uniformly, so each objective
     keeps its say. The cost is that it discards magnitude: two candidates one
     rank apart look equally different whether they differ by 1% or by 10x.
+
+    Equal values share one rank, the mean of the positions they occupy
+    (mid-rank). Distinct ranks for equal values made the catalogue order a
+    preference: under equal weights on price and k_11 the top row was one that
+    eight rows beat on k_11 at the same price. With mid-ranks an objective that
+    is constant over the candidates adds the same amount to every row, and a
+    row at least as good on every objective ranks at least as high on each, so
+    the best-scoring row is never dominated on the stated objectives.
+    Non-finite values score 0, the worst rank.
     """
     out = np.zeros(len(v))
     ok = np.isfinite(v)
-    if ok.sum() < 2:
+    n = int(ok.sum())
+    if n < 2:
         return out
-    order = np.argsort(v[ok], kind="stable")
-    ranks = np.empty(int(ok.sum()))
-    ranks[order] = np.arange(ok.sum())
-    out[ok] = ranks / (ok.sum() - 1)
+    _, inv, cnt = np.unique(v[ok], return_inverse=True, return_counts=True)
+    first = np.concatenate(([0], np.cumsum(cnt)[:-1]))
+    out[ok] = (first + (cnt - 1) / 2.0)[inv] / (n - 1)
     return out
 
 
@@ -354,6 +347,7 @@ class Result:
     status: str = "answered"
     lost: list = field(default_factory=list)      # stated content the query lost
     implied: list = field(default_factory=list)   # constraints the tool added, and why
+    fixed: list = field(default_factory=list)     # named-material lists, held fixed in diagnosis
     # for an empty feasible set: the smallest uniform relative error in the
     # solved properties that would admit a row (inf: no such error can)
     flip_margin: float = None
@@ -530,19 +524,38 @@ class Catalogue:
           * nothing searchable (no objective, no non-vacuous constraint, no
             material filter)  -> refused_no_content, no rows;
           * the query lost stated content -- text the parser could not express
-            (`unmet`), a key or value validation rejected (`_lost`), or a
-            quantity the registry does not declare -- and the reduced query is
-            feasible -> gated_reduced, no rows, unless `accept_reduced`;
+            (`unmet`, or the schema's free-text `notes`, which the response
+            schema describes to the model as content it could not express), a
+            key or value validation rejected (`_lost`), or a quantity the
+            registry does not declare -- and the reduced query is feasible ->
+            gated_reduced, no rows, unless `accept_reduced`;
           * an empty feasible set -> refused_empty with MUS, MCS and repairs.
+
+        A price cap or a printable flag given in the material filter is a
+        requirement like any other: it enters the constraints as an atom, so a
+        diagnosis names it and a repair can relax it whichever field the parser
+        used. The filter keeps only the named-material lists, which diagnosis
+        holds fixed and the result lists in `fixed`.
         """
         dropped, lost = [], []
         lost += [f"not expressible in the registry: {u}"
                  for u in (query.get("unmet") or []) if str(u).strip()]
+        note = str(query.get("notes") or "").strip()
+        if note:
+            lost.append(f"reported by the parser as not expressed: {note}")
         lost += list(query.get("_lost") or [])
         mf = dict(query.get("material_filter") or {})
         raw = list(query.get("constraints", []))
+        cap = mf.pop("cost_max", None)
+        if cap is not None:
+            try:
+                raw.append({"property": "cost_per_kg", "op": "<=", "value": float(cap)})
+            except (TypeError, ValueError):
+                lost.append(f"price cap {cap!r} in the material filter is not a number")
+        if mf.pop("printable_only", False):
+            raw.append({"property": "printable", "op": "==", "value": "true"})
         implied = []
-        wants_print = bool(mf.get("printable_only")) or any(
+        wants_print = any(
             c.get("property") == "printable"
             and categorical_value("printable", c.get("value")) == "true" for c in raw)
         if wants_print and not any(c.get("property") == "conn_frac" for c in raw):
@@ -593,14 +606,16 @@ class Catalogue:
                                 f"the material table")
             mf[field_] = [known[n.strip().lower()] for n in names
                           if n.strip().lower() in known] or None
-        filter_active = bool(mf.get("printable_only") or mf.get("cost_max")
-                             or mf.get("allowed") or mf.get("excluded"))
+        filter_active = bool(mf.get("allowed") or mf.get("excluded"))
         allowed = set(m.name for m in filter_materials(
-            am_only=bool(mf.get("printable_only")),
-            cost_max=mf.get("cost_max"),
             allowed=mf.get("allowed"),
             exclude=mf.get("excluded")))
         mat_ok = np.array([self.materials[i].name in allowed for i in self.mi])
+        fixed = []
+        if mf.get("allowed"):
+            fixed.append("material in {" + ", ".join(mf["allowed"]) + "}")
+        if mf.get("excluded"):
+            fixed.append("material not in {" + ", ".join(mf["excluded"]) + "}")
 
         used = {o["property"] for o in objs} | {c["property"] for c in cons}
         caveats = [f"{k}: {why}" for k, why in ESTIMATED.items() if k in used]
@@ -608,7 +623,7 @@ class Catalogue:
         if not (objs or cons or filter_active):
             res = Result(n_considered=int(mat_ok.sum()), n_feasible=0,
                          dropped=dropped, caveats=caveats, lost=lost,
-                         status="refused_no_content")
+                         fixed=fixed, status="refused_no_content")
             res.rejected_reason = (
                 "Nothing in this request maps to a searchable property, so no "
                 "row is returned."
@@ -621,7 +636,8 @@ class Catalogue:
             keep &= m
 
         res = Result(n_considered=int(mat_ok.sum()), n_feasible=int(keep.sum()),
-                     dropped=dropped, caveats=caveats, lost=lost, implied=implied)
+                     dropped=dropped, caveats=caveats, lost=lost, implied=implied,
+                     fixed=fixed)
 
         if not keep.any():
             if len(cons) > MAX_CONSTRAINTS:
@@ -646,6 +662,9 @@ class Catalogue:
             res.status = "refused_empty"
             if mat_ok.any():
                 res.flip_margin = self.flip_margin(cons, mat_ok)
+                if fixed:
+                    res.rejected_reason += (" Held fixed, not repaired: "
+                                            + "; ".join(fixed) + ".")
             if lost:
                 res.rejected_reason += (" Also not applied: "
                                         + "; ".join(lost) + ".")
@@ -662,7 +681,8 @@ class Catalogue:
 
         idx = np.flatnonzero(keep)
         score = self._score(idx, objs)
-        order = idx[np.argsort(-score)]
+        # equal scores keep catalogue order
+        order = idx[np.argsort(-score, kind="stable")]
         res.pareto_size = self._pareto_count(idx, objs)
         res.rows = [self._describe(i, objs) for i in order[:top_k]]
         res.unranked = not objs
@@ -683,9 +703,9 @@ class Catalogue:
         wsum = 0.0
         for o in objs:
             v = self.M[idx, self.col[o["property"]]]
-            n = _rank_normalise(v)
-            if o["sense"] == "min":
-                n = 1.0 - n
+            # rank the oriented value, so a missing value is the worst rank
+            # under either sense
+            n = _rank_normalise(-v if o["sense"] == "min" else v)
             w = float(o.get("weight") or 1.0)
             total += w * np.nan_to_num(n)
             wsum += w
@@ -834,17 +854,36 @@ class Catalogue:
                 c = by_label[lab]
                 lines.append(self._fmt_slack(c, r["vector"][lab]))
             else:
-                bits = []
+                # The executable bounds, with their operators, exactly as
+                # printed_repair_query re-searches them; then the witness row
+                # that attains them, labelled as values, not as bounds.
+                bounds, drops, seen = [], [], []
                 for a in r["atoms"]:
                     if a["reached"] is None:
                         continue
                     if a["property"] in CATEGORICAL:
-                        bits.append(f"{a['property']}={a['reached']}")
+                        drops.append(f"{a['property']}=={a['value']} "
+                                     f"(closest row: {a['reached']})")
                         continue
-                    bits.append(
-                        f"{a['property']}={print_sigfigs_outward(a['reached'], a['op']):.3g}")
-                lines.append(f"joint repair after dropping {{{', '.join(r['set'])}}}: "
-                             + ", ".join(bits))
+                    if (a["property"], a["op"]) in seen:
+                        continue
+                    seen.append((a["property"], a["op"]))
+                    bounds.append(f"{a['property']}{a['op']}"
+                                  f"{print_sigfigs_outward(a['reached'], a['op']):.3g}")
+                wit = ", ".join(dict.fromkeys(
+                    f"{a['property']}={print_sigfigs_nearest(a['reached']):.3g}"
+                    for a in r["atoms"] if a["reached"] is not None
+                    and a["property"] not in CATEGORICAL))
+                txt = f"joint repair after dropping {{{', '.join(r['set'])}}}: "
+                parts = []
+                if bounds:
+                    parts.append("require " + ", ".join(bounds))
+                if drops:
+                    parts.append("drop " + ", ".join(drops))
+                txt += " and ".join(parts)
+                if wit:
+                    txt += f" (one row attains {wit})"
+                lines.append(txt)
         if binding:
             listed = ", ".join(f"{c['property']} {c['op']} {_fmt_value(c['value'])}"
                                for c in binding)

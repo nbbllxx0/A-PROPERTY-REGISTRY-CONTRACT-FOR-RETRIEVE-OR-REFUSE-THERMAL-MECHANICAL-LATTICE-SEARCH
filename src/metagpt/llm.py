@@ -258,7 +258,7 @@ def explain(query: dict, result) -> str:
         if result.min_mcs:
             lines.append("min MCS: " + "; ".join("{" + ", ".join(h) + "}" for h in result.min_mcs))
         if result.relaxation:
-            lines.append(f"Closest possible: {result.relaxation}")
+            lines.append(f"Repairs: {result.relaxation}")
         return "\n".join(lines)
     lines.append(f"{len(result.rows)} candidates, best shown first.")
     return "\n".join(lines)

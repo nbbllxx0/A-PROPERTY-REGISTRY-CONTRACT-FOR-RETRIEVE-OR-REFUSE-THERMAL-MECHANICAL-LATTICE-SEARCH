@@ -58,7 +58,7 @@
         ],
         "uid": 546,
         "n_feasible": 2,
-        "scalar": 0.737604551277221
+        "scalar": 0.73752919900535
       },
       "min_card_informed": {
         "has_repair": true,
@@ -73,7 +73,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.8231293798508026
+        "scalar": 0.8230540275789315
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -88,7 +88,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.8231293798508026
+        "scalar": 0.8230540275789315
       },
       "protection_aware": {
         "has_repair": true,
@@ -103,7 +103,7 @@
         ],
         "uid": 0,
         "n_feasible": 1855,
-        "scalar": 0.475887273001281
+        "scalar": 0.47571773038957127
       }
     },
     {
@@ -155,7 +155,7 @@
         "set": [],
         "uid": 1118,
         "n_feasible": 2,
-        "scalar": 0.835939266068872
+        "scalar": 0.835863913797001
       }
     },
     {
@@ -185,7 +185,7 @@
         ],
         "uid": 352,
         "n_feasible": 2,
-        "scalar": 0.7969821415115665
+        "scalar": 0.7969067892396955
       },
       "min_card_informed": {
         "has_repair": true,
@@ -200,7 +200,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.8133900987114762
+        "scalar": 0.8133147464396051
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -215,7 +215,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.8133900987114762
+        "scalar": 0.8133147464396051
       },
       "protection_aware": {
         "has_repair": true,
@@ -230,7 +230,7 @@
         ],
         "uid": 0,
         "n_feasible": 7873,
-        "scalar": 0.475887273001281
+        "scalar": 0.47571773038957127
       }
     },
     {
@@ -260,7 +260,7 @@
         ],
         "uid": 565,
         "n_feasible": 3,
-        "scalar": 0.8683972571773039
+        "scalar": 0.8682277145655941
       },
       "min_card_informed": {
         "has_repair": true,
@@ -275,7 +275,7 @@
         ],
         "uid": 445,
         "n_feasible": 1,
-        "scalar": 0.8745573054027579
+        "scalar": 0.8743877627910481
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -290,7 +290,7 @@
         ],
         "uid": 445,
         "n_feasible": 1,
-        "scalar": 0.8745573054027579
+        "scalar": 0.8743877627910481
       },
       "protection_aware": {
         "has_repair": true,
@@ -305,7 +305,7 @@
         ],
         "uid": 0,
         "n_feasible": 223,
-        "scalar": 0.7464019290181598
+        "scalar": 0.7462323864064502
       }
     },
     {
@@ -335,7 +335,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.8512734533946198
+        "scalar": 0.8511039107829101
       },
       "min_card_informed": {
         "has_repair": true,
@@ -350,7 +350,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.8672292969633034
+        "scalar": 0.8670597543515937
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -365,7 +365,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.8672292969633034
+        "scalar": 0.8670597543515937
       },
       "protection_aware": {
         "has_repair": true,
@@ -380,7 +380,7 @@
         ],
         "uid": 0,
         "n_feasible": 794,
-        "scalar": 0.7464019290181598
+        "scalar": 0.7462323864064502
       }
     },
     {
@@ -410,7 +410,7 @@
         ],
         "uid": 8,
         "n_feasible": 812,
-        "scalar": 0.7825710195162383
+        "scalar": 0.7695350764825559
       },
       "min_card_informed": {
         "has_repair": true,
@@ -425,7 +425,7 @@
         ],
         "uid": 1415,
         "n_feasible": 1,
-        "scalar": 0.9048677567628663
+        "scalar": 0.9159633787958706
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -440,7 +440,7 @@
         ],
         "uid": 1415,
         "n_feasible": 1,
-        "scalar": 0.9048677567628663
+        "scalar": 0.9159633787958706
       },
       "protection_aware": {
         "has_repair": true,
@@ -455,7 +455,7 @@
         ],
         "uid": 0,
         "n_feasible": 3497,
-        "scalar": 0.6254803707331775
+        "scalar": 0.6123313992916886
       }
     },
     {
@@ -486,7 +486,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.7620500841433703
+        "scalar": 0.7619998492954562
       },
       "min_card_informed": {
         "has_repair": true,
@@ -501,7 +501,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.6493733202722729
+        "scalar": 0.6492728505764448
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -516,7 +516,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.6493733202722729
+        "scalar": 0.6492728505764448
       },
       "protection_aware": {
         "has_repair": true,
@@ -531,7 +531,7 @@
         ],
         "uid": 60,
         "n_feasible": 50,
-        "scalar": 0.5863788209881194
+        "scalar": 0.586265792580313
       }
     },
     {
@@ -562,7 +562,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7313817094918745
+        "scalar": 0.731469620475724
       },
       "min_card_informed": {
         "has_repair": true,
@@ -577,7 +577,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.7396579006857057
+        "scalar": 0.7396076658377916
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -592,7 +592,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.7396579006857057
+        "scalar": 0.7396076658377916
       },
       "protection_aware": {
         "has_repair": true,
@@ -607,7 +607,7 @@
         ],
         "uid": 181,
         "n_feasible": 4,
-        "scalar": 0.6388742370582473
+        "scalar": 0.6387612086504408
       }
     },
     {
@@ -638,7 +638,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7575540652550674
+        "scalar": 0.7576419762389169
       },
       "min_card_informed": {
         "has_repair": true,
@@ -653,7 +653,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7448572074448044
+        "scalar": 0.744945118428654
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -668,7 +668,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7448572074448044
+        "scalar": 0.744945118428654
       },
       "protection_aware": {
         "has_repair": true,
@@ -683,7 +683,7 @@
         ],
         "uid": 26,
         "n_feasible": 389,
-        "scalar": 0.5544796925627308
+        "scalar": 0.5543666641549243
       }
     },
     {
@@ -714,7 +714,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7387411147112752
+        "scalar": 0.7339813628714239
       },
       "min_card_informed": {
         "has_repair": true,
@@ -729,7 +729,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.8009946499886972
+        "scalar": 0.7986712882726748
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -744,7 +744,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.8009946499886972
+        "scalar": 0.7986712882726748
       },
       "protection_aware": {
         "has_repair": true,
@@ -759,7 +759,7 @@
         ],
         "uid": 0,
         "n_feasible": 2476,
-        "scalar": 0.6327204681887825
+        "scalar": 0.623879134955919
       }
     },
     {
@@ -790,7 +790,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7646120613869841
+        "scalar": 0.7583452641097129
       },
       "min_card_informed": {
         "has_repair": true,
@@ -805,7 +805,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7842538869213573
+        "scalar": 0.7794313415216135
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -820,7 +820,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7842538869213573
+        "scalar": 0.7794313415216135
       },
       "protection_aware": {
         "has_repair": true,
@@ -835,7 +835,7 @@
         ],
         "uid": 0,
         "n_feasible": 455,
-        "scalar": 0.7335794840881119
+        "scalar": 0.7247381508552483
       }
     },
     {
@@ -866,7 +866,7 @@
         ],
         "uid": 383,
         "n_feasible": 1,
-        "scalar": 0.6560922311807701
+        "scalar": 0.6524376459950267
       },
       "min_card_informed": {
         "has_repair": true,
@@ -881,7 +881,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.7705900082887499
+        "scalar": 0.7775224173008816
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -896,7 +896,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.7705900082887499
+        "scalar": 0.7775224173008816
       },
       "protection_aware": {
         "has_repair": true,
@@ -911,7 +911,7 @@
         ],
         "uid": 0,
         "n_feasible": 718,
-        "scalar": 0.5290357420942908
+        "scalar": 0.5201692914374701
       }
     },
     {
@@ -942,7 +942,7 @@
         ],
         "uid": 167,
         "n_feasible": 1,
-        "scalar": 0.658227212217115
+        "scalar": 0.6583151232009645
       },
       "min_card_informed": {
         "has_repair": true,
@@ -957,7 +957,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.7071936302212846
+        "scalar": 0.7070931605254565
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -972,7 +972,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.7071936302212846
+        "scalar": 0.7070931605254565
       },
       "protection_aware": {
         "has_repair": true,
@@ -987,7 +987,7 @@
         ],
         "uid": 29,
         "n_feasible": 219,
-        "scalar": 0.5407404616582524
+        "scalar": 0.5406274332504458
       }
     },
     {
@@ -1018,7 +1018,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.75585863913797
+        "scalar": 0.7559465501218194
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1033,7 +1033,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7513877376736242
+        "scalar": 0.7514756486574736
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1048,7 +1048,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7513877376736242
+        "scalar": 0.7514756486574736
       },
       "protection_aware": {
         "has_repair": true,
@@ -1063,7 +1063,7 @@
         ],
         "uid": 2,
         "n_feasible": 616,
-        "scalar": 0.5244015773742245
+        "scalar": 0.524288548966418
       }
     },
     {
@@ -1094,7 +1094,7 @@
         ],
         "uid": 933,
         "n_feasible": 1,
-        "scalar": 0.6907291588174717
+        "scalar": 0.6923617913746766
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1109,7 +1109,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7626152261824028
+        "scalar": 0.7578429156305729
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1124,7 +1124,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7626152261824028
+        "scalar": 0.7578429156305729
       },
       "protection_aware": {
         "has_repair": true,
@@ -1139,7 +1139,7 @@
         ],
         "uid": 0,
         "n_feasible": 2272,
-        "scalar": 0.6327204681887825
+        "scalar": 0.623879134955919
       }
     },
     {
@@ -1169,7 +1169,7 @@
         ],
         "uid": 546,
         "n_feasible": 2,
-        "scalar": 0.737604551277221
+        "scalar": 0.73752919900535
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1184,7 +1184,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.8231293798508026
+        "scalar": 0.8230540275789315
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1199,7 +1199,7 @@
         ],
         "uid": 1333,
         "n_feasible": 1,
-        "scalar": 0.8231293798508026
+        "scalar": 0.8230540275789315
       },
       "protection_aware": {
         "has_repair": true,
@@ -1214,7 +1214,7 @@
         ],
         "uid": 0,
         "n_feasible": 1855,
-        "scalar": 0.475887273001281
+        "scalar": 0.47571773038957127
       }
     },
     {
@@ -1247,7 +1247,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6613141436214303
+        "scalar": 0.6584055459272097
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1262,7 +1262,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6613141436214303
+        "scalar": 0.6584055459272097
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1277,7 +1277,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6613141436214303
+        "scalar": 0.6584055459272097
       },
       "protection_aware": {
         "has_repair": true,
@@ -1292,7 +1292,7 @@
         ],
         "uid": 26,
         "n_feasible": 133,
-        "scalar": 0.5738829025695125
+        "scalar": 0.5687589480822847
       }
     },
     {
@@ -1325,7 +1325,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6641850651797152
+        "scalar": 0.6664343304950645
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1340,7 +1340,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7436591063220557
+        "scalar": 0.7379511717278276
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1355,7 +1355,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7436591063220557
+        "scalar": 0.7379511717278276
       },
       "protection_aware": {
         "has_repair": true,
@@ -1370,7 +1370,7 @@
         ],
         "uid": 24,
         "n_feasible": 1735,
-        "scalar": 0.6449476301710497
+        "scalar": 0.6397483234119509
       }
     },
     {
@@ -1401,7 +1401,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7101323688242535
+        "scalar": 0.7100318991284255
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1416,7 +1416,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7584582925175193
+        "scalar": 0.7585462035013689
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1431,7 +1431,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7584582925175193
+        "scalar": 0.7585462035013689
       },
       "protection_aware": {
         "has_repair": true,
@@ -1446,7 +1446,7 @@
         ],
         "uid": 4,
         "n_feasible": 538,
-        "scalar": 0.5192273880390826
+        "scalar": 0.5191143596312762
       }
     },
     {
@@ -1479,7 +1479,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.6914023057795193
+        "scalar": 0.6884032853590536
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1494,7 +1494,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6578856152512997
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1509,7 +1509,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6578856152512997
       },
       "protection_aware": {
         "has_repair": true,
@@ -1524,7 +1524,7 @@
         ],
         "uid": 28,
         "n_feasible": 191,
-        "scalar": 0.6320021098636125
+        "scalar": 0.6268329440132621
       }
     },
     {
@@ -1557,7 +1557,7 @@
         ],
         "uid": 933,
         "n_feasible": 1,
-        "scalar": 0.6205108884032853
+        "scalar": 0.621467862256047
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1572,7 +1572,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.6878381433200211
+        "scalar": 0.68578856152513
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1587,7 +1587,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.6878381433200211
+        "scalar": 0.68578856152513
       },
       "protection_aware": {
         "has_repair": true,
@@ -1602,7 +1602,7 @@
         ],
         "uid": 25,
         "n_feasible": 2162,
-        "scalar": 0.5679225378645165
+        "scalar": 0.5627872805365082
       }
     },
     {
@@ -1634,7 +1634,7 @@
         ],
         "uid": 61,
         "n_feasible": 47,
-        "scalar": 0.7613028407806495
+        "scalar": 0.7492794439002336
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1649,7 +1649,7 @@
         ],
         "uid": 70,
         "n_feasible": 2,
-        "scalar": 0.7449796548865949
+        "scalar": 0.7390079873408184
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1664,7 +1664,7 @@
         ],
         "uid": 70,
         "n_feasible": 2,
-        "scalar": 0.7449796548865949
+        "scalar": 0.7390079873408184
       },
       "protection_aware": {
         "has_repair": true,
@@ -1679,7 +1679,7 @@
         ],
         "uid": 24,
         "n_feasible": 232,
-        "scalar": 0.7078121467862256
+        "scalar": 0.7014072036771909
       }
     },
     {
@@ -1711,7 +1711,7 @@
         ],
         "uid": 448,
         "n_feasible": 2,
-        "scalar": 0.7006065857885615
+        "scalar": 0.6952518649687288
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1726,7 +1726,7 @@
         ],
         "uid": 375,
         "n_feasible": 1,
-        "scalar": 0.7070680431014995
+        "scalar": 0.7005642001356341
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1741,7 +1741,7 @@
         ],
         "uid": 375,
         "n_feasible": 1,
-        "scalar": 0.7070680431014995
+        "scalar": 0.7005642001356341
       },
       "protection_aware": {
         "has_repair": true,
@@ -1756,7 +1756,7 @@
         ],
         "uid": 24,
         "n_feasible": 1159,
-        "scalar": 0.6228995554215959
+        "scalar": 0.6164004219727225
       }
     },
     {
@@ -1789,7 +1789,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.6763619923140682
+        "scalar": 0.6762263582247006
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1804,7 +1804,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.7742069173385577
+        "scalar": 0.7743124105191772
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1819,7 +1819,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.7742069173385577
+        "scalar": 0.7743124105191772
       },
       "protection_aware": {
         "has_repair": true,
@@ -1834,7 +1834,7 @@
         ],
         "uid": 37,
         "n_feasible": 57,
-        "scalar": 0.693497098937533
+        "scalar": 0.6936176625725265
       }
     },
     {
@@ -1880,7 +1880,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.64489488358074
+        "scalar": 0.642216110315726
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1896,7 +1896,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.668020495817949
+        "scalar": 0.6650440810790446
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1912,7 +1912,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.668020495817949
+        "scalar": 0.6650440810790446
       },
       "protection_aware": {
         "has_repair": true,
@@ -1928,7 +1928,7 @@
         ],
         "uid": 0,
         "n_feasible": 388,
-        "scalar": 0.5677040162760908
+        "scalar": 0.5623841458819984
       }
     },
     {
@@ -1961,7 +1961,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7138874237058247
+        "scalar": 0.7109185441941075
       },
       "min_card_informed": {
         "has_repair": true,
@@ -1976,7 +1976,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7138874237058247
+        "scalar": 0.7109185441941075
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -1991,7 +1991,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7138874237058247
+        "scalar": 0.7109185441941075
       },
       "protection_aware": {
         "has_repair": true,
@@ -2006,7 +2006,7 @@
         ],
         "uid": 26,
         "n_feasible": 49,
-        "scalar": 0.6311883053274057
+        "scalar": 0.626004069022681
       }
     },
     {
@@ -2039,7 +2039,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6831813729183935
+        "scalar": 0.6830608092833999
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2054,7 +2054,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6831813729183935
+        "scalar": 0.6830608092833999
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2069,7 +2069,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6831813729183935
+        "scalar": 0.6830608092833999
       },
       "protection_aware": {
         "has_repair": true,
@@ -2084,7 +2084,7 @@
         ],
         "uid": 24,
         "n_feasible": 295,
-        "scalar": 0.6254389269836486
+        "scalar": 0.6253032928942808
       }
     },
     {
@@ -2117,7 +2117,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7916358978223194
+        "scalar": 0.7917413910029387
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2132,7 +2132,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7916358978223194
+        "scalar": 0.7917413910029387
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2147,7 +2147,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7916358978223194
+        "scalar": 0.7917413910029387
       },
       "protection_aware": {
         "has_repair": true,
@@ -2162,7 +2162,7 @@
         ],
         "uid": 64,
         "n_feasible": 56,
-        "scalar": 0.7719689548639892
+        "scalar": 0.7720895184989829
       }
     },
     {
@@ -2195,7 +2195,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.7180694747946651
+        "scalar": 0.7202471554517368
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2210,7 +2210,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.7180694747946651
+        "scalar": 0.7202471554517368
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2225,7 +2225,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.7180694747946651
+        "scalar": 0.7202471554517368
       },
       "protection_aware": {
         "has_repair": true,
@@ -2240,7 +2240,7 @@
         ],
         "uid": 24,
         "n_feasible": 115,
-        "scalar": 0.7605681561299072
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -2272,7 +2272,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7642604174515861
+        "scalar": 0.7643263506894733
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2287,7 +2287,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.666999472534097
+        "scalar": 0.6669241202622259
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2302,7 +2302,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.666999472534097
+        "scalar": 0.6669241202622259
       },
       "protection_aware": {
         "has_repair": true,
@@ -2317,7 +2317,7 @@
         ],
         "uid": 26,
         "n_feasible": 171,
-        "scalar": 0.5454562580061788
+        "scalar": 0.5453714867003241
       }
     },
     {
@@ -2349,7 +2349,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.728882525808153
+        "scalar": 0.7290143922839274
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2364,7 +2364,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.728882525808153
+        "scalar": 0.7290143922839274
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2379,7 +2379,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.728882525808153
+        "scalar": 0.7290143922839274
       },
       "protection_aware": {
         "has_repair": true,
@@ -2394,7 +2394,7 @@
         ],
         "uid": 28,
         "n_feasible": 508,
-        "scalar": 0.6187175043327556
+        "scalar": 0.6185479617210459
       }
     },
     {
@@ -2424,7 +2424,7 @@
         ],
         "uid": 158,
         "n_feasible": 2,
-        "scalar": 0.8372390927586466
+        "scalar": 0.8371637404867758
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2439,7 +2439,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.8324165473589029
+        "scalar": 0.8323411950870319
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2454,7 +2454,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.8324165473589029
+        "scalar": 0.8323411950870319
       },
       "protection_aware": {
         "has_repair": true,
@@ -2469,7 +2469,7 @@
         ],
         "uid": 0,
         "n_feasible": 3315,
-        "scalar": 0.475887273001281
+        "scalar": 0.47571773038957127
       }
     },
     {
@@ -2502,7 +2502,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.7423555120186873
+        "scalar": 0.7424610051993068
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2517,7 +2517,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.7423555120186873
+        "scalar": 0.7424610051993068
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2532,7 +2532,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.7423555120186873
+        "scalar": 0.7424610051993068
       },
       "protection_aware": {
         "has_repair": true,
@@ -2547,7 +2547,7 @@
         ],
         "uid": 28,
         "n_feasible": 272,
-        "scalar": 0.568706201491975
+        "scalar": 0.5685705674026071
       }
     },
     {
@@ -2579,7 +2579,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7284869263808305
+        "scalar": 0.7285528596187175
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2594,7 +2594,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7522134729862106
+        "scalar": 0.7522794062240977
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2609,7 +2609,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7522134729862106
+        "scalar": 0.7522794062240977
       },
       "protection_aware": {
         "has_repair": true,
@@ -2624,7 +2624,7 @@
         ],
         "uid": 65,
         "n_feasible": 65,
-        "scalar": 0.7316893979353478
+        "scalar": 0.7317647502072188
       }
     },
     {
@@ -2657,7 +2657,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6739055082510739
+        "scalar": 0.6711815236229373
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2672,7 +2672,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6739055082510739
+        "scalar": 0.6711815236229373
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2687,7 +2687,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6739055082510739
+        "scalar": 0.6711815236229373
       },
       "protection_aware": {
         "has_repair": true,
@@ -2702,7 +2702,7 @@
         ],
         "uid": 35,
         "n_feasible": 245,
-        "scalar": 0.569987190113782
+        "scalar": 0.5600821339763393
       }
     },
     {
@@ -2735,7 +2735,7 @@
         ],
         "uid": 1218,
         "n_feasible": 1,
-        "scalar": 0.7750357923291388
+        "scalar": 0.7751412855097581
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2750,7 +2750,7 @@
         ],
         "uid": 1218,
         "n_feasible": 1,
-        "scalar": 0.7750357923291388
+        "scalar": 0.7751412855097581
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2765,7 +2765,7 @@
         ],
         "uid": 1218,
         "n_feasible": 1,
-        "scalar": 0.7750357923291388
+        "scalar": 0.7751412855097581
       },
       "protection_aware": {
         "has_repair": true,
@@ -2780,7 +2780,7 @@
         ],
         "uid": 51,
         "n_feasible": 157,
-        "scalar": 0.6201491974983047
+        "scalar": 0.6200135634089368
       }
     },
     {
@@ -2812,7 +2812,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6097223268781554
+        "scalar": 0.6046831436967824
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2827,7 +2827,7 @@
         ],
         "uid": 156,
         "n_feasible": 1,
-        "scalar": 0.7768442468540426
+        "scalar": 0.7715507497551052
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2842,7 +2842,7 @@
         ],
         "uid": 156,
         "n_feasible": 1,
-        "scalar": 0.7768442468540426
+        "scalar": 0.7715507497551052
       },
       "protection_aware": {
         "has_repair": true,
@@ -2857,7 +2857,7 @@
         ],
         "uid": 0,
         "n_feasible": 1493,
-        "scalar": 0.796125009419034
+        "scalar": 0.7894940094943862
       }
     },
     {
@@ -2890,7 +2890,7 @@
         ],
         "uid": 91,
         "n_feasible": 1,
-        "scalar": 0.6418506517971517
+        "scalar": 0.6377439529801824
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2905,7 +2905,7 @@
         ],
         "uid": 532,
         "n_feasible": 1,
-        "scalar": 0.7061562806118605
+        "scalar": 0.7046040238113179
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2920,7 +2920,7 @@
         ],
         "uid": 532,
         "n_feasible": 1,
-        "scalar": 0.7061562806118605
+        "scalar": 0.7046040238113179
       },
       "protection_aware": {
         "has_repair": true,
@@ -2935,7 +2935,7 @@
         ],
         "uid": 51,
         "n_feasible": 46,
-        "scalar": 0.6641172481350314
+        "scalar": 0.6591213925099841
       }
     },
     {
@@ -2968,7 +2968,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.7424986813352422
+        "scalar": 0.7383731444503051
       },
       "min_card_informed": {
         "has_repair": true,
@@ -2983,7 +2983,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.7906412478336222
+        "scalar": 0.7865307814030593
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -2998,7 +2998,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.7906412478336222
+        "scalar": 0.7865307814030593
       },
       "protection_aware": {
         "has_repair": true,
@@ -3013,7 +3013,7 @@
         ],
         "uid": 24,
         "n_feasible": 414,
-        "scalar": 0.6449476301710495
+        "scalar": 0.6397483234119509
       }
     },
     {
@@ -3046,7 +3046,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.6453243915304047
+        "scalar": 0.643003541556778
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3061,7 +3061,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.7092005123954487
+        "scalar": 0.706653605606209
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3076,7 +3076,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.7092005123954487
+        "scalar": 0.706653605606209
       },
       "protection_aware": {
         "has_repair": true,
@@ -3091,7 +3091,7 @@
         ],
         "uid": 28,
         "n_feasible": 61,
-        "scalar": 0.6320021098636124
+        "scalar": 0.626832944013262
       }
     },
     {
@@ -3145,7 +3145,7 @@
         "set": [],
         "uid": 161,
         "n_feasible": 2,
-        "scalar": 0.761491221460327
+        "scalar": 0.7615571546982142
       }
     },
     {
@@ -3178,7 +3178,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6594228015974681
+        "scalar": 0.6553688493708085
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3193,7 +3193,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6594228015974681
+        "scalar": 0.6553688493708085
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3208,7 +3208,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6594228015974681
+        "scalar": 0.6553688493708085
       },
       "protection_aware": {
         "has_repair": true,
@@ -3223,7 +3223,7 @@
         ],
         "uid": 38,
         "n_feasible": 47,
-        "scalar": 0.5811845377138121
+        "scalar": 0.5762188229975134
       }
     },
     {
@@ -3256,7 +3256,7 @@
         ],
         "uid": 532,
         "n_feasible": 1,
-        "scalar": 0.7061562806118604
+        "scalar": 0.7046040238113178
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3271,7 +3271,7 @@
         ],
         "uid": 532,
         "n_feasible": 1,
-        "scalar": 0.7061562806118604
+        "scalar": 0.7046040238113178
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3286,7 +3286,7 @@
         ],
         "uid": 532,
         "n_feasible": 1,
-        "scalar": 0.7061562806118604
+        "scalar": 0.7046040238113178
       },
       "protection_aware": {
         "has_repair": true,
@@ -3301,7 +3301,7 @@
         ],
         "uid": 25,
         "n_feasible": 79,
-        "scalar": 0.6182277145655941
+        "scalar": 0.612964358375405
       }
     },
     {
@@ -3333,7 +3333,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.7211212418054405
+        "scalar": 0.7211871750433276
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3348,7 +3348,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7862538618039334
+        "scalar": 0.7863197950418205
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3363,7 +3363,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7862538618039334
+        "scalar": 0.7863197950418205
       },
       "protection_aware": {
         "has_repair": true,
@@ -3378,7 +3378,7 @@
         ],
         "uid": 38,
         "n_feasible": 83,
-        "scalar": 0.5647181825032025
+        "scalar": 0.5646334111973476
       }
     },
     {
@@ -3411,7 +3411,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6512922914625876
+        "scalar": 0.6499736267048452
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3426,7 +3426,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.652904830080627
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3441,7 +3441,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.652904830080627
       },
       "protection_aware": {
         "has_repair": true,
@@ -3456,7 +3456,7 @@
         ],
         "uid": 4,
         "n_feasible": 520,
-        "scalar": 0.529251751940321
+        "scalar": 0.5188569060357169
       }
     },
     {
@@ -3489,7 +3489,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.6474417903699796
+        "scalar": 0.6433803029161329
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3504,7 +3504,7 @@
         ],
         "uid": 528,
         "n_feasible": 1,
-        "scalar": 0.7868133524225754
+        "scalar": 0.7852158842589105
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3519,7 +3519,7 @@
         ],
         "uid": 528,
         "n_feasible": 1,
-        "scalar": 0.7868133524225754
+        "scalar": 0.7852158842589105
       },
       "protection_aware": {
         "has_repair": true,
@@ -3534,7 +3534,7 @@
         ],
         "uid": 24,
         "n_feasible": 261,
-        "scalar": 0.8244216713133902
+        "scalar": 0.8192525054630397
       }
     },
     {
@@ -3565,7 +3565,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.705171677592746
+        "scalar": 0.7050712078969181
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3580,7 +3580,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7413658855147816
+        "scalar": 0.7414537964986311
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3595,7 +3595,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7413658855147816
+        "scalar": 0.7414537964986311
       },
       "protection_aware": {
         "has_repair": true,
@@ -3610,7 +3610,7 @@
         ],
         "uid": 38,
         "n_feasible": 181,
-        "scalar": 0.5898575842061639
+        "scalar": 0.5897445557983573
       }
     },
     {
@@ -3643,7 +3643,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.740592268856906
+        "scalar": 0.7406977620375254
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3658,7 +3658,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.740592268856906
+        "scalar": 0.7406977620375254
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3673,7 +3673,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.740592268856906
+        "scalar": 0.7406977620375254
       },
       "protection_aware": {
         "has_repair": true,
@@ -3688,7 +3688,7 @@
         ],
         "uid": 63,
         "n_feasible": 31,
-        "scalar": 0.7982442920654058
+        "scalar": 0.7983497852460252
       }
     },
     {
@@ -3720,7 +3720,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6798093587521664
+        "scalar": 0.6780291613292141
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3735,7 +3735,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6798093587521664
+        "scalar": 0.6780291613292141
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3750,7 +3750,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6798093587521664
+        "scalar": 0.6780291613292141
       },
       "protection_aware": {
         "has_repair": true,
@@ -3765,7 +3765,7 @@
         ],
         "uid": 5,
         "n_feasible": 291,
-        "scalar": 0.5644732876196217
+        "scalar": 0.5578705447969255
       }
     },
     {
@@ -3797,7 +3797,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7642604174515861
+        "scalar": 0.7643263506894732
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3812,7 +3812,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7642604174515861
+        "scalar": 0.7643263506894732
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3827,7 +3827,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7642604174515861
+        "scalar": 0.7643263506894732
       },
       "protection_aware": {
         "has_repair": true,
@@ -3842,7 +3842,7 @@
         ],
         "uid": 4,
         "n_feasible": 456,
-        "scalar": 0.4797396579006857
+        "scalar": 0.4796548865948308
       }
     },
     {
@@ -3874,7 +3874,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6515993519704619
+        "scalar": 0.6498850877853968
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3889,7 +3889,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6515993519704619
+        "scalar": 0.6498850877853968
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3904,7 +3904,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6515993519704619
+        "scalar": 0.6498850877853968
       },
       "protection_aware": {
         "has_repair": true,
@@ -3919,7 +3919,7 @@
         ],
         "uid": 9,
         "n_feasible": 1573,
-        "scalar": 0.5001601235777259
+        "scalar": 0.4871383090950192
       }
     },
     {
@@ -3965,7 +3965,7 @@
         ],
         "uid": 375,
         "n_feasible": 1,
-        "scalar": 0.651397784643207
+        "scalar": 0.6463228091326954
       },
       "min_card_informed": {
         "has_repair": true,
@@ -3980,7 +3980,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215582
+        "scalar": 0.6561148368623314
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -3995,7 +3995,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215582
+        "scalar": 0.6561148368623314
       },
       "protection_aware": {
         "has_repair": true,
@@ -4010,7 +4010,7 @@
         ],
         "uid": 41,
         "n_feasible": 552,
-        "scalar": 0.511340516916585
+        "scalar": 0.5013450380528972
       }
     },
     {
@@ -4043,7 +4043,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.6051993067590987
+        "scalar": 0.6050787431241051
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4058,7 +4058,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7392660688719765
+        "scalar": 0.7393715620525958
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4073,7 +4073,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7392660688719765
+        "scalar": 0.7393715620525958
       },
       "protection_aware": {
         "has_repair": true,
@@ -4088,7 +4088,7 @@
         ],
         "uid": 27,
         "n_feasible": 422,
-        "scalar": 0.5764674854946877
+        "scalar": 0.5763318514053198
       }
     },
     {
@@ -4142,7 +4142,7 @@
         "set": [],
         "uid": 349,
         "n_feasible": 6,
-        "scalar": 0.7175796850275036
+        "scalar": 0.7102092909351216
       }
     },
     {
@@ -4174,7 +4174,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.7184650742219878
+        "scalar": 0.7183143696782457
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4189,7 +4189,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198855
+        "scalar": 0.7875819455956597
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4204,7 +4204,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198855
+        "scalar": 0.7875819455956597
       },
       "protection_aware": {
         "has_repair": true,
@@ -4219,7 +4219,7 @@
         ],
         "uid": 28,
         "n_feasible": 331,
-        "scalar": 0.6187175043327556
+        "scalar": 0.6185479617210459
       }
     },
     {
@@ -4252,7 +4252,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.7086353703564162
+        "scalar": 0.7085148067214226
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4267,7 +4267,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.8043553613141435
+        "scalar": 0.804460854494763
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4282,7 +4282,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.8043553613141435
+        "scalar": 0.804460854494763
       },
       "protection_aware": {
         "has_repair": true,
@@ -4297,7 +4297,7 @@
         ],
         "uid": 50,
         "n_feasible": 41,
-        "scalar": 0.6260643508401779
+        "scalar": 0.6259287167508101
       }
     },
     {
@@ -4330,7 +4330,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215583
+        "scalar": 0.6561148368623315
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4345,7 +4345,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215583
+        "scalar": 0.6561148368623315
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4360,7 +4360,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215583
+        "scalar": 0.6561148368623315
       },
       "protection_aware": {
         "has_repair": true,
@@ -4375,7 +4375,7 @@
         ],
         "uid": 38,
         "n_feasible": 390,
-        "scalar": 0.5963529500414438
+        "scalar": 0.5863800768593174
       }
     },
     {
@@ -4406,7 +4406,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.6978876246452165
+        "scalar": 0.6977871549493884
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4421,7 +4421,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.7391178760706302
+        "scalar": 0.7392057870544798
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4436,7 +4436,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.7391178760706302
+        "scalar": 0.7392057870544798
       },
       "protection_aware": {
         "has_repair": true,
@@ -4451,7 +4451,7 @@
         ],
         "uid": 4,
         "n_feasible": 1208,
-        "scalar": 0.5192273880390826
+        "scalar": 0.5191143596312762
       }
     },
     {
@@ -4484,7 +4484,7 @@
         ],
         "uid": 69,
         "n_feasible": 73,
-        "scalar": 0.5072940999171125
+        "scalar": 0.497765805139025
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4499,7 +4499,7 @@
         ],
         "uid": 358,
         "n_feasible": 1,
-        "scalar": 0.5467184085600181
+        "scalar": 0.5440509381357848
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4514,7 +4514,7 @@
         ],
         "uid": 358,
         "n_feasible": 1,
-        "scalar": 0.5467184085600181
+        "scalar": 0.5440509381357848
       },
       "protection_aware": {
         "has_repair": true,
@@ -4529,7 +4529,7 @@
         ],
         "uid": 1,
         "n_feasible": 4529,
-        "scalar": 0.561826539070153
+        "scalar": 0.5565142039032478
       }
     },
     {
@@ -4561,7 +4561,7 @@
         ],
         "uid": 68,
         "n_feasible": 1,
-        "scalar": 0.7499811619320322
+        "scalar": 0.7501130284078064
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4576,7 +4576,7 @@
         ],
         "uid": 448,
         "n_feasible": 1,
-        "scalar": 0.7884296586542086
+        "scalar": 0.7885615251299827
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4591,7 +4591,7 @@
         ],
         "uid": 448,
         "n_feasible": 1,
-        "scalar": 0.7884296586542086
+        "scalar": 0.7885615251299827
       },
       "protection_aware": {
         "has_repair": true,
@@ -4606,7 +4606,7 @@
         ],
         "uid": 28,
         "n_feasible": 197,
-        "scalar": 0.6187175043327556
+        "scalar": 0.6185479617210459
       }
     },
     {
@@ -4639,7 +4639,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316857
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4654,7 +4654,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316857
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4669,7 +4669,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316857
       },
       "protection_aware": {
         "has_repair": true,
@@ -4684,7 +4684,7 @@
         ],
         "uid": 24,
         "n_feasible": 146,
-        "scalar": 0.7605681561299072
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -4717,7 +4717,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6538391982518272
+        "scalar": 0.6524753221309623
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4732,7 +4732,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.652904830080627
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4747,7 +4747,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.652904830080627
       },
       "protection_aware": {
         "has_repair": true,
@@ -4762,7 +4762,7 @@
         ],
         "uid": 38,
         "n_feasible": 102,
-        "scalar": 0.5996383090950193
+        "scalar": 0.594559565970914
       }
     },
     {
@@ -4793,7 +4793,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.8196066611408334
+        "scalar": 0.8193806043252204
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4808,7 +4808,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.8196066611408334
+        "scalar": 0.8193806043252204
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4823,7 +4823,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.8196066611408334
+        "scalar": 0.8193806043252204
       },
       "protection_aware": {
         "has_repair": true,
@@ -4838,7 +4838,7 @@
         ],
         "uid": 24,
         "n_feasible": 203,
-        "scalar": 0.8217290834651997
+        "scalar": 0.8215030266495869
       }
     },
     {
@@ -4871,7 +4871,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4886,7 +4886,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4901,7 +4901,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "protection_aware": {
         "has_repair": true,
@@ -4916,7 +4916,7 @@
         ],
         "uid": 28,
         "n_feasible": 319,
-        "scalar": 0.5927209705372618
+        "scalar": 0.5926004069022681
       }
     },
     {
@@ -4949,7 +4949,7 @@
         ],
         "uid": 564,
         "n_feasible": 1,
-        "scalar": 0.7660839424308643
+        "scalar": 0.7648104890362444
       },
       "min_card_informed": {
         "has_repair": true,
@@ -4964,7 +4964,7 @@
         ],
         "uid": 60,
         "n_feasible": 1,
-        "scalar": 0.8125160123577727
+        "scalar": 0.8075427624142868
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -4979,7 +4979,7 @@
         ],
         "uid": 60,
         "n_feasible": 1,
-        "scalar": 0.8125160123577727
+        "scalar": 0.8075427624142868
       },
       "protection_aware": {
         "has_repair": true,
@@ -4994,7 +4994,7 @@
         ],
         "uid": 24,
         "n_feasible": 226,
-        "scalar": 0.8244216713133901
+        "scalar": 0.8192525054630396
       }
     },
     {
@@ -5027,7 +5027,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.6267274508326426
+        "scalar": 0.6266370281063974
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5042,7 +5042,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.77981312636576
+        "scalar": 0.7799186195463793
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5057,7 +5057,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.77981312636576
+        "scalar": 0.7799186195463793
       },
       "protection_aware": {
         "has_repair": true,
@@ -5072,7 +5072,7 @@
         ],
         "uid": 28,
         "n_feasible": 85,
-        "scalar": 0.686926380830382
+        "scalar": 0.6870318740110014
       }
     },
     {
@@ -5105,7 +5105,7 @@
         ],
         "uid": 1413,
         "n_feasible": 1,
-        "scalar": 0.663634993595057
+        "scalar": 0.6679376083188908
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5120,7 +5120,7 @@
         ],
         "uid": 181,
         "n_feasible": 1,
-        "scalar": 0.7574636425288223
+        "scalar": 0.7535227187099691
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5135,7 +5135,7 @@
         ],
         "uid": 181,
         "n_feasible": 1,
-        "scalar": 0.7574636425288223
+        "scalar": 0.7535227187099691
       },
       "protection_aware": {
         "has_repair": true,
@@ -5150,7 +5150,7 @@
         ],
         "uid": 24,
         "n_feasible": 830,
-        "scalar": 0.7605681561299074
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -5182,7 +5182,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.6608865194785623
+        "scalar": 0.6607358149348203
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5197,7 +5197,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7042234948383693
+        "scalar": 0.7043553613141436
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5212,7 +5212,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7042234948383693
+        "scalar": 0.7043553613141436
       },
       "protection_aware": {
         "has_repair": true,
@@ -5227,7 +5227,7 @@
         ],
         "uid": 62,
         "n_feasible": 24,
-        "scalar": 0.7132092532589858
+        "scalar": 0.713039710647276
       }
     },
     {
@@ -5259,7 +5259,7 @@
         ],
         "uid": 567,
         "n_feasible": 1,
-        "scalar": 0.6819192223645543
+        "scalar": 0.6804498530630699
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5274,7 +5274,7 @@
         ],
         "uid": 567,
         "n_feasible": 1,
-        "scalar": 0.6819192223645543
+        "scalar": 0.6804498530630699
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5289,7 +5289,7 @@
         ],
         "uid": 567,
         "n_feasible": 1,
-        "scalar": 0.6819192223645543
+        "scalar": 0.6804498530630699
       },
       "protection_aware": {
         "has_repair": true,
@@ -5304,7 +5304,7 @@
         ],
         "uid": 38,
         "n_feasible": 162,
-        "scalar": 0.5710854494763017
+        "scalar": 0.5584969105568534
       }
     },
     {
@@ -5337,7 +5337,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.651096375555723
+        "scalar": 0.6496420767086127
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5352,7 +5352,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7030065556476527
+        "scalar": 0.7000226056815613
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5367,7 +5367,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7030065556476527
+        "scalar": 0.7000226056815613
       },
       "protection_aware": {
         "has_repair": true,
@@ -5382,7 +5382,7 @@
         ],
         "uid": 39,
         "n_feasible": 212,
-        "scalar": 0.6385954336523246
+        "scalar": 0.6285095320623917
       }
     },
     {
@@ -5415,7 +5415,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5430,7 +5430,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5445,7 +5445,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "protection_aware": {
         "has_repair": true,
@@ -5460,7 +5460,7 @@
         ],
         "uid": 64,
         "n_feasible": 2,
-        "scalar": 0.6395599427322735
+        "scalar": 0.6300090422726246
       }
     },
     {
@@ -5492,7 +5492,7 @@
         ],
         "uid": 359,
         "n_feasible": 2,
-        "scalar": 0.7440094943862559
+        "scalar": 0.737317270740713
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5507,7 +5507,7 @@
         ],
         "uid": 359,
         "n_feasible": 2,
-        "scalar": 0.7440094943862559
+        "scalar": 0.737317270740713
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5522,7 +5522,7 @@
         ],
         "uid": 359,
         "n_feasible": 2,
-        "scalar": 0.7440094943862559
+        "scalar": 0.737317270740713
       },
       "protection_aware": {
         "has_repair": true,
@@ -5537,7 +5537,7 @@
         ],
         "uid": 8,
         "n_feasible": 1304,
-        "scalar": 0.6533701303594304
+        "scalar": 0.6468521588425891
       }
     },
     {
@@ -5569,7 +5569,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7694974003466204
+        "scalar": 0.7696292668223947
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5584,7 +5584,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7694974003466204
+        "scalar": 0.7696292668223947
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5599,7 +5599,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7694974003466204
+        "scalar": 0.7696292668223947
       },
       "protection_aware": {
         "has_repair": true,
@@ -5614,7 +5614,7 @@
         ],
         "uid": 27,
         "n_feasible": 122,
-        "scalar": 0.6162968125988998
+        "scalar": 0.61612726998719
       }
     },
     {
@@ -5645,7 +5645,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.7273001280988622
+        "scalar": 0.7273880390827117
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5660,7 +5660,7 @@
         ],
         "uid": 163,
         "n_feasible": 1,
-        "scalar": 0.7342199783990154
+        "scalar": 0.734307889382865
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5675,7 +5675,7 @@
         ],
         "uid": 163,
         "n_feasible": 1,
-        "scalar": 0.7342199783990154
+        "scalar": 0.734307889382865
       },
       "protection_aware": {
         "has_repair": true,
@@ -5690,7 +5690,7 @@
         ],
         "uid": 5,
         "n_feasible": 1203,
-        "scalar": 0.5271017004496019
+        "scalar": 0.5269886720417954
       }
     },
     {
@@ -5723,7 +5723,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7327028859920127
+        "scalar": 0.7328083791726321
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5738,7 +5738,7 @@
         ],
         "uid": 1435,
         "n_feasible": 1,
-        "scalar": 0.7435159370055008
+        "scalar": 0.7436214301861201
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5753,7 +5753,7 @@
         ],
         "uid": 1435,
         "n_feasible": 1,
-        "scalar": 0.7435159370055008
+        "scalar": 0.7436214301861201
       },
       "protection_aware": {
         "has_repair": true,
@@ -5768,7 +5768,7 @@
         ],
         "uid": 38,
         "n_feasible": 88,
-        "scalar": 0.617986587295607
+        "scalar": 0.6178509532062392
       }
     },
     {
@@ -5801,7 +5801,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5816,7 +5816,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5831,7 +5831,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6448948835807399
+        "scalar": 0.642216110315726
       },
       "protection_aware": {
         "has_repair": true,
@@ -5846,7 +5846,7 @@
         ],
         "uid": 63,
         "n_feasible": 37,
-        "scalar": 0.6426343154246101
+        "scalar": 0.6330382036018386
       }
     },
     {
@@ -5879,7 +5879,7 @@
         ],
         "uid": 373,
         "n_feasible": 1,
-        "scalar": 0.5611182277145655
+        "scalar": 0.5558247306156281
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5894,7 +5894,7 @@
         ],
         "uid": 373,
         "n_feasible": 1,
-        "scalar": 0.5611182277145655
+        "scalar": 0.5558247306156281
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5909,7 +5909,7 @@
         ],
         "uid": 373,
         "n_feasible": 1,
-        "scalar": 0.5611182277145655
+        "scalar": 0.5558247306156281
       },
       "protection_aware": {
         "has_repair": true,
@@ -5924,7 +5924,7 @@
         ],
         "uid": 157,
         "n_feasible": 3,
-        "scalar": 0.5743651571094869
+        "scalar": 0.5659972873182127
       }
     },
     {
@@ -5955,7 +5955,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.7845804134327983
+        "scalar": 0.7844799437369704
       },
       "min_card_informed": {
         "has_repair": true,
@@ -5970,7 +5970,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.7845804134327983
+        "scalar": 0.7844799437369704
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -5985,7 +5985,7 @@
         ],
         "uid": 61,
         "n_feasible": 1,
-        "scalar": 0.7845804134327983
+        "scalar": 0.7844799437369704
       },
       "protection_aware": {
         "has_repair": true,
@@ -6000,7 +6000,7 @@
         ],
         "uid": 0,
         "n_feasible": 292,
-        "scalar": 0.7160475221661265
+        "scalar": 0.7159344937583202
       }
     },
     {
@@ -6033,7 +6033,7 @@
         ],
         "uid": 67,
         "n_feasible": 1,
-        "scalar": 0.6380604325220405
+        "scalar": 0.6333810564388516
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6048,7 +6048,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.7148217918770252
+        "scalar": 0.7125988998568307
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6063,7 +6063,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.7148217918770252
+        "scalar": 0.7125988998568307
       },
       "protection_aware": {
         "has_repair": true,
@@ -6078,7 +6078,7 @@
         ],
         "uid": 28,
         "n_feasible": 85,
-        "scalar": 0.6320021098636125
+        "scalar": 0.626832944013262
       }
     },
     {
@@ -6111,7 +6111,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.8120638987265465
+        "scalar": 0.8071735362821191
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6126,7 +6126,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.8120638987265465
+        "scalar": 0.8071735362821191
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6141,7 +6141,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.8120638987265465
+        "scalar": 0.8071735362821191
       },
       "protection_aware": {
         "has_repair": true,
@@ -6156,7 +6156,7 @@
         ],
         "uid": 24,
         "n_feasible": 383,
-        "scalar": 0.8244216713133901
+        "scalar": 0.8192525054630397
       }
     },
     {
@@ -6187,7 +6187,7 @@
         ],
         "uid": 351,
         "n_feasible": 2,
-        "scalar": 0.8171200361690906
+        "scalar": 0.8170195664732626
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6202,7 +6202,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.8360334564087107
+        "scalar": 0.8359329867128827
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6217,7 +6217,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.8360334564087107
+        "scalar": 0.8359329867128827
       },
       "protection_aware": {
         "has_repair": true,
@@ -6232,7 +6232,7 @@
         ],
         "uid": 24,
         "n_feasible": 1990,
-        "scalar": 0.6181146861577876
+        "scalar": 0.6178886293421747
       }
     },
     {
@@ -6265,7 +6265,7 @@
         ],
         "uid": 358,
         "n_feasible": 1,
-        "scalar": 0.748888553989903
+        "scalar": 0.7461608017481727
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6280,7 +6280,7 @@
         ],
         "uid": 358,
         "n_feasible": 1,
-        "scalar": 0.748888553989903
+        "scalar": 0.7461608017481727
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6295,7 +6295,7 @@
         ],
         "uid": 358,
         "n_feasible": 1,
-        "scalar": 0.748888553989903
+        "scalar": 0.7461608017481727
       },
       "protection_aware": {
         "has_repair": true,
@@ -6310,7 +6310,7 @@
         ],
         "uid": 41,
         "n_feasible": 469,
-        "scalar": 0.6495365835279934
+        "scalar": 0.639639062617738
       }
     },
     {
@@ -6343,7 +6343,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.5856453922085751
+        "scalar": 0.5816253485042574
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6358,7 +6358,7 @@
         ],
         "uid": 541,
         "n_feasible": 1,
-        "scalar": 0.6644789390400121
+        "scalar": 0.662964358375405
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6373,7 +6373,7 @@
         ],
         "uid": 541,
         "n_feasible": 1,
-        "scalar": 0.6644789390400121
+        "scalar": 0.662964358375405
       },
       "protection_aware": {
         "has_repair": true,
@@ -6388,7 +6388,7 @@
         ],
         "uid": 40,
         "n_feasible": 88,
-        "scalar": 0.6109486851028559
+        "scalar": 0.6010360937382262
       }
     },
     {
@@ -6420,7 +6420,7 @@
         ],
         "uid": 357,
         "n_feasible": 1,
-        "scalar": 0.6125574561073017
+        "scalar": 0.6124444276994951
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6435,7 +6435,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7596827669354231
+        "scalar": 0.7595697385276166
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6450,7 +6450,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7596827669354231
+        "scalar": 0.7595697385276166
       },
       "protection_aware": {
         "has_repair": true,
@@ -6465,7 +6465,7 @@
         ],
         "uid": 24,
         "n_feasible": 1458,
-        "scalar": 0.7939115364328234
+        "scalar": 0.793798508025017
       }
     },
     {
@@ -6498,7 +6498,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7780950945671011
+        "scalar": 0.7782005877477206
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6513,7 +6513,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7780950945671011
+        "scalar": 0.7782005877477206
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6528,7 +6528,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7780950945671011
+        "scalar": 0.7782005877477206
       },
       "protection_aware": {
         "has_repair": true,
@@ -6543,7 +6543,7 @@
         ],
         "uid": 136,
         "n_feasible": 8,
-        "scalar": 0.5616456936176626
+        "scalar": 0.5615854118001657
       }
     },
     {
@@ -6576,7 +6576,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6370582473061563
+        "scalar": 0.6343003541556779
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6591,7 +6591,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7030065556476528
+        "scalar": 0.7000226056815613
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6606,7 +6606,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7030065556476528
+        "scalar": 0.7000226056815613
       },
       "protection_aware": {
         "has_repair": true,
@@ -6621,7 +6621,7 @@
         ],
         "uid": 27,
         "n_feasible": 163,
-        "scalar": 0.6255218144827067
+        "scalar": 0.6203451134051692
       }
     },
     {
@@ -6654,7 +6654,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.66084695953583
+        "scalar": 0.6552219124406601
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6669,7 +6669,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.66084695953583
+        "scalar": 0.6552219124406601
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6684,7 +6684,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.66084695953583
+        "scalar": 0.6552219124406601
       },
       "protection_aware": {
         "has_repair": true,
@@ -6699,7 +6699,7 @@
         ],
         "uid": 61,
         "n_feasible": 44,
-        "scalar": 0.6282872428603723
+        "scalar": 0.6186685253560394
       }
     },
     {
@@ -6732,7 +6732,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.7006555647652777
+        "scalar": 0.6963416472006632
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6747,7 +6747,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.72296737246628
+        "scalar": 0.7207218747645242
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6762,7 +6762,7 @@
         ],
         "uid": 446,
         "n_feasible": 1,
-        "scalar": 0.72296737246628
+        "scalar": 0.7207218747645242
       },
       "protection_aware": {
         "has_repair": true,
@@ -6777,7 +6777,7 @@
         ],
         "uid": 373,
         "n_feasible": 4,
-        "scalar": 0.6792253786451661
+        "scalar": 0.6739017406374803
       }
     },
     {
@@ -6808,7 +6808,7 @@
         ],
         "uid": 543,
         "n_feasible": 2,
-        "scalar": 0.6522241478913923
+        "scalar": 0.6474706754075302
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6823,7 +6823,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6640293371511818
+        "scalar": 0.6601549745058147
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6838,7 +6838,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6640293371511818
+        "scalar": 0.6601549745058147
       },
       "protection_aware": {
         "has_repair": true,
@@ -6853,7 +6853,7 @@
         ],
         "uid": 0,
         "n_feasible": 2907,
-        "scalar": 0.5290357420942908
+        "scalar": 0.5201692914374701
       }
     },
     {
@@ -6886,7 +6886,7 @@
         ],
         "uid": 67,
         "n_feasible": 1,
-        "scalar": 0.7031798658729561
+        "scalar": 0.6984477431994576
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6901,7 +6901,7 @@
         ],
         "uid": 67,
         "n_feasible": 1,
-        "scalar": 0.7031798658729561
+        "scalar": 0.6984477431994576
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6916,7 +6916,7 @@
         ],
         "uid": 67,
         "n_feasible": 1,
-        "scalar": 0.7031798658729561
+        "scalar": 0.6984477431994576
       },
       "protection_aware": {
         "has_repair": true,
@@ -6931,7 +6931,7 @@
         ],
         "uid": 31,
         "n_feasible": 162,
-        "scalar": 0.6275563258232235
+        "scalar": 0.6176286640042197
       }
     },
     {
@@ -6963,7 +6963,7 @@
         ],
         "uid": 565,
         "n_feasible": 2,
-        "scalar": 0.7735570039936703
+        "scalar": 0.7734062994499283
       },
       "min_card_informed": {
         "has_repair": true,
@@ -6978,7 +6978,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7932522040539522
+        "scalar": 0.7933840705297265
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -6993,7 +6993,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7932522040539522
+        "scalar": 0.7933840705297265
       },
       "protection_aware": {
         "has_repair": true,
@@ -7008,7 +7008,7 @@
         ],
         "uid": 24,
         "n_feasible": 281,
-        "scalar": 0.7939115364328234
+        "scalar": 0.793798508025017
       }
     },
     {
@@ -7041,7 +7041,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6512922914625876
+        "scalar": 0.6499736267048452
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7056,7 +7056,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6539220857508854
+        "scalar": 0.6511114460100973
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7071,7 +7071,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6539220857508854
+        "scalar": 0.6511114460100973
       },
       "protection_aware": {
         "has_repair": true,
@@ -7086,7 +7086,7 @@
         ],
         "uid": 3,
         "n_feasible": 294,
-        "scalar": 0.5429432597392811
+        "scalar": 0.53764599502675
       }
     },
     {
@@ -7118,7 +7118,7 @@
         ],
         "uid": 447,
         "n_feasible": 1,
-        "scalar": 0.7590611106924874
+        "scalar": 0.7589104061487454
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7133,7 +7133,7 @@
         ],
         "uid": 63,
         "n_feasible": 1,
-        "scalar": 0.7907561600482254
+        "scalar": 0.7906808077763544
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7148,7 +7148,7 @@
         ],
         "uid": 63,
         "n_feasible": 1,
-        "scalar": 0.7907561600482254
+        "scalar": 0.7906808077763544
       },
       "protection_aware": {
         "has_repair": true,
@@ -7163,7 +7163,7 @@
         ],
         "uid": 63,
         "n_feasible": 14,
-        "scalar": 0.711089970612614
+        "scalar": 0.7109204280009043
       }
     },
     {
@@ -7194,7 +7194,7 @@
         ],
         "uid": 452,
         "n_feasible": 2,
-        "scalar": 0.8535779770426745
+        "scalar": 0.8501620073845227
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7209,7 +7209,7 @@
         ],
         "uid": 452,
         "n_feasible": 2,
-        "scalar": 0.8535779770426745
+        "scalar": 0.8501620073845227
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7224,7 +7224,7 @@
         ],
         "uid": 452,
         "n_feasible": 2,
-        "scalar": 0.8535779770426745
+        "scalar": 0.8501620073845227
       },
       "protection_aware": {
         "has_repair": true,
@@ -7239,7 +7239,7 @@
         ],
         "uid": 0,
         "n_feasible": 2429,
-        "scalar": 0.7449074422927184
+        "scalar": 0.7361414613317258
       }
     },
     {
@@ -7271,7 +7271,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6708047622635822
+        "scalar": 0.6720574937834376
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7286,7 +7286,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6708047622635822
+        "scalar": 0.6720574937834376
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7301,7 +7301,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6708047622635822
+        "scalar": 0.6720574937834376
       },
       "protection_aware": {
         "has_repair": true,
@@ -7316,7 +7316,7 @@
         ],
         "uid": 2,
         "n_feasible": 165,
-        "scalar": 0.5469633034435988
+        "scalar": 0.5403323035189511
       }
     },
     {
@@ -7349,7 +7349,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7453168563032175
+        "scalar": 0.7423479767915003
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7364,7 +7364,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7538090573430789
+        "scalar": 0.749664682390174
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7379,7 +7379,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7538090573430789
+        "scalar": 0.749664682390174
       },
       "protection_aware": {
         "has_repair": true,
@@ -7394,7 +7394,7 @@
         ],
         "uid": 24,
         "n_feasible": 1860,
-        "scalar": 0.8244216713133902
+        "scalar": 0.8192525054630397
       }
     },
     {
@@ -7427,7 +7427,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6073619169617963
+        "scalar": 0.6073016351442997
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7442,7 +7442,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6505839801070001
+        "scalar": 0.6504634164720067
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7457,7 +7457,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6505839801070001
+        "scalar": 0.6504634164720067
       },
       "protection_aware": {
         "has_repair": true,
@@ -7472,7 +7472,7 @@
         ],
         "uid": 25,
         "n_feasible": 411,
-        "scalar": 0.6066837465149574
+        "scalar": 0.6064727601537185
       }
     },
     {
@@ -7504,7 +7504,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.6813823374274735
+        "scalar": 0.6812316328837315
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7519,7 +7519,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7694974003466204
+        "scalar": 0.7696292668223946
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7534,7 +7534,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7694974003466204
+        "scalar": 0.7696292668223946
       },
       "protection_aware": {
         "has_repair": true,
@@ -7549,7 +7549,7 @@
         ],
         "uid": 27,
         "n_feasible": 239,
-        "scalar": 0.6162968125988999
+        "scalar": 0.61612726998719
       }
     },
     {
@@ -7580,7 +7580,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7508979479064628
+        "scalar": 0.7508477130585488
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7595,7 +7595,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7508979479064628
+        "scalar": 0.7508477130585488
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7610,7 +7610,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7508979479064628
+        "scalar": 0.7508477130585488
       },
       "protection_aware": {
         "has_repair": true,
@@ -7625,7 +7625,7 @@
         ],
         "uid": 62,
         "n_feasible": 5,
-        "scalar": 0.6304975761685881
+        "scalar": 0.6303845477607816
       }
     },
     {
@@ -7658,7 +7658,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.6795795343229598
+        "scalar": 0.673803782684048
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7673,7 +7673,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.667568382186723
+        "scalar": 0.6660387310677417
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7688,7 +7688,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.667568382186723
+        "scalar": 0.6660387310677417
       },
       "protection_aware": {
         "has_repair": true,
@@ -7703,7 +7703,7 @@
         ],
         "uid": 27,
         "n_feasible": 178,
-        "scalar": 0.6255218144827066
+        "scalar": 0.6203451134051692
       }
     },
     {
@@ -7735,7 +7735,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7761001431693166
+        "scalar": 0.7760247908974456
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7750,7 +7750,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7761001431693166
+        "scalar": 0.7760247908974456
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7765,7 +7765,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7761001431693166
+        "scalar": 0.7760247908974456
       },
       "protection_aware": {
         "has_repair": true,
@@ -7780,7 +7780,7 @@
         ],
         "uid": 25,
         "n_feasible": 422,
-        "scalar": 0.6184820284831587
+        "scalar": 0.6182230050486022
       }
     },
     {
@@ -7825,7 +7825,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589782
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7840,7 +7840,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589782
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7855,7 +7855,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589782
       },
       "protection_aware": {
         "has_repair": true,
@@ -7870,7 +7870,7 @@
         ],
         "uid": 24,
         "n_feasible": 634,
-        "scalar": 0.7927247381508553
+        "scalar": 0.7863197950418205
       }
     },
     {
@@ -7903,7 +7903,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7485645392208575
+        "scalar": 0.7486851028558512
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7918,7 +7918,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7485645392208575
+        "scalar": 0.7486851028558512
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -7933,7 +7933,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7485645392208575
+        "scalar": 0.7486851028558512
       },
       "protection_aware": {
         "has_repair": true,
@@ -7948,7 +7948,7 @@
         ],
         "uid": 135,
         "n_feasible": 5,
-        "scalar": 0.7023962022454977
+        "scalar": 0.7025167658804913
       }
     },
     {
@@ -7979,7 +7979,7 @@
         ],
         "uid": 529,
         "n_feasible": 1,
-        "scalar": 0.8610001758219678
+        "scalar": 0.8607741190063547
       },
       "min_card_informed": {
         "has_repair": true,
@@ -7994,7 +7994,7 @@
         ],
         "uid": 529,
         "n_feasible": 1,
-        "scalar": 0.8610001758219678
+        "scalar": 0.8607741190063547
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8009,7 +8009,7 @@
         ],
         "uid": 529,
         "n_feasible": 1,
-        "scalar": 0.8610001758219678
+        "scalar": 0.8607741190063547
       },
       "protection_aware": {
         "has_repair": true,
@@ -8024,7 +8024,7 @@
         ],
         "uid": 24,
         "n_feasible": 75,
-        "scalar": 0.8217290834651997
+        "scalar": 0.8215030266495869
       }
     },
     {
@@ -8057,7 +8057,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7801672820435537
+        "scalar": 0.7802878456785473
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8072,7 +8072,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7801672820435537
+        "scalar": 0.7802878456785473
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8087,7 +8087,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7801672820435537
+        "scalar": 0.7802878456785473
       },
       "protection_aware": {
         "has_repair": true,
@@ -8102,7 +8102,7 @@
         ],
         "uid": 38,
         "n_feasible": 93,
-        "scalar": 0.617986587295607
+        "scalar": 0.6178509532062392
       }
     },
     {
@@ -8136,7 +8136,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.6517217994122524
+        "scalar": 0.6488584130811544
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8152,7 +8152,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.6677718333207746
+        "scalar": 0.6647878833546832
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8168,7 +8168,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.6677718333207746
+        "scalar": 0.6647878833546832
       },
       "protection_aware": {
         "has_repair": true,
@@ -8184,7 +8184,7 @@
         ],
         "uid": 0,
         "n_feasible": 478,
-        "scalar": 0.6371034586692789
+        "scalar": 0.6317986587295608
       }
     },
     {
@@ -8227,7 +8227,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.7071936302212846
+        "scalar": 0.7070931605254565
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8242,7 +8242,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7444804460854494
+        "scalar": 0.744568357069299
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8257,7 +8257,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7444804460854494
+        "scalar": 0.744568357069299
       },
       "protection_aware": {
         "has_repair": true,
@@ -8272,7 +8272,7 @@
         ],
         "uid": 4,
         "n_feasible": 702,
-        "scalar": 0.5192273880390826
+        "scalar": 0.5191143596312762
       }
     },
     {
@@ -8304,7 +8304,7 @@
         ],
         "uid": 357,
         "n_feasible": 1,
-        "scalar": 0.5544702735287469
+        "scalar": 0.551079421294552
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8319,7 +8319,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6856303217542008
+        "scalar": 0.6838407052972646
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8334,7 +8334,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.6856303217542008
+        "scalar": 0.6838407052972646
       },
       "protection_aware": {
         "has_repair": true,
@@ -8349,7 +8349,7 @@
         ],
         "uid": 63,
         "n_feasible": 51,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6532571019516238
       }
     },
     {
@@ -8382,7 +8382,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6633109788260116
+        "scalar": 0.6576783965036546
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8397,7 +8397,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6633109788260116
+        "scalar": 0.6576783965036546
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8412,7 +8412,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6633109788260116
+        "scalar": 0.6576783965036546
       },
       "protection_aware": {
         "has_repair": true,
@@ -8427,7 +8427,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.6633109788260116
+        "scalar": 0.6576783965036546
       }
     },
     {
@@ -8459,7 +8459,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6853383317007008
+        "scalar": 0.6823948835807401
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8474,7 +8474,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6853383317007008
+        "scalar": 0.6823948835807401
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8489,7 +8489,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6853383317007008
+        "scalar": 0.6823948835807401
       },
       "protection_aware": {
         "has_repair": true,
@@ -8504,7 +8504,7 @@
         ],
         "uid": 24,
         "n_feasible": 2135,
-        "scalar": 0.6228995554215959
+        "scalar": 0.6164004219727225
       }
     },
     {
@@ -8537,7 +8537,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6383015597920277
+        "scalar": 0.635377891643433
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8552,7 +8552,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6539220857508854
+        "scalar": 0.6511114460100972
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8567,7 +8567,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.6539220857508854
+        "scalar": 0.6511114460100972
       },
       "protection_aware": {
         "has_repair": true,
@@ -8582,7 +8582,7 @@
         ],
         "uid": 38,
         "n_feasible": 146,
-        "scalar": 0.5996383090950193
+        "scalar": 0.594559565970914
       }
     },
     {
@@ -8614,7 +8614,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7130962248511792
+        "scalar": 0.7058953733705071
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8629,7 +8629,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7130962248511792
+        "scalar": 0.7058953733705071
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8644,7 +8644,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7130962248511792
+        "scalar": 0.7058953733705071
       },
       "protection_aware": {
         "has_repair": true,
@@ -8659,7 +8659,7 @@
         ],
         "uid": 24,
         "n_feasible": 1976,
-        "scalar": 0.6228995554215959
+        "scalar": 0.6164004219727225
       }
     },
     {
@@ -8692,7 +8692,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.6504709516991938
+        "scalar": 0.6527089141737623
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8707,7 +8707,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.6504709516991938
+        "scalar": 0.6527089141737623
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8722,7 +8722,7 @@
         ],
         "uid": 1118,
         "n_feasible": 1,
-        "scalar": 0.6504709516991938
+        "scalar": 0.6527089141737623
       },
       "protection_aware": {
         "has_repair": true,
@@ -8737,7 +8737,7 @@
         ],
         "uid": 37,
         "n_feasible": 57,
-        "scalar": 0.6064652249265314
+        "scalar": 0.6013789465752393
       }
     },
     {
@@ -8770,7 +8770,7 @@
         ],
         "uid": 1504,
         "n_feasible": 1,
-        "scalar": 0.7857960967523171
+        "scalar": 0.7859769422048075
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8785,7 +8785,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7089669203526486
+        "scalar": 0.7088463567176551
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8800,7 +8800,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7089669203526486
+        "scalar": 0.7088463567176551
       },
       "protection_aware": {
         "has_repair": true,
@@ -8815,7 +8815,7 @@
         ],
         "uid": 25,
         "n_feasible": 80,
-        "scalar": 0.6066837465149574
+        "scalar": 0.6064727601537185
       }
     },
     {
@@ -8848,7 +8848,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.7009569738527617
+        "scalar": 0.7009871147615101
       },
       "min_card_informed": {
         "has_repair": false,
@@ -8872,7 +8872,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7505161630623164
+        "scalar": 0.7506367266973099
       },
       "protection_aware": {
         "has_repair": true,
@@ -8888,7 +8888,7 @@
         ],
         "uid": 24,
         "n_feasible": 224,
-        "scalar": 0.6254389269836486
+        "scalar": 0.6253032928942808
       }
     },
     {
@@ -8921,7 +8921,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7330118303066838
+        "scalar": 0.7274395298018235
       },
       "min_card_informed": {
         "has_repair": true,
@@ -8936,7 +8936,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7330118303066838
+        "scalar": 0.7274395298018235
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -8951,7 +8951,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7330118303066838
+        "scalar": 0.7274395298018235
       },
       "protection_aware": {
         "has_repair": true,
@@ -8966,7 +8966,7 @@
         ],
         "uid": 24,
         "n_feasible": 680,
-        "scalar": 0.7564915982216863
+        "scalar": 0.751322432371336
       }
     },
     {
@@ -8999,7 +8999,7 @@
         ],
         "uid": 549,
         "n_feasible": 1,
-        "scalar": 0.6567327254916736
+        "scalar": 0.655323638007686
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9014,7 +9014,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.7861954637932334
+        "scalar": 0.7831512320096452
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9029,7 +9029,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.7861954637932334
+        "scalar": 0.7831512320096452
       },
       "protection_aware": {
         "has_repair": true,
@@ -9044,7 +9044,7 @@
         ],
         "uid": 24,
         "n_feasible": 45,
-        "scalar": 0.7605681561299074
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -9075,7 +9075,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.694609800818828
+        "scalar": 0.6945093311230001
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9090,7 +9090,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.743412955567277
+        "scalar": 0.7435008665511266
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9105,7 +9105,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.743412955567277
+        "scalar": 0.7435008665511266
       },
       "protection_aware": {
         "has_repair": true,
@@ -9120,7 +9120,7 @@
         ],
         "uid": 6,
         "n_feasible": 913,
-        "scalar": 0.513098736593575
+        "scalar": 0.5129857081857685
       }
     },
     {
@@ -9152,7 +9152,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198855
+        "scalar": 0.7875819455956596
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9167,7 +9167,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198855
+        "scalar": 0.7875819455956596
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9182,7 +9182,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198855
+        "scalar": 0.7875819455956596
       },
       "protection_aware": {
         "has_repair": true,
@@ -9197,7 +9197,7 @@
         ],
         "uid": 52,
         "n_feasible": 141,
-        "scalar": 0.6609524527164494
+        "scalar": 0.6606934292818929
       }
     },
     {
@@ -9228,7 +9228,7 @@
         ],
         "uid": 326,
         "n_feasible": 7,
-        "scalar": 0.5990756787983824
+        "scalar": 0.5938386959033481
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9243,7 +9243,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7681410594529425
+        "scalar": 0.7656795519051567
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9258,7 +9258,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7681410594529425
+        "scalar": 0.7656795519051567
       },
       "protection_aware": {
         "has_repair": true,
@@ -9273,7 +9273,7 @@
         ],
         "uid": 0,
         "n_feasible": 416,
-        "scalar": 0.7006003064325723
+        "scalar": 0.6917338557757517
       }
     },
     {
@@ -9306,7 +9306,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6495064426192451
+        "scalar": 0.6505086278351293
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9321,7 +9321,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6495064426192451
+        "scalar": 0.6505086278351293
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9336,7 +9336,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.6495064426192451
+        "scalar": 0.6505086278351293
       },
       "protection_aware": {
         "has_repair": true,
@@ -9351,7 +9351,7 @@
         ],
         "uid": 41,
         "n_feasible": 184,
-        "scalar": 0.6084469896767387
+        "scalar": 0.5985494687664833
       }
     },
     {
@@ -9383,7 +9383,7 @@
         ],
         "uid": 1118,
         "n_feasible": 2,
-        "scalar": 0.6593417979052069
+        "scalar": 0.6650073468465074
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9398,7 +9398,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6853383317007008
+        "scalar": 0.6823948835807399
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9413,7 +9413,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6853383317007008
+        "scalar": 0.6823948835807399
       },
       "protection_aware": {
         "has_repair": true,
@@ -9428,7 +9428,7 @@
         ],
         "uid": 24,
         "n_feasible": 1498,
-        "scalar": 0.622899555421596
+        "scalar": 0.6164004219727225
       }
     },
     {
@@ -9494,7 +9494,7 @@
         "set": [],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.6637630924572375
+        "scalar": 0.6610692487378493
       }
     },
     {
@@ -9527,7 +9527,7 @@
         ],
         "uid": 1504,
         "n_feasible": 1,
-        "scalar": 0.785796096752317
+        "scalar": 0.7859769422048075
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9542,7 +9542,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7614949890739207
+        "scalar": 0.7616155527089141
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9557,7 +9557,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7614949890739207
+        "scalar": 0.7616155527089141
       },
       "protection_aware": {
         "has_repair": true,
@@ -9572,7 +9572,7 @@
         ],
         "uid": 25,
         "n_feasible": 78,
-        "scalar": 0.6066837465149574
+        "scalar": 0.6064727601537185
       }
     },
     {
@@ -9605,7 +9605,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6538391982518272
+        "scalar": 0.6524753221309623
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9620,7 +9620,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6538391982518272
+        "scalar": 0.6524753221309623
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9635,7 +9635,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6538391982518272
+        "scalar": 0.6524753221309623
       },
       "protection_aware": {
         "has_repair": true,
@@ -9650,7 +9650,7 @@
         ],
         "uid": 134,
         "n_feasible": 26,
-        "scalar": 0.6483083414964961
+        "scalar": 0.639646597844925
       }
     },
     {
@@ -9683,7 +9683,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.652904830080627
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9694,11 +9694,11 @@
         "n_dropped": 1,
         "minimum_cardinality": true,
         "set": [
-          "k_11>=27.6584"
+          "E_11>=56.4602"
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6553236380076859
+        "scalar": 0.652904830080627
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9709,11 +9709,11 @@
         "n_dropped": 1,
         "minimum_cardinality": true,
         "set": [
-          "k_11>=27.6584"
+          "E_11>=56.4602"
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6553236380076859
+        "scalar": 0.652904830080627
       },
       "protection_aware": {
         "has_repair": true,
@@ -9728,7 +9728,7 @@
         ],
         "uid": 1,
         "n_feasible": 252,
-        "scalar": 0.561826539070153
+        "scalar": 0.5565142039032478
       }
     },
     {
@@ -9759,7 +9759,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7575540652550675
+        "scalar": 0.7576419762389169
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9774,7 +9774,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7575540652550675
+        "scalar": 0.7576419762389169
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9789,7 +9789,7 @@
         ],
         "uid": 352,
         "n_feasible": 1,
-        "scalar": 0.7575540652550675
+        "scalar": 0.7576419762389169
       },
       "protection_aware": {
         "has_repair": true,
@@ -9804,7 +9804,7 @@
         ],
         "uid": 16,
         "n_feasible": 506,
-        "scalar": 0.5295129731494738
+        "scalar": 0.5293999447416673
       }
     },
     {
@@ -9836,7 +9836,7 @@
         ],
         "uid": 1435,
         "n_feasible": 1,
-        "scalar": 0.7424082586089971
+        "scalar": 0.7425401250847713
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9851,7 +9851,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198854
+        "scalar": 0.7875819455956597
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9866,7 +9866,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7874500791198854
+        "scalar": 0.7875819455956597
       },
       "protection_aware": {
         "has_repair": true,
@@ -9881,7 +9881,7 @@
         ],
         "uid": 27,
         "n_feasible": 293,
-        "scalar": 0.6162968125988998
+        "scalar": 0.61612726998719
       }
     },
     {
@@ -9914,7 +9914,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.7485645392208575
+        "scalar": 0.7486851028558511
       },
       "min_card_informed": {
         "has_repair": true,
@@ -9929,7 +9929,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7446688267651269
+        "scalar": 0.7447743199457463
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -9944,7 +9944,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7446688267651269
+        "scalar": 0.7447743199457463
       },
       "protection_aware": {
         "has_repair": true,
@@ -9959,7 +9959,7 @@
         ],
         "uid": 24,
         "n_feasible": 287,
-        "scalar": 0.6254389269836487
+        "scalar": 0.6253032928942808
       }
     },
     {
@@ -9991,7 +9991,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.6300768593173084
+        "scalar": 0.6300015070454374
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10006,7 +10006,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7604551277221008
+        "scalar": 0.760521060959988
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10021,7 +10021,7 @@
         ],
         "uid": 65,
         "n_feasible": 1,
-        "scalar": 0.7604551277221008
+        "scalar": 0.760521060959988
       },
       "protection_aware": {
         "has_repair": true,
@@ -10036,7 +10036,7 @@
         ],
         "uid": 4,
         "n_feasible": 557,
-        "scalar": 0.4797396579006857
+        "scalar": 0.4796548865948308
       }
     },
     {
@@ -10068,7 +10068,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7141134805214377
+        "scalar": 0.7124180544043404
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10083,7 +10083,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7141134805214377
+        "scalar": 0.7124180544043404
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10098,7 +10098,7 @@
         ],
         "uid": 544,
         "n_feasible": 1,
-        "scalar": 0.7141134805214377
+        "scalar": 0.7124180544043404
       },
       "protection_aware": {
         "has_repair": true,
@@ -10113,7 +10113,7 @@
         ],
         "uid": 0,
         "n_feasible": 3999,
-        "scalar": 0.5795343229598372
+        "scalar": 0.5728844849672218
       }
     },
     {
@@ -10146,7 +10146,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.7277597769572752
+        "scalar": 0.7278652701378947
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10161,7 +10161,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.7277597769572752
+        "scalar": 0.7278652701378947
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10176,7 +10176,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.7277597769572752
+        "scalar": 0.7278652701378947
       },
       "protection_aware": {
         "has_repair": true,
@@ -10191,7 +10191,7 @@
         ],
         "uid": 27,
         "n_feasible": 477,
-        "scalar": 0.5764674854946877
+        "scalar": 0.57633185140532
       }
     },
     {
@@ -10223,7 +10223,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6740072338180996
+        "scalar": 0.6737670484515108
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10238,7 +10238,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.728882525808153
+        "scalar": 0.7290143922839274
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10253,7 +10253,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.728882525808153
+        "scalar": 0.7290143922839274
       },
       "protection_aware": {
         "has_repair": true,
@@ -10268,7 +10268,7 @@
         ],
         "uid": 28,
         "n_feasible": 412,
-        "scalar": 0.6187175043327556
+        "scalar": 0.6185479617210459
       }
     },
     {
@@ -10300,7 +10300,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.5713868585637857
+        "scalar": 0.5662440660085902
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10315,7 +10315,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.5713868585637857
+        "scalar": 0.5662440660085902
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10330,7 +10330,7 @@
         ],
         "uid": 157,
         "n_feasible": 1,
-        "scalar": 0.5713868585637857
+        "scalar": 0.5662440660085902
       },
       "protection_aware": {
         "has_repair": true,
@@ -10345,7 +10345,7 @@
         ],
         "uid": 97,
         "n_feasible": 104,
-        "scalar": 0.5456163815839048
+        "scalar": 0.5338378795870695
       }
     },
     {
@@ -10378,7 +10378,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.791831813729184
+        "scalar": 0.7919373069098035
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10393,7 +10393,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.791831813729184
+        "scalar": 0.7919373069098035
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10408,7 +10408,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.791831813729184
+        "scalar": 0.7919373069098035
       },
       "protection_aware": {
         "has_repair": true,
@@ -10423,7 +10423,7 @@
         ],
         "uid": 43,
         "n_feasible": 85,
-        "scalar": 0.5795644638685855
+        "scalar": 0.5795041820510888
       }
     },
     {
@@ -10456,7 +10456,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.627970763318514
+        "scalar": 0.6250546303971063
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10471,7 +10471,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.627970763318514
+        "scalar": 0.6250546303971063
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10486,7 +10486,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.627970763318514
+        "scalar": 0.6250546303971063
       },
       "protection_aware": {
         "has_repair": true,
@@ -10501,7 +10501,7 @@
         ],
         "uid": 6,
         "n_feasible": 392,
-        "scalar": 0.5319342928189285
+        "scalar": 0.5267877326501395
       }
     },
     {
@@ -10533,7 +10533,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6895109637555572
+        "scalar": 0.6858846356717656
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10548,7 +10548,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6895109637555572
+        "scalar": 0.6858846356717656
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10563,7 +10563,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6895109637555572
+        "scalar": 0.6858846356717656
       },
       "protection_aware": {
         "has_repair": true,
@@ -10578,7 +10578,7 @@
         ],
         "uid": 38,
         "n_feasible": 137,
-        "scalar": 0.611031572601914
+        "scalar": 0.6046831436967824
       }
     },
     {
@@ -10632,7 +10632,7 @@
         "set": [],
         "uid": 157,
         "n_feasible": 2,
-        "scalar": 0.7587785396729712
+        "scalar": 0.7586089970612614
       }
     },
     {
@@ -10664,7 +10664,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.6222590611106925
+        "scalar": 0.6222025469067893
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10679,7 +10679,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7595979956295682
+        "scalar": 0.7596639288674554
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10694,7 +10694,7 @@
         ],
         "uid": 162,
         "n_feasible": 1,
-        "scalar": 0.7595979956295682
+        "scalar": 0.7596639288674554
       },
       "protection_aware": {
         "has_repair": true,
@@ -10709,7 +10709,7 @@
         ],
         "uid": 17,
         "n_feasible": 569,
-        "scalar": 0.6136500640494311
+        "scalar": 0.6137254163213021
       }
     },
     {
@@ -10742,7 +10742,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.7066611408333962
+        "scalar": 0.7041217692713435
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10757,7 +10757,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.7066611408333962
+        "scalar": 0.7041217692713435
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10772,7 +10772,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.7066611408333962
+        "scalar": 0.7041217692713435
       },
       "protection_aware": {
         "has_repair": true,
@@ -10787,7 +10787,7 @@
         ],
         "uid": 28,
         "n_feasible": 81,
-        "scalar": 0.6320021098636124
+        "scalar": 0.6268329440132621
       }
     },
     {
@@ -10819,7 +10819,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7693937909727978
+        "scalar": 0.7694691432446689
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10834,7 +10834,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7693937909727978
+        "scalar": 0.7694691432446689
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10849,7 +10849,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7693937909727978
+        "scalar": 0.7694691432446689
       },
       "protection_aware": {
         "has_repair": true,
@@ -10864,7 +10864,7 @@
         ],
         "uid": 0,
         "n_feasible": 1554,
-        "scalar": 0.5375065933237887
+        "scalar": 0.5374218220179339
       }
     },
     {
@@ -10897,7 +10897,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.7057343078893829
+        "scalar": 0.7058398010700022
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10912,7 +10912,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.7057343078893829
+        "scalar": 0.7058398010700022
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -10927,7 +10927,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.7057343078893829
+        "scalar": 0.7058398010700022
       },
       "protection_aware": {
         "has_repair": true,
@@ -10942,7 +10942,7 @@
         ],
         "uid": 64,
         "n_feasible": 128,
-        "scalar": 0.7719689548639892
+        "scalar": 0.7720895184989827
       }
     },
     {
@@ -10974,7 +10974,7 @@
         ],
         "uid": 518,
         "n_feasible": 1,
-        "scalar": 0.7290520684198628
+        "scalar": 0.7269610428754427
       },
       "min_card_informed": {
         "has_repair": true,
@@ -10989,7 +10989,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7337710044457841
+        "scalar": 0.7285528596187175
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11004,7 +11004,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7337710044457841
+        "scalar": 0.7285528596187175
       },
       "protection_aware": {
         "has_repair": true,
@@ -11019,7 +11019,7 @@
         ],
         "uid": 0,
         "n_feasible": 509,
-        "scalar": 0.7082077462135483
+        "scalar": 0.7015579082209329
       }
     },
     {
@@ -11052,7 +11052,7 @@
         ],
         "uid": 93,
         "n_feasible": 1,
-        "scalar": 0.5607188606736493
+        "scalar": 0.5566272323110543
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11067,7 +11067,7 @@
         ],
         "uid": 374,
         "n_feasible": 1,
-        "scalar": 0.7521136312259815
+        "scalar": 0.7494160198929998
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11082,7 +11082,7 @@
         ],
         "uid": 374,
         "n_feasible": 1,
-        "scalar": 0.7521136312259815
+        "scalar": 0.7494160198929998
       },
       "protection_aware": {
         "has_repair": true,
@@ -11097,7 +11097,7 @@
         ],
         "uid": 24,
         "n_feasible": 302,
-        "scalar": 0.7605681561299072
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -11130,7 +11130,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.6529048300806269
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11145,7 +11145,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.6529048300806269
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11160,7 +11160,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092984
+        "scalar": 0.6529048300806269
       },
       "protection_aware": {
         "has_repair": true,
@@ -11175,7 +11175,7 @@
         ],
         "uid": 64,
         "n_feasible": 18,
-        "scalar": 0.6403059302237963
+        "scalar": 0.6355512018687365
       }
     },
     {
@@ -11230,7 +11230,7 @@
         "set": [],
         "uid": 350,
         "n_feasible": 2,
-        "scalar": 0.7330118303066836
+        "scalar": 0.7274395298018235
       }
     },
     {
@@ -11284,7 +11284,7 @@
         "set": [],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.7905771984025318
+        "scalar": 0.7907279029462738
       }
     },
     {
@@ -11315,7 +11315,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7457614347072564
+        "scalar": 0.7458493456911058
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11330,7 +11330,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7457614347072564
+        "scalar": 0.7458493456911058
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11345,7 +11345,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.7457614347072564
+        "scalar": 0.7458493456911058
       },
       "protection_aware": {
         "has_repair": true,
@@ -11360,7 +11360,7 @@
         ],
         "uid": 4,
         "n_feasible": 642,
-        "scalar": 0.5192273880390826
+        "scalar": 0.5191143596312762
       }
     },
     {
@@ -11393,7 +11393,7 @@
         ],
         "uid": 378,
         "n_feasible": 2,
-        "scalar": 0.6474267199156054
+        "scalar": 0.6473061562806119
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11408,7 +11408,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.7867832115138272
+        "scalar": 0.7868887046944465
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11423,7 +11423,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.7867832115138272
+        "scalar": 0.7868887046944465
       },
       "protection_aware": {
         "has_repair": true,
@@ -11438,7 +11438,7 @@
         ],
         "uid": 28,
         "n_feasible": 177,
-        "scalar": 0.568706201491975
+        "scalar": 0.5685705674026071
       }
     },
     {
@@ -11470,7 +11470,7 @@
         ],
         "uid": 375,
         "n_feasible": 1,
-        "scalar": 0.7903605606209028
+        "scalar": 0.7869979654886595
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11485,7 +11485,7 @@
         ],
         "uid": 181,
         "n_feasible": 1,
-        "scalar": 0.7905395222665963
+        "scalar": 0.7856133674930299
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11500,7 +11500,7 @@
         ],
         "uid": 181,
         "n_feasible": 1,
-        "scalar": 0.7905395222665963
+        "scalar": 0.7856133674930299
       },
       "protection_aware": {
         "has_repair": true,
@@ -11515,7 +11515,7 @@
         ],
         "uid": 24,
         "n_feasible": 111,
-        "scalar": 0.7674252128701681
+        "scalar": 0.7609260794212946
       }
     },
     {
@@ -11548,7 +11548,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7719915605455504
+        "scalar": 0.7721121241805441
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11563,7 +11563,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7719915605455504
+        "scalar": 0.7721121241805441
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11578,7 +11578,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7719915605455504
+        "scalar": 0.7721121241805441
       },
       "protection_aware": {
         "has_repair": true,
@@ -11593,7 +11593,7 @@
         ],
         "uid": 43,
         "n_feasible": 231,
-        "scalar": 0.5795644638685855
+        "scalar": 0.5795041820510888
       }
     },
     {
@@ -11626,7 +11626,7 @@
         ],
         "uid": 549,
         "n_feasible": 1,
-        "scalar": 0.5711551503277824
+        "scalar": 0.5698892321603497
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11641,7 +11641,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.6557908220932861
+        "scalar": 0.6544344811996081
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11656,7 +11656,7 @@
         ],
         "uid": 543,
         "n_feasible": 1,
-        "scalar": 0.6557908220932861
+        "scalar": 0.6544344811996081
       },
       "protection_aware": {
         "has_repair": true,
@@ -11671,7 +11671,7 @@
         ],
         "uid": 63,
         "n_feasible": 20,
-        "scalar": 0.624647728129003
+        "scalar": 0.6197573656845754
       }
     },
     {
@@ -11703,7 +11703,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6365948308341496
+        "scalar": 0.6330438550222289
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11718,7 +11718,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.6647671614799187
+        "scalar": 0.6619320322507725
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11733,7 +11733,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.6647671614799187
+        "scalar": 0.6619320322507725
       },
       "protection_aware": {
         "has_repair": true,
@@ -11748,7 +11748,7 @@
         ],
         "uid": 11,
         "n_feasible": 875,
-        "scalar": 0.5379775450229825
+        "scalar": 0.5251064350840178
       }
     },
     {
@@ -11801,7 +11801,7 @@
         "set": [],
         "uid": 351,
         "n_feasible": 4,
-        "scalar": 0.8171200361690906
+        "scalar": 0.8170195664732626
       }
     },
     {
@@ -11854,7 +11854,7 @@
         "set": [],
         "uid": 567,
         "n_feasible": 1,
-        "scalar": 0.8414085851355085
+        "scalar": 0.8415090548313365
       }
     },
     {
@@ -11887,7 +11887,7 @@
         ],
         "uid": 64,
         "n_feasible": 1,
-        "scalar": 0.7933162534850426
+        "scalar": 0.7934217466656621
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11902,7 +11902,7 @@
         ],
         "uid": 64,
         "n_feasible": 1,
-        "scalar": 0.7933162534850426
+        "scalar": 0.7934217466656621
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11917,7 +11917,7 @@
         ],
         "uid": 64,
         "n_feasible": 1,
-        "scalar": 0.7933162534850426
+        "scalar": 0.7934217466656621
       },
       "protection_aware": {
         "has_repair": true,
@@ -11932,7 +11932,7 @@
         ],
         "uid": 62,
         "n_feasible": 72,
-        "scalar": 0.7817948911159671
+        "scalar": 0.7819154547509607
       }
     },
     {
@@ -11965,7 +11965,7 @@
         ],
         "uid": 1399,
         "n_feasible": 1,
-        "scalar": 0.7652776731218445
+        "scalar": 0.7695049355738075
       },
       "min_card_informed": {
         "has_repair": true,
@@ -11980,7 +11980,7 @@
         ],
         "uid": 1051,
         "n_feasible": 1,
-        "scalar": 0.766438098108658
+        "scalar": 0.7684575389948007
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -11995,7 +11995,7 @@
         ],
         "uid": 1051,
         "n_feasible": 1,
-        "scalar": 0.766438098108658
+        "scalar": 0.7684575389948007
       },
       "protection_aware": {
         "has_repair": true,
@@ -12010,7 +12010,7 @@
         ],
         "uid": 24,
         "n_feasible": 488,
-        "scalar": 0.8244216713133902
+        "scalar": 0.8192525054630397
       }
     },
     {
@@ -12043,7 +12043,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6554969482329892
+        "scalar": 0.6542913118830532
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12058,7 +12058,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6554969482329892
+        "scalar": 0.6542913118830532
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12073,7 +12073,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6554969482329892
+        "scalar": 0.6542913118830532
       },
       "protection_aware": {
         "has_repair": true,
@@ -12088,7 +12088,7 @@
         ],
         "uid": 37,
         "n_feasible": 73,
-        "scalar": 0.6064652249265315
+        "scalar": 0.6013789465752393
       }
     },
     {
@@ -12121,7 +12121,7 @@
         ],
         "uid": 62,
         "n_feasible": 1,
-        "scalar": 0.7917112500941903
+        "scalar": 0.7918167432748098
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12136,7 +12136,7 @@
         ],
         "uid": 62,
         "n_feasible": 1,
-        "scalar": 0.7917112500941903
+        "scalar": 0.7918167432748098
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12151,7 +12151,7 @@
         ],
         "uid": 62,
         "n_feasible": 1,
-        "scalar": 0.7917112500941903
+        "scalar": 0.7918167432748098
       },
       "protection_aware": {
         "has_repair": true,
@@ -12166,7 +12166,7 @@
         ],
         "uid": 60,
         "n_feasible": 25,
-        "scalar": 0.7349709893753296
+        "scalar": 0.735076482555949
       }
     },
     {
@@ -12196,7 +12196,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.8348278200587749
+        "scalar": 0.8347524677869038
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12211,7 +12211,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.8348278200587749
+        "scalar": 0.8347524677869038
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12226,7 +12226,7 @@
         ],
         "uid": 926,
         "n_feasible": 1,
-        "scalar": 0.8348278200587749
+        "scalar": 0.8347524677869038
       },
       "protection_aware": {
         "has_repair": true,
@@ -12241,7 +12241,7 @@
         ],
         "uid": 0,
         "n_feasible": 4189,
-        "scalar": 0.475887273001281
+        "scalar": 0.47571773038957127
       }
     },
     {
@@ -12274,7 +12274,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6578856152512998
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12289,7 +12289,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6578856152512998
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12304,7 +12304,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6593700550071585
+        "scalar": 0.6578856152512998
       },
       "protection_aware": {
         "has_repair": true,
@@ -12319,7 +12319,7 @@
         ],
         "uid": 27,
         "n_feasible": 307,
-        "scalar": 0.6255218144827066
+        "scalar": 0.6203451134051692
       }
     },
     {
@@ -12352,7 +12352,7 @@
         ],
         "uid": 518,
         "n_feasible": 1,
-        "scalar": 0.6487604551277221
+        "scalar": 0.6470876346921859
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12367,7 +12367,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215583
+        "scalar": 0.6561148368623314
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12382,7 +12382,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6589028709215583
+        "scalar": 0.6561148368623314
       },
       "protection_aware": {
         "has_repair": true,
@@ -12397,7 +12397,7 @@
         ],
         "uid": 3,
         "n_feasible": 226,
-        "scalar": 0.5096903021626101
+        "scalar": 0.5045060658578857
       }
     },
     {
@@ -12430,7 +12430,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.7143772134729862
+        "scalar": 0.7088199834225002
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12445,7 +12445,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.677394318438701
+        "scalar": 0.6746854042649387
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12460,7 +12460,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.677394318438701
+        "scalar": 0.6746854042649387
       },
       "protection_aware": {
         "has_repair": true,
@@ -12475,7 +12475,7 @@
         ],
         "uid": 24,
         "n_feasible": 3059,
-        "scalar": 0.6449476301710496
+        "scalar": 0.6397483234119509
       }
     },
     {
@@ -12508,7 +12508,7 @@
         ],
         "uid": 1399,
         "n_feasible": 1,
-        "scalar": 0.752309547132846
+        "scalar": 0.7524150403134654
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12523,7 +12523,7 @@
         ],
         "uid": 447,
         "n_feasible": 1,
-        "scalar": 0.8103986135181975
+        "scalar": 0.810504106698817
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12538,7 +12538,7 @@
         ],
         "uid": 447,
         "n_feasible": 1,
-        "scalar": 0.8103986135181975
+        "scalar": 0.810504106698817
       },
       "protection_aware": {
         "has_repair": true,
@@ -12553,7 +12553,7 @@
         ],
         "uid": 61,
         "n_feasible": 41,
-        "scalar": 0.6763619923140682
+        "scalar": 0.6762263582247005
       }
     },
     {
@@ -12586,7 +12586,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7872956069625499
+        "scalar": 0.7874011001431693
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12601,7 +12601,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7872956069625499
+        "scalar": 0.7874011001431693
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12616,7 +12616,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7872956069625499
+        "scalar": 0.7874011001431693
       },
       "protection_aware": {
         "has_repair": true,
@@ -12631,7 +12631,7 @@
         ],
         "uid": 36,
         "n_feasible": 70,
-        "scalar": 0.6437495290483009
+        "scalar": 0.643613894958933
       }
     },
     {
@@ -12664,7 +12664,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.6914023057795193
+        "scalar": 0.6884032853590536
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12679,7 +12679,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.6914023057795193
+        "scalar": 0.6884032853590536
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12694,7 +12694,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.6914023057795193
+        "scalar": 0.6884032853590536
       },
       "protection_aware": {
         "has_repair": true,
@@ -12709,7 +12709,7 @@
         ],
         "uid": 28,
         "n_feasible": 327,
-        "scalar": 0.6320021098636124
+        "scalar": 0.626832944013262
       }
     },
     {
@@ -12741,7 +12741,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6624124029839501
+        "scalar": 0.6552680657071812
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12756,7 +12756,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6624124029839501
+        "scalar": 0.6552680657071812
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12771,7 +12771,7 @@
         ],
         "uid": 351,
         "n_feasible": 1,
-        "scalar": 0.6624124029839501
+        "scalar": 0.6552680657071812
       },
       "protection_aware": {
         "has_repair": true,
@@ -12786,7 +12786,7 @@
         ],
         "uid": 0,
         "n_feasible": 2439,
-        "scalar": 0.5268725039559943
+        "scalar": 0.5202226659633788
       }
     },
     {
@@ -12819,7 +12819,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6851329967598524
+        "scalar": 0.6809283399894508
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12834,7 +12834,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6851329967598524
+        "scalar": 0.6809283399894508
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12849,7 +12849,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6851329967598524
+        "scalar": 0.6809283399894508
       },
       "protection_aware": {
         "has_repair": true,
@@ -12864,7 +12864,7 @@
         ],
         "uid": 27,
         "n_feasible": 105,
-        "scalar": 0.6255218144827066
+        "scalar": 0.6203451134051692
       }
     },
     {
@@ -12897,7 +12897,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.6491447517142641
+        "scalar": 0.6449966091477657
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12912,7 +12912,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.674154170748248
+        "scalar": 0.6719915605455504
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -12927,7 +12927,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.674154170748248
+        "scalar": 0.6719915605455504
       },
       "protection_aware": {
         "has_repair": true,
@@ -12942,7 +12942,7 @@
         ],
         "uid": 29,
         "n_feasible": 489,
-        "scalar": 0.6223344133825635
+        "scalar": 0.6171727827594002
       }
     },
     {
@@ -12975,7 +12975,7 @@
         ],
         "uid": 63,
         "n_feasible": 1,
-        "scalar": 0.7982442920654058
+        "scalar": 0.7983497852460253
       },
       "min_card_informed": {
         "has_repair": true,
@@ -12990,7 +12990,7 @@
         ],
         "uid": 63,
         "n_feasible": 1,
-        "scalar": 0.7982442920654058
+        "scalar": 0.7983497852460253
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13005,7 +13005,7 @@
         ],
         "uid": 63,
         "n_feasible": 1,
-        "scalar": 0.7982442920654058
+        "scalar": 0.7983497852460253
       },
       "protection_aware": {
         "has_repair": true,
@@ -13020,7 +13020,7 @@
         ],
         "uid": 61,
         "n_feasible": 37,
-        "scalar": 0.683972571773039
+        "scalar": 0.6839273604099164
       }
     },
     {
@@ -13053,7 +13053,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.6409464245346997
+        "scalar": 0.6388968427398086
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13068,7 +13068,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.6409464245346997
+        "scalar": 0.6388968427398086
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13083,7 +13083,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.6409464245346997
+        "scalar": 0.6388968427398086
       },
       "protection_aware": {
         "has_repair": true,
@@ -13098,7 +13098,7 @@
         ],
         "uid": 5,
         "n_feasible": 565,
-        "scalar": 0.5398613518197573
+        "scalar": 0.5294815763695275
       }
     },
     {
@@ -13131,7 +13131,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.7601160424986813
+        "scalar": 0.7578027277522418
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13146,7 +13146,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.7601160424986813
+        "scalar": 0.7578027277522418
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13161,7 +13161,7 @@
         ],
         "uid": 379,
         "n_feasible": 1,
-        "scalar": 0.7601160424986813
+        "scalar": 0.7578027277522418
       },
       "protection_aware": {
         "has_repair": true,
@@ -13176,7 +13176,7 @@
         ],
         "uid": 25,
         "n_feasible": 1749,
-        "scalar": 0.5079948760455129
+        "scalar": 0.5029726471253108
       }
     },
     {
@@ -13209,7 +13209,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.7650968276693543
+        "scalar": 0.7652173913043477
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13224,7 +13224,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.7650968276693543
+        "scalar": 0.7652173913043477
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13239,7 +13239,7 @@
         ],
         "uid": 376,
         "n_feasible": 1,
-        "scalar": 0.7650968276693543
+        "scalar": 0.7652173913043477
       },
       "protection_aware": {
         "has_repair": true,
@@ -13254,7 +13254,7 @@
         ],
         "uid": 52,
         "n_feasible": 95,
-        "scalar": 0.6068193806043253
+        "scalar": 0.6066083942430864
       }
     },
     {
@@ -13287,7 +13287,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13302,7 +13302,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13317,7 +13317,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7503955994273228
+        "scalar": 0.7505010926079422
       },
       "protection_aware": {
         "has_repair": true,
@@ -13332,7 +13332,7 @@
         ],
         "uid": 64,
         "n_feasible": 54,
-        "scalar": 0.7719689548639892
+        "scalar": 0.7720895184989829
       }
     },
     {
@@ -13363,7 +13363,7 @@
         ],
         "uid": 164,
         "n_feasible": 1,
-        "scalar": 0.716763368748901
+        "scalar": 0.7168512797327505
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13378,7 +13378,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7313817094918745
+        "scalar": 0.731469620475724
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13393,7 +13393,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7313817094918745
+        "scalar": 0.731469620475724
       },
       "protection_aware": {
         "has_repair": true,
@@ -13408,7 +13408,7 @@
         ],
         "uid": 5,
         "n_feasible": 1292,
-        "scalar": 0.5271017004496019
+        "scalar": 0.5269886720417954
       }
     },
     {
@@ -13440,7 +13440,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.8096789993218295
+        "scalar": 0.8045267877326501
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13455,7 +13455,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.8096789993218295
+        "scalar": 0.8045267877326501
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13470,7 +13470,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.8096789993218295
+        "scalar": 0.8045267877326501
       },
       "protection_aware": {
         "has_repair": true,
@@ -13485,7 +13485,7 @@
         ],
         "uid": 24,
         "n_feasible": 2029,
-        "scalar": 0.7927247381508552
+        "scalar": 0.7863197950418205
       }
     },
     {
@@ -13518,7 +13518,7 @@
         ],
         "uid": 377,
         "n_feasible": 1,
-        "scalar": 0.6908673046492352
+        "scalar": 0.6859656393640268
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13533,7 +13533,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.6822470047471931
+        "scalar": 0.6780122070680431
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13548,7 +13548,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.6822470047471931
+        "scalar": 0.6780122070680431
       },
       "protection_aware": {
         "has_repair": true,
@@ -13563,7 +13563,7 @@
         ],
         "uid": 26,
         "n_feasible": 58,
-        "scalar": 0.6311883053274057
+        "scalar": 0.6260040690226811
       }
     },
     {
@@ -13595,7 +13595,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6819663175344737
+        "scalar": 0.6801201868736343
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13610,7 +13610,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6819663175344737
+        "scalar": 0.6801201868736343
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13625,7 +13625,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6819663175344737
+        "scalar": 0.6801201868736343
       },
       "protection_aware": {
         "has_repair": true,
@@ -13640,7 +13640,7 @@
         ],
         "uid": 61,
         "n_feasible": 97,
-        "scalar": 0.600284454826313
+        "scalar": 0.5881291914701229
       }
     },
     {
@@ -13673,7 +13673,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.7009569738527617
+        "scalar": 0.7009871147615101
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13688,7 +13688,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.737118529123653
+        "scalar": 0.7372240223042725
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13703,7 +13703,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.737118529123653
+        "scalar": 0.7372240223042725
       },
       "protection_aware": {
         "has_repair": true,
@@ -13718,7 +13718,7 @@
         ],
         "uid": 39,
         "n_feasible": 191,
-        "scalar": 0.6079270590008289
+        "scalar": 0.6077914249114611
       }
     },
     {
@@ -13751,7 +13751,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.6414362143018613
+        "scalar": 0.6377740938889307
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13766,7 +13766,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.6414362143018613
+        "scalar": 0.6377740938889307
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13781,7 +13781,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.6414362143018613
+        "scalar": 0.6377740938889307
       },
       "protection_aware": {
         "has_repair": true,
@@ -13796,7 +13796,7 @@
         ],
         "uid": 39,
         "n_feasible": 405,
-        "scalar": 0.6097505839801071
+        "scalar": 0.5997927812523548
       }
     },
     {
@@ -13829,7 +13829,7 @@
         ],
         "uid": 353,
         "n_feasible": 1,
-        "scalar": 0.6279707633185142
+        "scalar": 0.6250546303971065
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13844,7 +13844,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.6409464245346997
+        "scalar": 0.6388968427398087
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13859,7 +13859,7 @@
         ],
         "uid": 449,
         "n_feasible": 1,
-        "scalar": 0.6409464245346997
+        "scalar": 0.6388968427398087
       },
       "protection_aware": {
         "has_repair": true,
@@ -13874,7 +13874,7 @@
         ],
         "uid": 4,
         "n_feasible": 334,
-        "scalar": 0.528867455353779
+        "scalar": 0.5235777258684349
       }
     },
     {
@@ -13907,7 +13907,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6617135106623465
+        "scalar": 0.6535641624594981
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13922,7 +13922,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6617135106623465
+        "scalar": 0.6535641624594981
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -13937,7 +13937,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6617135106623465
+        "scalar": 0.6535641624594981
       },
       "protection_aware": {
         "has_repair": true,
@@ -13952,7 +13952,7 @@
         ],
         "uid": 0,
         "n_feasible": 1431,
-        "scalar": 0.6371034586692789
+        "scalar": 0.6317986587295608
       }
     },
     {
@@ -13984,7 +13984,7 @@
         ],
         "uid": 357,
         "n_feasible": 2,
-        "scalar": 0.5278332454223496
+        "scalar": 0.5277578931504785
       },
       "min_card_informed": {
         "has_repair": true,
@@ -13999,7 +13999,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.6940980333057042
+        "scalar": 0.6941639665435912
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14014,7 +14014,7 @@
         ],
         "uid": 453,
         "n_feasible": 1,
-        "scalar": 0.6940980333057042
+        "scalar": 0.6941639665435912
       },
       "protection_aware": {
         "has_repair": true,
@@ -14029,7 +14029,7 @@
         ],
         "uid": 8,
         "n_feasible": 636,
-        "scalar": 0.4570680431014995
+        "scalar": 0.4569926908296285
       }
     },
     {
@@ -14062,7 +14062,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.8244141360862031
+        "scalar": 0.8214753974832341
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14077,7 +14077,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.8233139929168865
+        "scalar": 0.8194032100067817
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14092,7 +14092,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.8233139929168865
+        "scalar": 0.8194032100067817
       },
       "protection_aware": {
         "has_repair": true,
@@ -14107,7 +14107,7 @@
         ],
         "uid": 24,
         "n_feasible": 20,
-        "scalar": 0.7605681561299074
+        "scalar": 0.7553688493708086
       }
     },
     {
@@ -14139,7 +14139,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.7723702057117021
+        "scalar": 0.7689981915454751
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14154,7 +14154,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.7723702057117021
+        "scalar": 0.7689981915454751
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14169,7 +14169,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.7723702057117021
+        "scalar": 0.7689981915454751
       },
       "protection_aware": {
         "has_repair": true,
@@ -14184,7 +14184,7 @@
         ],
         "uid": 0,
         "n_feasible": 973,
-        "scalar": 0.796125009419034
+        "scalar": 0.7894940094943862
       }
     },
     {
@@ -14217,7 +14217,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6539899027955693
+        "scalar": 0.6516351442996007
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14232,7 +14232,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6539899027955693
+        "scalar": 0.6516351442996007
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14247,7 +14247,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6539899027955693
+        "scalar": 0.6516351442996007
       },
       "protection_aware": {
         "has_repair": true,
@@ -14262,7 +14262,7 @@
         ],
         "uid": 24,
         "n_feasible": 685,
-        "scalar": 0.6163514429960063
+        "scalar": 0.6111521362369076
       }
     },
     {
@@ -14294,7 +14294,7 @@
         ],
         "uid": 159,
         "n_feasible": 1,
-        "scalar": 0.6227959460477733
+        "scalar": 0.6177285057644488
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14309,7 +14309,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.733771004445784
+        "scalar": 0.7285528596187175
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14324,7 +14324,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.733771004445784
+        "scalar": 0.7285528596187175
       },
       "protection_aware": {
         "has_repair": true,
@@ -14339,7 +14339,7 @@
         ],
         "uid": 0,
         "n_feasible": 1294,
-        "scalar": 0.796125009419034
+        "scalar": 0.7894940094943863
       }
     },
     {
@@ -14372,7 +14372,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.777100444578404
+        "scalar": 0.7772059377590235
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14387,7 +14387,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7947328761962174
+        "scalar": 0.7948383693768367
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14402,7 +14402,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7947328761962174
+        "scalar": 0.7948383693768367
       },
       "protection_aware": {
         "has_repair": true,
@@ -14417,7 +14417,7 @@
         ],
         "uid": 38,
         "n_feasible": 105,
-        "scalar": 0.617986587295607
+        "scalar": 0.6178509532062392
       }
     },
     {
@@ -14449,7 +14449,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7616607640720368
+        "scalar": 0.7580721121241806
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14464,7 +14464,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7616607640720368
+        "scalar": 0.7580721121241806
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14479,7 +14479,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.7616607640720368
+        "scalar": 0.7580721121241806
       },
       "protection_aware": {
         "has_repair": true,
@@ -14494,7 +14494,7 @@
         ],
         "uid": 21,
         "n_feasible": 1167,
-        "scalar": 0.5547057493783438
+        "scalar": 0.5482348730314219
       }
     },
     {
@@ -14525,7 +14525,7 @@
         ],
         "uid": 185,
         "n_feasible": 1,
-        "scalar": 0.8483912289955543
+        "scalar": 0.8421997839901539
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14540,7 +14540,7 @@
         ],
         "uid": 163,
         "n_feasible": 1,
-        "scalar": 0.8584381985783538
+        "scalar": 0.8516941702458997
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14555,7 +14555,7 @@
         ],
         "uid": 163,
         "n_feasible": 1,
-        "scalar": 0.8584381985783538
+        "scalar": 0.8516941702458997
       },
       "protection_aware": {
         "has_repair": true,
@@ -14570,7 +14570,7 @@
         ],
         "uid": 0,
         "n_feasible": 2618,
-        "scalar": 0.7449074422927184
+        "scalar": 0.7361414613317258
       }
     },
     {
@@ -14602,7 +14602,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.8288844096149498
+        "scalar": 0.8287148670032402
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14617,7 +14617,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.8288844096149498
+        "scalar": 0.8287148670032402
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14632,7 +14632,7 @@
         ],
         "uid": 372,
         "n_feasible": 1,
-        "scalar": 0.8288844096149498
+        "scalar": 0.8287148670032402
       },
       "protection_aware": {
         "has_repair": true,
@@ -14647,7 +14647,7 @@
         ],
         "uid": 24,
         "n_feasible": 747,
-        "scalar": 0.7939115364328234
+        "scalar": 0.793798508025017
       }
     },
     {
@@ -14680,7 +14680,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.6620375254313917
+        "scalar": 0.6591063220556099
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14695,7 +14695,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.6620375254313917
+        "scalar": 0.6591063220556099
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14710,7 +14710,7 @@
         ],
         "uid": 355,
         "n_feasible": 1,
-        "scalar": 0.6620375254313917
+        "scalar": 0.6591063220556099
       },
       "protection_aware": {
         "has_repair": true,
@@ -14725,7 +14725,7 @@
         ],
         "uid": 27,
         "n_feasible": 812,
-        "scalar": 0.5756235400497325
+        "scalar": 0.5705071207896918
       }
     },
     {
@@ -14757,7 +14757,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589781
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14772,7 +14772,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589781
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14787,7 +14787,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.8664569361766257
+        "scalar": 0.8604099163589781
       },
       "protection_aware": {
         "has_repair": true,
@@ -14802,7 +14802,7 @@
         ],
         "uid": 24,
         "n_feasible": 872,
-        "scalar": 0.7927247381508552
+        "scalar": 0.7863197950418205
       }
     },
     {
@@ -14835,7 +14835,7 @@
         ],
         "uid": 928,
         "n_feasible": 1,
-        "scalar": 0.6477884108205864
+        "scalar": 0.6486700324014769
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14850,7 +14850,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7022078215658202
+        "scalar": 0.699171125009419
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14865,7 +14865,7 @@
         ],
         "uid": 349,
         "n_feasible": 1,
-        "scalar": 0.7022078215658202
+        "scalar": 0.699171125009419
       },
       "protection_aware": {
         "has_repair": true,
@@ -14880,7 +14880,7 @@
         ],
         "uid": 85,
         "n_feasible": 17,
-        "scalar": 0.6840931354080326
+        "scalar": 0.6794589706879662
       }
     },
     {
@@ -14911,7 +14911,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7485494687664834
+        "scalar": 0.7486373797503328
       },
       "min_card_informed": {
         "has_repair": true,
@@ -14926,7 +14926,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7485494687664834
+        "scalar": 0.7486373797503328
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -14941,7 +14941,7 @@
         ],
         "uid": 354,
         "n_feasible": 1,
-        "scalar": 0.7485494687664834
+        "scalar": 0.7486373797503328
       },
       "protection_aware": {
         "has_repair": true,
@@ -14956,7 +14956,7 @@
         ],
         "uid": 4,
         "n_feasible": 1197,
-        "scalar": 0.5192273880390826
+        "scalar": 0.5191143596312762
       }
     },
     {
@@ -14989,7 +14989,7 @@
         ],
         "uid": 474,
         "n_feasible": 1,
-        "scalar": 0.6606284379474041
+        "scalar": 0.6591515334187327
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15004,7 +15004,7 @@
         ],
         "uid": 447,
         "n_feasible": 1,
-        "scalar": 0.7304197121543214
+        "scalar": 0.7281817496797529
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15019,7 +15019,7 @@
         ],
         "uid": 447,
         "n_feasible": 1,
-        "scalar": 0.7304197121543214
+        "scalar": 0.7281817496797529
       },
       "protection_aware": {
         "has_repair": true,
@@ -15034,7 +15034,7 @@
         ],
         "uid": 51,
         "n_feasible": 42,
-        "scalar": 0.6641172481350313
+        "scalar": 0.6591213925099841
       }
     },
     {
@@ -15066,7 +15066,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.7211212418054405
+        "scalar": 0.7211871750433275
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15081,7 +15081,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.7211212418054405
+        "scalar": 0.7211871750433275
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15096,7 +15096,7 @@
         ],
         "uid": 452,
         "n_feasible": 1,
-        "scalar": 0.7211212418054405
+        "scalar": 0.7211871750433275
       },
       "protection_aware": {
         "has_repair": true,
@@ -15111,7 +15111,7 @@
         ],
         "uid": 5,
         "n_feasible": 652,
-        "scalar": 0.4790049732499435
+        "scalar": 0.47892020194408863
       }
     },
     {
@@ -15142,7 +15142,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7610705046090475
+        "scalar": 0.7609700349132194
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15157,7 +15157,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7610705046090475
+        "scalar": 0.7609700349132194
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15172,7 +15172,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7610705046090475
+        "scalar": 0.7609700349132194
       },
       "protection_aware": {
         "has_repair": true,
@@ -15187,7 +15187,7 @@
         ],
         "uid": 0,
         "n_feasible": 2164,
-        "scalar": 0.7457111998593424
+        "scalar": 0.7456358475874714
       }
     },
     {
@@ -15220,7 +15220,7 @@
         ],
         "uid": 933,
         "n_feasible": 1,
-        "scalar": 0.5288071735362821
+        "scalar": 0.5298771757968502
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15235,7 +15235,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6630321754200889
+        "scalar": 0.6600670635219652
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15250,7 +15250,7 @@
         ],
         "uid": 356,
         "n_feasible": 1,
-        "scalar": 0.6630321754200889
+        "scalar": 0.6600670635219652
       },
       "protection_aware": {
         "has_repair": true,
@@ -15265,7 +15265,7 @@
         ],
         "uid": 29,
         "n_feasible": 376,
-        "scalar": 0.6223344133825635
+        "scalar": 0.6171727827594002
       }
     },
     {
@@ -15297,7 +15297,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6648896089217089
+        "scalar": 0.6648142566498381
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15312,7 +15312,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.7423800015070454
+        "scalar": 0.7424459347449326
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15327,7 +15327,7 @@
         ],
         "uid": 547,
         "n_feasible": 1,
-        "scalar": 0.7423800015070454
+        "scalar": 0.7424459347449326
       },
       "protection_aware": {
         "has_repair": true,
@@ -15342,7 +15342,7 @@
         ],
         "uid": 41,
         "n_feasible": 316,
-        "scalar": 0.6954826313013337
+        "scalar": 0.6955579835732048
       }
     },
     {
@@ -15374,7 +15374,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.8154811242558964
+        "scalar": 0.8153115816441866
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15389,7 +15389,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.8154811242558964
+        "scalar": 0.8153115816441866
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15404,7 +15404,7 @@
         ],
         "uid": 348,
         "n_feasible": 1,
-        "scalar": 0.8154811242558964
+        "scalar": 0.8153115816441866
       },
       "protection_aware": {
         "has_repair": true,
@@ -15419,7 +15419,7 @@
         ],
         "uid": 24,
         "n_feasible": 47,
-        "scalar": 0.793044985306307
+        "scalar": 0.7928942807625651
       }
     },
     {
@@ -15452,7 +15452,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6284680883128626
+        "scalar": 0.6269610428754427
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15467,7 +15467,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6284680883128626
+        "scalar": 0.6269610428754427
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15482,7 +15482,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6284680883128626
+        "scalar": 0.6269610428754427
       },
       "protection_aware": {
         "has_repair": true,
@@ -15497,7 +15497,7 @@
         ],
         "uid": 62,
         "n_feasible": 16,
-        "scalar": 0.686398914927285
+        "scalar": 0.6814708763469219
       }
     },
     {
@@ -15529,7 +15529,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.5614968728807174
+        "scalar": 0.5598862180694748
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15544,7 +15544,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.78050825107377
+        "scalar": 0.7753560394845904
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15559,7 +15559,7 @@
         ],
         "uid": 161,
         "n_feasible": 1,
-        "scalar": 0.78050825107377
+        "scalar": 0.7753560394845904
       },
       "protection_aware": {
         "has_repair": true,
@@ -15574,7 +15574,7 @@
         ],
         "uid": 0,
         "n_feasible": 2573,
-        "scalar": 0.796125009419034
+        "scalar": 0.7894940094943863
       }
     },
     {
@@ -15606,7 +15606,7 @@
         ],
         "uid": 350,
         "n_feasible": 1,
-        "scalar": 0.7104494763017105
+        "scalar": 0.7034087483987642
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15621,7 +15621,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.7063616155527089
+        "scalar": 0.703578291010474
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15636,7 +15636,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.7063616155527089
+        "scalar": 0.703578291010474
       },
       "protection_aware": {
         "has_repair": true,
@@ -15651,7 +15651,7 @@
         ],
         "uid": 0,
         "n_feasible": 1826,
-        "scalar": 0.7204807474945369
+        "scalar": 0.7138497475698892
       }
     },
     {
@@ -15684,7 +15684,7 @@
         ],
         "uid": 66,
         "n_feasible": 1,
-        "scalar": 0.5518649687288072
+        "scalar": 0.5422613216788486
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15699,7 +15699,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.6123577725868434
+        "scalar": 0.6109562203300429
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15714,7 +15714,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.6123577725868434
+        "scalar": 0.6109562203300429
       },
       "protection_aware": {
         "has_repair": true,
@@ -15729,7 +15729,7 @@
         ],
         "uid": 3,
         "n_feasible": 531,
-        "scalar": 0.5429432597392811
+        "scalar": 0.53764599502675
       }
     },
     {
@@ -15762,7 +15762,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6538391982518272
+        "scalar": 0.6524753221309623
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15777,7 +15777,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092985
+        "scalar": 0.6529048300806269
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15792,7 +15792,7 @@
         ],
         "uid": 542,
         "n_feasible": 1,
-        "scalar": 0.6543817346092985
+        "scalar": 0.6529048300806269
       },
       "protection_aware": {
         "has_repair": true,
@@ -15807,7 +15807,7 @@
         ],
         "uid": 14,
         "n_feasible": 193,
-        "scalar": 0.5522794062240977
+        "scalar": 0.5470800994649989
       }
     },
     {
@@ -15839,7 +15839,7 @@
         ],
         "uid": 163,
         "n_feasible": 1,
-        "scalar": 0.5886142717202923
+        "scalar": 0.5836221837088389
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15854,7 +15854,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6798093587521664
+        "scalar": 0.6780291613292141
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15869,7 +15869,7 @@
         ],
         "uid": 545,
         "n_feasible": 1,
-        "scalar": 0.6798093587521664
+        "scalar": 0.6780291613292141
       },
       "protection_aware": {
         "has_repair": true,
@@ -15884,7 +15884,7 @@
         ],
         "uid": 5,
         "n_feasible": 299,
-        "scalar": 0.5644732876196217
+        "scalar": 0.5578705447969257
       }
     },
     {
@@ -15917,7 +15917,7 @@
         ],
         "uid": 546,
         "n_feasible": 1,
-        "scalar": 0.7219576520232085
+        "scalar": 0.7220631452038279
       },
       "min_card_informed": {
         "has_repair": true,
@@ -15932,7 +15932,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6831813729183934
+        "scalar": 0.6830608092833999
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -15947,7 +15947,7 @@
         ],
         "uid": 565,
         "n_feasible": 1,
-        "scalar": 0.6831813729183934
+        "scalar": 0.6830608092833999
       },
       "protection_aware": {
         "has_repair": true,
@@ -15962,7 +15962,7 @@
         ],
         "uid": 61,
         "n_feasible": 31,
-        "scalar": 0.6763619923140682
+        "scalar": 0.6762263582247005
       }
     },
     {
@@ -15995,7 +15995,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316856
       },
       "min_card_informed": {
         "has_repair": true,
@@ -16010,7 +16010,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316856
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -16025,7 +16025,7 @@
         ],
         "uid": 158,
         "n_feasible": 1,
-        "scalar": 0.7254464622108356
+        "scalar": 0.7212116645316856
       },
       "protection_aware": {
         "has_repair": true,
@@ -16040,7 +16040,7 @@
         ],
         "uid": 24,
         "n_feasible": 689,
-        "scalar": 0.8244216713133902
+        "scalar": 0.8192525054630397
       }
     },
     {
@@ -16072,7 +16072,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7293158013714114
+        "scalar": 0.7294476678471856
       },
       "min_card_informed": {
         "has_repair": true,
@@ -16087,7 +16087,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7293158013714114
+        "scalar": 0.7294476678471856
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -16102,7 +16102,7 @@
         ],
         "uid": 181,
         "n_feasible": 2,
-        "scalar": 0.7293158013714114
+        "scalar": 0.7294476678471856
       },
       "protection_aware": {
         "has_repair": true,
@@ -16117,7 +16117,7 @@
         ],
         "uid": 25,
         "n_feasible": 103,
-        "scalar": 0.6184820284831587
+        "scalar": 0.6182230050486022
       }
     },
     {
@@ -16150,7 +16150,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6693391605756915
+        "scalar": 0.6611069248737851
       },
       "min_card_informed": {
         "has_repair": true,
@@ -16165,7 +16165,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6693391605756915
+        "scalar": 0.6611069248737851
       },
       "full_diagnosis": {
         "has_repair": true,
@@ -16180,7 +16180,7 @@
         ],
         "uid": 160,
         "n_feasible": 1,
-        "scalar": 0.6693391605756915
+        "scalar": 0.6611069248737851
       },
       "protection_aware": {
         "has_repair": true,
@@ -16195,7 +16195,7 @@
         ],
         "uid": 27,
         "n_feasible": 189,
-        "scalar": 0.6255218144827066
+        "scalar": 0.6203451134051692
       }
     }
   ]

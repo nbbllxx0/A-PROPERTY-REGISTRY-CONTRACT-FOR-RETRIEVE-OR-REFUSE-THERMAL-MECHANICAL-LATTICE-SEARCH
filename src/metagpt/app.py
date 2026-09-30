@@ -57,8 +57,10 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0,
     print(f'REQUEST   "{request}"')
     print("-" * 76)
     print(f"UNDERSTOOD AS  {summarise(q)}")
-    if q.get("unmet"):
-        print(f"CANNOT EXPRESS {'; '.join(q['unmet'])}")
+    cannot = list(q.get("unmet") or []) + (
+        [f"(parser note) {q['notes']}"] if str(q.get("notes") or "").strip() else [])
+    if cannot:
+        print(f"CANNOT EXPRESS {'; '.join(cannot)}")
     if q.get("_rejected"):
         print(f"DISCARDED      {'; '.join(q['_rejected'])}")
     if r.status == "answered_reduced":
@@ -68,6 +70,8 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0,
         print(f"NOT APPLIED    {'; '.join(r.dropped)}")
     if r.implied:
         print(f"IMPLIED        {'; '.join(r.implied)}")
+    if r.fixed:
+        print(f"FIXED          {'; '.join(r.fixed)} (not relaxed by a repair)")
     if r.caveats:
         for c in r.caveats:
             print(f"ESTIMATE ONLY  {c}")
@@ -95,7 +99,7 @@ def show(cat, request, top_k=5, make_fig=False, tag="demo", verify_top=0,
         if extra:
             print("  other MCS: " + "; ".join("{" + ", ".join(h) + "}" for h in extra))
         if r.relaxation:
-            print(f"  closest achievable: {r.relaxation}")
+            print(f"  repairs: {r.relaxation}")
         if r.flip_margin is not None:
             print("  flip margin: " + (
                 f"a {100 * r.flip_margin:.0f}% error in the solved properties would admit a row"

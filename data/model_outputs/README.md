@@ -20,7 +20,7 @@ block of Table 9 in the revised manuscript.
 | `frames_v3/` | every parse of the 308 requests on the current 28-key prompt (Flash-Lite three runs of 25 September 2026; Flash two runs, of 25 and 26 September 2026), the per-model summaries, and the rule-based frame scores; Table 9 of the revised manuscript |
 | `agent_baseline/` | every transcript of the tool-using-model comparison: the frozen suite, the 216 empty repair queries and the undeclared-key requests |
 
-For the frozen measurement (upper block of Table 9) these files hold the per-run scores; the per-request parses of those runs were not stored. The current-prompt parses are all in `frames_v3/`.
+For the frozen measurement (upper block of Table 9) these files hold the per-run scores; the per-request parses of those runs were not stored. The current-prompt parses are all in `frames_v3/`. Each stored parse keeps its objectives, constraints, `unmet` list and validation losses; the material filter and the free-text `notes` field were not stored, so the frame scores and end-to-end re-runs cover the stored fields only.
 
 The parse stage is the only learned component, and it is the only stage
 these records cover. Retrieval is a boolean mask intersection followed by

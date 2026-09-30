@@ -7,8 +7,8 @@
   },
   "gold_feas_source": "independent mask intersection, not search().rows",
   "latency_s": {
-    "gold_hit": 0.003440600004978478,
-    "gold_refusal": 0.004158700001426041
+    "gold_hit": 0.003133899997919798,
+    "gold_refusal": 0.003501200000755489
   },
   "latency_by_ncons": [
     {
@@ -16,7 +16,7 @@
       "n_draw": 16,
       "n_feasible": 16,
       "n_infeasible": 0,
-      "median_feas_ms": 3.3307999838143587,
+      "median_feas_ms": 4.230599966831505,
       "median_inf_ms": null
     },
     {
@@ -24,32 +24,32 @@
       "n_draw": 16,
       "n_feasible": 15,
       "n_infeasible": 1,
-      "median_feas_ms": 2.881299937143922,
-      "median_inf_ms": 5.529499961994588
+      "median_feas_ms": 5.695399944670498,
+      "median_inf_ms": 7.874100003391504
     },
     {
       "n_constraints": 3,
       "n_draw": 16,
       "n_feasible": 11,
       "n_infeasible": 5,
-      "median_feas_ms": 3.056699992157519,
-      "median_inf_ms": 3.946000011637807
+      "median_feas_ms": 5.348400096409023,
+      "median_inf_ms": 6.658699945546687
     },
     {
       "n_constraints": 4,
       "n_draw": 16,
       "n_feasible": 7,
       "n_infeasible": 9,
-      "median_feas_ms": 3.3528999192640185,
-      "median_inf_ms": 5.671899998560548
+      "median_feas_ms": 5.103999981656671,
+      "median_inf_ms": 8.371799951419234
     },
     {
       "n_constraints": 5,
       "n_draw": 16,
       "n_feasible": 2,
       "n_infeasible": 14,
-      "median_feas_ms": 4.7847499954514205,
-      "median_inf_ms": 5.3827500669285655
+      "median_feas_ms": 5.866200022865087,
+      "median_inf_ms": 8.416850003413856
     },
     {
       "n_constraints": 6,
@@ -57,7 +57,7 @@
       "n_feasible": 0,
       "n_infeasible": 16,
       "median_feas_ms": null,
-      "median_inf_ms": 6.568999961018562
+      "median_inf_ms": 10.35724999383092
     }
   ],
   "interval_unsat": {
@@ -267,7 +267,7 @@
     "cheap_conductor": {
       "n_feasible": 4191,
       "n_considered": 26543,
-      "search_s": 0.002765699988231063,
+      "search_s": 0.002826099982485175,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -341,7 +341,7 @@
     "light_stiff_empty": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.0034588000271469355,
+      "search_s": 0.00357509998138994,
       "binding": [
         "rho",
         "E_11"
@@ -458,7 +458,7 @@
     "heat_spreader": {
       "n_feasible": 3168,
       "n_considered": 26543,
-      "search_s": 0.003134200000204146,
+      "search_s": 0.00312180002219975,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -532,7 +532,7 @@
     "stiff_light": {
       "n_feasible": 3336,
       "n_considered": 26543,
-      "search_s": 0.0027341999812051654,
+      "search_s": 0.0027818999951705337,
       "binding": [],
       "relaxation": "",
       "mus": [],
@@ -606,7 +606,7 @@
     "triple_conflict": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.0037353000370785594,
+      "search_s": 0.0042212000116705894,
       "binding": [
         "rho",
         "E_11"
@@ -723,11 +723,11 @@
     "triple_pair_ok": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.004076700075529516,
+      "search_s": 0.003905500052496791,
       "binding": [
         "rho"
       ],
-      "relaxation": "rho<=0.15 would have to reach 0.371 instead of 0.15; joint repair after dropping {E_11>=50, k_11>=60}: E_11=38.7, k_11=19.2",
+      "relaxation": "rho<=0.15 would have to reach 0.371 instead of 0.15; joint repair after dropping {E_11>=50, k_11>=60}: require E_11>=38.7, k_11>=19.2 (one row attains E_11=38.8, k_11=19.3)",
       "mus": [
         [
           "rho<=0.15",
@@ -846,7 +846,7 @@
     "threeway_mus": {
       "n_feasible": 0,
       "n_considered": 26543,
-      "search_s": 0.0038075000047683716,
+      "search_s": 0.0037785000167787075,
       "binding": [
         "rho",
         "E_11",
@@ -1062,7 +1062,7 @@
         "mus_exact": 15,
         "mus_exact_frac": 1.0,
         "kept_satisfy": null,
-        "median_ms": 2.493550011422485
+        "median_ms": 2.421349985525012
       },
       "neighbour": {
         "n": 64,
@@ -1136,7 +1136,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 665,
-      "search_ms": 2.152899978682399,
+      "search_ms": 2.2486000088974833,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1226,7 +1226,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 1900,
-      "search_ms": 2.101800055243075,
+      "search_ms": 2.48599995393306,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1316,7 +1316,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 3515,
-      "search_ms": 2.343400032259524,
+      "search_ms": 2.2347000194713473,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1406,7 +1406,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 5225,
-      "search_ms": 2.138800104148686,
+      "search_ms": 2.1644999505952,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1496,7 +1496,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 7923,
-      "search_ms": 2.230099984444678,
+      "search_ms": 2.1883000154048204,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1586,7 +1586,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 11647,
-      "search_ms": 2.228699973784387,
+      "search_ms": 2.092299982905388,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1676,7 +1676,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 18392,
-      "search_ms": 2.4077000562101603,
+      "search_ms": 2.2664000280201435,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1766,7 +1766,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 14530,
-      "search_ms": 2.233599894680083,
+      "search_ms": 2.1587000228464603,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1856,7 +1856,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 7243,
-      "search_ms": 2.27569998241961,
+      "search_ms": 2.114900038577616,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -1946,7 +1946,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 5428,
-      "search_ms": 2.1576000144705176,
+      "search_ms": 2.3059999803081155,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2036,7 +2036,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 2303,
-      "search_ms": 2.1422000136226416,
+      "search_ms": 2.19140003900975,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2126,7 +2126,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 1285,
-      "search_ms": 2.1386999869719148,
+      "search_ms": 2.4013000074774027,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2216,7 +2216,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 96,
-      "search_ms": 2.1747000282630324,
+      "search_ms": 2.154699992388487,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2306,7 +2306,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 18386,
-      "search_ms": 2.8308999026194215,
+      "search_ms": 2.296099904924631,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2396,7 +2396,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 7278,
-      "search_ms": 2.1407000022009015,
+      "search_ms": 2.2883000783622265,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2486,7 +2486,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 3681,
-      "search_ms": 2.2333000088110566,
+      "search_ms": 2.2160999942570925,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2576,7 +2576,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 2298,
-      "search_ms": 2.2079000482335687,
+      "search_ms": 2.1738000214099884,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2666,7 +2666,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 1016,
-      "search_ms": 2.8229999588802457,
+      "search_ms": 2.253900049254298,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2756,7 +2756,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 4191,
-      "search_ms": 2.1246999967843294,
+      "search_ms": 2.2239000536501408,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2846,7 +2846,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 8382,
-      "search_ms": 2.379199955612421,
+      "search_ms": 2.1578000159934163,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -2936,7 +2936,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 11176,
-      "search_ms": 2.306399983353913,
+      "search_ms": 2.168699982576072,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3026,7 +3026,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 19558,
-      "search_ms": 2.2244000574573874,
+      "search_ms": 2.2351000225171447,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3116,7 +3116,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 7809,
-      "search_ms": 2.1243999944999814,
+      "search_ms": 2.202400006353855,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3206,7 +3206,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 13547,
-      "search_ms": 2.60599993634969,
+      "search_ms": 2.21950002014637,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3296,7 +3296,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 19570,
-      "search_ms": 3.029200015589595,
+      "search_ms": 2.264800015836954,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3386,7 +3386,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 3636,
-      "search_ms": 2.156800008378923,
+      "search_ms": 2.4094999535009265,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3476,7 +3476,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 7393,
-      "search_ms": 2.261300105601549,
+      "search_ms": 2.1431000204756856,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3566,7 +3566,7 @@
       "kind": "single",
       "gold_feas": true,
       "n_feasible": 13209,
-      "search_ms": 2.417300012893975,
+      "search_ms": 2.1650000708177686,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3656,7 +3656,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.627800033427775,
+      "search_ms": 3.3516999101266265,
       "mus": [
         [
           "rho<=0.15",
@@ -3773,7 +3773,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 2,
-      "search_ms": 2.7848000172525644,
+      "search_ms": 2.4902999866753817,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3863,7 +3863,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 148,
-      "search_ms": 2.570000011473894,
+      "search_ms": 2.397499978542328,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -3953,7 +3953,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.2612000359222293,
+      "search_ms": 3.540599951520562,
       "mus": [
         [
           "rho<=0.25",
@@ -4070,7 +4070,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.3396000508219004,
+      "search_ms": 3.166700014844537,
       "mus": [
         [
           "rho<=0.15",
@@ -4187,7 +4187,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 194,
-      "search_ms": 2.5461999466642737,
+      "search_ms": 2.3409000132232904,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4277,7 +4277,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.6983999889343977,
+      "search_ms": 3.435300081036985,
       "mus": [
         [
           "rho<=0.2",
@@ -4394,7 +4394,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 540,
-      "search_ms": 2.416200004518032,
+      "search_ms": 2.3899000370875,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4484,7 +4484,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 2275,
-      "search_ms": 2.2725999588146806,
+      "search_ms": 2.41650000680238,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4574,7 +4574,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 924,
-      "search_ms": 2.3828999837860465,
+      "search_ms": 2.426199964247644,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4664,7 +4664,7 @@
       "kind": "pair",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.2374999718740582,
+      "search_ms": 3.3105999464169145,
       "mus": [
         [
           "cost_per_kg<=3",
@@ -4781,7 +4781,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 5808,
-      "search_ms": 2.422099933028221,
+      "search_ms": 2.487099962309003,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4871,7 +4871,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 11,
-      "search_ms": 2.674099989235401,
+      "search_ms": 2.4340999079868197,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -4961,7 +4961,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 3878,
-      "search_ms": 2.3730999091640115,
+      "search_ms": 2.368799992837012,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5051,7 +5051,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 4218,
-      "search_ms": 2.4886999744921923,
+      "search_ms": 2.4547999491915107,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5141,7 +5141,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 202,
-      "search_ms": 2.48449994251132,
+      "search_ms": 2.4295999901369214,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5231,7 +5231,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 803,
-      "search_ms": 2.66100000590086,
+      "search_ms": 2.436799928545952,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5321,7 +5321,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 5704,
-      "search_ms": 2.498400048352778,
+      "search_ms": 2.619300037622452,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5411,7 +5411,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 1991,
-      "search_ms": 2.4497000267729163,
+      "search_ms": 2.6769000105559826,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5501,7 +5501,7 @@
       "kind": "pair",
       "gold_feas": true,
       "n_feasible": 497,
-      "search_ms": 2.6964000426232815,
+      "search_ms": 2.5912000564858317,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -5591,7 +5591,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.9482000283896923,
+      "search_ms": 3.8489000871777534,
       "mus": [
         [
           "rho<=0.15",
@@ -5708,7 +5708,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.659699927084148,
+      "search_ms": 4.180200048722327,
       "mus": [
         [
           "rho<=0.18",
@@ -5835,7 +5835,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.819199977442622,
+      "search_ms": 3.7466000067070127,
       "mus": [
         [
           "rho<=0.2",
@@ -5962,7 +5962,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.576299990527332,
+      "search_ms": 3.9996999548748136,
       "mus": [
         [
           "rho<=0.25",
@@ -6089,7 +6089,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.987399977631867,
+      "search_ms": 3.716000006534159,
       "mus": [
         [
           "rho<=0.2",
@@ -6216,7 +6216,7 @@
       "kind": "triple",
       "gold_feas": true,
       "n_feasible": 3168,
-      "search_ms": 2.7424999279901385,
+      "search_ms": 2.563800080679357,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6306,7 +6306,7 @@
       "kind": "triple",
       "gold_feas": true,
       "n_feasible": 49,
-      "search_ms": 2.563200076110661,
+      "search_ms": 2.536799991503358,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6396,7 +6396,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 4.033400095067918,
+      "search_ms": 3.5447999835014343,
       "mus": [
         [
           "rho<=0.15",
@@ -6514,7 +6514,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.579599899239838,
+      "search_ms": 3.417499945499003,
       "mus": [
         [
           "rho<=0.3",
@@ -6631,7 +6631,7 @@
       "kind": "triple",
       "gold_feas": true,
       "n_feasible": 778,
-      "search_ms": 2.701900084502995,
+      "search_ms": 2.584500005468726,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -6721,7 +6721,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.7628000136464834,
+      "search_ms": 3.5818000324070454,
       "mus": [
         [
           "rho<=0.22",
@@ -6848,7 +6848,7 @@
       "kind": "triple",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.5635000094771385,
+      "search_ms": 3.629599930718541,
       "mus": [
         [
           "rho<=0.35",
@@ -6975,7 +6975,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 4191,
-      "search_ms": 2.831399906426668,
+      "search_ms": 2.7435000520199537,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7065,7 +7065,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 3168,
-      "search_ms": 3.3394000492990017,
+      "search_ms": 3.014200017787516,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7155,7 +7155,7 @@
       "kind": "ranked",
       "gold_feas": true,
       "n_feasible": 3336,
-      "search_ms": 2.682600053958595,
+      "search_ms": 2.704499987885356,
       "mus": [],
       "min_mcs": [],
       "mcs": [],
@@ -7245,7 +7245,7 @@
       "kind": "ranked",
       "gold_feas": false,
       "n_feasible": 0,
-      "search_ms": 3.8982999976724386,
+      "search_ms": 3.2418000046163797,
       "mus": [
         [
           "rho<=0.15",

@@ -45,6 +45,38 @@ def _g(row, name):
     return float(v) if v is not None and np.isfinite(v) else np.nan
 
 
+def identity_pairs(sym, freq):
+    """Axis pairs (0-based) that the analytic cell makes equal; the same rule as
+    resolve_symmetry_rows.identity_pairs, kept here so the registry does not
+    load the solver."""
+    if sym == "cubic":
+        return [(0, 1), (0, 2)]
+    if sym == "tetragonal":
+        a, b, c = (int(x) for x in str(freq))
+        if a == b:
+            return [(0, 1)]
+        if b == c:
+            return [(1, 2)]
+        if a == c:
+            return [(0, 2)]
+    return []
+
+
+def _ratio(num, den, pair):
+    """Axis ratio num/den of the stored factors, or exactly one where the cell's
+    symmetry makes the two axes equal. The stored components keep the
+    discretisation residual of the voxel mask (at most 0.90% after the tie-safe
+    rebuild); a bound near one must not be decided by that residual. A ratio
+    the row does not define (a pore that does not conduct) stays undefined."""
+    def fn(r, m, c):
+        with np.errstate(divide="ignore", invalid="ignore"):
+            v = _g(r, num) / _g(r, den)
+        if np.isfinite(v) and pair in identity_pairs(r.get("sym"), r.get("freq")):
+            return 1.0
+        return v
+    return fn
+
+
 REGISTRY: dict[str, Prop] = {}
 
 # Properties that are not solved for, only estimated. Kept as data rather than
@@ -81,19 +113,19 @@ reg(Prop("porosity", "porosity", "-", "geometry",
 # cell MORE directional, not less.
 reg(Prop("k_aniso", "k33/k11, through-thickness over in-plane conductivity",
          "-", "geometry",
-         lambda r, m, c: _g(r, "k33") / _g(r, "k11"),
+         _ratio("k33", "k11", (0, 2)),
          "Ratio k33/k11. 1.0 means equal response along axes 3 and 1, not "
          "isotropy of the full tensor. Below 1 means weaker conduction "
          "through-thickness than along axis 1."))
 reg(Prop("k_inplane", "k22/k11, the two in-plane conductivities",
          "-", "geometry",
-         lambda r, m, c: _g(r, "k22") / _g(r, "k11"),
+         _ratio("k22", "k11", (0, 1)),
          "Ratio k22/k11. 1.0 means axes 1 and 2 conduct equally. A planar "
          "heat spreader needs this near 1 and k_aniso small; k_aniso alone "
          "does not constrain axis 2."))
 reg(Prop("E_aniso", "E33/E11, through-thickness over in-plane stiffness",
          "-", "geometry",
-         lambda r, m, c: _g(r, "E33") / _g(r, "E11"),
+         _ratio("E33", "E11", (0, 2)),
          "Ratio E33/E11. 1.0 means equal stiffness along those two axes, "
          "not full elastic isotropy."))
 # Complete periodic pore space, D*/D0. Not the inlet-accessible labyrinth.
@@ -108,7 +140,7 @@ reg(Prop("D_33", "pore diffusivity along axis 3", "-", "geometry",
          "pore. Minimise to restrict tracer along axis 3.", "high"))
 reg(Prop("D_aniso", "D33/D11, through-thickness over in-plane pore diffusivity",
          "-", "geometry",
-         lambda r, m, c: _g(r, "D33") / _g(r, "D11"),
+         _ratio("D33", "D11", (0, 2)),
          "Ratio D33/D11. 1.0 means equal pore transport along those two axes, "
          "not isotropy in all directions."))
 reg(Prop("conn_frac", "largest face-connected solid fraction", "-", "geometry",

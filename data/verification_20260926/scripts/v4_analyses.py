@@ -19,7 +19,8 @@
     (data/poisson_full_range_16cells.log), which brackets every metal in the
     table. Handbook values, relative density, part density and price are held
     fixed, and so is a ratio that the row's symmetry fixes at one
-    (v3_analyses.fixed_by_symmetry). Conduction has no Poisson drift.
+    (v3_analyses.fixed_by_symmetry), which the registry evaluates as exactly
+    one. Conduction has no Poisson drift.
 (b) Objective-bearing repairs. On the frozen repair queries still empty, each
     query gets one objective drawn with a fixed seed from a fixed pool. A
     policy picks a repair; the repaired query, printed outward as deployed, is
@@ -31,14 +32,21 @@
       full_best  best answer among all inclusion-minimal repairs
     With density and cost protected (queries that also have an allowable key):
       first_prot, list_best_prot, full_best_prot, protection_first (no MUS/MCS)
-(c) Parse repeat agreement and end-to-end outcome on the 308-request template
-    benchmark, from the parses stored in data/frames_v3 (no API call here).
-    Agreement: identical canonical parse (objective keys, senses and weights;
-    constraint keys, operators and values at 6 s.f.; whether residue was
-    reported). End to end, on the 88 items whose gold frame is a numeric
-    bound: gold outcome = search of the gold bound; parse outcome = search of
-    the stored parse (objectives, constraints, residue and validation losses;
-    the runs did not store the material filter).
+(c) Parse repeat agreement, full frames and end-to-end outcome on the
+    308-request template benchmark, from the parses stored in data/frames_v3
+    (no API call here). Agreement: identical canonical parse (objective keys,
+    senses and weights; constraint keys, operators and values at 6 s.f.;
+    whether residue was reported). Full frame: the parse equals the gold frame
+    in every stored field -- each objective with its sense (read from the
+    generating template, metagpt/make_benchmark.py), equal weights (no template
+    states a priority), each constraint atom with its exact operator and value
+    at 3 s.f., nothing missing or extra, and residue reported exactly when the
+    request carries content outside the vocabulary. End to end, on the 88 items
+    whose gold frame is a numeric bound: gold outcome = search of the gold
+    bound; parse outcome = search of the stored parse (objectives,
+    constraints, residue and validation losses). The runs did not store the
+    material filter or the free-text notes field, so neither score covers
+    them.
       false_accept   rows returned and the top row violates the gold bound
       false_refuse   no row returned although the gold bound is feasible
 
@@ -278,41 +286,62 @@ def canon(p):
     return json.dumps([objs, [list(map(str, c)) for c in cons], residue])
 
 
-def _dir(op):
-    return "le" if op in ("<=", "<") else "ge" if op in (">=", ">") else "eq"
+def gold_senses():
+    """Objective senses of every benchmark item, read from the literal template
+    that generated it ('maximise|minimise <phrase>', make_benchmark.lit); a
+    paraphrased item shares its literal twin's frame. No model output is read."""
+    from make_benchmark import POOL
+    key_of = {p[1]: p[0] for p in POOL}
+    items = json.loads((ROOT / "metagpt" / "benchmark.json").read_text(encoding="utf-8"))
+    out = {}
+    for lit, para in zip(items[0::2], items[1::2]):
+        if (lit["style"], para["style"]) != ("literal", "paraphrased") or lit["props"] != para["props"]:
+            raise SystemExit(f"benchmark items {lit['id']}/{para['id']} are not a literal/paraphrased pair")
+        found = re.findall(r"\b(maximise|minimise) (.+?)(?=,| and |\.$)", lit["text"].lower())
+        objs = sorted({(key_of[ph], "max" if s == "maximise" else "min") for s, ph in found})
+        if {k for k, _ in objs} != set(lit["props"]):
+            raise SystemExit(f"{lit['id']}: template senses {objs} do not cover {lit['props']}")
+        out[lit["id"]] = out[para["id"]] = objs
+    return out
 
 
-def frame_exact(p, gold):
-    """Complete frame equal to the gold frame. Bound items: the parsed
-    constraint atoms equal the gold atoms (same key, same direction, value equal
-    at three significant figures; nothing missing, nothing extra). Objective
-    items: no constraint, and the objective keys equal the gold keys."""
+def frame_full(p, gold, senses):
+    """Reason the parse differs from the full gold frame, or None if it is
+    equal in every stored field: objectives with their senses, equal weights,
+    constraint atoms with exact operators (values at three significant
+    figures; nothing missing, nothing extra), and residue reported exactly when
+    the request carries content outside the vocabulary."""
     from retrieval import equal_at_sigfigs
     got = p.get("constraints") or []
     want = gold.get("constraints") or []
-    if want:
-        if len(got) != len(want):
-            return False
-        used = set()
-        for w in want:
-            hit = None
-            for i, g in enumerate(got):
-                if i in used or g["property"] != w["property"] or _dir(g["op"]) != _dir(w["op"]):
-                    continue
-                try:
-                    if equal_at_sigfigs(float(g["value"]), float(w["value"])):
-                        hit = i
-                        break
-                except (TypeError, ValueError):
-                    continue
-            if hit is None:
-                return False
-            used.add(hit)
-        return True
-    if got:
-        return False
-    return ({o["property"] for o in p.get("objectives") or []}
-            == {o["property"] for o in gold.get("objectives") or []})
+    if len(got) != len(want):
+        return "constraints"
+    used = set()
+    for w in want:
+        hit = None
+        for i, g in enumerate(got):
+            if i in used or g["property"] != w["property"] or g["op"] != w["op"]:
+                continue
+            try:
+                if equal_at_sigfigs(float(g["value"]), float(w["value"])):
+                    hit = i
+                    break
+            except (TypeError, ValueError):
+                continue
+        if hit is None:
+            return "constraints"
+        used.add(hit)
+    objs = p.get("objectives") or []
+    if sorted({o["property"] for o in objs}) != sorted({k for k, _ in senses}):
+        return "objective keys"
+    if sorted((o["property"], o.get("sense")) for o in objs) != senses:
+        return "objective senses"
+    w = [float(o.get("weight") or 1.0) for o in objs]
+    if w and max(w) - min(w) > 1e-9 * max(w):
+        return "weights"
+    if bool(p.get("unmet") or p.get("lost")) != bool(gold.get("oov")):
+        return "residue"
+    return None
 
 
 def _satisfies(row, atom):
@@ -333,6 +362,7 @@ def frames(cat):
             continue
         runs.setdefault(model, {})[int(run)] = {r["id"]: r for r in rows}
     gold_cache = {}
+    senses = gold_senses()
     out = {}
     for model, by_run in sorted(runs.items()):
         rec = {"runs": sorted(by_run), "agreement": [], "e2e": {}}
@@ -346,16 +376,19 @@ def frames(cat):
             ids = [i for i in by_run[1] if all("parse" in by_run[k].get(i, {}) for k in by_run)]
             same = [i for i in ids if len({canon(by_run[k][i]["parse"]) for k in by_run}) == 1]
             rec["identical_all_runs"] = {"n": len(ids), "identical": len(same)}
-        rec["frame_exact"] = {}
+        rec["frame_full"] = {}
         for k, R in sorted(by_run.items()):
-            fe = {"bound": [0, 0], "objective": [0, 0]}
-            for r in R.values():
+            fe = {"bound": [0, 0], "objective": [0, 0], "misses": {}}
+            for i, r in R.items():
                 if "parse" not in r:
                     continue
                 kind = "bound" if r["gold"].get("constraints") else "objective"
                 fe[kind][1] += 1
-                fe[kind][0] += frame_exact(r["parse"], r["gold"])
-            rec["frame_exact"][k] = fe
+                why = frame_full(r["parse"], r["gold"], senses[i])
+                fe[kind][0] += why is None
+                if why:
+                    fe["misses"][f"{kind}: {why}"] = fe["misses"].get(f"{kind}: {why}", 0) + 1
+            rec["frame_full"][k] = fe
             e = {"n": 0, "gold_feasible": 0, "answered": 0, "false_accept": 0,
                  "false_refuse": 0, "correct": 0, "status": {}}
             for i, r in R.items():
