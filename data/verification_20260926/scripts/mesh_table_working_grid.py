@@ -1,4 +1,4 @@
-"""Table 9 at the working grid, with the tails.
+"""Table E.7 at the working grid, with the tails.
 
 The 60-cell probe (logs/grid_study_pooled.json, copied to data/) solves every
 cell at n = 32, 48 and 64 and stores a residual of n = 32 against n = 64. The

@@ -30,7 +30,7 @@ src/       the registry, the reasoner, the homogenisation solver, the checks
 | File | What it is |
 |---|---|
 | `catalogue.csv` | The catalogue. 1,536 enumerated rows, 47 columns; the `feasible` flag marks the **1,397** searchable rows. Stores ρ, k\* (3×3), C\* (6×6), derived directional moduli, the void coefficients `B11/B22/B33`, and the pore diffusivities `D11/D22/D33`. `n` is the grid a row was solved on, `tie` the rule that classifies voxels tied with the isovalue (`legacy`, `include` or `exclude`; see `src/metahomog/tpms.py`), and `builder` the solver that built the row (`gpu` for the 430 thin-walled rows re-solved on finer grids, `cpu` otherwise). |
-| `dstar_complete_pore.csv` | The 1,397 complete-periodic-pore D\* solves behind Sec. 5.4. |
+| `dstar_complete_pore.csv` | The 1,397 complete-periodic-pore D\* solves behind Sec. 5.5 and Appendix H.1 of the revised manuscript. |
 | `suite_64.csv` | The frozen typed suite: 64 queries, 49 feasible and 15 empty, with each search policy's result. |
 | `boundary_bench_80.csv` | The constructed boundary bench: 56 single-constraint items and 24 jointly infeasible pairs. |
 | `poisson_sweep.csv` | The Poisson-ratio sweep behind the factorisation limits. |
