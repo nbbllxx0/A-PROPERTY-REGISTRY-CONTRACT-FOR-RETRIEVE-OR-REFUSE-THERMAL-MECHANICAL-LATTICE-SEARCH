@@ -2,7 +2,7 @@
 
 Data and code for the paper.
 
-> Shaoliang Yang, Henry Chu, Zupukaer Yashengjiang, Jun Wang.
+> Shaoliang Yang, Henry C. W. Chu, Zupukaer Yashengjiang, Jun Wang.
 > *A property-registry contract for retrieve-or-refuse thermal–mechanical lattice search.*
 > arXiv:2609.14741 [cs.CE], 2026. <https://arxiv.org/abs/2609.14741>
 

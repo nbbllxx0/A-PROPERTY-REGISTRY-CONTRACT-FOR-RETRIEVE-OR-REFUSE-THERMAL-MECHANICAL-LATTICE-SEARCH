@@ -13,7 +13,7 @@ authors:
     given-names: Shaoliang
     affiliation: "Department of Mechanical Engineering, Santa Clara University"
   - family-names: Chu
-    given-names: Henry
+    given-names: "Henry C. W."
     affiliation: "Department of Mechanical Engineering, Santa Clara University"
   - family-names: Yashengjiang
     given-names: Zupukaer
@@ -41,7 +41,7 @@ preferred-citation:
     - family-names: Yang
       given-names: Shaoliang
     - family-names: Chu
-      given-names: Henry
+      given-names: "Henry C. W."
     - family-names: Yashengjiang
       given-names: Zupukaer
     - family-names: Wang
